@@ -1,6 +1,46 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-07-16 23:25 UTC — ZIA リリースノート
+
+ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)
+**変更内容:**
+> - [release-upgrade-summary-2023](https://help.zscaler.com/zia/release-upgrade-summary-2023) — 更新: 2026-02-03T22:12Z
+> - [release-upgrade-summary-2025](https://help.zscaler.com/zia/release-upgrade-summary-2025) — 更新: 2026-06-17T02:45Z
+> - [release-upgrade-summary-2019](https://help.zscaler.com/zia/release-upgrade-summary-2019) — 更新: 2026-02-03T22:12Z
+> - [release-upgrade-summary-2020](https://help.zscaler.com/zia/release-upgrade-summary-2020) — 更新: 2026-02-03T22:12Z
+> - [company-summary-report-cio-report](https://help.zscaler.com/zia/company-summary-report-cio-report) — 更新: 2026-06-18T06:34Z
+
+---
+## 2026-07-16 23:25 UTC — ZPA リリースノート
+
+ソース: [https://help.zscaler.com/zpa/release-notes](https://help.zscaler.com/zpa/release-notes)
+**変更内容:**
+> - [release-upgrade-summary-2023](https://help.zscaler.com/zpa/release-upgrade-summary-2023) — 更新: 2026-07-01T13:05Z
+> - [zpa-private-service-edge-release-summary-2022](https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2022) — 更新: 2022-02-27T06:00Z
+> - [zpa-private-service-edge-release-summary-2020](https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2020) — 更新: 2020-10-23T14:03Z
+> - [network-connector-release-summary-2025](https://help.zscaler.com/zpa/network-connector-release-summary-2025) — 更新: 2026-06-23T17:25Z
+> - [network-connector-release-summary-2026](https://help.zscaler.com/zpa/network-connector-release-summary-2026) — 更新: 2026-07-15T07:27Z
+
+---
+## 2026-07-16 23:25 UTC — ZDX リリースノート
+
+ソース: [https://help.zscaler.com/zdx/release-notes](https://help.zscaler.com/zdx/release-notes)
+**変更内容:**
+> - [release-upgrade-summary-2026](https://help.zscaler.com/zdx/release-upgrade-summary-2026) — 更新: 2026-07-13T17:31Z
+> - [release-upgrade-summary-2021](https://help.zscaler.com/zdx/release-upgrade-summary-2021) — 更新: 2022-02-28T13:12Z
+> - [release-upgrade-summary-2024](https://help.zscaler.com/zdx/release-upgrade-summary-2024) — 更新: 2024-12-23T09:42Z
+> - [release-upgrade-summary-2022](https://help.zscaler.com/zdx/release-upgrade-summary-2022) — 更新: 2022-03-14T09:52Z
+> > 最終更新: 2026-07-16 23:25 UTC  
+
+---
+## 2026-07-16 23:25 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**変更内容:**
+> ステータス変更: All Zscaler Services are functional
+
+---
 ## 2026-07-15 23:31 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
