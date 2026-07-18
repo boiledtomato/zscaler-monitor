@@ -1,6 +1,38 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-07-18 23:19 UTC — ZIA リリースノート
+
+ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)
+**変更内容:** ZIA 2026 リリースノートが更新されました (release-upgrade-summary-2026 → 2026-07-17T12:04Z)
+**更新・追加されたエントリ:**
+> - [release-upgrade-summary-2026](https://help.zscaler.com/zia/release-upgrade-summary-2026) — 更新: 2026-07-17T12:04Z
+**更新前のエントリ:**
+> ~~- [release-upgrade-summary-2026](https://help.zscaler.com/zia/release-upgrade-summary-2026) — 更新: 2026-07-13T23:00Z~~
+> ~~- [about-saas-assets-summary-report](https://help.zscaler.com/zia/about-saas-assets-summary-report) — 更新: 2026-06-19T06:47Z~~
+> ~~- [company-summary-report-cso-report](https://help.zscaler.com/zia/company-summary-report-cso-report) — 更新: 2026-06-18T06:39Z~~
+> ~~- [company-summary-report-cio-report](https://help.zscaler.com/zia/company-summary-report-cio-report) — 更新: 2026-06-18T06:34Z~~
+
+---
+
+## 2026-07-18 23:19 UTC — ZPA リリースノート
+
+ソース: [https://help.zscaler.com/zpa/release-notes](https://help.zscaler.com/zpa/release-notes)
+**変更内容:** ZPA リリースノートが複数更新されました (release-upgrade-summary-2025 → 2026-07-16T21:15Z, app-connector-deployment-guide-linux 新規追加)
+**更新・追加されたエントリ:**
+> - [release-upgrade-summary-2025](https://help.zscaler.com/zpa/release-upgrade-summary-2025) — 更新: 2026-07-16T21:15Z
+> - [app-connector-deployment-guide-linux](https://help.zscaler.com/zpa/app-connector-deployment-guide-linux) — 更新: 2026-07-16T06:51Z
+> - [private-service-edge-deployment-guide-vmware](https://help.zscaler.com/zpa/private-service-edge-deployment-guide-vmware) — 更新: 2026-07-10T14:51Z
+> - [private-service-edge-deployment-guide-amazon-web-services](https://help.zscaler.com/zpa/private-service-edge-deployment-guide-amazon-web-services) — 更新: 2026-07-10T14:47Z
+> - [private-cloud-controller-deployment-guide-vmware-platforms](https://help.zscaler.com/zpa/private-cloud-controller-deployment-guide-vmware-platforms) — 更新: 2026-07-10T14:39Z
+**更新前のエントリ:**
+> ~~- [release-upgrade-summary-2025](https://help.zscaler.com/zpa/release-upgrade-summary-2025) — 更新: 2026-07-15T07:06Z~~
+> ~~- [release-upgrade-summary-2024](https://help.zscaler.com/zpa/release-upgrade-summary-2024) — 更新: 2026-07-01T16:00Z~~
+> ~~- [release-upgrade-summary-2022](https://help.zscaler.com/zpa/release-upgrade-summary-2022) — 更新: 2026-07-01T14:20Z~~
+> ~~- [release-upgrade-summary-2023](https://help.zscaler.com/zpa/release-upgrade-summary-2023) — 更新: 2026-07-01T13:05Z~~
+> ~~- [zpa-private-service-edge-release-summary-2025](https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2025) — 更新: 2026-06-30T11:50Z~~
+
+---
 ## 2026-07-16 23:25 UTC — ZIA リリースノート
 
 ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)

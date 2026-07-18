@@ -1,31 +1,31 @@
 {
   "zia_release_notes": {
-    "hash": "3799dc42e204b25c44a64954fbd0948a6286607b22d2d63cdb5d0729f7a38fba",
-    "last_checked": "2026-07-16T23:25:50.012337+00:00",
-    "last_updated": "2026-07-16T23:25:50.012337+00:00",
+    "hash": "043884dde4f60d623c8a224819e269ca72d7a3774623ed2936d8ed0cde42f940",
+    "last_checked": "2026-07-18T23:20:46.588939+00:00",
+    "last_updated": "2026-07-18T23:20:46.588939+00:00",
     "initialized": true
   },
   "zpa_release_notes": {
-    "hash": "ba7494b7f2dfc6b28c1fd2f601985d81c8b468d64c7d388a14317d7f689c665a",
-    "last_checked": "2026-07-16T23:25:50.012337+00:00",
-    "last_updated": "2026-07-16T23:25:50.012337+00:00",
+    "hash": "aa9b25d5d1ddce5cbd6d8745c535ce153f7fceaab623dbd2d9732ad39dc9b070",
+    "last_checked": "2026-07-18T23:20:46.588939+00:00",
+    "last_updated": "2026-07-18T23:20:46.588939+00:00",
     "initialized": true
   },
   "zdx_release_notes": {
-    "hash": "e0e8c2c980ed1a722d3021e8a322b4594d05c637d6d4106d63f9556ab14659ba",
-    "last_checked": "2026-07-16T23:25:50.012337+00:00",
+    "hash": "09be2f5e0a9a91c47fabec88e377cfd1128295f9ad2f74143de82ff706c7b65c",
+    "last_checked": "2026-07-18T23:20:46.588939+00:00",
     "last_updated": "2026-07-16T23:25:50.012337+00:00",
     "initialized": true
   },
   "security_advisories": {
-    "hash": "f606cb41970df33a5a1991c6752295b855dbf325cc96d6f58485a46ddfbada85",
-    "last_checked": "2026-07-16T23:25:50.012337+00:00",
+    "hash": "66cc18a9bd9d5a968f230dd83ec6cb3d8deac611e592937e4d8e498f40ab5970",
+    "last_checked": "2026-07-18T23:20:46.588939+00:00",
     "last_updated": "2026-07-16T23:25:50.012337+00:00",
     "initialized": true
   },
   "product_updates": {
-    "hash": "ab49d0a085eb404962468a919d736c69ad749202fc84c8d674b9ce8feb2323c3",
-    "last_checked": "2026-07-16T23:25:50.012337+00:00",
+    "hash": "c3b66fbdb53b34ce84afc54fe07df60c86771294d59ac47a3fcd03fe57cac3a4",
+    "last_checked": "2026-07-18T23:20:46.588939+00:00",
     "last_updated": "2026-07-15T23:29:09.562287+00:00",
     "initialized": true
   }

@@ -1,6 +1,6 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-07-16 23:25 UTC  
+> 最終更新: 2026-07-18 23:19 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
@@ -14,6 +14,7 @@
 **重要度**: none
 
 ## クラウド別ステータス
+
 
 ### zscaler.net (ZIA)
 - Core Cloud Services: 正常
