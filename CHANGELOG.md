@@ -1,6 +1,62 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-07-20 23:16 UTC — 製品アップデート
+
+ソース: [https://www.zscaler.com/products](https://www.zscaler.com/products)
+コンテンツに変更が検出されました。
+
+---
+## 2026-07-20 23:16 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+コンテンツに変更が検出されました。
+
+---
+## 2026-07-20 23:16 UTC — ZDX リリースノート
+
+ソース: [https://help.zscaler.com/zdx/release-notes](https://help.zscaler.com/zdx/release-notes)
+**追加 (48件):**
+> - [understanding-zdx-score](https://help.zscaler.com/zdx/understanding-zdx-score) — 2026-07-19T07:06Z
+> - [about-rules](https://help.zscaler.com/zdx/about-rules) — 2026-07-17T13:56Z
+> - [configuring-alert-rule](https://help.zscaler.com/zdx/configuring-alert-rule) — 2026-07-17T13:56Z
+> - [understanding-managed-monitoring](https://help.zscaler.com/zdx/understanding-managed-monitoring) — 2026-07-16T10:25Z
+> - [viewing-device-events-reports](https://help.zscaler.com/zdx/viewing-device-events-reports) — 2026-07-15T13:20Z
+**削除 (5件):**
+> - ~~release-upgrade-summary-2024~~
+> - ~~release-upgrade-summary-2023~~
+> - ~~release-upgrade-summary-2022~~
+
+---
+## 2026-07-20 23:16 UTC — ZPA リリースノート
+
+ソース: [https://help.zscaler.com/zpa/release-notes](https://help.zscaler.com/zpa/release-notes)
+**追加 (40件):**
+> - [configuring-websocket-controls](https://help.zscaler.com/zpa/configuring-websocket-controls) — 2026-07-19T07:06Z
+> - [editing-websocket-controls](https://help.zscaler.com/zpa/editing-websocket-controls) — 2026-07-19T07:06Z
+> - [understanding-user-activity-log-fields](https://help.zscaler.com/zpa/understanding-user-activity-log-fields) — 2026-07-17T16:22Z
+> - [editing-tags](https://help.zscaler.com/zpa/editing-tags) — 2026-07-17T14:56Z
+> - [configuring-tags](https://help.zscaler.com/zpa/configuring-tags) — 2026-07-17T14:55Z
+**削除 (2件):**
+> - ~~troubleshooting-private-cloud-controllers~~
+> - ~~deploying-private-cloud-controllers~~
+
+---
+## 2026-07-20 23:16 UTC — ZIA リリースノート
+
+ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)
+**追加 (49件):**
+> - [about-backup-and-restore](https://help.zscaler.com/zia/about-backup-and-restore) — 2026-07-19T07:06Z
+> - [about-index-tool](https://help.zscaler.com/zia/about-index-tool) — 2026-07-19T07:06Z
+> - [configuring-dlp-policy-rules-content-inspection](https://help.zscaler.com/zia/configuring-dlp-policy-rules-content-inspection) — 2026-07-19T07:06Z
+> - [understanding-predefined-dlp-dictionaries](https://help.zscaler.com/zia/understanding-predefined-dlp-dictionaries) — 2026-07-19T07:06Z
+> - [configuring-dlp-policy-rules-without-content-inspection](https://help.zscaler.com/zia/configuring-dlp-policy-rules-without-content-inspection) — 2026-07-19T07:06Z
+**削除 (8件):**
+> - ~~zscaler-endpoint-dlp-release-summary-2026~~
+> - ~~release-upgrade-summary-2025~~
+> - ~~release-upgrade-summary-2024~~
+
+---
 ## 2026-07-18 23:19 UTC — ZIA リリースノート
 
 ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)

@@ -1,32 +1,32 @@
 {
   "zia_release_notes": {
-    "hash": "043884dde4f60d623c8a224819e269ca72d7a3774623ed2936d8ed0cde42f940",
-    "last_checked": "2026-07-18T23:20:46.588939+00:00",
-    "last_updated": "2026-07-18T23:20:46.588939+00:00",
+    "hash": "13b509ff298a93b92dd58643f3321e42f7210f7eaa49ae0657071628905fcee5",
+    "last_checked": "2026-07-20T23:16:25.083643+00:00",
+    "last_updated": "2026-07-20T23:16:25.083643+00:00",
     "initialized": true
   },
   "zpa_release_notes": {
-    "hash": "aa9b25d5d1ddce5cbd6d8745c535ce153f7fceaab623dbd2d9732ad39dc9b070",
-    "last_checked": "2026-07-18T23:20:46.588939+00:00",
-    "last_updated": "2026-07-18T23:20:46.588939+00:00",
+    "hash": "64b248977602f45085f66e2e3fec17bb2fab9fa9d70856538403aa82cc5fa75c",
+    "last_checked": "2026-07-20T23:16:25.083643+00:00",
+    "last_updated": "2026-07-20T23:16:25.083643+00:00",
     "initialized": true
   },
   "zdx_release_notes": {
-    "hash": "09be2f5e0a9a91c47fabec88e377cfd1128295f9ad2f74143de82ff706c7b65c",
-    "last_checked": "2026-07-18T23:20:46.588939+00:00",
-    "last_updated": "2026-07-16T23:25:50.012337+00:00",
+    "hash": "732f6bbf233f060528b72e57d15817874c2363cab1fcf2da80516ece79915df6",
+    "last_checked": "2026-07-20T23:16:25.083643+00:00",
+    "last_updated": "2026-07-20T23:16:25.083643+00:00",
     "initialized": true
   },
   "security_advisories": {
-    "hash": "66cc18a9bd9d5a968f230dd83ec6cb3d8deac611e592937e4d8e498f40ab5970",
-    "last_checked": "2026-07-18T23:20:46.588939+00:00",
-    "last_updated": "2026-07-16T23:25:50.012337+00:00",
+    "hash": "4b11063b60c246a8169f2a702117fa47f0573a37f4d43ef11649e6aeb3ea8f55",
+    "last_checked": "2026-07-20T23:16:25.083643+00:00",
+    "last_updated": "2026-07-20T23:16:25.083643+00:00",
     "initialized": true
   },
   "product_updates": {
-    "hash": "c3b66fbdb53b34ce84afc54fe07df60c86771294d59ac47a3fcd03fe57cac3a4",
-    "last_checked": "2026-07-18T23:20:46.588939+00:00",
-    "last_updated": "2026-07-15T23:29:09.562287+00:00",
+    "hash": "e286f51cf032fef9c8836be031089a475b5f7d1baf269f8145f77adebb12f0d8",
+    "last_checked": "2026-07-20T23:16:25.083643+00:00",
+    "last_updated": "2026-07-20T23:16:25.083643+00:00",
     "initialized": true
   }
 }
