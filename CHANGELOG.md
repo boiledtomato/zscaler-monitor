@@ -1,6 +1,58 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-07-21 23:26 UTC — 製品アップデート
+
+ソース: [https://www.zscaler.com/products](https://www.zscaler.com/products)
+コンテンツに変更が検出されました。
+
+---
+## 2026-07-21 23:26 UTC — ZPA リリースノート
+
+ソース: [https://help.zscaler.com/zpa/release-notes](https://help.zscaler.com/zpa/release-notes)
+**追加 (23件):**
+> - [network-connector-deployment-prerequisites](https://help.zscaler.com/zpa/network-connector-deployment-prerequisites) — 2026-07-20T14:20Z
+> - [accessing-user-status-diagnostics](https://help.zscaler.com/zpa/accessing-user-status-diagnostics) — 2026-07-20T14:01Z
+> - [configuring-timeout-policies](https://help.zscaler.com/zpa/configuring-timeout-policies) — 2026-07-20T13:42Z
+> - [federating-defined-application-segments](https://help.zscaler.com/zpa/federating-defined-application-segments) — 2026-07-20T13:21Z
+> - [about-audit-logs](https://help.zscaler.com/zpa/about-audit-logs) — 2026-07-20T12:47Z
+> - [accessing-user-activity-diagnostics](https://help.zscaler.com/zpa/accessing-user-activity-diagnostics) — 2026-07-20T11:16Z
+> - [understanding-private-access-session-status-codes](https://help.zscaler.com/zpa/understanding-private-access-session-status-codes) — 2026-07-20T11:11Z
+> - [configuring-notifications](https://help.zscaler.com/zpa/configuring-notifications) — 2026-07-20T10:00Z
+> - [about-notifications](https://help.zscaler.com/zpa/about-notifications) — 2026-07-20T09:52Z
+> - [about-applications](https://help.zscaler.com/zpa/about-applications) — 2026-07-20T09:43Z
+**削除 (23件):**
+> - ~~configuring-isolation-policies~~
+> - ~~zpa-private-service-edge-release-summary-2026~~
+> - ~~editing-resource-groups~~
+> - ~~private-cloud-controller-deployment-guide-vmware-platforms~~
+> - ~~supported-versions-os-compatibility-microsegmentation~~
+
+---
+## 2026-07-21 23:26 UTC — ZIA リリースノート
+
+ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)
+
+---
+## 2026-07-21 23:23 UTC — ZIA リリースノート
+
+ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)
+**追加 (7件):**
+> - [adding-virtual-service-edge-instances-internet-saas](https://help.zscaler.com/zia/adding-virtual-service-edge-instances-internet-saas) — 2026-07-20T14:55Z
+> - [nss-deployment-guide-amazon-web-services](https://help.zscaler.com/zia/nss-deployment-guide-amazon-web-services) — 2026-07-20T11:53Z
+> - [downloading-virtual-service-edge-certificates-configuration-files-internet-saas](https://help.zscaler.com/zia/downloading-virtual-service-edge-certificates-configuration-files-internet-saas) — 2026-07-20T11:25Z
+> - [firewall-insights-logs-columns](https://help.zscaler.com/zia/firewall-insights-logs-columns) — 2026-07-20T11:24Z
+> - [adding-saas-application-tenants](https://help.zscaler.com/zia/adding-saas-application-tenants) — 2026-07-20T06:16Z
+> - [permissions-onboarding-saas-apps-SSPM](https://help.zscaler.com/zia/permissions-onboarding-saas-apps-SSPM) — 2026-07-20T05:00Z
+> - [authorizing-custom-zscaler-connector-salesforce](https://help.zscaler.com/zia/authorizing-custom-zscaler-connector-salesforce) — 2026-07-20T00:05Z
+**削除 (7件):**
+> - ~~nss-deployment-guide-microsoft-azure~~
+> - ~~downloading-virtual-service-edge-certificates-internet-saas~~
+> - ~~nss-deployment-guide-google-cloud-platform~~
+> - ~~nss-deployment-guide-nutanix~~
+> - ~~about-nss-collector-servers~~
+
+---
 ## 2026-07-20 23:16 UTC — 製品アップデート
 
 ソース: [https://www.zscaler.com/products](https://www.zscaler.com/products)

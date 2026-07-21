@@ -1,14 +1,43 @@
 # ZPA リリースノート
 
-> 最終更新: 2026-07-20 23:16 UTC  
+> 最終更新: 2026-07-21 23:26 UTC  
 > ソース: https://help.zscaler.com/zpa/release-notes
 
 ---
 
 ## リリースノートURL一覧 (サイトマップより)
 
-- [configuring-websocket-controls](https://help.zscaler.com/zpa/configuring-websocket-controls) — 更新: 2026-07-19T07:06Z
-- [editing-websocket-controls](https://help.zscaler.com/zpa/editing-websocket-controls) — 更新: 2026-07-19T07:06Z
+- [release-upgrade-summary-2026](https://help.zscaler.com/zpa/release-upgrade-summary-2026) — 更新: 2026-07-20T14:56Z
+- [network-connector-deployment-prerequisites](https://help.zscaler.com/zpa/network-connector-deployment-prerequisites) — 更新: 2026-07-20T14:20Z
+- [accessing-user-status-diagnostics](https://help.zscaler.com/zpa/accessing-user-status-diagnostics) — 更新: 2026-07-20T14:01Z
+- [configuring-timeout-policies](https://help.zscaler.com/zpa/configuring-timeout-policies) — 更新: 2026-07-20T13:42Z
+- [federating-defined-application-segments](https://help.zscaler.com/zpa/federating-defined-application-segments) — 更新: 2026-07-20T13:21Z
+- [about-audit-logs](https://help.zscaler.com/zpa/about-audit-logs) — 更新: 2026-07-20T12:47Z
+- [accessing-user-activity-diagnostics](https://help.zscaler.com/zpa/accessing-user-activity-diagnostics) — 更新: 2026-07-20T11:16Z
+- [understanding-private-access-session-status-codes](https://help.zscaler.com/zpa/understanding-private-access-session-status-codes) — 更新: 2026-07-20T11:11Z
+- [about-log-streaming-service](https://help.zscaler.com/zpa/about-log-streaming-service) — 更新: 2026-07-20T10:16Z
+- [viewing-users-dashboard](https://help.zscaler.com/zpa/viewing-users-dashboard) — 更新: 2026-07-20T10:12Z
+- [viewing-applications-dashboard](https://help.zscaler.com/zpa/viewing-applications-dashboard) — 更新: 2026-07-20T10:06Z
+- [configuring-notifications](https://help.zscaler.com/zpa/configuring-notifications) — 更新: 2026-07-20T10:00Z
+- [about-notifications](https://help.zscaler.com/zpa/about-notifications) — 更新: 2026-07-20T09:52Z
+- [about-applications](https://help.zscaler.com/zpa/about-applications) — 更新: 2026-07-20T09:43Z
+- [configuring-connectors](https://help.zscaler.com/zpa/configuring-connectors) — 更新: 2026-07-20T09:30Z
+- [configuring-app-connector-provisioning-keys](https://help.zscaler.com/zpa/configuring-app-connector-provisioning-keys) — 更新: 2026-07-20T09:25Z
+- [configuring-access-policies](https://help.zscaler.com/zpa/configuring-access-policies) — 更新: 2026-07-20T09:16Z
+- [about-access-policy](https://help.zscaler.com/zpa/about-access-policy) — 更新: 2026-07-20T09:09Z
+- [configuring-administrator-roles](https://help.zscaler.com/zpa/configuring-administrator-roles) — 更新: 2026-07-20T08:57Z
+- [understanding-business-business-b2b-federation](https://help.zscaler.com/zpa/understanding-business-business-b2b-federation) — 更新: 2026-07-20T08:52Z
+- [configuring-business-business-federation](https://help.zscaler.com/zpa/configuring-business-business-federation) — 更新: 2026-07-20T08:52Z
+- [about-federated-partners](https://help.zscaler.com/zpa/about-federated-partners) — 更新: 2026-07-20T08:51Z
+- [about-pending-requests-partners](https://help.zscaler.com/zpa/about-pending-requests-partners) — 更新: 2026-07-20T08:51Z
+- [about-access-policies-defined-partners](https://help.zscaler.com/zpa/about-access-policies-defined-partners) — 更新: 2026-07-20T08:50Z
+- [adding-connectors-existing-connector-group](https://help.zscaler.com/zpa/adding-connectors-existing-connector-group) — 更新: 2026-07-20T08:43Z
+- [about-emergency-access-users](https://help.zscaler.com/zpa/about-emergency-access-users) — 更新: 2026-07-20T08:24Z
+- [about-connector-provisioning-keys](https://help.zscaler.com/zpa/about-connector-provisioning-keys) — 更新: 2026-07-20T08:24Z
+- [about-connectors](https://help.zscaler.com/zpa/about-connectors) — 更新: 2026-07-20T08:04Z
+- [managing-deployed-software-components](https://help.zscaler.com/zpa/managing-deployed-software-components) — 更新: 2026-07-20T07:56Z
+- [configuring-websocket-controls](https://help.zscaler.com/zpa/configuring-websocket-controls) — 更新: 2026-07-20T07:06Z
+- [editing-websocket-controls](https://help.zscaler.com/zpa/editing-websocket-controls) — 更新: 2026-07-20T07:06Z
 - [understanding-user-activity-log-fields](https://help.zscaler.com/zpa/understanding-user-activity-log-fields) — 更新: 2026-07-17T16:22Z
 - [editing-tags](https://help.zscaler.com/zpa/editing-tags) — 更新: 2026-07-17T14:56Z
 - [configuring-tags](https://help.zscaler.com/zpa/configuring-tags) — 更新: 2026-07-17T14:55Z
@@ -28,32 +57,3 @@
 - [using-pattern-matching-application-segments](https://help.zscaler.com/zpa/using-pattern-matching-application-segments) — 更新: 2026-07-16T12:10Z
 - [understanding-remote-lss-log-fields](https://help.zscaler.com/zpa/understanding-remote-lss-log-fields) — 更新: 2026-07-16T11:42Z
 - [configuring-log-receiver](https://help.zscaler.com/zpa/configuring-log-receiver) — 更新: 2026-07-16T11:40Z
-- [about-log-streaming-service](https://help.zscaler.com/zpa/about-log-streaming-service) — 更新: 2026-07-16T11:26Z
-- [managing-deployed-software-components](https://help.zscaler.com/zpa/managing-deployed-software-components) — 更新: 2026-07-16T08:15Z
-- [app-connector-deployment-guide-linux](https://help.zscaler.com/zpa/app-connector-deployment-guide-linux) — 更新: 2026-07-16T06:51Z
-- [configuring-vpn-diagnostics-sessions](https://help.zscaler.com/zpa/configuring-vpn-diagnostics-sessions) — 更新: 2026-07-15T10:36Z
-- [accessing-and-viewing-support-information](https://help.zscaler.com/zpa/accessing-and-viewing-support-information) — 更新: 2026-07-15T10:24Z
-- [network-connector-release-summary-2026](https://help.zscaler.com/zpa/network-connector-release-summary-2026) — 更新: 2026-07-15T07:27Z
-- [private-cloud-controller-release-summary-2026](https://help.zscaler.com/zpa/private-cloud-controller-release-summary-2026) — 更新: 2026-07-15T07:25Z
-- [zpa-private-service-edge-release-summary-2026](https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026) — 更新: 2026-07-15T07:23Z
-- [app-connector-release-summary-2026](https://help.zscaler.com/zpa/app-connector-release-summary-2026) — 更新: 2026-07-15T07:22Z
-- [viewing-applications-dashboard](https://help.zscaler.com/zpa/viewing-applications-dashboard) — 更新: 2026-07-15T06:47Z
-- [viewing-users-dashboard](https://help.zscaler.com/zpa/viewing-users-dashboard) — 更新: 2026-07-15T06:39Z
-- [release-upgrade-summary-2026](https://help.zscaler.com/zpa/release-upgrade-summary-2026) — 更新: 2026-07-14T15:41Z
-- [editing-resource-groups](https://help.zscaler.com/zpa/editing-resource-groups) — 更新: 2026-07-14T13:59Z
-- [configuring-isolation-policies](https://help.zscaler.com/zpa/configuring-isolation-policies) — 更新: 2026-07-14T11:14Z
-- [about-appzones](https://help.zscaler.com/zpa/about-appzones) — 更新: 2026-07-14T09:38Z
-- [configuring-appzones](https://help.zscaler.com/zpa/configuring-appzones) — 更新: 2026-07-14T07:07Z
-- [editing-appzones](https://help.zscaler.com/zpa/editing-appzones) — 更新: 2026-07-14T07:05Z
-- [using-app-segment-multimatch](https://help.zscaler.com/zpa/using-app-segment-multimatch) — 更新: 2026-07-14T00:52Z
-- [enabling-anti-tamper-protection-microsegmentation](https://help.zscaler.com/zpa/enabling-anti-tamper-protection-microsegmentation) — 更新: 2026-07-13T12:23Z
-- [understanding-anti-tamper-protection-microsegmentation](https://help.zscaler.com/zpa/understanding-anti-tamper-protection-microsegmentation) — 更新: 2026-07-13T12:22Z
-- [configuring-private-link-domains](https://help.zscaler.com/zpa/configuring-private-link-domains) — 更新: 2026-07-12T07:06Z
-- [about-emergency-access-users](https://help.zscaler.com/zpa/about-emergency-access-users) — 更新: 2026-07-10T15:41Z
-- [private-service-edge-deployment-guide-vmware](https://help.zscaler.com/zpa/private-service-edge-deployment-guide-vmware) — 更新: 2026-07-10T14:51Z
-- [private-service-edge-deployment-guide-amazon-web-services](https://help.zscaler.com/zpa/private-service-edge-deployment-guide-amazon-web-services) — 更新: 2026-07-10T14:47Z
-- [private-cloud-controller-deployment-guide-vmware-platforms](https://help.zscaler.com/zpa/private-cloud-controller-deployment-guide-vmware-platforms) — 更新: 2026-07-10T14:39Z
-- [what-is-microsegmentation](https://help.zscaler.com/zpa/what-is-microsegmentation) — 更新: 2026-07-10T14:22Z
-- [supported-versions-os-compatibility-microsegmentation](https://help.zscaler.com/zpa/supported-versions-os-compatibility-microsegmentation) — 更新: 2026-07-10T13:18Z
-- [about-resource-groups](https://help.zscaler.com/zpa/about-resource-groups) — 更新: 2026-07-10T07:11Z
-- [about-agent-provisioning-keys](https://help.zscaler.com/zpa/about-agent-provisioning-keys) — 更新: 2026-07-10T07:08Z
