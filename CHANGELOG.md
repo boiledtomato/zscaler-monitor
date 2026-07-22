@@ -1,6 +1,30 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-07-22 23:23 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**変更内容:** ページの静的HTML構造が変更されました。
+最新のアドバイザリ:
+> - Sat, 18 Jul 2026 — Required Action: Opt Out of Microsoft Azure Network Adapter (MANA) for Zscaler C
+> - Mon, 20 Jul 2026 — Rare Windows System Crash During Upgrade or Uninstall of Zscaler Client Connecto
+> - Thu, 16 Jul 2026 — Zscaler Help Portal
+
+
+---
+
+## 2026-07-22 23:23 UTC — 製品アップデート
+
+ソース: [https://www.zscaler.com/products](https://www.zscaler.com/products)
+**変更内容:** ZscalerのURLが変更されました (`/products` → `/products-and-solutions`)。
+ページ構造がリニューアルされ、コンテンツが再構成されました。
+**追加コンテンツ（抜粋）:**
+> - Zscaler for Users — サイバー脅威の検出・防止
+> - Zscaler for Workloads — 攻撃面の最小化とセキュリティ自動化
+> - Zscaler for IoT and OT — AI駆動の保護とゼロトラストアクセス
+> - The Zscaler Platform — AIの時代のサイバーセキュリティプラットフォーム
+
+---
 ## 2026-07-21 23:26 UTC — 製品アップデート
 
 ソース: [https://www.zscaler.com/products](https://www.zscaler.com/products)

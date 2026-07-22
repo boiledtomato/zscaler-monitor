@@ -1,6 +1,6 @@
 # ZDX リリースノート
 
-> 最終更新: 2026-07-20 23:16 UTC  
+> 最終更新: 2026-07-22 23:23 UTC  
 > ソース: https://help.zscaler.com/zdx/release-notes
 
 ---

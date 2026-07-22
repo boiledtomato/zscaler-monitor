@@ -1,12 +1,18 @@
 # ZPA リリースノート
 
-> 最終更新: 2026-07-21 23:26 UTC  
+> 最終更新: 2026-07-22 23:23 UTC  
 > ソース: https://help.zscaler.com/zpa/release-notes
 
 ---
 
 ## リリースノートURL一覧 (サイトマップより)
 
+- [supporting-microsoft-configuration-manager](https://help.zscaler.com/zpa/supporting-microsoft-configuration-manager) — 更新: 2026-07-21T09:50Z
+- [network-connector-deployment-guide-vmware-platforms](https://help.zscaler.com/zpa/network-connector-deployment-guide-vmware-platforms) — 更新: 2026-07-21T09:17Z
+- [network-connector-software-platform](https://help.zscaler.com/zpa/network-connector-software-platform) — 更新: 2026-07-21T09:03Z
+- [step-step-configuration-guide-vpn-legacy-apps](https://help.zscaler.com/zpa/step-step-configuration-guide-vpn-legacy-apps) — 更新: 2026-07-21T08:48Z
+- [configuring-websocket-controls](https://help.zscaler.com/zpa/configuring-websocket-controls) — 更新: 2026-07-21T07:06Z
+- [editing-websocket-controls](https://help.zscaler.com/zpa/editing-websocket-controls) — 更新: 2026-07-21T07:06Z
 - [release-upgrade-summary-2026](https://help.zscaler.com/zpa/release-upgrade-summary-2026) — 更新: 2026-07-20T14:56Z
 - [network-connector-deployment-prerequisites](https://help.zscaler.com/zpa/network-connector-deployment-prerequisites) — 更新: 2026-07-20T14:20Z
 - [accessing-user-status-diagnostics](https://help.zscaler.com/zpa/accessing-user-status-diagnostics) — 更新: 2026-07-20T14:01Z
@@ -36,8 +42,6 @@
 - [about-connector-provisioning-keys](https://help.zscaler.com/zpa/about-connector-provisioning-keys) — 更新: 2026-07-20T08:24Z
 - [about-connectors](https://help.zscaler.com/zpa/about-connectors) — 更新: 2026-07-20T08:04Z
 - [managing-deployed-software-components](https://help.zscaler.com/zpa/managing-deployed-software-components) — 更新: 2026-07-20T07:56Z
-- [configuring-websocket-controls](https://help.zscaler.com/zpa/configuring-websocket-controls) — 更新: 2026-07-20T07:06Z
-- [editing-websocket-controls](https://help.zscaler.com/zpa/editing-websocket-controls) — 更新: 2026-07-20T07:06Z
 - [understanding-user-activity-log-fields](https://help.zscaler.com/zpa/understanding-user-activity-log-fields) — 更新: 2026-07-17T16:22Z
 - [editing-tags](https://help.zscaler.com/zpa/editing-tags) — 更新: 2026-07-17T14:56Z
 - [configuring-tags](https://help.zscaler.com/zpa/configuring-tags) — 更新: 2026-07-17T14:55Z
@@ -53,7 +57,3 @@
 - [configuring-emergency-access](https://help.zscaler.com/zpa/configuring-emergency-access) — 更新: 2026-07-17T10:12Z
 - [release-upgrade-summary-2025](https://help.zscaler.com/zpa/release-upgrade-summary-2025) — 更新: 2026-07-16T21:15Z
 - [about-usage-insights](https://help.zscaler.com/zpa/about-usage-insights) — 更新: 2026-07-16T13:13Z
-- [deleting-tags](https://help.zscaler.com/zpa/deleting-tags) — 更新: 2026-07-16T12:59Z
-- [using-pattern-matching-application-segments](https://help.zscaler.com/zpa/using-pattern-matching-application-segments) — 更新: 2026-07-16T12:10Z
-- [understanding-remote-lss-log-fields](https://help.zscaler.com/zpa/understanding-remote-lss-log-fields) — 更新: 2026-07-16T11:42Z
-- [configuring-log-receiver](https://help.zscaler.com/zpa/configuring-log-receiver) — 更新: 2026-07-16T11:40Z
