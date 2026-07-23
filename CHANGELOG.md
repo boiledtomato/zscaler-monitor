@@ -1,6 +1,63 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-07-23 23:26 UTC — ZDX リリースノート
+
+ソース: [https://help.zscaler.com/zdx/release-notes](https://help.zscaler.com/zdx/release-notes)
+**追加 (1件):**
+> - [release-upgrade-summary-2026](https://help.zscaler.com/zdx/release-upgrade-summary-2026) — 更新: 2026
+**削除 (1件):**
+> - ~~release-upgrade-summary-2026~~
+
+---
+## 2026-07-23 23:26 UTC — ZPA リリースノート
+
+ソース: [https://help.zscaler.com/zpa/release-notes](https://help.zscaler.com/zpa/release-notes)
+**追加 (10件):**
+> - [about-active-directory-controls](https://help.zscaler.com/zpa/about-active-directory-controls) — 更新
+> - [about-ai-powered-recommendations-application-segments](https://help.zscaler.com/zpa/about-ai-powere
+> - [about-api-protection-controls](https://help.zscaler.com/zpa/about-api-protection-controls) — 更新: 20
+> - [about-appprotection-controls](https://help.zscaler.com/zpa/about-appprotection-controls) — 更新: 2026
+> - [about-appprotection-profiles](https://help.zscaler.com/zpa/about-appprotection-profiles) — 更新: 2026
+> - [about-browser-protection-profiles](https://help.zscaler.com/zpa/about-browser-protection-profiles) 
+> - [about-custom-controls](https://help.zscaler.com/zpa/about-custom-controls) — 更新: 2026-07-21T21:06Z
+> - [about-log-streaming-service](https://help.zscaler.com/zpa/about-log-streaming-service) — 更新: 2026-0
+> - [about-threatlabz-controls](https://help.zscaler.com/zpa/about-threatlabz-controls) — 更新: 2026-07-21
+> - [about-websocket-controls](https://help.zscaler.com/zpa/about-websocket-controls) — 更新: 2026-07-21T2
+> ...他 17 件
+**削除 (5件):**
+> - ~~about-access-policies-defined-partners~~
+> - ~~about-connector-provisioning-keys~~
+> - ~~about-connectors~~
+> - ~~about-emergency-access-users~~
+> - ~~about-federated-partners~~
+> ...他 22 件
+
+---
+## 2026-07-23 23:26 UTC — ZIA リリースノート
+
+ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)
+**追加 (10件):**
+> - [about-backup-and-restore](https://help.zscaler.com/zia/about-backup-and-restore) — 更新: 2026-07-22T0
+> - [about-dlp-endpoint-resources](https://help.zscaler.com/zia/about-dlp-endpoint-resources) — 更新: 2026
+> - [about-email-labels](https://help.zscaler.com/zia/about-email-labels) — 更新: 2026-07-22T07:06Z
+> - [about-endpoint-context](https://help.zscaler.com/zia/about-endpoint-context) — 更新: 2026-07-22T07:41
+> - [about-index-tool](https://help.zscaler.com/zia/about-index-tool) — 更新: 2026-07-22T07:06Z
+> - [about-security-ueba-alerts](https://help.zscaler.com/zia/about-security-ueba-alerts) — 更新: 2026-07-
+> - [about-virtual-service-edges-internet-saas](https://help.zscaler.com/zia/about-virtual-service-edges
+> - [adding-cloud-nss-feeds-dns-logs](https://help.zscaler.com/zia/adding-cloud-nss-feeds-dns-logs) — 更新
+> - [adding-cloud-nss-feeds-endpoint-dlp-logs](https://help.zscaler.com/zia/adding-cloud-nss-feeds-endpo
+> - [adding-cloud-nss-feeds-for-firewall-logs](https://help.zscaler.com/zia/adding-cloud-nss-feeds-for-f
+> ...他 33 件
+**削除 (5件):**
+> - ~~about-backup-and-restore~~
+> - ~~about-email-labels~~
+> - ~~about-index-tool~~
+> - ~~about-virtual-service-edges-internet-saas~~
+> - ~~about-zscaler-authentication-bridge~~
+> ...他 38 件
+
+---
 ## 2026-07-22 23:23 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)

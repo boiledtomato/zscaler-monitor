@@ -1,18 +1,18 @@
 # ZDX リリースノート
 
-> 最終更新: 2026-07-22 23:23 UTC  
+> 最終更新: 2026-07-23 23:26 UTC  
 > ソース: https://help.zscaler.com/zdx/release-notes
 
 ---
 
 ## リリースノートURL一覧 (サイトマップより)
 
+- [release-upgrade-summary-2026](https://help.zscaler.com/zdx/release-upgrade-summary-2026) — 更新: 2026-07-22T13:02Z
 - [understanding-zdx-score](https://help.zscaler.com/zdx/understanding-zdx-score) — 更新: 2026-07-19T07:06Z
 - [about-rules](https://help.zscaler.com/zdx/about-rules) — 更新: 2026-07-17T13:56Z
 - [configuring-alert-rule](https://help.zscaler.com/zdx/configuring-alert-rule) — 更新: 2026-07-17T13:56Z
 - [understanding-managed-monitoring](https://help.zscaler.com/zdx/understanding-managed-monitoring) — 更新: 2026-07-16T10:25Z
 - [viewing-device-events-reports](https://help.zscaler.com/zdx/viewing-device-events-reports) — 更新: 2026-07-15T13:20Z
-- [release-upgrade-summary-2026](https://help.zscaler.com/zdx/release-upgrade-summary-2026) — 更新: 2026-07-13T17:31Z
 - [release-upgrade-summary-2025](https://help.zscaler.com/zdx/release-upgrade-summary-2025) — 更新: 2026-07-13T17:31Z
 - [monitoring-network-intelligence-dashboard](https://help.zscaler.com/zdx/monitoring-network-intelligence-dashboard) — 更新: 2026-07-13T13:35Z
 - [zdx-integration-servicenow](https://help.zscaler.com/zdx/zdx-integration-servicenow) — 更新: 2026-07-10T10:04Z
