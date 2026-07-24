@@ -18,15 +18,15 @@
     "initialized": true
   },
   "security_advisories": {
-    "hash": "a2ef87eb4c2e8e7da1dd1ca35d19123017e46be15d106e201bde71a296041a13",
-    "last_checked": "2026-07-24T13:07:40.643072+00:00",
-    "last_updated": "2026-07-24T13:07:40.643136+00:00",
+    "hash": "d1f27d5ee55e6c1300d9161131ab7b8ffbf6d16707c9e73b29ed7195aa46abef",
+    "last_checked": "2026-07-24T23:12:17.163402+00:00",
+    "last_updated": "2026-07-24T23:12:17.163444+00:00",
     "initialized": true
   },
   "product_updates": {
-    "hash": "aceca3bd16b31a17690173877393a5330fb9715204ef22b47f7a32ffa9a67e5c",
-    "last_checked": "2026-07-24T13:08:18.074730+00:00",
-    "last_updated": "2026-07-24T13:08:18.074802+00:00",
+    "hash": "dabbf238f82f6710ae9c4138a4db7636f5adb12e5015ffe6bd374af2791a3c12",
+    "last_checked": "2026-07-24T23:12:54.520608+00:00",
+    "last_updated": "2026-07-24T23:12:54.520642+00:00",
     "initialized": true
   }
 }

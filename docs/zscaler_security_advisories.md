@@ -1,11 +1,21 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-07-24 13:07 UTC  
+> 最終更新: 2026-07-24 23:11 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
 
 # Zscaler Trust - インシデント/アドバイザリ RSS
+
+## Scheduled Maintenance | Cellular Network Events in Experience Center  - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com
+- 公開: Fri, 24 Jul 2026 21:20:07 GMT
+- ステータス: In Progress  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/posts/30831
+- 影響: Cellular Network Events in Experience Center
+
+Zscaler will perform maintenance on Cellular, which is part of Zscaler Admin Console. Maintenance will occur on July 25, 2026, from 4:00 AM to 7:00 AM UTC. During this maintenance window, the service is expected to remain available. However, admins might experience delays in viewing the latest SIM information, recent SIM-related network events, and anomaly policy events associated with SIMs. This maintenance is intended to improve platform reliability and performance. After the maintenance is co
+
+---
 
 ## Mumbai IV Data Center Decommissioning - zscaler.net
 - 公開: Thu, 23 Jul 2026 20:10:18 GMT
@@ -19,7 +29,7 @@ You are receiving this notice in accordance with the&nbsp; Zscaler Service Conti
 
 ## Zscaler Mobile Admin (ZMA) Availability Issue - zscalertwo.net
 - 公開: Wed, 22 Jul 2026 16:22:49 GMT
-- ステータス: Monitoring  カテゴリ: Recent incident
+- ステータス: Resolved  カテゴリ: Recent incident
 - URL: https://trust.zscaler.com/posts/30821
 - 影響: Some users may see “Zscaler Client Connector was unable to enroll at this time” message when trying to sign in to Zscaler Client Connector (ZCC). Users who are already signed in should continue to access services normally.
 
@@ -204,15 +214,5 @@ Dear Customer,&nbsp; In accordance with the&nbsp; Zscaler Service Continuity Pol
 - 影響: 
 
 Dear Customer,&nbsp; In accordance with&nbsp; Zscaler Service Continuity Policy and as previously announced via&nbsp; Trust&nbsp; and&nbsp; email notification sent on June 1, 2026,&nbsp;we would like to remind you of the upcoming changes to HUB IP address ranges as listed below. The services through the new IP address range will be available anytime on or after July 31, 2026. CIDR Notes 175.107.184.0/23 New addition to&nbsp; Required Hub IP addresses Please update your firewall policy rules and 
-
----
-
-## Urgent Maintenance - zscalertwo.net
-- 公開: Thu, 16 Jul 2026 17:56:19 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/posts/30731
-- 影響: 
-
-The Zscaler Site Reliability Engineering team will be performing an urgent maintenance on zscalertwo.net cloud. This maintenance is scheduled for Saturday at 06:00 AM Pacific Time on July 18, 2026 (Saturday, July 18, 2026 01:00 PM UTC), and can take up to 4 hours to complete. During maintenance, which includes the control plane, the Admin Portal might be temporarily placed into read-only mode, making the following unavailable: configuration changes, new user provisioning, and existing user updat
 
 ---
