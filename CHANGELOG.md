@@ -1,6 +1,29 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-07-27 23:13 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**追加内容（抜粋）:**
+> - ステータス: Completed  カテゴリ: Scheduled maintenance
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-07-24 23:11 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
+## 2026-07-27 23:13 UTC — ZIA リリースノート
+
+ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)
+**追加内容（抜粋）:**
+> - 2026-07-24T09:22Z | https://help.zscaler.com/zia/release-upgrade-summary-2026
+> 最終更新: 2026-07-24T09:22Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-07-24 13:05 UTC~~
+> ~~> ソース: https://help.zscaler.com/zia/release-notes~~
+> ~~---~~
+
+---
 ## 2026-07-24 23:12 UTC — 製品アップデート
 
 ソース: [https://www.zscaler.com/products](https://www.zscaler.com/products)

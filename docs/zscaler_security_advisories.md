@@ -1,6 +1,6 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-07-24 23:11 UTC  
+> 最終更新: 2026-07-27 23:13 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
@@ -9,7 +9,7 @@
 
 ## Scheduled Maintenance | Cellular Network Events in Experience Center  - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com
 - 公開: Fri, 24 Jul 2026 21:20:07 GMT
-- ステータス: In Progress  カテゴリ: Scheduled maintenance
+- ステータス: Completed  カテゴリ: Scheduled maintenance
 - URL: https://trust.zscaler.com/posts/30831
 - 影響: Cellular Network Events in Experience Center
 
