@@ -1,6 +1,37 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-07-28 23:26 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- ## Lagos II Datacenter Issue  - zscalerthree.net
+- ## Opt Out of Microsoft Azure Network Adapter (MANA) for Zscaler ZPA Private Infrastructure Deployed in Microsoft Azure - private.zscaler.com, zpatwo.net, zpabeta.net
+**追加内容（抜粋）:**
+> - 公開: Tue, 28 Jul 2026 18:35:17 GMT
+> - ステータス: Resolved  カテゴリ: Recent incident
+> - URL: https://trust.zscaler.com/posts/30841
+> - 影響:
+> Zscaler has detected an issue with its Lagos II datacenter and is currently investigating the matter. If you’re currently experiencing any traffic impacting issues please failover to Lagos III datacenter . For more information, please refer to the following support article. &nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional detai
+> ...他 7 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-07-27 23:13 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
+## 2026-07-28 23:25 UTC — ZIA リリースノート
+
+ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)
+**追加内容（抜粋）:**
+> - 2026-07-27T11:36Z | https://help.zscaler.com/zia/release-upgrade-summary-2026
+> 最終更新: 2026-07-27T11:36Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-07-27 23:13 UTC~~
+> ~~> ソース: https://help.zscaler.com/zia/release-notes~~
+> ~~---~~
+
+---
 ## 2026-07-27 23:13 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)

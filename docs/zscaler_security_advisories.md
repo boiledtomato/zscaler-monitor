@@ -1,11 +1,31 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-07-27 23:13 UTC  
+> 最終更新: 2026-07-28 23:26 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
 
 # Zscaler Trust - インシデント/アドバイザリ RSS
+
+## Lagos II Datacenter Issue  - zscalerthree.net
+- 公開: Tue, 28 Jul 2026 18:35:17 GMT
+- ステータス: Resolved  カテゴリ: Recent incident
+- URL: https://trust.zscaler.com/posts/30841
+- 影響: 
+
+Zscaler has detected an issue with its Lagos II datacenter and is currently investigating the matter. If you’re currently experiencing any traffic impacting issues please failover to Lagos III datacenter . For more information, please refer to the following support article. &nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional detai
+
+---
+
+## Opt Out of Microsoft Azure Network Adapter (MANA) for Zscaler ZPA Private Infrastructure Deployed in Microsoft Azure - private.zscaler.com, zpatwo.net, zpabeta.net
+- 公開: Tue, 28 Jul 2026 00:00:00 GMT
+- ステータス:   カテゴリ: Advisory
+- URL: https://trust.zscaler.com/posts/30836
+- 影響: 
+
+Microsoft is currently deploying the Microsoft Azure Network Adapter (MANA), a next-generation network interface included within Azure Boost, across existing Azure virtual machine (VM) size families. This deployment will replace the Mellanox ConnectX-based Accelerated Networking hardware currently utilized by ZPA App Connector, Private Service Edge, Network Connector, and Private Cloud Controller . Effective August 1, 2026, Azure may automatically transition MANA-eligible VMs to MANA-capable har
+
+---
 
 ## Scheduled Maintenance | Cellular Network Events in Experience Center  - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com
 - 公開: Fri, 24 Jul 2026 21:20:07 GMT
@@ -194,25 +214,5 @@ Zscaler has identified an issue affecting the Administration UI and Zscaler Clie
 - 影響: A subset of customers might face slowness and/or increased latency while traffic forwarding.
 
 Zscaler is currently investigating reports of an issue with its New Delhi I datacenter. If you’re currently experiencing any traffic impacting issues please failover to your secondary DC or any other alternate DC. For more information, please refer to the following support article. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and updates will be
-
----
-
-## Reminder Notification for Upcoming New DCs and Expansions - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zpatwo.net
-- 公開: Thu, 16 Jul 2026 20:41:08 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/posts/30741
-- 影響: 
-
-Dear Customer,&nbsp; In accordance with the&nbsp; Zscaler Service Continuity Policy and as previously announced via&nbsp; email notification and&nbsp; Trust&nbsp; on June 1,&nbsp;2026, we would like to remind you of the upcoming New DCs and expansions at the locations listed below. These would be available anytime on or after July 31, 2026. Please update your firewall policy rules and any upstream access lists to allow the new IP address ranges to avoid any service disruption. Region Location CI
-
----
-
-## Reminder Notification for Additions to HUB IP Address Ranges - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, zdxcloud.net
-- 公開: Thu, 16 Jul 2026 20:35:34 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/posts/30736
-- 影響: 
-
-Dear Customer,&nbsp; In accordance with&nbsp; Zscaler Service Continuity Policy and as previously announced via&nbsp; Trust&nbsp; and&nbsp; email notification sent on June 1, 2026,&nbsp;we would like to remind you of the upcoming changes to HUB IP address ranges as listed below. The services through the new IP address range will be available anytime on or after July 31, 2026. CIDR Notes 175.107.184.0/23 New addition to&nbsp; Required Hub IP addresses Please update your firewall policy rules and 
 
 ---
