@@ -1,15 +1,45 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-07-28 23:26 UTC  
+> 最終更新: 2026-07-29 23:17 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
 
 # Zscaler Trust - インシデント/アドバイザリ RSS
 
-## Lagos II Datacenter Issue  - zscalerthree.net
+## Datacenter Expansion Kolkata I (CCU1) - private.zscaler.com
+- 公開: Wed, 29 Jul 2026 19:48:52 GMT
+- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/posts/30856
+- 影響: 
+
+As part of our regular expansion of capacity, we are adding ZPA Public Service Edge nodes to our new data center in Kolkata I (CCU1). If you restrict outbound firewall access, please ensure you have added the complete set of published IPs in the URL below https://config.zscaler.com/private.zscaler.com/zpa
+
+---
+
+## Datacenter Expansion Mumbai VI (BOM6) - zpatwo.net
+- 公開: Wed, 29 Jul 2026 19:44:47 GMT
+- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/posts/30851
+- 影響: 
+
+As part of our regular expansion of capacity, we are adding ZPA Public Service Edge nodes to our new data center in Mumbai VI (BOM6). If you restrict outbound firewall access, please ensure you have added the complete set of published IPs in the URL below https://config.zscaler.com/zpatwo.net/zpa
+
+---
+
+## Milan III (MIL3) Datacenter Network Maintenance - zscaler.net
+- 公開: Wed, 29 Jul 2026 02:11:04 GMT
+- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/posts/30846
+- 影響: During the maintenance, traffic will failover to redundant devices in the same datacenter. However, intermittent connections and connection reestablishment may be observed.
+
+Zscaler will be performing hardware maintenance in the Milan III (MIL3) Datacenter. Maintenance window, Start: 2026-08-04 03:00 CEST End: &nbsp;2026-08-04 06:00 CEST (i.e. 2026-08-04 01:00 - 2026-08-04 04:00 UTC)
+
+---
+
+## Lagos II Datacenter Issue  - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
 - 公開: Tue, 28 Jul 2026 18:35:17 GMT
-- ステータス: Resolved  カテゴリ: Recent incident
+- ステータス: Monitoring  カテゴリ: Recent incident
 - URL: https://trust.zscaler.com/posts/30841
 - 影響: 
 
@@ -184,35 +214,5 @@ The issue does not affect normal ZCC operation prior to upgrade or uninstall, an
 Customers running ZCC 4.6, 4.7, 4.8.0.190 or later, or 4.9 are not impacted by this issue.
 
 Zscaler has identified an issue in the ZCC driver included with Windows ZCC 4.8 builds prior to 4.8.0.190. The issue may be triggered when the impacted driver is replaced or removed during a ZCC upgrade or uninstall. The condition is timing-dependent and may occur only under rare circumstances based on system activity at the time of the upgrade or uninstall. Because of this, it is not possible to predict in advance which individual endpoints may encounter the issue. Affected versions: - Zscaler 
-
----
-
-## Scheduled Maintenance Extended - zscalerone.net
-- 公開: Fri, 17 Jul 2026 11:01:13 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/posts/30756
-- 影響: 
-
-The Zscaler Site Reliability Engineering team will be extending the scheduled maintenance of the zscalerone.net cloud by 5 hour. As part of our standard maintenance process, all logs will be collected and available after maintenance has been completed. Please contact Zscaler Support if you have additional questions. Update - Fri, 17 Jul 2026 16:13:51 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions.
-
----
-
-## Administration UI Issue - zscaler.net
-- 公開: Fri, 17 Jul 2026 10:12:56 GMT
-- ステータス: Resolved  カテゴリ: Recent incident
-- URL: https://trust.zscaler.com/posts/30751
-- 影響: Customers may experience issues accessing the Administration UI and the Zscaler Client Connector Admin Portal.
-
-Zscaler has identified an issue affecting the Administration UI and Zscaler Client Connector Admin Portal on the zscaler.net cloud. Customers may experience issues accessing the Administration UI and the Zscaler Client Connector Admin Portal. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become 
-
----
-
-## New Delhi Datacenter issue - zscalerthree.net
-- 公開: Fri, 17 Jul 2026 06:22:12 GMT
-- ステータス: Monitoring  カテゴリ: Recent incident
-- URL: https://trust.zscaler.com/posts/30746
-- 影響: A subset of customers might face slowness and/or increased latency while traffic forwarding.
-
-Zscaler is currently investigating reports of an issue with its New Delhi I datacenter. If you’re currently experiencing any traffic impacting issues please failover to your secondary DC or any other alternate DC. For more information, please refer to the following support article. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and updates will be
 
 ---

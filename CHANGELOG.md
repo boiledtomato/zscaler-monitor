@@ -1,6 +1,67 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-07-29 23:17 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- ## Datacenter Expansion Kolkata I (CCU1) - private.zscaler.com
+- ## Datacenter Expansion Mumbai VI (BOM6) - zpatwo.net
+- ## Milan III (MIL3) Datacenter Network Maintenance - zscaler.net
+- ## Lagos II Datacenter Issue  - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
+**追加内容（抜粋）:**
+> - 公開: Wed, 29 Jul 2026 19:48:52 GMT
+> - ステータス: Upcoming  カテゴリ: Scheduled maintenance
+> - URL: https://trust.zscaler.com/posts/30856
+> - 影響:
+> As part of our regular expansion of capacity, we are adding ZPA Public Service Edge nodes to our new data center in Kolkata I (CCU1). If you restrict outbound firewall access, please ensure you have added the complete set of published IPs in the URL below https://config.zscaler.com/private.zscaler.com/zpa
+> ...他 14 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-07-28 23:26 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
+## 2026-07-29 23:17 UTC — ZDX リリースノート
+
+ソース: [https://help.zscaler.com/zdx/release-notes](https://help.zscaler.com/zdx/release-notes)
+**追加内容（抜粋）:**
+> - 2026-07-28T10:00Z | https://help.zscaler.com/zdx/release-upgrade-summary-2026
+> 最終更新: 2026-07-28T10:00Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-07-24 13:06 UTC~~
+> ~~> ソース: https://help.zscaler.com/zdx/release-notes~~
+> ~~---~~
+
+---
+## 2026-07-29 23:16 UTC — ZPA リリースノート
+
+ソース: [https://help.zscaler.com/zpa/release-notes](https://help.zscaler.com/zpa/release-notes)
+**更新セクション:**
+- ## https://help.zscaler.com/zpa/release-upgrade-summary-2025
+**追加内容（抜粋）:**
+> - 2026-07-28T10:45Z | https://help.zscaler.com/zpa/release-upgrade-summary-2025
+> - 2026-07-28T09:35Z | https://help.zscaler.com/zpa/release-upgrade-summary-2026
+> 最終更新: 2026-07-28T10:45Z
+> 最終更新: 2026-07-28T09:35Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-07-24 13:05 UTC~~
+> ~~> ソース: https://help.zscaler.com/zpa/release-notes~~
+> ~~---~~
+
+---
+## 2026-07-29 23:15 UTC — ZIA リリースノート
+
+ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)
+**追加内容（抜粋）:**
+> - 2026-07-28T09:30Z | https://help.zscaler.com/zia/release-upgrade-summary-2026
+> 最終更新: 2026-07-28T09:30Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-07-28 23:25 UTC~~
+> ~~> ソース: https://help.zscaler.com/zia/release-notes~~
+> ~~---~~
+
+---
 ## 2026-07-28 23:26 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
