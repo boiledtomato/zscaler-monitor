@@ -1,11 +1,41 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-07-29 23:17 UTC  
+> 最終更新: 2026-07-30 23:12 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
 
 # Zscaler Trust - インシデント/アドバイザリ RSS
+
+## Reminder Notification for Upcoming Data Center Expansions - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zpatwo.net
+- 公開: Thu, 30 Jul 2026 17:02:32 GMT
+- ステータス: Completed  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/posts/30871
+- 影響: 
+
+Dear Customer,&nbsp; In accordance with the&nbsp; Zscaler Service Continuity Policy and as previously announced via&nbsp; email notification and&nbsp; Trust&nbsp; on June 15, 2026, we would like to remind you of the upcoming data center expansions at the locations listed below. These would be effective anytime on or after August 14, 2026. Region Location CIDR Notes Americas Chicago 137.31.114.0/23 Expansion of existing data center Americas Chicago II 137.31.116.0/23 Expansion of existing data ce
+
+---
+
+## Tel Aviv II (TLV2) Datacenter Network Maintenance - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com
+- 公開: Thu, 30 Jul 2026 14:35:34 GMT
+- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/posts/30866
+- 影響: 
+
+Zscaler's partner will be performing hardware maintenance in the Tel Aviv II (TLV2) Datacenter. Maintenance window, Start: 2026-08-02 21:00 IDT End: 2026-08-02 23:59 IDT (i.e. 2026-08-02 18:00 - 20:59 UTC) During this maintenance, traffic will failover to redundant devices in the same datacenter, and our partner expects no service impact.
+
+---
+
+## Login and UI Access Issue - app.avalor.io, app.eu.avalor.io, app.aps.avalor.io
+- 公開: Thu, 30 Jul 2026 12:44:08 GMT
+- ステータス: Resolved  カテゴリ: Recent incident
+- URL: https://trust.zscaler.com/posts/30861
+- 影響: Customer might have faced issue with Login and UI access during the incident window
+
+Zscaler has detected an issue with its app.avalor.io, app.eu.avalor.io, app.aps.avalor.io Cloud. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Root Cause: Issue occurred due to a recent service update. Update - Thu, 30 Jul 2026 12:28:21 UTC Zscaler has successfully implemented 
+
+---
 
 ## Datacenter Expansion Kolkata I (CCU1) - private.zscaler.com
 - 公開: Wed, 29 Jul 2026 19:48:52 GMT
@@ -39,7 +69,7 @@ Zscaler will be performing hardware maintenance in the Milan III (MIL3) Datacent
 
 ## Lagos II Datacenter Issue  - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
 - 公開: Tue, 28 Jul 2026 18:35:17 GMT
-- ステータス: Monitoring  カテゴリ: Recent incident
+- ステータス: Resolved  カテゴリ: Recent incident
 - URL: https://trust.zscaler.com/posts/30841
 - 影響: 
 
@@ -178,41 +208,5 @@ Microsoft is currently deploying the&nbsp; Microsoft Azure Network Adapter (MANA
 - 影響: 
 
 Zscaler will be performing an urgent maintenance on the VZEN nodes in zscalerone.net cloud. The maintenance will happen across VZEN nodes during the window, beginning at 02:00 PM Pacific Time on Saturday, July 18, 2026 and continuing for up to 6 hours. VZEN's services may be restarted as part of this change and service for your end users might be disrupted during the window. All logs will be collected and available after maintenance is complete.&nbsp; &nbsp; Update - Sun, 19 Jul 2026 18:22:27 UT
-
----
-
-## New York IV (NYC4) Datacenter Network Maintenance - zscalertwo.net, zscloud.net
-- 公開: Fri, 17 Jul 2026 23:54:43 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/posts/30771
-- 影響: 
-
-Zscaler will be performing hardware maintenance in the New York IV (NYC4) Datacenter. Maintenance window, Start: 2026-07-21 18:00 EDT End: 2026-07-21 21:00 EDT (i.e. 2026-07-21 22:00 - 2026-07-22 01:00 UTC) During the maintenance, traffic will failover to redundant devices in the same datacenter. However, intermittent connections and connection reestablishment may be observed. Update - Tue, 21 Jul 2026 23:37:07 UTC This activity has been completed. Please contact Zscaler Support if you have addi
-
----
-
-## Munich I Datacenter Scheduled Maintenance - IPv6 Enablement - zscaler.net, zscalertwo.net, zscloud.net
-- 公開: Fri, 17 Jul 2026 23:09:42 GMT
-- ステータス: Postponed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/posts/30766
-- 影響: 
-
-Zscaler will be enabling IPv6 at our Munich I (MUC1) Data Center.&nbsp; During the maintenance window the services through MUC1 Data Center will be restarted in phases to minimize the service impact. Other Zscaler sites and Zscaler Services will continue to operate normally. Maintenance Window: Start time is July 21, 10:00 am PDT (July 21, 17:00 UTC) End time is July 21, 3:00 pm PDT (July 21, 22:00 UTC) Update 7/21: Maintenance postponed
-
----
-
-## Rare Windows System Crash During Upgrade or Uninstall of Zscaler Client Connector 4.8 Builds Prior to 4.8.0.190 - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zdxcloud.net, zpatwo.net
-- 公開: Mon, 20 Jul 2026 00:00:00 GMT
-- ステータス:   カテゴリ: Advisory
-- URL: https://trust.zscaler.com/posts/30761
-- 影響: Customers with Windows endpoints running ZCC 4.8 builds earlier than 4.8.0.190 may experience a rare BSOD during ZCC upgrade or uninstall operations.
-
-If a device is impacted, manual recovery may be required before the endpoint can return to normal operation. Detailed recovery instructions are available in the linked Knowledge Base article.
-
-The issue does not affect normal ZCC operation prior to upgrade or uninstall, and the likelihood of occurrence is considered rare. However, because the condition cannot be predicted on a per-device basis, customers with impacted versions should use the provided one-time updater package before attempting standard upgrades or uninstalls.
-
-Customers running ZCC 4.6, 4.7, 4.8.0.190 or later, or 4.9 are not impacted by this issue.
-
-Zscaler has identified an issue in the ZCC driver included with Windows ZCC 4.8 builds prior to 4.8.0.190. The issue may be triggered when the impacted driver is replaced or removed during a ZCC upgrade or uninstall. The condition is timing-dependent and may occur only under rare circumstances based on system activity at the time of the upgrade or uninstall. Because of this, it is not possible to predict in advance which individual endpoints may encounter the issue. Affected versions: - Zscaler 
 
 ---

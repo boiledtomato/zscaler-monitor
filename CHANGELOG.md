@@ -1,6 +1,26 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-07-30 23:12 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- ## Reminder Notification for Upcoming Data Center Expansions - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zpatwo.net
+- ## Tel Aviv II (TLV2) Datacenter Network Maintenance - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com
+- ## Login and UI Access Issue - app.avalor.io, app.eu.avalor.io, app.aps.avalor.io
+**追加内容（抜粋）:**
+> - 公開: Thu, 30 Jul 2026 17:02:32 GMT
+> - ステータス: Completed  カテゴリ: Scheduled maintenance
+> - URL: https://trust.zscaler.com/posts/30871
+> - 影響:
+> Dear Customer,&nbsp; In accordance with the&nbsp; Zscaler Service Continuity Policy and as previously announced via&nbsp; email notification and&nbsp; Trust&nbsp; on June 15, 2026, we would like to remind you of the upcoming data center expansions at the locations listed below. These would be effective anytime on or after August 14, 2026. Region Location CIDR Notes Americas Chicago 137.31.114.0/23 Expansion of existing data center Americas Chicago II 137.31.116.0/23 Expansion of existing data ce
+> ...他 14 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-07-29 23:17 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
 ## 2026-07-29 23:17 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
