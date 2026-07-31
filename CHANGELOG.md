@@ -1,6 +1,41 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-07-31 23:12 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- ## Paris II Datacenter Scheduled Maintenance - IPv6 Enablement - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- ## Marseille I Datacenter Scheduled Maintenance - IPv6 Enablement - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- ## Administration UI and User Authentication Issues - zscalertwo.net
+- ## China Premium Access Plus Shanghai Datacenter (Shanghai VI) Network Maintenance - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
+**追加内容（抜粋）:**
+> - 公開: Fri, 31 Jul 2026 21:33:50 GMT
+> - ステータス: Upcoming  カテゴリ: Scheduled maintenance
+> - URL: https://trust.zscaler.com/posts/30891
+> - 影響:
+> Zscaler will be enabling IPv6 at our Paris II (PAR2) Data Center.&nbsp; During the maintenance window the services through PAR2 Data Center will be restarted in phases to minimize the service impact. Other Zscaler sites and Zscaler Services will continue to operate normally. Maintenance Window: Start time is August 5, 10:00 am PDT (August 5, 17:00 UTC) End time is August 5, 3:00 pm PDT (August 5, 22:00 UTC)
+> ...他 19 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-07-30 23:12 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
+## 2026-07-31 23:11 UTC — ZPA リリースノート
+
+ソース: [https://help.zscaler.com/zpa/release-notes](https://help.zscaler.com/zpa/release-notes)
+**更新セクション:**
+- ## https://help.zscaler.com/zpa/release-upgrade-summary-2026
+**追加内容（抜粋）:**
+> - 2026-07-30T13:26Z | https://help.zscaler.com/zpa/release-upgrade-summary-2026
+> 最終更新: 2026-07-30T13:26Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-07-29 23:16 UTC~~
+> ~~> ソース: https://help.zscaler.com/zpa/release-notes~~
+> ~~---~~
+
+---
 ## 2026-07-30 23:12 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)

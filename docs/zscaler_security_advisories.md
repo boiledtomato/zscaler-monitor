@@ -1,11 +1,51 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-07-30 23:12 UTC  
+> 最終更新: 2026-07-31 23:12 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
 
 # Zscaler Trust - インシデント/アドバイザリ RSS
+
+## Paris II Datacenter Scheduled Maintenance - IPv6 Enablement - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- 公開: Fri, 31 Jul 2026 21:33:50 GMT
+- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/posts/30891
+- 影響: 
+
+Zscaler will be enabling IPv6 at our Paris II (PAR2) Data Center.&nbsp; During the maintenance window the services through PAR2 Data Center will be restarted in phases to minimize the service impact. Other Zscaler sites and Zscaler Services will continue to operate normally. Maintenance Window: Start time is August 5, 10:00 am PDT (August 5, 17:00 UTC) End time is August 5, 3:00 pm PDT (August 5, 22:00 UTC)
+
+---
+
+## Marseille I Datacenter Scheduled Maintenance - IPv6 Enablement - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- 公開: Fri, 31 Jul 2026 21:23:20 GMT
+- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/posts/30886
+- 影響: 
+
+Zscaler will be enabling IPv6 at our Marseille I (MRS1) Data Center.&nbsp; During the maintenance window the services through MRS1 Data Center will be restarted in phases to minimize the service impact. Other Zscaler sites and Zscaler Services will continue to operate normally. Maintenance Window: Start time is August 4, 10:00 am PDT (August 4, 19:00 UTC) End time is August 4, 3:00 pm PDT (August 5, 00:00 UTC)
+
+---
+
+## Administration UI and User Authentication Issues - zscalertwo.net
+- 公開: Fri, 31 Jul 2026 19:14:47 GMT
+- ステータス: Resolved  カテゴリ: Recent incident
+- URL: https://trust.zscaler.com/posts/30881
+- 影響: Customers may encounter issues with Administation UI login, New user authentication, User Policies, Zscaler Client Connector portal, and SCIM auto-provisioning. 
+
+Zscaler has detected an issue with the administration UI and user authentication on its zscalertwo.net Cloud. Customers may encounter issues with Admin UI login, New user authentication, User Policies, Zscaler Client Connector portal, and SCIM auto-provisioning.&nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be po
+
+---
+
+## China Premium Access Plus Shanghai Datacenter (Shanghai VI) Network Maintenance - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- 公開: Fri, 31 Jul 2026 18:23:13 GMT
+- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/posts/30876
+- 影響: 
+
+Shanghai VI DC network providers have advised maintenance work as below. During the maintenance window, China Premium Access Plus Services within these data centres may experience intermittent disconnections. Start Time:&nbsp; 2026/8/21 16:00 (UTC)&nbsp; End Time: 2026/8/21 20:00 (UTC)&nbsp; (Datacenter Local Time&nbsp; 2026-08-22 00:00 - 2026-08-22 04:00 China Standard Time (UTC+8:00)) Reason of Maintenance: Service providers are performing upgrades to the network device to enhance service qual
+
+---
 
 ## Reminder Notification for Upcoming Data Center Expansions - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zpatwo.net
 - 公開: Thu, 30 Jul 2026 17:02:32 GMT
@@ -168,45 +208,5 @@ Zscaler is investigating an issue affecting cloud-to-cloud (C2C) incident forwar
 - 影響: Some users may see a “Zscaler Client Connector was unable to enroll at this time” message when trying to sign in to Zscaler Client Connector (ZCC). Users who are already signed in should continue to access services normally.
 
 Zscaler has detected an Authentication issue with the Zscaler Client Connector Portal and Zscaler Client Connector (ZCC) on its zscalertwo.net Cloud. Some users may see a “Zscaler Client Connector was unable to enroll at this time” message when trying to sign in to Zscaler Client Connector (ZCC). Users who are already signed in should continue to access services normally. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Stat
-
----
-
-## Scheduled Maintenance | Experience Center – India Region Expansion - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zdxcloud.net, zpatwo.net, zscalerrisk.net, zslogin.net
-- 公開: Mon, 20 Jul 2026 12:18:20 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/posts/30791
-- 影響: 
-
-Zscaler will perform scheduled infrastructure maintenance for Experience Center on Tuesday, July 21, 2026, from 1:00 AM to 3:00 AM UTC to support the addition of a new geographic region in India. The maintenance is designed to be completed without service interruption, and Experience Center is expected to remain available throughout the maintenance window. Although no disruption is anticipated, administrators may experience brief, intermittent interruptions in the unlikely event of unforeseen ci
-
----
-
-## Data at Rest Scanning Issue - zscloud.net
-- 公開: Sun, 19 Jul 2026 07:04:13 GMT
-- ステータス: Resolved  カテゴリ: Recent incident
-- URL: https://trust.zscaler.com/posts/30786
-- 影響: Customers may experience issues with the Data at Rest Scanning service, which could impact the ability to apply DLP policy rules on data at rest in sanctioned SaaS applications.
-
-Zscaler has detected an issue with its zscloud.net Cloud. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Root Cause: The issue occurred due to a recent service update. Update - Sun, 19 Jul 2026 07:30:04 UTC Zscaler has made the necessary changes and implemented the required meas
-
----
-
-## Required Action: Opt Out of Microsoft Azure Network Adapter (MANA) for Zscaler Cloud Connectors Deployed in Microsoft Azure - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zdxcloud.net, zpatwo.net
-- 公開: Sat, 18 Jul 2026 00:00:00 GMT
-- ステータス:   カテゴリ: Advisory
-- URL: https://trust.zscaler.com/posts/30781
-- 影響: 
-
-Microsoft is currently deploying the&nbsp; Microsoft Azure Network Adapter (MANA) , a next-generation network interface included within Azure Boost, across existing Azure virtual machine (VM) size families. This deployment will replace the Mellanox ConnectX-based Accelerated Networking hardware currently utilized by Cloud Connector. Effective&nbsp; August 1, 2026 , Azure may automatically transition MANA-eligible VMs to MANA-capable hardware during routine lifecycle events, unless an explicit op
-
----
-
-## Urgent maintenance on ZS1 VZEN nodes - zscalerone.net
-- 公開: Sat, 18 Jul 2026 18:57:36 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/posts/30776
-- 影響: 
-
-Zscaler will be performing an urgent maintenance on the VZEN nodes in zscalerone.net cloud. The maintenance will happen across VZEN nodes during the window, beginning at 02:00 PM Pacific Time on Saturday, July 18, 2026 and continuing for up to 6 hours. VZEN's services may be restarted as part of this change and service for your end users might be disrupted during the window. All logs will be collected and available after maintenance is complete.&nbsp; &nbsp; Update - Sun, 19 Jul 2026 18:22:27 UT
 
 ---
