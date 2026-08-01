@@ -1,6 +1,65 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-08-01 23:14 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- ## Additions to Zscaler Hub IP Address Ranges - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, zdxcloud.net
+- ## Urgent Maintenance - zscaler.net
+- ## Scheduled Maintenance Extended - zscalerone.net
+- ## Urgent Maintenance : Zero Trust Browser / Browser Access - private.zscaler.com, zpatwo.net, zpabeta.net
+- ## ZPA Applications inaccessibility issue within Zero Trust Browser - private.zscaler.com, zpatwo.net, zpabeta.net
+- ## Scheduled Maintenance Extended - zscaler.net
+**追加内容（抜粋）:**
+> - 公開: Sat, 01 Aug 2026 20:10:58 GMT
+> - ステータス: Completed  カテゴリ: Scheduled maintenance
+> - URL: https://trust.zscaler.com/posts/30921
+> - 影響:
+> Dear Zscaler Customer, In accordance with&nbsp; Zscaler Service Continuity Policy and per email notification sent on&nbsp; July 31, 2026 , we would like to notify you of the changes to the Zscaler Hub IP Addresses as listed below. These will be effective anytime on or after September 29, 2026; 60 days or more from the date the first email notification is sent. Please update your firewall policy rules and any upstream Access Control Lists (ACLs) to allow the new IP address ranges to avoid any ser
+> ...他 25 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-07-31 23:12 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
+## 2026-08-01 23:13 UTC — ZDX リリースノート
+
+ソース: [https://help.zscaler.com/zdx/release-notes](https://help.zscaler.com/zdx/release-notes)
+**追加内容（抜粋）:**
+> - 2026-07-30T17:43Z | https://help.zscaler.com/zdx/release-upgrade-summary-2026
+> 最終更新: 2026-07-30T17:43Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-07-29 23:17 UTC~~
+> ~~> ソース: https://help.zscaler.com/zdx/release-notes~~
+> ~~---~~
+
+---
+## 2026-08-01 23:12 UTC — ZPA リリースノート
+
+ソース: [https://help.zscaler.com/zpa/release-notes](https://help.zscaler.com/zpa/release-notes)
+**追加内容（抜粋）:**
+> - 2026-07-31T06:32Z | https://help.zscaler.com/zpa/release-upgrade-summary-2026
+> 最終更新: 2026-07-31T06:32Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-07-31 23:11 UTC~~
+> ~~> ソース: https://help.zscaler.com/zpa/release-notes~~
+> ~~---~~
+
+---
+## 2026-08-01 23:12 UTC — ZIA リリースノート
+
+ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)
+**追加内容（抜粋）:**
+> - 2026-07-31T12:29Z | https://help.zscaler.com/zia/release-upgrade-summary-2026
+> 最終更新: 2026-07-31T12:29Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-07-29 23:15 UTC~~
+> ~~> ソース: https://help.zscaler.com/zia/release-notes~~
+> ~~---~~
+
+---
 ## 2026-07-31 23:12 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)

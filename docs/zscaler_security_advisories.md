@@ -1,11 +1,71 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-07-31 23:12 UTC  
+> 最終更新: 2026-08-01 23:14 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
 
 # Zscaler Trust - インシデント/アドバイザリ RSS
+
+## Additions to Zscaler Hub IP Address Ranges - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, zdxcloud.net
+- 公開: Sat, 01 Aug 2026 20:10:58 GMT
+- ステータス: Completed  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/posts/30921
+- 影響: 
+
+Dear Zscaler Customer, In accordance with&nbsp; Zscaler Service Continuity Policy and per email notification sent on&nbsp; July 31, 2026 , we would like to notify you of the changes to the Zscaler Hub IP Addresses as listed below. These will be effective anytime on or after September 29, 2026; 60 days or more from the date the first email notification is sent. Please update your firewall policy rules and any upstream Access Control Lists (ACLs) to allow the new IP address ranges to avoid any ser
+
+---
+
+## Urgent Maintenance - zscaler.net
+- 公開: Sat, 01 Aug 2026 19:22:12 GMT
+- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/posts/30916
+- 影響: 
+
+The Zscaler Site Reliability Engineering team will be performing an urgent maintenance on the zscaler.net cloud. This maintenance can take up to 3 hours to complete. We expect minimal to no impact to services during the maintenance window. All logs will be collected and available after maintenance is complete.&nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP).
+
+---
+
+## Scheduled Maintenance Extended - zscalerone.net
+- 公開: Sat, 01 Aug 2026 17:17:19 GMT
+- ステータス: Completed  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/posts/30911
+- 影響: 
+
+The Zscaler Site Reliability Engineering team will be extending the scheduled maintenance of the zscalerone.net cloud by 2 hours. As part of our standard maintenance process, all logs will be collected and available after maintenance has been completed. Please contact Zscaler Support if you have additional questions. Update - Sat, 01 Aug 2026 18:14:16 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions.
+
+---
+
+## Urgent Maintenance : Zero Trust Browser / Browser Access - private.zscaler.com, zpatwo.net, zpabeta.net
+- 公開: Sat, 01 Aug 2026 08:59:19 GMT
+- ステータス: Completed  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/posts/30906
+- 影響: 
+
+Zscaler is performing an urgent maintenance for ZPA client-less service. Existing clientless sessions may get briefly disconnected during this maintenance activity. &nbsp; Update - Sat, 01 Aug 2026 09:22:19 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions.
+
+---
+
+## ZPA Applications inaccessibility issue within Zero Trust Browser - private.zscaler.com, zpatwo.net, zpabeta.net
+- 公開: Sat, 01 Aug 2026 07:34:59 GMT
+- ステータス: Resolved  カテゴリ: Recent incident
+- URL: https://trust.zscaler.com/posts/30901
+- 影響: Customers using ZPA applications within Zero Trust Browser may not be able to access their applications across ZPA One, ZPA Two, and beta clouds.
+
+Zscaler is investigating an issue with its private.zscaler.com, zpaatwo.net, and zpa beta Clouds.&nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Root Cause: The root cause of this incident was an expired certificate on the Universal User Portal (my-apps.p.zscalerportal.net
+
+---
+
+## Scheduled Maintenance Extended - zscaler.net
+- 公開: Sat, 01 Aug 2026 06:11:16 GMT
+- ステータス: Completed  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/posts/30896
+- 影響: 
+
+The Zscaler Site Reliability Engineering team will be extending the scheduled maintenance of the zscaler.net cloud by 2 hours. As part of our standard maintenance process, all logs will be collected and available after maintenance has been completed. Please contact Zscaler Support if you have additional questions. Update - Sat, 01 Aug 2026 08:06:00 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions.
+
+---
 
 ## Paris II Datacenter Scheduled Maintenance - IPv6 Enablement - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
 - 公開: Fri, 31 Jul 2026 21:33:50 GMT
@@ -144,69 +204,5 @@ Zscaler will perform maintenance on Cellular, which is part of Zscaler Admin Con
 - 影響: 
 
 You are receiving this notice in accordance with the&nbsp; Zscaler Service Continuity Policy . Please note that the Mumbai IV (BOM4) data center will be shut down any time on or after October 21, 2026.&nbsp;The customers that are still connecting to BOM4 via GRE or IPSEC tunnel(s) must migrate their traffic to the new Mumbai VII (BOM7) data center. All such customers will be contacted separately with migration instructions.&nbsp; Other Zscaler sites and Zscaler Services will continue to operate 
-
----
-
-## Zscaler Mobile Admin (ZMA) Availability Issue - zscalertwo.net
-- 公開: Wed, 22 Jul 2026 16:22:49 GMT
-- ステータス: Resolved  カテゴリ: Recent incident
-- URL: https://trust.zscaler.com/posts/30821
-- 影響: Some users may see “Zscaler Client Connector was unable to enroll at this time” message when trying to sign in to Zscaler Client Connector (ZCC). Users who are already signed in should continue to access services normally.
-
-Zscaler has detected an issue with the Zscaler Client Connector Portal and Zscaler Client Connector (ZCC) on its zscalertwo.net Cloud. Some users may see a “ Zscaler Client Connector was unable to enroll at this time” message when trying to sign in to Zscaler Client Connector (ZCC). Users who are already signed in should continue to access services normally. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in 
-
----
-
-## Mexico City II Data Center online - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
-- 公開: Tue, 21 Jul 2026 21:51:44 GMT
-- ステータス: Upcoming  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/posts/30816
-- 影響: 
-
-Dear Zscaler Customer, You are receiving this notice in accordance with the&nbsp; Zscaler Service Continuity Policy . As part of our effort to enhance our Security Cloud’s robustness and performance, Zscaler will be bringing online a new Mexico City II (MEX2) data center. This facility will be added to the public resolution service (Auto Geo Proximity) on August 3, 2026 What if I have more questions?&nbsp; Contact Zscaler Support via the “Support” link at the top-right of the Zscaler Administrat
-
----
-
-## Administration UI and Authentication Issue - zscalertwo.net
-- 公開: Tue, 21 Jul 2026 19:40:31 GMT
-- ステータス: Resolved  カテゴリ: Recent incident
-- URL: https://trust.zscaler.com/posts/30811
-- 影響: Customers may have experienced inability to access the Zscaler Admin Portal and Experience Center during the incident window. Additionally, Device Registration and New User Authentication were disrupted during the incident window.
-
-There was no impact to traffic forwarding — end-user internet access and security services remained fully operational throughout.
-
-Zscaler has detected an issue with its zscalertwo.net Cloud.&nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Root Cause: A platform issue briefly disrupted ZIA control plane services, resulting in the impact observed during this incident window. This is a preliminary observ
-
----
-
-## Red Hat Enterprise Linux (RHEL) 9.x Boot Issue Impacting ZPA Components During Operating System (OS) Upgrades - private.zscaler.com, zpatwo.net, zpabeta.net
-- 公開: Tue, 21 Jul 2026 00:00:00 GMT
-- ステータス:   カテゴリ: Advisory
-- URL: https://trust.zscaler.com/posts/30806
-- 影響: 
-
-As a continuation of the previous Advisory related to RHEL 9.x Boot Issue Impacting ZPA Components During OS Upgrades , we would like to provide the following information regarding the latest progress and next steps. Zscaler is aware of a boot-related issue affecting Red Hat Enterprise Linux (RHEL) 9.x that can impact ZPA infrastructure components, and to share the steps we are taking to protect your environment. A recent Red Hat update (RHBA-2026:18665, released with RHEL 9.x on May 19, 2026) i
-
----
-
-## Cloud-to-Cloud Incident Forwarding and Email DLP Issue - zscloud.net
-- 公開: Tue, 21 Jul 2026 17:14:49 GMT
-- ステータス: Resolved  カテゴリ: Recent incident
-- URL: https://trust.zscaler.com/posts/30801
-- 影響: Customers may experience disruption to cloud-to-cloud incident forwarding across inline, endpoint, and other channels, where DLP incidents may not be captured in incident records during the impact window. Email DLP quarantine actions are also impacted, and quarantine release actions may be delayed or unavailable. Remediation actions may not execute as expected, and dashboards and logs may show delayed or missing updates. Some minor degradation in SaaS Security data-at-rest scanning may also be observed; however, service continuity measures are in place to minimize impact.
-
-Inline web browsing traffic and real-time ZIA policy enforcement are not impacted.
-
-Zscaler is investigating an issue affecting cloud-to-cloud (C2C) incident forwarding and email DLP for some tenants.&nbsp; Customers may experience disruption to cloud-to-cloud incident forwarding across inline, endpoint, and other channels, where DLP incidents may not be captured in incident records during the impact window. Email DLP quarantine actions are also impacted, and quarantine release actions may be delayed or unavailable. Remediation actions may not execute as expected, and dashboard
-
----
-
-## Zscaler Client Connector (ZCC) and Zscaler Client Connector Portal Authentication Issues - zscalertwo.net
-- 公開: Mon, 20 Jul 2026 14:38:39 GMT
-- ステータス: Resolved  カテゴリ: Recent incident
-- URL: https://trust.zscaler.com/posts/30796
-- 影響: Some users may see a “Zscaler Client Connector was unable to enroll at this time” message when trying to sign in to Zscaler Client Connector (ZCC). Users who are already signed in should continue to access services normally.
-
-Zscaler has detected an Authentication issue with the Zscaler Client Connector Portal and Zscaler Client Connector (ZCC) on its zscalertwo.net Cloud. Some users may see a “Zscaler Client Connector was unable to enroll at this time” message when trying to sign in to Zscaler Client Connector (ZCC). Users who are already signed in should continue to access services normally. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Stat
 
 ---
