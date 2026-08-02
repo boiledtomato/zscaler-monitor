@@ -1,11 +1,21 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-08-01 23:14 UTC  
+> 最終更新: 2026-08-02 23:14 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
 
 # Zscaler Trust - インシデント/アドバイザリ RSS
+
+## Scheduled Maintenance Extended - zscloud.net
+- 公開: Sun, 02 Aug 2026 06:00:24 GMT
+- ステータス: Completed  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/posts/30926
+- 影響: 
+
+The Zscaler Site Reliability Engineering team will be extending the scheduled maintenance of the zscloud.net cloud by 2 hours. As part of our standard maintenance process, all logs will be collected and available after maintenance has been completed. Please contact Zscaler Support if you have additional questions. Update - Sun, 02 Aug 2026 07:51:49 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions.
+
+---
 
 ## Additions to Zscaler Hub IP Address Ranges - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, zdxcloud.net
 - 公開: Sat, 01 Aug 2026 20:10:58 GMT
@@ -194,15 +204,5 @@ Microsoft is currently deploying the Microsoft Azure Network Adapter (MANA), a n
 - 影響: Cellular Network Events in Experience Center
 
 Zscaler will perform maintenance on Cellular, which is part of Zscaler Admin Console. Maintenance will occur on July 25, 2026, from 4:00 AM to 7:00 AM UTC. During this maintenance window, the service is expected to remain available. However, admins might experience delays in viewing the latest SIM information, recent SIM-related network events, and anomaly policy events associated with SIMs. This maintenance is intended to improve platform reliability and performance. After the maintenance is co
-
----
-
-## Mumbai IV Data Center Decommissioning - zscaler.net
-- 公開: Thu, 23 Jul 2026 20:10:18 GMT
-- ステータス: In Progress  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/posts/30826
-- 影響: 
-
-You are receiving this notice in accordance with the&nbsp; Zscaler Service Continuity Policy . Please note that the Mumbai IV (BOM4) data center will be shut down any time on or after October 21, 2026.&nbsp;The customers that are still connecting to BOM4 via GRE or IPSEC tunnel(s) must migrate their traffic to the new Mumbai VII (BOM7) data center. All such customers will be contacted separately with migration instructions.&nbsp; Other Zscaler sites and Zscaler Services will continue to operate 
 
 ---

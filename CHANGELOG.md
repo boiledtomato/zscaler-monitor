@@ -1,6 +1,24 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-08-02 23:14 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- ## Scheduled Maintenance Extended - zscloud.net
+**追加内容（抜粋）:**
+> - 公開: Sun, 02 Aug 2026 06:00:24 GMT
+> - ステータス: Completed  カテゴリ: Scheduled maintenance
+> - URL: https://trust.zscaler.com/posts/30926
+> - 影響:
+> The Zscaler Site Reliability Engineering team will be extending the scheduled maintenance of the zscloud.net cloud by 2 hours. As part of our standard maintenance process, all logs will be collected and available after maintenance has been completed. Please contact Zscaler Support if you have additional questions. Update - Sun, 02 Aug 2026 07:51:49 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions.
+> ...他 1 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-08-01 23:14 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
 ## 2026-08-01 23:14 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
