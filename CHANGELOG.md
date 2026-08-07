@@ -1,6 +1,63 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-08-07 23:22 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- ## New Datacenter Expansion Milan IV (MIL4) - private.zscaler.com
+- ## New Delhi I Datacenter Scheduled Maintenance - Service Expansion  - zscalerthree.net
+- ## Tokyo V Datacenter Scheduled Maintenance - Service Expansion  - zscalerthree.net
+- ## New York IV (NYC4) Datacenter Network Maintenance - zscalerthree.net
+- ## Madrid III Datacenter Scheduled Maintenance – IPv6 Enablement - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- ## Marseille I Datacenter Scheduled Maintenance - IPv6 Enablement - zscalertwo.net
+- ## Munich I Datacenter Scheduled Maintenance - IPv6 Enablement - zscaler.net, zscalertwo.net
+- ## 3rd-Party App Governance (AppTotal) Portal Issue - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- ## Administration UI Issue - zpatwo.net
+- ## Planned Maintenance Activity for ZPA Platform - zpatwo.net
+**追加内容（抜粋）:**
+> - 公開: Fri, 07 Aug 2026 23:14:24 GMT
+> - ステータス: Upcoming  カテゴリ: Scheduled maintenance
+> - URL: https://trust.zscaler.com/posts/31076
+> - 影響:
+> As part of our regular expansion of capacity, we are adding ZPA Public Service Edge nodes to our new data center in Milan IV (MIL4). If you restrict outbound firewall access, please ensure you have added the complete set of published IPs in the URL below https://config.zscaler.com/private.zscaler.com/zpa
+> ...他 25 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-08-06 23:20 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
+## 2026-08-07 23:22 UTC — ZPA リリースノート
+
+ソース: [https://help.zscaler.com/zpa/release-notes](https://help.zscaler.com/zpa/release-notes)
+**更新セクション:**
+- ## https://help.zscaler.com/zpa/app-connector-release-summary-2026
+**追加内容（抜粋）:**
+> - 2026-08-06T11:45Z | https://help.zscaler.com/zpa/release-upgrade-summary-2026
+> - 2026-08-06T08:30Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026
+> - 2026-08-06T08:30Z | https://help.zscaler.com/zpa/private-cloud-controller-release-summary-2026
+> - 2026-08-06T08:05Z | https://help.zscaler.com/zpa/app-connector-release-summary-2026
+> 最終更新: 2026-08-06T11:45Z
+> ...他 3 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-08-06 23:20 UTC~~
+> ~~> ソース: https://help.zscaler.com/zpa/release-notes~~
+> ~~---~~
+
+---
+## 2026-08-07 23:21 UTC — ZIA リリースノート
+
+ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)
+**追加内容（抜粋）:**
+> - 2026-08-06T07:24Z | https://help.zscaler.com/zia/release-upgrade-summary-2026
+> 最終更新: 2026-08-06T07:24Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-08-06 23:19 UTC~~
+> ~~> ソース: https://help.zscaler.com/zia/release-notes~~
+> ~~---~~
+
+---
 ## 2026-08-06 23:20 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
