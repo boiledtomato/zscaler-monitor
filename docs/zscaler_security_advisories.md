@@ -1,11 +1,31 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-08-07 23:22 UTC  
+> 最終更新: 2026-08-08 23:16 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
 
 # Zscaler Trust - インシデント/アドバイザリ RSS
+
+## Scheduled Maintenance Extended - zscalertwo.net
+- 公開: Sat, 08 Aug 2026 05:38:18 GMT
+- ステータス: Completed  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/posts/31086
+- 影響: 
+
+The Zscaler Site Reliability Engineering team will be extending the scheduled maintenance of the zscalertwo.net cloud by 2 hours. As part of our standard maintenance process, all logs will be collected and available after maintenance has been completed. Please contact Zscaler Support if you have additional questions. Update - Sat, 08 Aug 2026 08:08:00 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions.
+
+---
+
+## Perth I (PER1) Datacenter Network Maintenance - zscloud.net
+- 公開: Sat, 08 Aug 2026 00:14:46 GMT
+- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/posts/31081
+- 影響: 
+
+Zscaler will be performing hardware maintenance in the Perth I (PER1) Datacenter. Maintenance window, Start: 2026-08-12 00:00 AWST End: 2026-08-12 02:00 AWST (i.e. 2026-08-11 16:00 - 18:00 UTC) During the maintenance, traffic will failover to redundant devices in the same datacenter. However, intermittent connections and connection reestablishment will be observed.
+
+---
 
 ## New Datacenter Expansion Milan IV (MIL4) - private.zscaler.com
 - 公開: Fri, 07 Aug 2026 23:14:24 GMT
@@ -99,7 +119,7 @@ Zscaler is currently investigating reports of issues with the administration UI 
 
 ## Planned Maintenance Activity for ZPA Platform - zpatwo.net
 - 公開: Fri, 07 Aug 2026 11:50:11 GMT
-- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- ステータス: Completed  カテゴリ: Scheduled maintenance
 - URL: https://trust.zscaler.com/posts/31036
 - 影響: 
 
@@ -129,7 +149,7 @@ The Zscaler Site Reliability Engineering team will be extending the scheduled ma
 
 ## Urgent Maintenance - zscaler.net
 - 公開: Thu, 06 Aug 2026 15:59:46 GMT
-- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- ステータス: Completed  カテゴリ: Scheduled maintenance
 - URL: https://trust.zscaler.com/posts/31016
 - 影響: 
 
@@ -184,25 +204,5 @@ Zscaler has detected an issue with the administration UI and user authentication
 - 影響: 
 
 As part of our regular expansion of capacity, we are adding ZPA Public Service Edge nodes to our new data center in HongKong III (HKG3). If you restrict outbound firewall access, please ensure you have added the complete set of published IPs in the URL below https://config.zscaler.com/private.zscaler.com/zpa Update - &nbsp; Fri, 07 Aug 2026 12:55:12 UTC &nbsp; This activity has been completed. Please contact Zscaler Support if you have additional questions.
-
----
-
-## San Francisco IV (SJC4) Datacenter Network Maintenance - zscalertwo.net
-- 公開: Tue, 04 Aug 2026 17:20:35 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/posts/30986
-- 影響: 
-
-Zscaler will be performing hardware maintenance in the San Francisco IV (SJC4) Datacenter. Maintenance window, Start: 2026-08-05 20:00 PDT End: 2026-08-05 23:00 PDT (i.e. 2026-08-06 03:00 - 06:00 UTC) During the maintenance, traffic will failover to redundant devices in the same datacenter. However, intermittent connections and connection reestablishment may be observed. Update - Thu, 06 Aug 2026 03:30:13 UTC This activity has been completed. Please contact Zscaler Support if you have additional
-
----
-
-## Zscaler Client Connector (ZCC) and Admin UI Authentication Issues - zscalertwo.net
-- 公開: Tue, 04 Aug 2026 14:16:39 GMT
-- ステータス: Resolved  カテゴリ: Recent incident
-- URL: https://trust.zscaler.com/posts/30981
-- 影響:  Some users may see a “Zscaler Client Connector was unable to enroll at this time” message when trying to sign in to Zscaler Client Connector (ZCC). Users who are already signed in should continue to access services normally.
-
-Zscaler has detected an Authentication issue with Zscaler Client Connector (ZCC) and Admin UI on its zscalertwo.net Cloud. Some users may see a “Zscaler Client Connector was unable to enroll at this time” message when trying to sign in to Zscaler Client Connector (ZCC). Users who are already signed in should continue to access services normally. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler 
 
 ---
