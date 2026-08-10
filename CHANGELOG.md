@@ -1,6 +1,31 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-08-10 23:19 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- ## London III (LON3) Datacenter Network Maintenance - zscaler.net, zscalertwo.net, zscalerthree.net
+- ## New York III Datacenter Scheduled Maintenance - IPv6 Enablement - zscaler.net, zscalertwo.net, zscloud.net
+- ## Milan IV Data Center Online - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- ## Toronto III Datacenter Scheduled Maintenance – IPv6 Enablement - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- ## Intermittent Login Failures for claude.ai - zscaler.net, zscloud.net
+- ## Update to AI/ML Content Categorization for Miscellaneous and Unknown URLs - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- ## URL Category Classification Issue - zscaler.net
+- ## Seoul I Datacenter Issue - zscalerthree.net
+**追加内容（抜粋）:**
+> - 公開: Mon, 10 Aug 2026 22:35:38 GMT
+> - ステータス: Upcoming  カテゴリ: Scheduled maintenance
+> - URL: https://trust.zscaler.com/posts/31126
+> - 影響:
+> Zscaler will be performing hardware maintenance in the London III (LON3) Datacenter. Maintenance window, Start: 2026-08-12 21:00 BST End: 2026-08-12 23:00 BST (i.e. 2026-08-12 20:00 - 22:00 UTC) During the maintenance, traffic will failover to redundant devices in the same datacenter. However, intermittent connections and connection reestablishment may be observed.
+> ...他 25 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-08-08 23:16 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
 ## 2026-08-08 23:16 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
