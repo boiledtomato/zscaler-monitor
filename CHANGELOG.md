@@ -1,6 +1,38 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-08-11 23:17 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- ## Intermittent Source Run Failures - app.avalor.io, app.eu.avalor.io, app.aps.avalor.io
+- ## Lagos II Datacenter Scheduled Maintenance - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- ## Los Angeles I Datacenter Scheduled Maintenance - zscalertwo.net
+**追加内容（抜粋）:**
+> - 公開: Tue, 11 Aug 2026 14:00:45 GMT
+> - ステータス: Resolved  カテゴリ: Recent incident
+> - URL: https://trust.zscaler.com/posts/31141
+> - 影響: Some source ingestion runs failed and produced error notifications. and Customers may continue to receive automated “last 24 hours” error summaries even after resolution, due to the notification window.
+> We identified an issue that caused some source runs to fail during a limited time window. This impacted only sources that executed during the incident period. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Root Cause: A platform issue in the shared ingestion workflow caused some
+> ...他 20 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-08-10 23:19 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
+## 2026-08-11 23:16 UTC — ZPA リリースノート
+
+ソース: [https://help.zscaler.com/zpa/release-notes](https://help.zscaler.com/zpa/release-notes)
+**追加内容（抜粋）:**
+> - 2026-08-10T07:14Z | https://help.zscaler.com/zpa/release-upgrade-summary-2026
+> 最終更新: 2026-08-10T07:14Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-08-08 23:15 UTC~~
+> ~~> ソース: https://help.zscaler.com/zpa/release-notes~~
+> ~~---~~
+
+---
 ## 2026-08-10 23:19 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
