@@ -1,11 +1,31 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-08-11 23:17 UTC  
+> 最終更新: 2026-08-12 23:18 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
 
 # Zscaler Trust - インシデント/アドバイザリ RSS
+
+## Precautionary Trust for Zscaler India Data Center Traffic Testing - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zpatwo.net
+- 公開: Wed, 12 Aug 2026 21:36:15 GMT
+- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/posts/31151
+- 影響: 
+
+Dear Zscaler Customer, This is a precautionary trust for Zscaler's BOM6/BOM7/CCU1/DEL1/HYD1/MAA2/MAA3 data centers to test international carrier traffic optimization during a major subsea cable fault.&nbsp; Maintenance window, Start: 2026-08-15 00:0:00 IST End: 2026-08-15 04:00 IST (i.e. 2026-08-14 18:30 - 22:30 UTC) Minimal to no service impact is expected.&nbsp;
+
+---
+
+## Planned Upgrade to Experience Center | Action Required for Eligible Customers - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zdxcloud.net, zpatwo.net, zpabeta.net, zslogin.net
+- 公開: Wed, 12 Aug 2026 00:00:00 GMT
+- ステータス:   カテゴリ: Advisory
+- URL: https://trust.zscaler.com/posts/31146
+- 影響: 
+
+Starting Sep 6 , a subset of Zscaler customers are scheduled for an automatic upgrade to Experience Center, a unified console for managing Zscaler products, policies, and security analytics. This has been communicated through emails and in-product banners to this cohort. Recommended: Self-initiate the upgrade before Sep 6 to avoid disruption. Contact your Zscaler Account team or Zscaler Support to upgrade on your preferred schedule. What changes after automatic upgrade: &nbsp; Legacy IdP admin a
+
+---
 
 ## Intermittent Source Run Failures - app.avalor.io, app.eu.avalor.io, app.aps.avalor.io
 - 公開: Tue, 11 Aug 2026 14:00:45 GMT
@@ -39,11 +59,11 @@ Zscaler will be performing hardware maintenance in Los Angeles I (QLA1) Datacent
 
 ## London III (LON3) Datacenter Network Maintenance - zscaler.net, zscalertwo.net, zscalerthree.net
 - 公開: Mon, 10 Aug 2026 22:35:38 GMT
-- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- ステータス: Completed  カテゴリ: Scheduled maintenance
 - URL: https://trust.zscaler.com/posts/31126
 - 影響: 
 
-Zscaler will be performing hardware maintenance in the London III (LON3) Datacenter. Maintenance window, Start: 2026-08-12 21:00 BST End: 2026-08-12 23:00 BST (i.e. 2026-08-12 20:00 - 22:00 UTC) During the maintenance, traffic will failover to redundant devices in the same datacenter. However, intermittent connections and connection reestablishment may be observed.
+Zscaler will be performing hardware maintenance in the London III (LON3) Datacenter. Maintenance window, Start: 2026-08-12 21:00 BST End: 2026-08-12 23:00 BST (i.e. 2026-08-12 20:00 - 22:00 UTC) During the maintenance, traffic will failover to redundant devices in the same datacenter. However, intermittent connections and connection reestablishment may be observed. Update - Wed, 12 Aug 2026 21:58:26 UTC This activity has been completed. Please contact Zscaler Support if you have additional quest
 
 ---
 
@@ -59,7 +79,7 @@ Zscaler will be enabling IPv6 at our New York III (NYC3) Data Center.&nbsp; Duri
 
 ## Milan IV Data Center Online - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
 - 公開: Mon, 10 Aug 2026 20:58:24 GMT
-- ステータス: In Progress  カテゴリ: Scheduled maintenance
+- ステータス: Completed  カテゴリ: Scheduled maintenance
 - URL: https://trust.zscaler.com/posts/31116
 - 影響: 
 
@@ -69,11 +89,11 @@ Dear Zscaler Customer, You are receiving this notice in accordance with the&nbsp
 
 ## Toronto III Datacenter Scheduled Maintenance – IPv6 Enablement - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
 - 公開: Mon, 10 Aug 2026 18:46:10 GMT
-- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- ステータス: Completed  カテゴリ: Scheduled maintenance
 - URL: https://trust.zscaler.com/posts/31111
 - 影響: 
 
-Zscaler will perform scheduled maintenance at our Toronto III (YTO3) Data Center to complete preparatory work for future IPv6 enablement.&nbsp; During the maintenance window, services through the YTO3 Data Center may be restarted in phases to minimize impact. Other Zscaler sites and services will continue to operate normally. Maintenance Window: Start time is August 11, 3:00 pm PDT (August 11, 22:00 UTC) End time is August 11, 8:00 pm PDT (August 12, 3:00 UTC)
+Zscaler will perform scheduled maintenance at our Toronto III (YTO3) Data Center to complete preparatory work for future IPv6 enablement.&nbsp; During the maintenance window, services through the YTO3 Data Center may be restarted in phases to minimize impact. Other Zscaler sites and services will continue to operate normally. Maintenance Window: Start time is August 11, 3:00 pm PDT (August 11, 22:00 UTC) End time is August 11, 8:00 pm PDT (August 12, 3:00 UTC) Update - Wed, 12 Aug 2026 03:23:49 
 
 ---
 
@@ -130,7 +150,7 @@ The Zscaler Site Reliability Engineering team will be extending the scheduled ma
 
 ## Perth I (PER1) Datacenter Network Maintenance - zscloud.net
 - 公開: Sat, 08 Aug 2026 00:14:46 GMT
-- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- ステータス: Cancelled  カテゴリ: Scheduled maintenance
 - URL: https://trust.zscaler.com/posts/31081
 - 影響: 
 
@@ -150,7 +170,7 @@ As part of our regular expansion of capacity, we are adding ZPA Public Service E
 
 ## New Delhi I Datacenter Scheduled Maintenance - Service Expansion  - zscalerthree.net
 - 公開: Fri, 07 Aug 2026 22:26:01 GMT
-- ステータス: In Progress  カテゴリ: Scheduled maintenance
+- ステータス: Completed  カテゴリ: Scheduled maintenance
 - URL: https://trust.zscaler.com/posts/31071
 - 影響: 
 
@@ -170,11 +190,11 @@ Zscaler will be expanding its global data center footprint and performing mainte
 
 ## New York IV (NYC4) Datacenter Network Maintenance - zscalerthree.net
 - 公開: Fri, 07 Aug 2026 20:17:07 GMT
-- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- ステータス: Completed  カテゴリ: Scheduled maintenance
 - URL: https://trust.zscaler.com/posts/31061
 - 影響: 
 
-Zscaler will be performing hardware maintenance in the New York IV (NYC4) Datacenter. Maintenance window, Start: 2026-08-11 18:00 EST End: 2026-08-11 19:59 EST (i.e. 2026-08-11 20:00 - 23:59 UTC) During the maintenance, traffic will failover to redundant devices in the same datacenter. However, intermittent connections and connection reestablishment may be observed.
+Zscaler will be performing hardware maintenance in the New York IV (NYC4) Datacenter. Maintenance window, Start: 2026-08-11 18:00 EST End: 2026-08-11 19:59 EST (i.e. 2026-08-11 20:00 - 23:59 UTC) During the maintenance, traffic will failover to redundant devices in the same datacenter. However, intermittent connections and connection reestablishment may be observed. Update - Wed, 12 Aug 2026 00:01:22 UTC This activity has been completed. Please contact Zscaler Support if you have additional ques
 
 ---
 
@@ -185,25 +205,5 @@ Zscaler will be performing hardware maintenance in the New York IV (NYC4) Datace
 - 影響: 
 
 Zscaler will perform scheduled maintenance at our Madrid III (MAD3) Data Center to complete preparatory work for future IPv6 enablement.&nbsp; During the maintenance window, services through the MAD3 Data Center may be restarted in phases to minimize impact. Other Zscaler sites and services will continue to operate normally. Maintenance Window: Start time is August 10, 11:00 am PDT (August 10, 18:00 UTC) End time is August 10, 6:00 pm PDT (August 11, 1:00 UTC) Update 8/10: Extending Maintenance 
-
----
-
-## Marseille I Datacenter Scheduled Maintenance - IPv6 Enablement - zscalertwo.net
-- 公開: Fri, 07 Aug 2026 18:30:46 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/posts/31051
-- 影響: 
-
-Zscaler will be enabling IPv6 at our Marseille I (MRS1) Data Center.&nbsp; During the maintenance window the services through MRS1 Data Center will be restarted in phases to minimize the service impact. Other Zscaler sites and Zscaler Services will continue to operate normally. Maintenance Window: Start time is August 10, 10:00 am PDT (August 10, 17:00 UTC) End time is August 10, 3:00 pm PDT (August 10, 22:00 UTC) Update - Mon, 10 Aug 2026 22:12:07 UTC This activity has been completed. Please co
-
----
-
-## Munich I Datacenter Scheduled Maintenance - IPv6 Enablement - zscaler.net, zscalertwo.net
-- 公開: Fri, 07 Aug 2026 18:22:20 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/posts/31046
-- 影響: 
-
-Zscaler will be enabling IPv6 at our Munich I (MUC1) Data Center.&nbsp; During the maintenance window the services through MUC1 Data Center will be restarted in phases to minimize the service impact. Other Zscaler sites and Zscaler Services will continue to operate normally. Maintenance Window: Start time is August 10, 10:00 am PDT (August 10, 17:00 UTC) End time is August 10, 5:00 pm PDT (August 11, 00:00 UTC) Update 8/10: Maintenance Extended Update - Tue, 11 Aug 2026 02:05:13 UTC This activit
 
 ---

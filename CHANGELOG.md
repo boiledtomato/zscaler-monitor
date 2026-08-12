@@ -1,6 +1,65 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-08-12 23:18 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- ## Precautionary Trust for Zscaler India Data Center Traffic Testing - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zpatwo.net
+- ## Planned Upgrade to Experience Center | Action Required for Eligible Customers - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zdxcloud.net, zpatwo.net, zpabeta.net, zslogin.net
+**追加内容（抜粋）:**
+> - 公開: Wed, 12 Aug 2026 21:36:15 GMT
+> - ステータス: Upcoming  カテゴリ: Scheduled maintenance
+> - URL: https://trust.zscaler.com/posts/31151
+> - 影響:
+> Dear Zscaler Customer, This is a precautionary trust for Zscaler's BOM6/BOM7/CCU1/DEL1/HYD1/MAA2/MAA3 data centers to test international carrier traffic optimization during a major subsea cable fault.&nbsp; Maintenance window, Start: 2026-08-15 00:0:00 IST End: 2026-08-15 04:00 IST (i.e. 2026-08-14 18:30 - 22:30 UTC) Minimal to no service impact is expected.&nbsp;
+> ...他 16 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-08-11 23:17 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
+## 2026-08-12 23:17 UTC — ZDX リリースノート
+
+ソース: [https://help.zscaler.com/zdx/release-notes](https://help.zscaler.com/zdx/release-notes)
+**追加内容（抜粋）:**
+> - 2026-08-11T13:52Z | https://help.zscaler.com/zdx/release-upgrade-summary-2026
+> 最終更新: 2026-08-11T13:52Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-08-08 23:16 UTC~~
+> ~~> ソース: https://help.zscaler.com/zdx/release-notes~~
+> ~~---~~
+
+---
+## 2026-08-12 23:17 UTC — ZPA リリースノート
+
+ソース: [https://help.zscaler.com/zpa/release-notes](https://help.zscaler.com/zpa/release-notes)
+**更新セクション:**
+- ## https://help.zscaler.com/zpa/app-connector-release-summary-2026
+**追加内容（抜粋）:**
+> - 2026-08-11T15:52Z | https://help.zscaler.com/zpa/release-upgrade-summary-2026
+> - 2026-08-11T10:30Z | https://help.zscaler.com/zpa/app-connector-release-summary-2026
+> 最終更新: 2026-08-11T15:52Z
+> 最終更新: 2026-08-11T10:30Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-08-11 23:16 UTC~~
+> ~~> ソース: https://help.zscaler.com/zpa/release-notes~~
+> ~~---~~
+
+---
+## 2026-08-12 23:16 UTC — ZIA リリースノート
+
+ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)
+**追加内容（抜粋）:**
+> - 2026-08-11T10:00Z | https://help.zscaler.com/zia/release-upgrade-summary-2026
+> 最終更新: 2026-08-11T10:00Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-08-08 23:14 UTC~~
+> ~~> ソース: https://help.zscaler.com/zia/release-notes~~
+> ~~---~~
+
+---
 ## 2026-08-11 23:17 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
