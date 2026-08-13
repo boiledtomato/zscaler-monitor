@@ -6,9 +6,9 @@
     "initialized": true
   },
   "zpa_release_notes": {
-    "hash": "95df9ba074da5be89fef0eb305b804371560136825cfbb53b27e216ecbd820f2",
-    "last_checked": "2026-08-12T23:17:43.327500+00:00",
-    "last_updated": "2026-08-12T23:17:43.327529+00:00",
+    "hash": "b444f052e728753bfeb1b6e03fd3bd35e4589d80bbe35e1d5f51b47bc71aba50",
+    "last_checked": "2026-08-13T23:25:53.980576+00:00",
+    "last_updated": "2026-08-13T23:25:53.980607+00:00",
     "initialized": true
   },
   "zdx_release_notes": {
@@ -18,9 +18,9 @@
     "initialized": true
   },
   "security_advisories": {
-    "hash": "f1e8a6b81475658986e3cb054c1d62ffffcefdcf4b539ac199d2dc5c7e00ab90",
-    "last_checked": "2026-08-12T23:19:00.803394+00:00",
-    "last_updated": "2026-08-12T23:19:00.803426+00:00",
+    "hash": "50c22883fa0a4112dc788981e513be8cd657dfd240e7d615fab93cd7aecfd38c",
+    "last_checked": "2026-08-13T23:26:35.103824+00:00",
+    "last_updated": "2026-08-13T23:26:35.103860+00:00",
     "initialized": true
   },
   "product_updates": {

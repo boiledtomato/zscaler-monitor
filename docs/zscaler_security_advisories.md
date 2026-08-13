@@ -1,6 +1,6 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-08-12 23:18 UTC  
+> 最終更新: 2026-08-13 23:25 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
@@ -49,11 +49,11 @@ Zscaler will be performing hardware maintenance in the Lagos II (LOS2) Datacente
 
 ## Los Angeles I Datacenter Scheduled Maintenance - zscalertwo.net
 - 公開: Tue, 11 Aug 2026 05:24:00 GMT
-- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- ステータス: Completed  カテゴリ: Scheduled maintenance
 - URL: https://trust.zscaler.com/posts/31131
 - 影響: During the maintenance, traffic will failover to redundant devices in the same datacenter, however intermittent connections and connection reestablishment may be observed.
 
-Zscaler will be performing hardware maintenance in Los Angeles I (QLA1) Datacenter. Maintenance window: &nbsp; &nbsp;Start: 2026-08-13 02:00 UTC &nbsp; &nbsp;End: &nbsp;2026-08-13 04:00 UTC &nbsp; &nbsp;(Local Time 2026-08-12 19:00 - 2026-08-12 &nbsp;21:00)
+Zscaler will be performing hardware maintenance in Los Angeles I (QLA1) Datacenter. Maintenance window: &nbsp; &nbsp;Start: 2026-08-13 02:00 UTC &nbsp; &nbsp;End: &nbsp;2026-08-13 04:00 UTC &nbsp; &nbsp;(Local Time 2026-08-12 19:00 - 2026-08-12 &nbsp;21:00) Update - Thu, 13 Aug 2026 04:23:30 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions.
 
 ---
 
@@ -160,11 +160,11 @@ Zscaler will be performing hardware maintenance in the Perth I (PER1) Datacenter
 
 ## New Datacenter Expansion Milan IV (MIL4) - private.zscaler.com
 - 公開: Fri, 07 Aug 2026 23:14:24 GMT
-- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- ステータス: Completed  カテゴリ: Scheduled maintenance
 - URL: https://trust.zscaler.com/posts/31076
 - 影響: 
 
-As part of our regular expansion of capacity, we are adding ZPA Public Service Edge nodes to our new data center in Milan IV (MIL4). If you restrict outbound firewall access, please ensure you have added the complete set of published IPs in the URL below https://config.zscaler.com/private.zscaler.com/zpa
+As part of our regular expansion of capacity, we are adding ZPA Public Service Edge nodes to our new data center in Milan IV (MIL4). If you restrict outbound firewall access, please ensure you have added the complete set of published IPs in the URL below https://config.zscaler.com/private.zscaler.com/zpa Update - Thu, 13 Aug 2026 03:06:20 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions.
 
 ---
 
