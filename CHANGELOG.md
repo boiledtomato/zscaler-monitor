@@ -1,6 +1,32 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-08-14 23:13 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- ## Upcoming Data Center Expansion - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zpatwo.net
+- ## Madrid III  Datacenter Scheduled Maintenance - IPv6 Enablement - zscloud.net
+- ## New York IV Datacenter Scheduled Maintenance - Service Expansion  - zscalertwo.net
+- ## Chicago II Datacenter Scheduled Maintenance - Service Expansion  - zscaler.net
+- ## Perth I (PER1) Datacenter Network Maintenance - zscloud.net
+- ## Announcing withdrawal of select Linux Client Connector Debian packages - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zdxcloud.net, zpatwo.net
+- ## Intermittent Failures Affecting Mobile Admin Public API Requests - zscaler.net
+- ## Zscaler Business Insight Issue - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- ## Reporting and Logging Issue - zscalerthree.net
+**追加内容（抜粋）:**
+> - 公開: Fri, 14 Aug 2026 22:24:29 GMT
+> - ステータス: Completed  カテゴリ: Scheduled maintenance
+> - URL: https://trust.zscaler.com/posts/31196
+> - 影響:
+> Dear Zscaler Customer, In accordance with&nbsp; Zscaler Service Continuity Policy and per email notification sent on&nbsp; August 14, 2026 , we would like to notify you of the upcoming data center expansion at the location listed below. This would be available anytime on or after October 13, 2026; 60 days or more from the date the first email notification is sent. Please update your firewall policy rules and any upstream Access Control Lists (ACLs) to allow the new IP address ranges to avoid any
+> ...他 25 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-08-13 23:25 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
 ## 2026-08-13 23:25 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
