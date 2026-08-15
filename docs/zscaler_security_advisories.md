@@ -1,11 +1,31 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-08-14 23:13 UTC  
+> 最終更新: 2026-08-15 23:21 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
 
 # Zscaler Trust - インシデント/アドバイザリ RSS
+
+## Scheduled Maintenance Extended - AMER Region - zscloud.net
+- 公開: Sat, 15 Aug 2026 07:44:22 GMT
+- ステータス: Completed  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/posts/31206
+- 影響: 
+
+The Zscaler Site Reliability Engineering team will be extending the scheduled maintenance for AMER Region by 4 hours. As part of our standard maintenance process, all logs will be collected and available after maintenance has been completed. Please contact Zscaler Support if you have additional questions. Latest Update - Sat, 15 Aug 2026 14:05:48 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions. Update - Sat, 15 Aug 2026 11:43:03 UTC We will b
+
+---
+
+## Scheduled Maintenance Extended - zscalertwo.net
+- 公開: Sat, 15 Aug 2026 05:38:08 GMT
+- ステータス: Completed  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/posts/31201
+- 影響: 
+
+The Zscaler Site Reliability Engineering team will be extending the scheduled maintenance of the zscalertwo.net cloud by 2 hours. As part of our standard maintenance process, all logs will be collected and available after maintenance has been completed. Please contact Zscaler Support if you have additional questions. Update - Sat, 15 Aug 2026 07:00:25 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions.
+
+---
 
 ## Upcoming Data Center Expansion - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zpatwo.net
 - 公開: Fri, 14 Aug 2026 22:24:29 GMT
@@ -83,7 +103,7 @@ Zscaler is investigating an issue causing intermittent failures for the Mobile A
 - URL: https://trust.zscaler.com/posts/31161
 - 影響: Impacted customers see usernames and email addresses obfuscated (displayed as hash codes) in the portal and API, despite having full admin access.
 
-Zscaler has identified an issue affecting Zscaler Business Insights. Impacted customers may see usernames and email addresses obfuscated in the portal and API, despite having full admin access. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available.
+Zscaler has identified an issue affecting Zscaler Business Insights. Impacted customers may see usernames and email addresses obfuscated in the portal and API, despite having full admin access. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Update - Sat, 15 Aug 2026 06:38:09 UTC
 
 ---
 
@@ -99,11 +119,11 @@ Zscaler has detected an issue with its zscalerthree.net Cloud. &nbsp;We will con
 
 ## Precautionary Trust for Zscaler India Data Center Traffic Testing - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zpatwo.net
 - 公開: Wed, 12 Aug 2026 21:36:15 GMT
-- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- ステータス: Completed  カテゴリ: Scheduled maintenance
 - URL: https://trust.zscaler.com/posts/31151
 - 影響: 
 
-Dear Zscaler Customer, This is a precautionary trust for Zscaler's BOM6/BOM7/CCU1/DEL1/HYD1/MAA2/MAA3 data centers to test international carrier traffic optimization during a major subsea cable fault.&nbsp; Maintenance window, Start: 2026-08-15 00:0:00 IST End: 2026-08-15 04:00 IST (i.e. 2026-08-14 18:30 - 22:30 UTC) Minimal to no service impact is expected.&nbsp;
+Dear Zscaler Customer, This is a precautionary trust for Zscaler's BOM6/BOM7/CCU1/DEL1/HYD1/MAA2/MAA3 data centers to test international carrier traffic optimization during a major subsea cable fault.&nbsp; Maintenance window, Start: 2026-08-15 00:0:00 IST End: 2026-08-15 04:00 IST (i.e. 2026-08-14 18:30 - 22:30 UTC) Minimal to no service impact is expected.&nbsp; Update - Fri, 14 Aug 2026 22:23:10 UTC This activity has been completed. Please contact Zscaler Support if you have additional questi
 
 ---
 
@@ -184,25 +204,5 @@ Dear Zscaler Customer, You are receiving this notice in accordance with the&nbsp
 - 影響: 
 
 Zscaler will perform scheduled maintenance at our Toronto III (YTO3) Data Center to complete preparatory work for future IPv6 enablement.&nbsp; During the maintenance window, services through the YTO3 Data Center may be restarted in phases to minimize impact. Other Zscaler sites and services will continue to operate normally. Maintenance Window: Start time is August 11, 3:00 pm PDT (August 11, 22:00 UTC) End time is August 11, 8:00 pm PDT (August 12, 3:00 UTC) Update - Wed, 12 Aug 2026 03:23:49 
-
----
-
-## Intermittent Login Failures for claude.ai - zscaler.net, zscloud.net
-- 公開: Mon, 10 Aug 2026 16:16:08 GMT
-- ステータス: In Progress  カテゴリ: Recent incident
-- URL: https://trust.zscaler.com/posts/31106
-- 影響: Customers with an HTTP/2 Header Profile applied via a URL Control Policy may experience intermittent login failures when accessing claude.ai. The HTTP/2 profile disrupts the authentication flow, which may prevent login from completing successfully.
-
-Zscaler has detected an issue with its zscaler.net, zscloud.net Cloud. Customers with an&nbsp;HTTP/2 Header Profile&nbsp;applied via a&nbsp;URL Control Policy&nbsp;may experience intermittent login failures when accessing&nbsp;claude.ai. The HTTP/2 profile disrupts the authentication flow, which may prevent login from completing successfully. All other traffic forwarding and policy enforcement remain unaffected. We will continue to provide updates here as the investigation progresses. For detail
-
----
-
-## Update to AI/ML Content Categorization for Miscellaneous and Unknown URLs - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
-- 公開: Mon, 10 Aug 2026 00:00:00 GMT
-- ステータス:   カテゴリ: Advisory
-- URL: https://trust.zscaler.com/posts/31101
-- 影響: 
-
-Context-Aware Model Upgrade To improve classification accuracy and expand categorization coverage for URLs that are not currently categorized in the Zscaler primary database, Zscaler has updated the existing AI/ML-based content categorization capability for Miscellaneous and Unknown inline URLs. This capability is available to customers who have enabled the feature in their tenant and has been used to classify eligible inline uncategorized URLs for some time. This update introduces a more contex
 
 ---

@@ -1,6 +1,49 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-08-15 23:21 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- ## Scheduled Maintenance Extended - AMER Region - zscloud.net
+- ## Scheduled Maintenance Extended - zscalertwo.net
+**追加内容（抜粋）:**
+> - 公開: Sat, 15 Aug 2026 07:44:22 GMT
+> - ステータス: Completed  カテゴリ: Scheduled maintenance
+> - URL: https://trust.zscaler.com/posts/31206
+> - 影響:
+> The Zscaler Site Reliability Engineering team will be extending the scheduled maintenance for AMER Region by 4 hours. As part of our standard maintenance process, all logs will be collected and available after maintenance has been completed. Please contact Zscaler Support if you have additional questions. Latest Update - Sat, 15 Aug 2026 14:05:48 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions. Update - Sat, 15 Aug 2026 11:43:03 UTC We will b
+> ...他 10 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-08-14 23:13 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
+## 2026-08-15 23:21 UTC — ZPA リリースノート
+
+ソース: [https://help.zscaler.com/zpa/release-notes](https://help.zscaler.com/zpa/release-notes)
+**追加内容（抜粋）:**
+> - 2026-08-14T10:33Z | https://help.zscaler.com/zpa/release-upgrade-summary-2026
+> 最終更新: 2026-08-14T10:33Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-08-13 23:25 UTC~~
+> ~~> ソース: https://help.zscaler.com/zpa/release-notes~~
+> ~~---~~
+
+---
+## 2026-08-15 23:20 UTC — ZIA リリースノート
+
+ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)
+**追加内容（抜粋）:**
+> - 2026-08-14T11:27Z | https://help.zscaler.com/zia/release-upgrade-summary-2026
+> 最終更新: 2026-08-14T11:27Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-08-12 23:16 UTC~~
+> ~~> ソース: https://help.zscaler.com/zia/release-notes~~
+> ~~---~~
+
+---
 ## 2026-08-14 23:13 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
