@@ -1,6 +1,27 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-08-16 23:20 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- ## Urgent Maintenance - zscaler.net
+- ## Datacenter Expansion Toronto III (YTO3) - private.zscaler.com
+- ## Datacenter Expansion Toronto III (YTO3) - zpatwo.net
+- ## Scheduled Maintenance Extended - zscalerthree.net
+**追加内容（抜粋）:**
+> - 公開: Sun, 16 Aug 2026 09:24:25 GMT
+> - ステータス: Completed  カテゴリ: Scheduled maintenance
+> - URL: https://trust.zscaler.com/posts/31226
+> - 影響:
+> The Zscaler Site Reliability Engineering team will be performing an urgent maintenance on zscaler.net cloud. This maintenance is scheduled for Sunday, August 16, 2026 10:30 AM UTC, and can take up to 4 hours to complete. During maintenance, which includes the control plane, the Admin Portal might be temporarily placed into read-only mode, making the following unavailable: configuration changes, new user provisioning, and existing user updates through SCIM, LDAP, and SAML. A brief impact to new u
+> ...他 19 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-08-15 23:21 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
 ## 2026-08-15 23:21 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
