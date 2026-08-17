@@ -1,6 +1,30 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-08-17 23:15 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- ## Washington I Datacenter Scheduled Maintenance - Service Expansion  - zscalertwo.net
+- ## Chennai III Datacenter Scheduled Maintenance - Service Expansion  - zscalerthree.net
+- ## Migrate ZPA VPN Service Edge/s from UAE-Dubai to other alternative regions. - private.zscaler.com, zpatwo.net, zpabeta.net
+- ## Login and UI Access Issue - app.avalor.io, app.eu.avalor.io, app.aps.avalor.io
+- ## Reporting and Logging - Audit Logs Issue - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- ## Urgent Maintenance - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- ## Release Upgrade for Zscaler Data Security Posture Management (DSPM) - app.zsdpc.net
+**追加内容（抜粋）:**
+> - 公開: Mon, 17 Aug 2026 22:25:28 GMT
+> - ステータス: Upcoming  カテゴリ: Scheduled maintenance
+> - URL: https://trust.zscaler.com/posts/31261
+> - 影響:
+> Zscaler will be expanding its global data center footprint and performing maintenance at our&nbsp;Washington I&nbsp;(WAS1) data center. We expect minimal to no impact to services during the maintenance window.&nbsp; Please update your firewall policy rules and any upstream Access Control Lists to allow all IP addresses for this DC For more information, please visit: https://config.zscaler.com/zscalertwo.net/cenr Maintenance Window: Start time is August 19, 3:00 pm PDT (August 19, 22:00 UTC) End
+> ...他 25 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-08-16 23:20 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
 ## 2026-08-16 23:20 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)

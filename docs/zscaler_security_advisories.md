@@ -1,11 +1,81 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-08-16 23:20 UTC  
+> 最終更新: 2026-08-17 23:15 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
 
 # Zscaler Trust - インシデント/アドバイザリ RSS
+
+## Washington I Datacenter Scheduled Maintenance - Service Expansion  - zscalertwo.net
+- 公開: Mon, 17 Aug 2026 22:25:28 GMT
+- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/posts/31261
+- 影響: 
+
+Zscaler will be expanding its global data center footprint and performing maintenance at our&nbsp;Washington I&nbsp;(WAS1) data center. We expect minimal to no impact to services during the maintenance window.&nbsp; Please update your firewall policy rules and any upstream Access Control Lists to allow all IP addresses for this DC For more information, please visit: https://config.zscaler.com/zscalertwo.net/cenr Maintenance Window: Start time is August 19, 3:00 pm PDT (August 19, 22:00 UTC) End 
+
+---
+
+## Chennai III Datacenter Scheduled Maintenance - Service Expansion  - zscalerthree.net
+- 公開: Mon, 17 Aug 2026 22:17:32 GMT
+- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/posts/31256
+- 影響: 
+
+Zscaler will be expanding its global data center footprint and performing maintenance at our&nbsp;Chennai III (MAA3) data center. We expect minimal to no impact to services during the maintenance window.&nbsp; Please update your firewall policy rules and any upstream Access Control Lists to allow all IP addresses for this DC For more information, please visit: https://config.zscaler.com/zscalerthree.net/cenr Maintenance Window: Start time is August 19, 9:00 am PDT (August 19, 16:00 UTC) End time
+
+---
+
+## Migrate ZPA VPN Service Edge/s from UAE-Dubai to other alternative regions. - private.zscaler.com, zpatwo.net, zpabeta.net
+- 公開: Mon, 17 Aug 2026 00:00:00 GMT
+- ステータス:   カテゴリ: Advisory
+- URL: https://trust.zscaler.com/posts/31251
+- 影響: 
+
+As AWS continues to report&nbsp;impairment in&nbsp; two Availability Zones (mec1-az2 and mec1-az3) in the AWS ME-CENTRAL-1 Region , customers with ZPA VPN Service Edge/s deployed in UAE-Dubai region are required to migrate their instances (i.e.,&nbsp; delete and&nbsp; add new VPN Service Edge ) to alternate regions.&nbsp; Zscaler has also restricted all new VPN Service Edge deployments in UAE-Dubai region until AWS services are completely restored.&nbsp; Customers may refer to the cloud provider
+
+---
+
+## Login and UI Access Issue - app.avalor.io, app.eu.avalor.io, app.aps.avalor.io
+- 公開: Mon, 17 Aug 2026 14:02:08 GMT
+- ステータス: Resolved  カテゴリ: Recent incident
+- URL: https://trust.zscaler.com/posts/31246
+- 影響:  Customers may experience problems with users being unable to log in or load views within the platform.
+
+Zscaler has identified an issue affecting the app.avalor.io, app.eu.avalor.io, and app.aps.avalor.io cloud environments. Customers may experience problems with users being unable to log in or load views within the platform. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Root Cau
+
+---
+
+## Reporting and Logging - Audit Logs Issue - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- 公開: Mon, 17 Aug 2026 13:29:15 GMT
+- ステータス: Monitoring  カテゴリ: Recent incident
+- URL: https://trust.zscaler.com/posts/31241
+- 影響: Customers may experience increased page load times and/or 504/500 errors when attempting to view audit logs in the ZIA Admin Portal and Mobile Admin Portal
+
+Zscaler is actively investigating a potential Reporting and Logging issue affecting Audit Logs that may be impacting some customers. Our teams are currently assessing the scope and cause. We will provide an update as soon as more information becomes available. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted the
+
+---
+
+## Urgent Maintenance - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- 公開: Mon, 17 Aug 2026 06:18:48 GMT
+- ステータス: Completed  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/posts/31236
+- 影響: 
+
+The Zscaler Site Reliability Engineering team will be performing an urgent maintenance during which access to the Partner Admin UI will not be available. This maintenance can take up to 30 minutes to complete. All the logs that are collected during this period will be available after the maintenance ends. Update - Mon, 17 Aug 2026 06:53:49 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions.
+
+---
+
+## Release Upgrade for Zscaler Data Security Posture Management (DSPM) - app.zsdpc.net
+- 公開: Mon, 17 Aug 2026 04:13:13 GMT
+- ステータス: Completed  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/posts/31231
+- 影響: 
+
+Zscaler Data Posture Control (DSPM) Operations team will be performing a planned upgrade activity on Aug 17th, 2026. These service updates are applied in regional off-peak hours and should not result in any downtime for customers. Please reach out to Customer support for more information about the changes. &nbsp; Update - Mon, 17 Aug 2026 06:46:38 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions.
+
+---
 
 ## Urgent Maintenance - zscaler.net
 - 公開: Sun, 16 Aug 2026 09:24:25 GMT
@@ -83,7 +153,7 @@ Dear Zscaler Customer, In accordance with&nbsp; Zscaler Service Continuity Polic
 - URL: https://trust.zscaler.com/posts/31191
 - 影響: 
 
-Zscaler will be enabling IPv6 at our Madrid III&nbsp;(MAD3) Data Center.&nbsp; During the maintenance window the services through MAD3 Data Center will be restarted in phases to minimize the service impact. Other Zscaler sites and Zscaler Services will continue to operate normally. Maintenance Window: Start time is August 18, 9:00 am PDT (August 18, 16:00 UTC) End time is August 19, 2:00 pm PDT (August 18, 21:00 UTC)
+Zscaler will be enabling IPv6 at our Madrid III&nbsp;(MAD3) Data Center.&nbsp; During the maintenance window the services through MAD3 Data Center will be restarted in phases to minimize the service impact. Other Zscaler sites and Zscaler Services will continue to operate normally. Maintenance Window: Start time is August 18, 9:00 am PDT (August 18, 16:00 UTC) End time is August 18, 3:00 pm PDT (August 18, 22:00 UTC) Update 8/17/26: Adjusted timing
 
 ---
 
@@ -134,75 +204,5 @@ It was discovered recently that the expiry of a package-signing key was causing 
 - 影響: Customers may experience failures when accessing the Mobile Admin public API. There is no impact to the Mobile Admin UI or Zscaler Client Connector.
 
 Zscaler is investigating an issue causing intermittent failures for the Mobile Admin Public API service on zscaler.net. Some customers may experience failures when accessing the Mobile Admin public API. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Root Cause: Expired Cert Late
-
----
-
-## Zscaler Business Insight Issue - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net
-- 公開: Fri, 14 Aug 2026 11:26:04 GMT
-- ステータス: In Progress  カテゴリ: Recent incident
-- URL: https://trust.zscaler.com/posts/31161
-- 影響: Impacted customers see usernames and email addresses obfuscated (displayed as hash codes) in the portal and API, despite having full admin access.
-
-Zscaler has identified an issue affecting Zscaler Business Insights. Impacted customers may see usernames and email addresses obfuscated in the portal and API, despite having full admin access. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Update - Sat, 15 Aug 2026 06:38:09 UTC
-
----
-
-## Reporting and Logging Issue - zscalerthree.net
-- 公開: Fri, 14 Aug 2026 10:43:53 GMT
-- ステータス: Resolved  カテゴリ: Recent incident
-- URL: https://trust.zscaler.com/posts/31156
-- 影響: Subset of customers might face issues with logging and reporting.
-
-Zscaler has detected an issue with its zscalerthree.net Cloud. &nbsp;We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Root Cause: The incident was caused by a software issue within the logging plane, compounded by elevated processing demand, which delayed automated recovery and re
-
----
-
-## Precautionary Trust for Zscaler India Data Center Traffic Testing - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zpatwo.net
-- 公開: Wed, 12 Aug 2026 21:36:15 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/posts/31151
-- 影響: 
-
-Dear Zscaler Customer, This is a precautionary trust for Zscaler's BOM6/BOM7/CCU1/DEL1/HYD1/MAA2/MAA3 data centers to test international carrier traffic optimization during a major subsea cable fault.&nbsp; Maintenance window, Start: 2026-08-15 00:0:00 IST End: 2026-08-15 04:00 IST (i.e. 2026-08-14 18:30 - 22:30 UTC) Minimal to no service impact is expected.&nbsp; Update - Fri, 14 Aug 2026 22:23:10 UTC This activity has been completed. Please contact Zscaler Support if you have additional questi
-
----
-
-## Planned Upgrade to Experience Center | Action Required for Eligible Customers - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zdxcloud.net, zpatwo.net, zpabeta.net, zslogin.net
-- 公開: Wed, 12 Aug 2026 00:00:00 GMT
-- ステータス:   カテゴリ: Advisory
-- URL: https://trust.zscaler.com/posts/31146
-- 影響: 
-
-Starting Sep 6 , a subset of Zscaler customers are scheduled for an automatic upgrade to Experience Center, a unified console for managing Zscaler products, policies, and security analytics. This has been communicated through emails and in-product banners to this cohort. Recommended: Self-initiate the upgrade before Sep 6 to avoid disruption. Contact your Zscaler Account team or Zscaler Support to upgrade on your preferred schedule. What changes after automatic upgrade: &nbsp; Legacy IdP admin a
-
----
-
-## Intermittent Source Run Failures - app.avalor.io, app.eu.avalor.io, app.aps.avalor.io
-- 公開: Tue, 11 Aug 2026 14:00:45 GMT
-- ステータス: Resolved  カテゴリ: Recent incident
-- URL: https://trust.zscaler.com/posts/31141
-- 影響: Some source ingestion runs failed and produced error notifications. and Customers may continue to receive automated “last 24 hours” error summaries even after resolution, due to the notification window.
-
-We identified an issue that caused some source runs to fail during a limited time window. This impacted only sources that executed during the incident period. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Root Cause: A platform issue in the shared ingestion workflow caused some
-
----
-
-## Lagos II Datacenter Scheduled Maintenance - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
-- 公開: Tue, 11 Aug 2026 10:57:20 GMT
-- ステータス: Upcoming  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/posts/31136
-- 影響: Outage of up to 300 min
-
-Zscaler will be performing hardware maintenance in the Lagos II (LOS2) Datacenter. Maintenance window, Start: 2026-08-14 22:00 GMT+1 End: 2026-08-15 06:00 GMT+1 (i.e. 2026-08-14 21:00 - 2026-08-15 05:00 UTC) Scope of work: Partner network infrastructure replacement / reconfiguration
-
----
-
-## Los Angeles I Datacenter Scheduled Maintenance - zscalertwo.net
-- 公開: Tue, 11 Aug 2026 05:24:00 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/posts/31131
-- 影響: During the maintenance, traffic will failover to redundant devices in the same datacenter, however intermittent connections and connection reestablishment may be observed.
-
-Zscaler will be performing hardware maintenance in Los Angeles I (QLA1) Datacenter. Maintenance window: &nbsp; &nbsp;Start: 2026-08-13 02:00 UTC &nbsp; &nbsp;End: &nbsp;2026-08-13 04:00 UTC &nbsp; &nbsp;(Local Time 2026-08-12 19:00 - 2026-08-12 &nbsp;21:00) Update - Thu, 13 Aug 2026 04:23:30 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions.
 
 ---
