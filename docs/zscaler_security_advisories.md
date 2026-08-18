@@ -1,11 +1,81 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-08-17 23:15 UTC  
+> 最終更新: 2026-08-18 23:14 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
 
 # Zscaler Trust - インシデント/アドバイザリ RSS
+
+## Vancouver I Datacenter Scheduled Maintenance - Service Expansion  - zscalerthree.net
+- 公開: Tue, 18 Aug 2026 21:15:36 GMT
+- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/posts/31296
+- 影響: 
+
+Zscaler will be expanding its global data center footprint and performing maintenance at our Vancouver I (YVR1) data center. We expect minimal to no impact to services during the maintenance window.&nbsp; Please update your firewall policy rules and any upstream Access Control Lists to allow all IP addresses for this DC For more information, please visit: https://config.zscaler.com/zscalerthree.net/cenr Start time is August 19, 6:00 pm PDT (August 20, 1:00 UTC) End time is August 19, 11:00 pm PD
+
+---
+
+## San Francisco IV Datacenter Scheduled Maintenance - IPv6 Enablement - zscaler.net, zscalerone.net, zscloud.net
+- 公開: Tue, 18 Aug 2026 17:16:36 GMT
+- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/posts/31291
+- 影響: 
+
+Zscaler will be enabling IPv6 at our San Francisco IV (SJC4) Data Center.&nbsp; During the maintenance window the services through SJC4 Data Center will be restarted in phases to minimize the service impact. Other Zscaler sites and Zscaler Services will continue to operate normally. Maintenance Window: Start time is August 20, 5:00 pm PDT (August 21, 00:00 UTC) End time is August 20, 11:00 pm PDT (August 21, 6:00 UTC)
+
+---
+
+## Reminder Notification for Upcoming Data Center Expansions - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zpatwo.net
+- 公開: Tue, 18 Aug 2026 16:49:23 GMT
+- ステータス: Completed  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/posts/31286
+- 影響: 
+
+Dear Customer,&nbsp; In accordance with the&nbsp; Zscaler Service Continuity Policy and as previously announced via&nbsp; email notification and&nbsp; Trust&nbsp; on July 1, 2026, we would like to remind you of the upcoming data center expansions at the locations listed below. These would be effective anytime on or after August 30, 2026. Region Location CIDR Notes APAC Mumbai VI 137.31.136.0/23 Expansion of existing data center APAC Mumbai VI 137.31.138.0/23 Expansion of existing data center APA
+
+---
+
+## Reminder Notification for Additions to HUB IP Address Ranges - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, zdxcloud.net
+- 公開: Tue, 18 Aug 2026 16:43:36 GMT
+- ステータス: Completed  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/posts/31281
+- 影響: 
+
+Dear Customer,&nbsp; In accordance with&nbsp; Zscaler Service Continuity Policy and as previously announced via&nbsp; Trust&nbsp; and&nbsp; email notification sent on July 1, 2026,&nbsp;we would like to remind you of the upcoming changes to HUB IP address ranges as listed below. The services through the new IP address range will be available anytime on or after August 30, 2026. CIDR Notes 137.31.134.0/23 New addition to&nbsp; Required Hub IP addresses Please update your firewall policy rules and
+
+---
+
+## Datacenter Expansion San Francisco IV (SJC4) - private.zscaler.com
+- 公開: Tue, 18 Aug 2026 07:35:55 GMT
+- ステータス: In Progress  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/posts/31276
+- 影響: 
+
+Affected Datacenters or Regions: AMER, San Francisco IV Clouds: private.zscaler.com Description: As part of our regular expansion of capacity, we are adding ZPA Public Service Edge nodes to our existing data center in San Francisco IV (SJC4). If you restrict outbound firewall access, please ensure you have added the complete set of published IPs in the URL below https://config.zscaler.com/private.zscaler.com/zpa
+
+---
+
+## Urgent Maintenance on Singapore IV, Singapore V datacenters - zscalertwo.net, zscalerthree.net
+- 公開: Tue, 18 Aug 2026 07:34:41 GMT
+- ステータス: Completed  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/posts/31271
+- 影響: 
+
+The Zscaler Site Reliability Engineering team will be performing an urgent maintenance on Singapore IV, Singapore V datacenters on the zscalertwo.net and zscalerthree.net clouds. This maintenance can take up to 2 hours to complete. We expect minimal to no impact to services during the maintenance window. All logs will be collected and available after maintenance is complete. Please contact Zscaler Support if you have additional questions. Update - Tue, 18 Aug 2026 08:06:49 UTC This activity has 
+
+---
+
+## Datacenter Expansion Hongkong III (HKG3) - zpatwo.net
+- 公開: Tue, 18 Aug 2026 07:28:42 GMT
+- ステータス: In Progress  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/posts/31266
+- 影響: 
+
+Affected Datacenters or Regions: APAC, Hong Kong III Clouds: zpatwo.net Description: As part of our regular expansion of capacity, we are adding ZPA Public Service Edge nodes to our new data center in HongKong III (HKG3). If you restrict outbound firewall access, please ensure you have added the complete set of published IPs in the URL below https://config.zscaler.com/private.zscaler.com/zpa
+
+---
 
 ## Washington I Datacenter Scheduled Maintenance - Service Expansion  - zscalertwo.net
 - 公開: Mon, 17 Aug 2026 22:25:28 GMT
@@ -49,7 +119,7 @@ Zscaler has identified an issue affecting the app.avalor.io, app.eu.avalor.io, a
 
 ## Reporting and Logging - Audit Logs Issue - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net
 - 公開: Mon, 17 Aug 2026 13:29:15 GMT
-- ステータス: Monitoring  カテゴリ: Recent incident
+- ステータス: Resolved  カテゴリ: Recent incident
 - URL: https://trust.zscaler.com/posts/31241
 - 影響: Customers may experience increased page load times and/or 504/500 errors when attempting to view audit logs in the ZIA Admin Portal and Mobile Admin Portal
 
@@ -134,75 +204,5 @@ The Zscaler Site Reliability Engineering team will be extending the scheduled ma
 - 影響: 
 
 The Zscaler Site Reliability Engineering team will be extending the scheduled maintenance of the zscalertwo.net cloud by 2 hours. As part of our standard maintenance process, all logs will be collected and available after maintenance has been completed. Please contact Zscaler Support if you have additional questions. Update - Sat, 15 Aug 2026 07:00:25 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions.
-
----
-
-## Upcoming Data Center Expansion - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zpatwo.net
-- 公開: Fri, 14 Aug 2026 22:24:29 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/posts/31196
-- 影響: 
-
-Dear Zscaler Customer, In accordance with&nbsp; Zscaler Service Continuity Policy and per email notification sent on&nbsp; August 14, 2026 , we would like to notify you of the upcoming data center expansion at the location listed below. This would be available anytime on or after October 13, 2026; 60 days or more from the date the first email notification is sent. Please update your firewall policy rules and any upstream Access Control Lists (ACLs) to allow the new IP address ranges to avoid any
-
----
-
-## Madrid III  Datacenter Scheduled Maintenance - IPv6 Enablement - zscloud.net
-- 公開: Fri, 14 Aug 2026 21:59:07 GMT
-- ステータス: Upcoming  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/posts/31191
-- 影響: 
-
-Zscaler will be enabling IPv6 at our Madrid III&nbsp;(MAD3) Data Center.&nbsp; During the maintenance window the services through MAD3 Data Center will be restarted in phases to minimize the service impact. Other Zscaler sites and Zscaler Services will continue to operate normally. Maintenance Window: Start time is August 18, 9:00 am PDT (August 18, 16:00 UTC) End time is August 18, 3:00 pm PDT (August 18, 22:00 UTC) Update 8/17/26: Adjusted timing
-
----
-
-## New York IV Datacenter Scheduled Maintenance - Service Expansion  - zscalertwo.net
-- 公開: Fri, 14 Aug 2026 21:48:45 GMT
-- ステータス: Upcoming  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/posts/31186
-- 影響: 
-
-Zscaler will be expanding its global data center footprint and performing maintenance at our New York IV (NYC4) data center. We expect minimal to no impact to services during the maintenance window.&nbsp; Please update your firewall policy rules and any upstream Access Control Lists to allow all IP addresses for this DC For more information, please visit: https://config.zscaler.com/zscalertwo.net/cenr Maintenance Window: Start time is August 18, 3:00 pm PDT (August 18, 22:00 UTC) End time is Aug
-
----
-
-## Chicago II Datacenter Scheduled Maintenance - Service Expansion  - zscaler.net
-- 公開: Fri, 14 Aug 2026 21:26:59 GMT
-- ステータス: Upcoming  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/posts/31181
-- 影響: 
-
-Zscaler will be expanding its global data center footprint and performing maintenance at our Chicago II (CHI2) data center. We expect minimal to no impact to services during the maintenance window.&nbsp; Please update your firewall policy rules and any upstream Access Control Lists to allow all IP addresses for this DC For more information, please visit: https://config.zscaler.com/zscaler.net/cenr Maintenance Window: Start time is August 17, 3:00 pm PDT (August 17, 22:00 UTC) End time is August 
-
----
-
-## Perth I (PER1) Datacenter Network Maintenance - zscloud.net
-- 公開: Fri, 14 Aug 2026 19:44:17 GMT
-- ステータス: Upcoming  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/posts/31176
-- 影響: 
-
-Zscaler will be performing hardware maintenance in the Perth I (PER1) Datacenter. Maintenance window, Start: 2026-08-18 00:00 AWST End: 2026-08-18 02:00 AWST (i.e. 2026-08-17 16:00 - 18:00 UTC) During the maintenance, traffic will failover to redundant devices in the same datacenter. However, intermittent connections and connection reestablishment will be observed.
-
----
-
-## Announcing withdrawal of select Linux Client Connector Debian packages - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zdxcloud.net, zpatwo.net
-- 公開: Fri, 14 Aug 2026 00:00:00 GMT
-- ステータス:   カテゴリ: Advisory
-- URL: https://trust.zscaler.com/posts/31171
-- 影響: 
-
-It was discovered recently that the expiry of a package-signing key was causing a recent set of Debian-based packages for certain Linux Client Connector versions to reject Zscaler package updates.&nbsp; As a result, any of the Debian installations for the&nbsp; Linux Client Connector versions listed below will not receive automatic upgrades of new versions starting with 4.2.2. Once that key expired, clients began treating package signatures as invalid, even for packages that were signed successf
-
----
-
-## Intermittent Failures Affecting Mobile Admin Public API Requests - zscaler.net
-- 公開: Fri, 14 Aug 2026 12:04:37 GMT
-- ステータス: Resolved  カテゴリ: Recent incident
-- URL: https://trust.zscaler.com/posts/31166
-- 影響: Customers may experience failures when accessing the Mobile Admin public API. There is no impact to the Mobile Admin UI or Zscaler Client Connector.
-
-Zscaler is investigating an issue causing intermittent failures for the Mobile Admin Public API service on zscaler.net. Some customers may experience failures when accessing the Mobile Admin public API. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Root Cause: Expired Cert Late
 
 ---

@@ -1,6 +1,42 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-08-18 23:14 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- ## Vancouver I Datacenter Scheduled Maintenance - Service Expansion  - zscalerthree.net
+- ## San Francisco IV Datacenter Scheduled Maintenance - IPv6 Enablement - zscaler.net, zscalerone.net, zscloud.net
+- ## Reminder Notification for Upcoming Data Center Expansions - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zpatwo.net
+- ## Reminder Notification for Additions to HUB IP Address Ranges - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, zdxcloud.net
+- ## Datacenter Expansion San Francisco IV (SJC4) - private.zscaler.com
+- ## Urgent Maintenance on Singapore IV, Singapore V datacenters - zscalertwo.net, zscalerthree.net
+- ## Datacenter Expansion Hongkong III (HKG3) - zpatwo.net
+**追加内容（抜粋）:**
+> - 公開: Tue, 18 Aug 2026 21:15:36 GMT
+> - ステータス: Upcoming  カテゴリ: Scheduled maintenance
+> - URL: https://trust.zscaler.com/posts/31296
+> - 影響:
+> Zscaler will be expanding its global data center footprint and performing maintenance at our Vancouver I (YVR1) data center. We expect minimal to no impact to services during the maintenance window.&nbsp; Please update your firewall policy rules and any upstream Access Control Lists to allow all IP addresses for this DC For more information, please visit: https://config.zscaler.com/zscalerthree.net/cenr Start time is August 19, 6:00 pm PDT (August 20, 1:00 UTC) End time is August 19, 11:00 pm PD
+> ...他 25 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-08-17 23:15 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
+## 2026-08-18 23:13 UTC — ZIA リリースノート
+
+ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)
+**追加内容（抜粋）:**
+> - 2026-08-17T07:30Z | https://help.zscaler.com/zia/release-upgrade-summary-2026
+> 最終更新: 2026-08-17T07:30Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-08-15 23:20 UTC~~
+> ~~> ソース: https://help.zscaler.com/zia/release-notes~~
+> ~~---~~
+
+---
 ## 2026-08-17 23:15 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
