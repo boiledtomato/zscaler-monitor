@@ -1,6 +1,78 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-08-20 23:37 UTC - ZIA リリースノート
+
+ソース: https://help.zscaler.com/zia/release-notes
+
+変更検出: コンテンツが前回から変更されました。
+コンテンツ冒頭: # ZIA Release Notes
+
+## Internet & SaaS (ZIA) Release Notes
+
+### Internet & SaaS Service Release Notes
+- [Release Upgrade Summary (2026)](/zia/release-upgrade-summary-2026)
+- [Release Upgrade Summary (2025)](/zia/release-upgrade-summary-2025)
+- [Release Upgrade Summary (2024)](/zia/release-upgrade-s
+
+---
+
+## 2026-08-20 23:37 UTC - ZPA リリースノート
+
+ソース: https://help.zscaler.com/zpa/release-notes
+
+変更検出: コンテンツが前回から変更されました。
+コンテンツ冒頭: # ZPA Release Notes
+
+## Internet & SaaS (ZIA) Release Notes
+
+### Internet & SaaS Service Release Notes
+- [Release Upgrade Summary (2026)](/zia/release-upgrade-summary-2026)
+- [Release Upgrade Summary (2025)](/zia/release-upgrade-summary-2025)
+- [Release Upgrade Summary (2024)](/zia/release-upgrade-s
+
+---
+
+## 2026-08-20 23:37 UTC - ZDX リリースノート
+
+ソース: https://help.zscaler.com/zdx/release-notes
+
+変更検出: コンテンツが前回から変更されました。
+コンテンツ冒頭: # ZDX Release Notes
+
+## Internet & SaaS (ZIA) Release Notes
+
+### Internet & SaaS Service Release Notes
+- [Release Upgrade Summary (2026)](/zia/release-upgrade-summary-2026)
+- [Release Upgrade Summary (2025)](/zia/release-upgrade-summary-2025)
+- [Release Upgrade Summary (2024)](/zia/release-upgrade-s
+
+---
+
+## 2026-08-20 23:37 UTC - セキュリティアドバイザリ
+
+ソース: https://trust.zscaler.com/
+
+変更検出: コンテンツが前回から変更されました。
+コンテンツ冒頭: # Zscaler Security Advisories (trust.zscaler.com)
+
+## Cloud Status (32 clouds)
+- zscaler.net (zia) - OK
+- zscalerone.net (zia) - ISSUES: {'core_cloud_services': '1', 'datacenter': '1', 'premium_datacenter': 0, 'business_continuity_datacenters': 0}
+- zscalertwo.net (zia) - OK
+- zscloud.net (zia) - OK
+
+---
+
+## 2026-08-20 23:37 UTC - 製品アップデート
+
+ソース: https://www.zscaler.com/products
+
+変更検出: コンテンツが前回から変更されました。
+コンテンツ冒頭: Products &amp; Solutions | Zscaler This site uses JavaScript to provide a number of functions, to use this site please enable JavaScript in your browser. Open Search ThreatLabz Customer Success Stories Careers Partners Support Show Contact Us Get in touch 1-408-533-0288 Show Sign In Zscaler Cloud Po
+
+---
+
 ## 2026-08-19 23:15 UTC — 製品アップデート
 
 ソース: [https://www.zscaler.com/products](https://www.zscaler.com/products)
