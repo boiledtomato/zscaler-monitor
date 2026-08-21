@@ -1,148 +1,54 @@
 # ZPA リリースノート
 
-> 最終更新: 2026-08-20 23:32 UTC  
+> 最終更新: 2026-08-21 23:14 UTC  
 > ソース: https://help.zscaler.com/zpa/release-notes
 
 ---
 
-# ZPA Release Notes
+# ZPA リリースノート ページ一覧 (sitemap)
 
-## Internet & SaaS (ZIA) Release Notes
+- 2026-08-20T15:40Z | https://help.zscaler.com/zpa/app-connector-release-summary-2026
+- 2026-08-20T15:39Z | https://help.zscaler.com/zpa/release-upgrade-summary-2026
+- 2026-08-20T15:30Z | https://help.zscaler.com/zpa/network-connector-release-summary-2026
+- 2026-08-20T15:28Z | https://help.zscaler.com/zpa/private-cloud-controller-release-summary-2026
+- 2026-08-20T15:25Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026
+- 2026-08-19T14:50Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2025
+- 2026-07-28T10:45Z | https://help.zscaler.com/zpa/release-upgrade-summary-2025
+- 2026-07-01T16:00Z | https://help.zscaler.com/zpa/release-upgrade-summary-2024
+- 2026-07-01T14:20Z | https://help.zscaler.com/zpa/release-upgrade-summary-2022
+- 2026-07-01T13:05Z | https://help.zscaler.com/zpa/release-upgrade-summary-2023
+- 2026-06-23T17:29Z | https://help.zscaler.com/zpa/private-cloud-controller-release-summary-2025
+- 2026-06-23T17:26Z | https://help.zscaler.com/zpa/app-connector-release-summary-2025
+- 2026-06-23T17:25Z | https://help.zscaler.com/zpa/network-connector-release-summary-2025
+- 2024-03-03T06:06Z | https://help.zscaler.com/zpa/app-connector-release-summary-2024
+- 2024-03-03T06:06Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2024
+- 2023-11-03T09:51Z | https://help.zscaler.com/zpa/release-upgrade-summary-2019
+- 2022-12-19T18:57Z | https://help.zscaler.com/zpa/app-connector-release-summary-2023
+- 2022-12-19T18:47Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2023
+- 2022-03-24T16:30Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2021
+- 2022-02-27T06:00Z | https://help.zscaler.com/zpa/app-connector-release-summary-2022
+- 2022-02-27T06:00Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2022
+- 2021-11-29T14:41Z | https://help.zscaler.com/zpa/release-upgrade-summary-2021
+- 2021-06-23T17:06Z | https://help.zscaler.com/zpa/release-upgrade-summary-2020
+- 2021-05-01T07:00Z | https://help.zscaler.com/zpa/app-connector-release-summary-2021
+- 2020-11-16T10:40Z | https://help.zscaler.com/zpa/app-connector-release-summary-2020
+- 2020-10-23T14:03Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2020
 
-### Internet & SaaS Service Release Notes
-- [Release Upgrade Summary (2026)](/zia/release-upgrade-summary-2026)
-- [Release Upgrade Summary (2025)](/zia/release-upgrade-summary-2025)
-- [Release Upgrade Summary (2024)](/zia/release-upgrade-summary-2024)
-- [Release Upgrade Summary (2023)](/zia/release-upgrade-summary-2023)
-- [Release Upgrade Summary (2022)](/zia/release-upgrade-summary-2022)
-- [Release Upgrade Summary (2021)](/zia/release-upgrade-summary-2021)
-- [Release Upgrade Summary (2020)](/zia/release-upgrade-summary-2020)
-- [Release Upgrade Summary (2019)](/zia/release-upgrade-summary-2019)
+## https://help.zscaler.com/zpa/app-connector-release-summary-2026
+最終更新: 2026-08-20T15:40Z
 
-### Zscaler Endpoint DLP Release Notes
-- [Zscaler Endpoint DLP Release Summary (2026)](/zia/zscaler-endpoint-dlp-release-summary-2026)
 
-## Private Access (ZPA) Release Notes
+## https://help.zscaler.com/zpa/release-upgrade-summary-2026
+最終更新: 2026-08-20T15:39Z
 
-### ZPA Service Release Notes
-- [Release Upgrade Summary (2026)](/zpa/release-upgrade-summary-2026)
-- [Release Upgrade Summary (2025)](/zpa/release-upgrade-summary-2025)
-- [Release Upgrade Summary (2024)](/zpa/release-upgrade-summary-2024)
-- [Release Upgrade Summary (2023)](/zpa/release-upgrade-summary-2023)
-- [Release Upgrade Summary (2022)](/zpa/release-upgrade-summary-2022)
-- [Release Upgrade Summary (2021)](/zpa/release-upgrade-summary-2021)
-- [Release Upgrade Summary (2020)](/zpa/release-upgrade-summary-2020)
-- [Release Upgrade Summary (2019)](/zpa/release-upgrade-summary-2019)
 
-### ZPA App Connector Release Notes
-- [App Connector Release Summary (2026)](/zpa/app-connector-release-summary-2026)
-- [App Connector Release Summary (2025)](/zpa/app-connector-release-summary-2025)
-- [App Connector Release Summary (2024)](/zpa/app-connector-release-summary-2024)
-- [App Connector Release Summary (2023)](/zpa/app-connector-release-summary-2023)
-- [App Connector Release Summary (2022)](/zpa/app-connector-release-summary-2022)
-- [App Connector Release Summary (2021)](/zpa/app-connector-release-summary-2021)
-- [App Connector Release Summary (2020)](/zpa/app-connector-release-summary-2020)
+## https://help.zscaler.com/zpa/network-connector-release-summary-2026
+最終更新: 2026-08-20T15:30Z
 
-### ZPA Private Service Edge Release Notes
-- [ZPA Private Service Edge Release Summary (2026)](/zpa/zpa-private-service-edge-release-summary-2026)
-- [ZPA Private Service Edge Release Summary (2025)](/zpa/zpa-private-service-edge-release-summary-2025)
-- [ZPA Private Service Edge Release Summary (2024)](/zpa/zpa-private-service-edge-release-summary-2024)
-- [ZPA Private Service Edge Release Summary (2023)](/zpa/zpa-private-service-edge-release-summary-2023)
-- [ZPA Private Service Edge Release Summary (2022)](/zpa/zpa-private-service-edge-release-summary-2022)
-- [ZPA Private Service Edge Release Summary (2021)](/zpa/zpa-private-service-edge-release-summary-2021)
-- [ZPA Private Service Edge Release Summary (2020)](/zpa/zpa-private-service-edge-release-summary-2020)
 
-### ZPA Private Cloud Controller Release Notes
-- [Private Cloud Controller Release Summary (2026)](/zpa/private-cloud-controller-release-summary-2026)
-- [Private Cloud Controller Release Summary (2025)](/zpa/private-cloud-controller-release-summary-2025)
+## https://help.zscaler.com/zpa/private-cloud-controller-release-summary-2026
+最終更新: 2026-08-20T15:28Z
 
-### ZPA Network Connector Release Notes
-- [Network Connector Release Summary (2026)](/zpa/network-connector-release-summary-2026)
-- [Network Connector Release Summary (2025)](/zpa/network-connector-release-summary-2025)
 
-## Digital Experience Monitoring (ZDX) Release Notes
-
-## Workflow Automation Release Notes
-
-## Data Security Posture Management (DSPM) Release Notes
-
-## Zscaler Client Connector Release Notes
-
-### Zscaler Client Connector Service Release Notes
-- [Release Upgrade Summary (2026)](/zscaler-client-connector/release-upgrade-summary-2026)
-- [Release Upgrade Summary (2025)](/zscaler-client-connector/release-upgrade-summary-2025)
-- [Release Upgrade Summary (2024)](/zscaler-client-connector/release-upgrade-summary-2024)
-- [Release Upgrade Summary (2023)](/zscaler-client-connector/release-upgrade-summary-2023)
-- [Release Upgrade Summary (2022)](/zscaler-client-connector/release-upgrade-summary-2022)
-- [Release Upgrade Summary (2021)](/zscaler-client-connector/release-upgrade-summary-2021)
-- [Release Upgrade Summary (2020)](/zscaler-client-connector/release-upgrade-summary-2020)
-
-### Zscaler Client Connector App Release Notes (per OS)
-- [Client Connector App Release Summary (2026)](/zscaler-client-connector/client-connector-app-release-summary-2026)
-- [Client Connector App Release Summary (2025)](/zscaler-client-connector/client-connector-app-release-summary-2025)
-- [Client Connector App Release Summary (2024)](/zscaler-client-connector/client-connector-app-release-summary-2024)
-- [Client Connector App Release Summary (2023)](/zscaler-client-connector/client-connector-app-release-summary-2023)
-- [Client Connector App Release Summary (2022)](/zscaler-client-connector/client-connector-app-release-summary-2022)
-- [Client Connector App Release Summary (2021)](/zscaler-client-connector/client-connector-app-release-summary-2021)
-- [Client Connector App Release Summary (2020)](/zscaler-client-connector/client-connector-app-release-summary-2020)
-
-### Zscaler Client Connector - ZDX Module Release Notes (per OS)
-- [ZDX Module Release Summary (2026)](/zscaler-client-connector/zdx-module-release-summary-2026)
-- [ZDX Module Release Summary (2025)](/zscaler-client-connector/zdx-module-release-summary-2025)
-- [ZDX Module Release Summary (2024)](/zscaler-client-connector/zdx-module-release-summary-2024)
-- [ZDX Module Release Summary (2023)](/zscaler-client-connector/zdx-module-release-summary-2023)
-- [ZDX Module Release Summary (2022)](/zscaler-client-connector/zdx-module-release-summary-2022)
-- [ZDX Module Release Summary (2021)](/zscaler-client-connector/zdx-module-release-summary-2021)
-
-## Zscaler Cloud & Branch Connector Release Notes
-
-### Zscaler Cloud & Branch Connector Service Release Notes
-- [Release Upgrade Summary (2026)](/cloud-branch-connector/release-upgrade-summary-2026)
-- [Release Upgrade Summary (2025)](/cloud-branch-connector/release-upgrade-summary-2025)
-- [Release Upgrade Summary (2024)](/cloud-branch-connector/release-upgrade-summary-2024)
-- [Release Upgrade Summary (2023)](/cloud-branch-connector/release-upgrade-summary-2023)
-- [Release Upgrade Summary (2022)](/cloud-branch-connector/release-upgrade-summary-2022)
-- [Release Upgrade Summary (2021)](/cloud-branch-connector/release-upgrade-summary-2021)
-
-### Zscaler Cloud & Branch Connector VDI Release Notes (per OS)
-- [Zscaler Client Connector for VDI Release Summary (2026)](/cloud-branch-connector/zscaler-client-connector-vdi-release-summary-2026)
-- [Zscaler Client Connector for VDI Release Summary (2025)](/cloud-branch-connector/zscaler-client-connector-vdi-release-summary-2025)
-- [Zscaler Client Connector for VDI Release Summary (2024)](/cloud-branch-connector/zscaler-client-connector-vdi-release-summary-2024)
-
-## Zscaler Cellular Release Notes
-
-## Zero Trust Branch Release Notes
-
-## Unified Vulnerability Management (UVM) Release Notes
-
-## Asset Exposure Management (AEM) Release Notes
-
-## Deception Release Notes
-
-## Breach Predictor Release Notes
-
-## External Attack Surface Management (EASM) Release Notes
-
-## Risk360 Release Notes
-
-## Business Insights Release Notes
-
-## Authentication Service Release Notes
-
-## AI Asset Management Release Notes
-
-## Secure Access to AI Apps Release Notes
-
-## Secure AI Apps & Infrastructure Release Notes
-
-## Zscaler SDK (ZSDK) for Mobile Apps Release Notes
-
-### ZSDK Service Release Notes
-- [Release Upgrade Summary (2026)](/zsdk/release-upgrade-summary-2026)
-- [Release Upgrade Summary (2025)](/zsdk/release-upgrade-summary-2025)
-
-### ZSDK Platform Release Notes
-- [ZSDK Platform Release Upgrade Summary (2025)](/zsdk/zsdk-platform-release-upgrade-summary-2025)
-
-## Latest ZPA 2026 Release Notes (excerpt)
-This article provides a summary of all new features and enhancements per Zscaler cloud for the ZPA Admin Portal. To see scheduled maintenance updates for your cloud, visit the Trust Portal . When Zscaler cloud and Admin Portal updates are deploying, some functionality will not be available until the deployment process completes.
+## https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026
+最終更新: 2026-08-20T15:25Z

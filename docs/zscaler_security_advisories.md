@@ -1,124 +1,208 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-08-20 23:37 UTC  
+> 最終更新: 2026-08-21 23:15 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
 
-# Zscaler Security Advisories (trust.zscaler.com)
+# Zscaler Trust - インシデント/アドバイザリ RSS
 
-## Cloud Status (32 clouds)
-- zscaler.net (zia) - OK
-- zscalerone.net (zia) - ISSUES: {'core_cloud_services': '1', 'datacenter': '1', 'premium_datacenter': 0, 'business_continuity_datacenters': 0}
-- zscalertwo.net (zia) - OK
-- zscloud.net (zia) - OK
-- zscalerthree.net (zia) - OK
-- private.zscaler.com (zpa) - OK
-- zpatwo.net (zpa) - OK
-- zpabeta.net (zpa) - ISSUES: {'core_cloud_services': '1', 'datacenter': '1', 'premium_datacenter': 0, 'business_continuity_datacenters': 0}
-- zsdkone.net (zsdk) - ISSUES: {'core_cloud_services': '1', 'datacenter': '1', 'premium_datacenter': 0, 'business_continuity_datacenters': 0}
-- zdxcloud.net (zdx) - ISSUES: {'core_cloud_services': '1', 'datacenter': '0', 'premium_datacenter': 0, 'business_continuity_datacenters': 0}
-- zpccloud.net (zpc) - ISSUES: {'core_cloud_services': '1', 'datacenter': '0', 'premium_datacenter': 0, 'business_continuity_datacenters': 0}
-- eu.zpccloud.net (zpc) - ISSUES: {'core_cloud_services': '1', 'datacenter': '0', 'premium_datacenter': 0, 'business_continuity_datacenters': 0}
-- app.eu.zsdpc.net (zdspm) - ISSUES: {'core_cloud_services': '1', 'datacenter': '0', 'premium_datacenter': 0, 'business_continuity_datacenters': 0}
-- app.zsdpc.net (zdspm) - ISSUES: {'core_cloud_services': '1', 'datacenter': '0', 'premium_datacenter': 0, 'business_continuity_datacenters': 0}
-- zscalerrisk.net (risk360) - ISSUES: {'core_cloud_services': '1', 'datacenter': '0', 'premium_datacenter': 0, 'business_continuity_datacenters': 0}
-- zslogin.net (zid) - ISSUES: {'core_cloud_services': '1', 'datacenter': '0', 'premium_datacenter': 0, 'business_continuity_datacenters': 0}
-- admin.zscaleranalytics.net (business_insights) - ISSUES: {'core_cloud_services': '1', 'datacenter': '0', 'premium_datacenter': 0, 'business_continuity_datacenters': 0}
-- app.avalor.io (sop) - ISSUES: {'core_cloud_services': '1', 'datacenter': '0', 'premium_datacenter': 0, 'business_continuity_datacenters': 0}
-- app.eu.avalor.io (sop) - ISSUES: {'core_cloud_services': '1', 'datacenter': '0', 'premium_datacenter': 0, 'business_continuity_datacenters': 0}
-- app.aps.avalor.io (sop) - ISSUES: {'core_cloud_services': '1', 'datacenter': '0', 'premium_datacenter': 0, 'business_continuity_datacenters': 0}
-- ztb-us-m2 (ztb) - ISSUES: {'core_cloud_services': '1', 'datacenter': '0', 'premium_datacenter': 0, 'business_continuity_datacenters': 0}
-- ztb-us-m3 (beta) (ztb) - ISSUES: {'core_cloud_services': '1', 'datacenter': '0', 'premium_datacenter': 0, 'business_continuity_datacenters': 0}
-- ztb-us-m4 (ztb) - ISSUES: {'core_cloud_services': '1', 'datacenter': '0', 'premium_datacenter': 0, 'business_continuity_datacenters': 0}
-- ztb-us-m7 (ztb) - ISSUES: {'core_cloud_services': '1', 'datacenter': '0', 'premium_datacenter': 0, 'business_continuity_datacenters': 0}
-- ztb-euc-m1 (ztb) - ISSUES: {'core_cloud_services': '1', 'datacenter': '0', 'premium_datacenter': 0, 'business_continuity_datacenters': 0}
-- ztb-in-m1 (ztb) - ISSUES: {'core_cloud_services': '1', 'datacenter': '0', 'premium_datacenter': 0, 'business_continuity_datacenters': 0}
-- pulsar (ztb) - ISSUES: {'core_cloud_services': '1', 'datacenter': '0', 'premium_datacenter': 0, 'business_continuity_datacenters': 0}
-- quasar (ztb) - ISSUES: {'core_cloud_services': '1', 'datacenter': '0', 'premium_datacenter': 0, 'business_continuity_datacenters': 0}
-- prod3 (ztb) - ISSUES: {'core_cloud_services': '1', 'datacenter': '0', 'premium_datacenter': 0, 'business_continuity_datacenters': 0}
-- prod4 (ztb) - ISSUES: {'core_cloud_services': '1', 'datacenter': '0', 'premium_datacenter': 0, 'business_continuity_datacenters': 0}
-- prod5 (ztb) - ISSUES: {'core_cloud_services': '1', 'datacenter': '0', 'premium_datacenter': 0, 'business_continuity_datacenters': 0}
-- prod6 (ztb) - ISSUES: {'core_cloud_services': '1', 'datacenter': '0', 'premium_datacenter': 0, 'business_continuity_datacenters': 0}
+## San Francisco IV Datacenter Scheduled Maintenance - IPv6 Enablement - zscaler.net, zscalerone.net, zscloud.net
+- 公開: Fri, 21 Aug 2026 21:15:44 GMT
+- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zscaler.net/posts/31381
+- 影響: 
 
-## Security Advisories (Page 1 of 3)
+Zscaler will be enabling IPv6 at our San Francisco IV (SJC4) Data Center.&nbsp; During the maintenance window the services through SJC4 Data Center will be restarted in phases to minimize the service impact. Other Zscaler sites and Zscaler Services will continue to operate normally. Maintenance Window: Start time is August 24, 5:00 pm PDT (August 25, 00:00 UTC) End time is August 24, 11:00 pm PDT (August 25, 6:00 UTC)
 
-### [31171] Announcing withdrawal of select Linux Client Connector Debian packages
-Date: Fri, 14 Aug 2026
-Summary: It was discovered recently that the expiry of a package-signing key was causing a recent set of Debian-based packages for certain Linux Client Connector versions to reject Zscaler package updates.&nbs
+---
 
-### [31146] Planned Upgrade to Experience Center | Action Required for Eligible Customers
-Date: Wed, 12 Aug 2026
-Summary: Starting Sep 6 , a subset of Zscaler customers are scheduled for an automatic upgrade to Experience Center, a unified console for managing Zscaler products, policies, and security analytics. This has 
+## Urgent Scheduled Maintenance - zscaler.net
+- 公開: Fri, 21 Aug 2026 17:04:50 GMT
+- ステータス: In Progress  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zscaler.net/posts/31376
+- 影響: 
 
-### [31101] Update to AI/ML Content Categorization for Miscellaneous and Unknown URLs
-Date: Mon, 10 Aug 2026
-Summary: Context-Aware Model Upgrade To improve classification accuracy and expand categorization coverage for URLs that are not currently categorized in the Zscaler primary database, Zscaler has updated the e
+The Zscaler Site Reliability Engineering team will be performing an urgent maintenance on zscaler.net cloud. This maintenance is scheduled for&nbsp; Saturday &nbsp;at 06:00 AM Pacific Time on August 22, 2026 ( Saturday , August 22 2026 01:00 PM UTC), and can take up to 4 hours to complete. During this maintenance period, the Zscaler Client Connector Portal might get impacted. As a result, access to policy management and reporting will not be available. Existing devices that are already enrolled 
 
-### [30781] Required Action: Opt Out of Microsoft Azure Network Adapter (MANA) for Zscaler Cloud Connectors Deployed in Microsoft Azure
-Date: Sat, 18 Jul 2026
-Summary: Microsoft is currently deploying the&nbsp; Microsoft Azure Network Adapter (MANA) , a next-generation network interface included within Azure Boost, across existing Azure virtual machine (VM) size fam
+---
 
-### [30761] Rare Windows System Crash During Upgrade or Uninstall of Zscaler Client Connector 4.8 Builds Prior to 4.8.0.190
-Date: Mon, 20 Jul 2026
-Summary: Zscaler has identified an issue in the ZCC driver included with Windows ZCC 4.8 builds prior to 4.8.0.190. The issue may be triggered when the impacted driver is replaced or removed during a ZCC upgra
+## Service Degradation on Zscaler Business Insights - admin.zscaleranalytics.net
+- 公開: Fri, 21 Aug 2026 14:57:41 GMT
+- ステータス: Resolved  カテゴリ: Recent incident
+- URL: https://trust.zscaler.com/admin.zscaleranalytics.net/posts/31371
+- 影響: Customers using Zscaler Business Insights may be unable to retrieve logs or reports from the Workspace and Analytics/Data Explorer sections due to internal UI errors, resulting in “No Data” messages and error banners.
 
-### [30726] Zscaler Help Portal
-Date: Thu, 16 Jul 2026
-Summary: Zscaler has identified an issue affecting the Zscaler Help Portal. The root cause has been traced to an ongoing Amazon CloudFront incident. We will provide a further update as soon as more information
+Zscaler has identified an issue affecting the&nbsp;admin.zscaleranalytics.net&nbsp;cloud. Customers accessing Zscaler Business Insights may encounter internal UI errors, including&nbsp; “ No Data ” &nbsp;messages and error banners in the&nbsp;Workspace&nbsp;and&nbsp;Analytics/Data Explorer&nbsp;sections when attempting to retrieve logs or reports. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscale
 
-### [30706]  Intermittent loss of connectivity on macOS Tahoe and Sequoia with route-based traffic interception
-Date: Wed, 15 Jul 2026
-Summary: What is the issue?: The native macOS firewall on Tahoe and&nbsp;Sequoia can significantly delay processing and intermittently drop Zscaler Client Connector traffic after device boot-up and wake/sleep 
+---
 
-### [30641] Product Name Update: ZIdentity is now Authentication Service
-Date: Fri, 10 Jul 2026
-Summary: What's Changing? Zscaler is renaming ZIdentity to Authentication Service . This is a name change only , with no changes to product functionality . Why Are We Making This Change? The name Authenticatio
+## Reporting and Logging Issue - zscalerthree.net
+- 公開: Fri, 21 Aug 2026 07:50:44 GMT
+- ステータス: Resolved  カテゴリ: Recent incident
+- URL: https://trust.zscaler.com/zscalerthree.net/posts/31366
+- 影響: Subset of customers might face issues with logging and reporting.
 
-### [30596] Changes in exclusion method for Zoom and Teams on iOS
-Date: Wed, 08 Jul 2026
-Summary: As a part of Zscaler’s continuous product improvement process, we are making a change to how the built-in exclusions for Zoom and Teams work on iOS. Today these exclusions are processed inside Zscaler
+Zscaler has identified a reporting and logging issue affecting the zscalerthree.net cloud. A subset of customers may experience delays or issues with logging and reporting. &nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Root Cause: Zscaler failed over services to a health
 
-### [30481] End-of-life for ZscalerOS 24
-Date: Thu, 02 Jul 2026
-Summary: Dear Zscaler Customer, In accordance with our&nbsp; End-of-Life (EOL) policy, Zscaler is formally announcing the EOL of ZscalerOS 24 (ZSOS24) effective December 31, 2026. To ensure continuous security
+---
 
-### [30446] Removal of Custom IP-Based Application Bypass feature from iOS App Profiles in Experience Center and Client Connector Admin Port
-Date: Tue, 30 Jun 2026
-Summary: Zscaler has removed the Custom IP-Based Application Bypass feature dropdown in iOS App Profiles as the feature isn’t supported by Zscaler Client Connector on iOS devices at this time. Custom IP-Based 
+## ZTW Cloud Connector: Intermittent ZPA Access Impact for Some VDI/AVD Users - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- 公開: Thu, 20 Aug 2026 16:25:32 GMT
+- ステータス: Monitoring  カテゴリ: Recent incident
+- URL: https://trust.zscaler.com/zscaler.net/posts/31361
+- 影響: A subset of users connecting through ZTW Cloud Connectors from VDI/AVD environments may be unable to access certain ZPA applications intermittently.
 
-### [30191]  Experience Center Default Sign-on
-Date: Wed, 17 Jun 2026
-Summary: &nbsp;What&nbsp; Zscaler is standardizing the post-login landing experience so that tenants move to the Zscaler Experience Center as the steady-state destination instead of the Authentication Service.
+Zscaler is aware of and investigating an intermittent issue affecting a subset of users connecting through ZTW Cloud Connectors from VDI/AVD environments. Impacted users may be unable to access certain ZPA private applications, even though DNS resolution completes successfully. Zscaler has identified an interim mitigation to clear impacted sessions and help restore access while a permanent fix is being developed. Customers experiencing this issue should contact Zscaler Support for assistance wit
 
-### [29306] Security Advisory: Linux Kernel Vulnerability (CVE-2026-31431)
-Date: Fri, 01 May 2026
-Summary: On April 29, 2026, Zscaler was made aware of CVE-2026-31431, a Local Privilege Escalation (LPE) vulnerability affecting Linux kernel versions 4.14 and later. Zscaler has addressed the vulnerability ac
+---
 
-### [29261] Cellular Portal Migration to Experience Center
-Date: Thu, 30 Apr 2026
-Summary: Zscaler Cellular Portal is Being disabled—Move to Experience Center by May 15, 2026 &nbsp; What is changing? Effective May 15, 2026, Zscaler is disabling the Zscaler Cellular Portal at &nbsp;https://a
+## Administration UI and User Authentication Issues - zscalertwo.net
+- 公開: Thu, 20 Aug 2026 14:43:25 GMT
+- ステータス: Resolved  カテゴリ: Recent incident
+- URL: https://trust.zscaler.com/zscalertwo.net/posts/31356
+- 影響: 
 
-### [29186] Operational Resilience Update: Managing Subsea Cable Risk in the Persian Gulf and Beyond
-Date: Thu, 23 Apr 2026
-Summary: Current geopolitical conditions have elevated the risk of potential disruptions to subsea cable infrastructure in the Persian Gulf region. If such events occur, we would expect the primary impact to b
+Zscaler has detected an issue with the administration UI and user authentication on its zscalertwo.net Cloud. Customers may encounter issues with Administation UI login, Authentication, User Policies, Zscaler Client Connector portal, and SCIM auto-provisioning.&nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be pos
 
-### [29121] Zscaler Client Connector for VDI Deployment Issue
-Date: Fri, 17 Apr 2026
-Summary: Zscaler detected an issue where the existing access token that was generated before April 11 can not be used to deploy Zscaler Client Connector. As a workaround customers can create a new access token
+---
 
-### [29096] UI Node will stop supporting Public API Traffic
-Date: Thu, 16 Apr 2026
-Summary: Zscaler is announcing the official retirement of UI nodes for servicing Public API traffic. Currently, some Public API traffic lands on UI nodes instead of the designated Zscaler API (ZSAPI) nodes.&nb
+## China-region ZPA App Connector connectivity issue - private.zscaler.com
+- 公開: Thu, 20 Aug 2026 11:49:04 GMT
+- ステータス: Monitoring  カテゴリ: Recent incident
+- URL: https://trust.zscaler.com/private.zscaler.com/posts/31351
+- 影響: Affected customers may experience application access failures, including AC connection setup timeout or cannot connect to broker errors. 
 
-### [29021] Performance Degradation Impacting Case Creation
-Date: Tue, 14 Apr 2026
-Summary: Zscaler is currently aware of a performance degradation affecting case creation, associated with a third-party service provider. At this time, core Zscaler services, including the data plane and contr
+Zscaler has identified an issue affecting ZPA App Connector connectivity in the China region, impacting services through the Shanghai and Beijing data centers. Affected customers may experience application access failures, including AC connection setup timeout or cannot connect to broker errors.&nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes
 
-### [28896] Delay in Processing Inbound Emails to Support Cases
-Date: Wed, 08 Apr 2026
-Summary: Zscaler is aware of an issue impacting delay in processing inbound emails to support cases. Zscaler services are operating normally; delays are currently impacting the synchronization of inbound email
+---
 
-### [28816] Axios Supply Chain Attack Update
-Date: Fri, 03 Apr 2026
-Summary: Zscaler has analyzed the supply chain compromises affecting the Axios npm packages.&nbsp; Analysis confirms no impact to Zscaler platforms, products, or internal systems . As a best practice, customer
+## Datacenter Expansion San Francisco IV (SJC4) - zpatwo.net
+- 公開: Thu, 20 Aug 2026 10:14:46 GMT
+- ステータス: Completed  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zpatwo.net/posts/31346
+- 影響: 
+
+As part of our regular expansion of capacity, we are adding ZPA Public Service Edge nodes to our existing data center in San Francisco IV (SJC4). If you restrict outbound firewall access, please ensure you have added the complete set of published IPs in the URL below https://config.zscaler.com/zpatwo.net/zpa Update - Thu, 20 Aug 2026 17:04:14 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions.
+
+---
+
+## Urgent Maintenance - zscaler.net
+- 公開: Thu, 20 Aug 2026 05:14:45 GMT
+- ステータス: Completed  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zscaler.net/posts/31341
+- 影響: 
+
+The Zscaler Site Reliability Engineering team will be performing an urgent maintenance on zscaler.net cloud. This maintenance is scheduled for Wednesday at 10:30 PM Pacific Time on August 19, 2026 (Thursday, August 20, 2026 05:30 AM UTC), and can take up to 30 minutes to complete. During the maintenance, the ZIA Admin Portal, and access to policy management will not be available. A brief impact to new user authentication might occur. However, all the logs that are collected during this period wi
+
+---
+
+## ZPA connectivity issues in China region - private.zscaler.com
+- 公開: Thu, 20 Aug 2026 04:36:33 GMT
+- ステータス: Resolved  カテゴリ: Recent incident
+- URL: https://trust.zscaler.com/private.zscaler.com/posts/31336
+- 影響: Customers in China region are being redirected to ZPA Public Service Edges outside China, causing performance degradation and connectivity issues on ZPA and SIPA.
+
+Zscaler is investigating an issue with its Beijing III, Shanghai I datacenter on the private.zscaler.com cloud and is currently investigating the matter.&nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Root Cause: Root cause of this issue is attributed to a recent configura
+
+---
+
+## Mexico City I and Mexico City II - Data Center Issue - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com
+- 公開: Wed, 19 Aug 2026 22:58:29 GMT
+- ステータス: Resolved  カテゴリ: Recent incident
+- URL: https://trust.zscaler.com/zscaler.net/posts/31331
+- 影響: Customers may experience intermittent increases in latency and degraded performance.
+
+Zscaler is investigating a network connectivity issue affecting some traffic associated with our Mexico City I and Mexico City II Data Centers. Customers may experience intermittent increases in latency and degraded performance. If you’re currently experiencing any traffic impacting issues please failover to your secondary DC or any other alternate DC. For more information, please refer to the following support article. &nbsp; We will provide further updates as additional information becomes ava
+
+---
+
+## Perth I (PER1) Datacenter Network Maintenance - zscloud.net
+- 公開: Wed, 19 Aug 2026 19:51:10 GMT
+- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zscloud.net/posts/31326
+- 影響: 
+
+Zscaler will be performing hardware maintenance in the Perth I (PER1) Datacenter. Maintenance window, Start: 2026-08-27 18:00 AWST End: 2026-08-27 21:00 AWST (i.e. 2026-08-27 10:00 - 13:00 UTC) During the maintenance, traffic will failover to redundant devices in the same datacenter. However, intermittent connections and connection reestablishment will be observed.
+
+---
+
+## Datacenter Expansion Singapore V (SIN5) - private.zscaler.com
+- 公開: Wed, 19 Aug 2026 17:26:26 GMT
+- ステータス: In Progress  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/private.zscaler.com/posts/31321
+- 影響: 
+
+As part of our regular expansion of capacity, we are adding ZPA Public Service Edge nodes to our existing data center in Singapore V (SIN5). If you restrict outbound firewall access, please ensure you have added the complete set of published IPs in the URL below https://config.zscaler.com/private.zscaler.com/zpa
+
+---
+
+## Atlanta II (ATL2) Datacenter Network Maintenance - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com
+- 公開: Wed, 19 Aug 2026 11:50:32 GMT
+- ステータス: Completed  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zscaler.net/posts/31316
+- 影響: During the maintenance, traffic will failover to redundant devices in the same datacenter, however intermittent connections and connection reestablishment may be observed.
+
+Zscaler will be performing hardware maintenance in the Atlanta II (ATL2) Datacenter. Maintenance window, Start: 2026-08-21 03:00 EDT End: 2026-08-21 07:00 EDT (i.e. 2026-08-21 07:00 - 11:00 UTC) Update - Fri, 21 Aug 2026 09:51:34 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions.
+
+---
+
+## Unexpected Changes to Data Matching and Aggregation Behavior - app.avalor.io, app.eu.avalor.io, app.aps.avalor.io
+- 公開: Wed, 19 Aug 2026 08:58:37 GMT
+- ステータス: Resolved  カテゴリ: Recent incident
+- URL: https://trust.zscaler.com/app.avalor.io/posts/31311
+- 影響: Some customers may experience changes in how incoming data is matched, merged, and aggregated, which could lead to differences in normalized results, aggregated outputs, and first-seen or other derived values.
+
+Zscaler has detected an issue with its app.avalor.io, app.eu.avalor.io, app.aps.avalor.io Cloud. Some customers may experience changes in how incoming data is matched, merged, and aggregated, which could lead to differences in normalized results, aggregated outputs, and first-seen or other derived values. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status cha
+
+---
+
+## Datacenter Expansion Capetown IV (CPT4) - zpatwo.net
+- 公開: Wed, 19 Aug 2026 05:53:52 GMT
+- ステータス: In Progress  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zpatwo.net/posts/31306
+- 影響: 
+
+As part of our regular expansion of capacity, we are adding ZPA Public Service Edge nodes to our new data center in EMEA, Capetown IV (CPT4). If you restrict outbound firewall access, please ensure you have added the complete set of published IPs in the URL below https://config.zscaler.com/zpatwo.net/zpa
+
+---
+
+## New Datacenter Expansion Milan IV (MIL4) - zpatwo.net
+- 公開: Wed, 19 Aug 2026 03:53:26 GMT
+- ステータス: In Progress  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zpatwo.net/posts/31301
+- 影響: 
+
+As part of our regular expansion of capacity, we are adding ZPA Public Service Edge nodes to our new data center in Milan IV (MIL4). If you restrict outbound firewall access, please ensure you have added the complete set of published IPs in the URL below https://config.zscaler.com/zpatwo.net/zpa
+
+---
+
+## Vancouver I Datacenter Scheduled Maintenance - Service Expansion  - zscalerthree.net
+- 公開: Tue, 18 Aug 2026 21:15:36 GMT
+- ステータス: Completed  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zscalerthree.net/posts/31296
+- 影響: 
+
+Zscaler will be expanding its global data center footprint and performing maintenance at our Vancouver I (YVR1) data center. We expect minimal to no impact to services during the maintenance window.&nbsp; Please update your firewall policy rules and any upstream Access Control Lists to allow all IP addresses for this DC For more information, please visit: https://config.zscaler.com/zscalerthree.net/cenr Start time is August 19, 6:00 pm PDT (August 20, 1:00 UTC) End time is August 19, 11:00 pm PD
+
+---
+
+## San Francisco IV Datacenter Scheduled Maintenance - IPv6 Enablement - zscaler.net, zscalerone.net, zscloud.net
+- 公開: Tue, 18 Aug 2026 17:16:36 GMT
+- ステータス: Completed  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zscaler.net/posts/31291
+- 影響: 
+
+Zscaler will be enabling IPv6 at our San Francisco IV (SJC4) Data Center.&nbsp; During the maintenance window the services through SJC4 Data Center will be restarted in phases to minimize the service impact. Other Zscaler sites and Zscaler Services will continue to operate normally. Maintenance Window: Start time is August 20, 5:00 pm PDT (August 21, 00:00 UTC) End time is August 20, 11:00 pm PDT (August 21, 6:00 UTC) Update - Fri, 21 Aug 2026 05:43:36 UTC This activity has been completed. Pleas
+
+---
+
+## Reminder Notification for Upcoming Data Center Expansions - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zpatwo.net
+- 公開: Tue, 18 Aug 2026 16:49:23 GMT
+- ステータス: Completed  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zscaler.net/posts/31286
+- 影響: 
+
+Dear Customer,&nbsp; In accordance with the&nbsp; Zscaler Service Continuity Policy and as previously announced via&nbsp; email notification and&nbsp; Trust&nbsp; on July 1, 2026, we would like to remind you of the upcoming data center expansions at the locations listed below. These would be effective anytime on or after August 30, 2026. Region Location CIDR Notes APAC Mumbai VI 137.31.136.0/23 Expansion of existing data center APAC Mumbai VI 137.31.138.0/23 Expansion of existing data center APA
+
+---
