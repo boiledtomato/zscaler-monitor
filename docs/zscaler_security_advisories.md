@@ -1,11 +1,21 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-08-22 23:17 UTC  
+> 最終更新: 2026-08-23 23:14 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
 
 # Zscaler Trust - インシデント/アドバイザリ RSS
+
+## Scheduled Maintenance Extended - zscalertwo.net
+- 公開: Sun, 23 Aug 2026 19:10:15 GMT
+- ステータス: In Progress  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zscalertwo.net/posts/31406
+- 影響: 
+
+The Zscaler Site Reliability Engineering team will be extending the scheduled maintenance of the zscalertwo.net cloud (Asia Pacific Region) by 2 hours. As part of our standard maintenance process, all logs will be collected and available after maintenance has been completed. Please contact Zscaler Support if you have additional questions.
+
+---
 
 ## Scheduled Maintenance Extended - zdxcloud.net
 - 公開: Sat, 22 Aug 2026 16:53:14 GMT
@@ -29,7 +39,7 @@ Zscaler has detected an issue with our Santiago I datacenter and is currently in
 
 ## ZPA Logging Zone Maintenance - zpatwo.net
 - 公開: Sat, 22 Aug 2026 03:36:32 GMT
-- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- ステータス: Completed  カテゴリ: Scheduled maintenance
 - URL: https://trust.zscaler.com/zpatwo.net/posts/31391
 - 影響: 
 
@@ -194,15 +204,5 @@ Zscaler will be performing hardware maintenance in the Atlanta II (ATL2) Datacen
 - 影響: Some customers may experience changes in how incoming data is matched, merged, and aggregated, which could lead to differences in normalized results, aggregated outputs, and first-seen or other derived values.
 
 Zscaler has detected an issue with its app.avalor.io, app.eu.avalor.io, app.aps.avalor.io Cloud. Some customers may experience changes in how incoming data is matched, merged, and aggregated, which could lead to differences in normalized results, aggregated outputs, and first-seen or other derived values. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status cha
-
----
-
-## Datacenter Expansion Capetown IV (CPT4) - zpatwo.net
-- 公開: Wed, 19 Aug 2026 05:53:52 GMT
-- ステータス: In Progress  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/zpatwo.net/posts/31306
-- 影響: 
-
-As part of our regular expansion of capacity, we are adding ZPA Public Service Edge nodes to our new data center in EMEA, Capetown IV (CPT4). If you restrict outbound firewall access, please ensure you have added the complete set of published IPs in the URL below https://config.zscaler.com/zpatwo.net/zpa
 
 ---

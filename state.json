@@ -18,9 +18,9 @@
     "initialized": true
   },
   "security_advisories": {
-    "hash": "eb609e1e0b4e766a0907b0afc77cc78f4f73e2ea9251b74d01679611fc98fe9b",
-    "last_checked": "2026-08-22T23:18:05.100628+00:00",
-    "last_updated": "2026-08-22T23:18:05.100661+00:00",
+    "hash": "4248101f685912c49f380c68f13007be6a4a49cccbd93b28c7daa143dd66e05d",
+    "last_checked": "2026-08-23T23:15:07.127226+00:00",
+    "last_updated": "2026-08-23T23:15:07.127315+00:00",
     "initialized": true
   },
   "product_updates": {

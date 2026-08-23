@@ -1,6 +1,24 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-08-23 23:14 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- ## Scheduled Maintenance Extended - zscalertwo.net
+**追加内容（抜粋）:**
+> - 公開: Sun, 23 Aug 2026 19:10:15 GMT
+> - ステータス: In Progress  カテゴリ: Scheduled maintenance
+> - URL: https://trust.zscaler.com/zscalertwo.net/posts/31406
+> - 影響:
+> The Zscaler Site Reliability Engineering team will be extending the scheduled maintenance of the zscalertwo.net cloud (Asia Pacific Region) by 2 hours. As part of our standard maintenance process, all logs will be collected and available after maintenance has been completed. Please contact Zscaler Support if you have additional questions.
+> ...他 2 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-08-22 23:17 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
 ## 2026-08-22 23:17 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
