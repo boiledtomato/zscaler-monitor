@@ -1,11 +1,71 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-08-23 23:14 UTC  
+> 最終更新: 2026-08-24 23:13 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
 
 # Zscaler Trust - インシデント/アドバイザリ RSS
+
+## Atlanta III Datacenter Scheduled Maintenance - Service Expansion  - zscalertwo.net
+- 公開: Mon, 24 Aug 2026 22:05:04 GMT
+- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zscalertwo.net/posts/31436
+- 影響: 
+
+Zscaler will be expanding its global data center footprint and performing maintenance at our&nbsp;Atlanta III&nbsp;(ATL3) data center. We expect minimal to no impact to services during the maintenance window.&nbsp; Please update your firewall policy rules and any upstream Access Control Lists to allow all IP addresses for this DC For more information, please visit: https://config.zscaler.com/zscalertwo.net/cenr Maintenance Window: Start time is August 27, 3:00 pm PDT (August 27, 22:00 UTC) End t
+
+---
+
+## Tokyo IV (TYO4) Datacenter Network Maintenance - zscaler.net
+- 公開: Mon, 24 Aug 2026 20:57:37 GMT
+- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zscaler.net/posts/31431
+- 影響: 
+
+Zscaler will be performing hardware maintenance in the Tokyo IV (TYO4) Datacenter. Maintenance window, Start: 2026-08-27 02:00 JST End: 2026-08-27 04:00 JST (i.e. 2026-08-26 17:00 -19:00 UTC) During the maintenance, traffic will failover to redundant devices in the same datacenter. However, intermittent connections and connection reestablishment may be observed.
+
+---
+
+## Rio de Janeiro I Datacenter Scheduled Maintenance - Service Expansion  - zscalertwo.net
+- 公開: Mon, 24 Aug 2026 20:32:05 GMT
+- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zscalertwo.net/posts/31426
+- 影響: 
+
+Zscaler will be expanding its global data center footprint and performing maintenance at our&nbsp;Rio de Janeiro I&nbsp;(RIO1) data center. We expect minimal to no impact to services during the maintenance window.&nbsp; Please update your firewall policy rules and any upstream Access Control Lists to allow all IP addresses for this DC For more information, please visit: https://config.zscaler.com/zscalertwo.net/cenr Maintenance Window: Start time is August 26, 2:00 pm PDT (August 26, 21:00 UTC) 
+
+---
+
+## Lagos II Data Center Decommissioning - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- 公開: Mon, 24 Aug 2026 19:46:33 GMT
+- ステータス: In Progress  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zscaler.net/posts/31421
+- 影響: 
+
+You are receiving this notice in accordance with the&nbsp; Zscaler Service Continuity Policy . Please note that the Lagos II (LOS2) Data Center will be shut down any time after October 23, 2026. LOS2 Data Center will be removed from PAC service on September 7, 2026. Those customers that are connecting to LOS2 DC via PAC will see that only the datacenter Lagos III (LOS3) is resolvable after September 7, 2026. Customers connected to DC via GRE or IPSEC tunnel(s) will be contacted separately with m
+
+---
+
+## Zscaler-Managed Dedicated IP Issue on Tokyo V Datacenter - zscalerthree.net
+- 公開: Mon, 24 Aug 2026 06:17:31 GMT
+- ステータス: Monitoring  カテゴリ: Recent incident
+- URL: https://trust.zscaler.com/zscalerthree.net/posts/31416
+- 影響: Customers might face an issue with traffic forwarding Using Zscaler-Managed Dedicated IP.
+
+Zscaler has detected an issue with its Tokyo V datacenter and is currently investigating the matter. If you’re currently experiencing any traffic impacting issues please failover to your secondary DC or any other alternate DC. For more information, please refer to the following support article. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and ad
+
+---
+
+## ZDX Public API Issue - zdxcloud.net
+- 公開: Mon, 24 Aug 2026 05:15:25 GMT
+- ステータス: Resolved  カテゴリ: Recent incident
+- URL: https://trust.zscaler.com/zdxcloud.net/posts/31411
+- 影響: ZDX Advanced and Advanced Plus customers utilizing the ZDX Public API might be impacted with automation related activities. Authentication for ZDX and UI login is not impacted.
+
+Zscaler has detected an issue with its zdxcloud.net Cloud.&nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Root Cause: Root cause of the issue is attributed to a missing production image caused by an internal configuration change. Update - Mon, 24 Aug 2026 06:19:29 UTC Zsca
+
+---
 
 ## Scheduled Maintenance Extended - zscalertwo.net
 - 公開: Sun, 23 Aug 2026 19:10:15 GMT
@@ -119,7 +179,7 @@ Zscaler has detected an issue with the administration UI and user authentication
 
 ## China-region ZPA App Connector connectivity issue - private.zscaler.com
 - 公開: Thu, 20 Aug 2026 11:49:04 GMT
-- ステータス: Monitoring  カテゴリ: Recent incident
+- ステータス: Resolved  カテゴリ: Recent incident
 - URL: https://trust.zscaler.com/private.zscaler.com/posts/31351
 - 影響: Affected customers may experience application access failures, including AC connection setup timeout or cannot connect to broker errors. 
 
@@ -144,65 +204,5 @@ As part of our regular expansion of capacity, we are adding ZPA Public Service E
 - 影響: 
 
 The Zscaler Site Reliability Engineering team will be performing an urgent maintenance on zscaler.net cloud. This maintenance is scheduled for Wednesday at 10:30 PM Pacific Time on August 19, 2026 (Thursday, August 20, 2026 05:30 AM UTC), and can take up to 30 minutes to complete. During the maintenance, the ZIA Admin Portal, and access to policy management will not be available. A brief impact to new user authentication might occur. However, all the logs that are collected during this period wi
-
----
-
-## ZPA connectivity issues in China region - private.zscaler.com
-- 公開: Thu, 20 Aug 2026 04:36:33 GMT
-- ステータス: Resolved  カテゴリ: Recent incident
-- URL: https://trust.zscaler.com/private.zscaler.com/posts/31336
-- 影響: Customers in China region are being redirected to ZPA Public Service Edges outside China, causing performance degradation and connectivity issues on ZPA and SIPA.
-
-Zscaler is investigating an issue with its Beijing III, Shanghai I datacenter on the private.zscaler.com cloud and is currently investigating the matter.&nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Root Cause: Root cause of this issue is attributed to a recent configura
-
----
-
-## Mexico City I and Mexico City II - Data Center Issue - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com
-- 公開: Wed, 19 Aug 2026 22:58:29 GMT
-- ステータス: Resolved  カテゴリ: Recent incident
-- URL: https://trust.zscaler.com/zscaler.net/posts/31331
-- 影響: Customers may experience intermittent increases in latency and degraded performance.
-
-Zscaler is investigating a network connectivity issue affecting some traffic associated with our Mexico City I and Mexico City II Data Centers. Customers may experience intermittent increases in latency and degraded performance. If you’re currently experiencing any traffic impacting issues please failover to your secondary DC or any other alternate DC. For more information, please refer to the following support article. &nbsp; We will provide further updates as additional information becomes ava
-
----
-
-## Perth I (PER1) Datacenter Network Maintenance - zscloud.net
-- 公開: Wed, 19 Aug 2026 19:51:10 GMT
-- ステータス: Upcoming  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/zscloud.net/posts/31326
-- 影響: 
-
-Zscaler will be performing hardware maintenance in the Perth I (PER1) Datacenter. Maintenance window, Start: 2026-08-27 18:00 AWST End: 2026-08-27 21:00 AWST (i.e. 2026-08-27 10:00 - 13:00 UTC) During the maintenance, traffic will failover to redundant devices in the same datacenter. However, intermittent connections and connection reestablishment will be observed.
-
----
-
-## Datacenter Expansion Singapore V (SIN5) - private.zscaler.com
-- 公開: Wed, 19 Aug 2026 17:26:26 GMT
-- ステータス: In Progress  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/private.zscaler.com/posts/31321
-- 影響: 
-
-As part of our regular expansion of capacity, we are adding ZPA Public Service Edge nodes to our existing data center in Singapore V (SIN5). If you restrict outbound firewall access, please ensure you have added the complete set of published IPs in the URL below https://config.zscaler.com/private.zscaler.com/zpa
-
----
-
-## Atlanta II (ATL2) Datacenter Network Maintenance - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com
-- 公開: Wed, 19 Aug 2026 11:50:32 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/zscaler.net/posts/31316
-- 影響: During the maintenance, traffic will failover to redundant devices in the same datacenter, however intermittent connections and connection reestablishment may be observed.
-
-Zscaler will be performing hardware maintenance in the Atlanta II (ATL2) Datacenter. Maintenance window, Start: 2026-08-21 03:00 EDT End: 2026-08-21 07:00 EDT (i.e. 2026-08-21 07:00 - 11:00 UTC) Update - Fri, 21 Aug 2026 09:51:34 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions.
-
----
-
-## Unexpected Changes to Data Matching and Aggregation Behavior - app.avalor.io, app.eu.avalor.io, app.aps.avalor.io
-- 公開: Wed, 19 Aug 2026 08:58:37 GMT
-- ステータス: Resolved  カテゴリ: Recent incident
-- URL: https://trust.zscaler.com/app.avalor.io/posts/31311
-- 影響: Some customers may experience changes in how incoming data is matched, merged, and aggregated, which could lead to differences in normalized results, aggregated outputs, and first-seen or other derived values.
-
-Zscaler has detected an issue with its app.avalor.io, app.eu.avalor.io, app.aps.avalor.io Cloud. Some customers may experience changes in how incoming data is matched, merged, and aggregated, which could lead to differences in normalized results, aggregated outputs, and first-seen or other derived values. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status cha
 
 ---

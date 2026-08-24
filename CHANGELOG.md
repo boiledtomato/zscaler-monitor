@@ -1,6 +1,29 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-08-24 23:13 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- ## Atlanta III Datacenter Scheduled Maintenance - Service Expansion  - zscalertwo.net
+- ## Tokyo IV (TYO4) Datacenter Network Maintenance - zscaler.net
+- ## Rio de Janeiro I Datacenter Scheduled Maintenance - Service Expansion  - zscalertwo.net
+- ## Lagos II Data Center Decommissioning - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- ## Zscaler-Managed Dedicated IP Issue on Tokyo V Datacenter - zscalerthree.net
+- ## ZDX Public API Issue - zdxcloud.net
+**追加内容（抜粋）:**
+> - 公開: Mon, 24 Aug 2026 22:05:04 GMT
+> - ステータス: Upcoming  カテゴリ: Scheduled maintenance
+> - URL: https://trust.zscaler.com/zscalertwo.net/posts/31436
+> - 影響:
+> Zscaler will be expanding its global data center footprint and performing maintenance at our&nbsp;Atlanta III&nbsp;(ATL3) data center. We expect minimal to no impact to services during the maintenance window.&nbsp; Please update your firewall policy rules and any upstream Access Control Lists to allow all IP addresses for this DC For more information, please visit: https://config.zscaler.com/zscalertwo.net/cenr Maintenance Window: Start time is August 27, 3:00 pm PDT (August 27, 22:00 UTC) End t
+> ...他 25 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-08-23 23:14 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
 ## 2026-08-23 23:14 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
