@@ -1,11 +1,41 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-08-24 23:13 UTC  
+> 最終更新: 2026-08-25 23:18 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
 
 # Zscaler Trust - インシデント/アドバイザリ RSS
+
+## Amsterdam II, Amsterdam III, Frankfurt IV, Frankfurt VI Datacenter Issue - zscalerthree.net
+- 公開: Tue, 25 Aug 2026 23:06:15 GMT
+- ステータス: Resolved  カテゴリ: Recent incident
+- URL: https://trust.zscaler.com/zscalerthree.net/posts/31451
+- 影響: 
+
+Zscaler has detected an issue with its Amsterdam II, Amsterdam III, Frankfurt IV, Frankfurt VI datacenter and is currently investigating the matter. If you’re currently experiencing any traffic impacting issues please failover to your secondary DC or any other alternate DC. For more information, please refer to the following support article. &nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscal
+
+---
+
+## Vancouver I Datacenter Scheduled Maintenance - Service Expansion  - zscaler.net, zscalertwo.net, zscloud.net
+- 公開: Tue, 25 Aug 2026 19:58:16 GMT
+- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zscaler.net/posts/31446
+- 影響: 
+
+Zscaler will be expanding its global data center footprint and performing maintenance at our Vancouver I (YVR1) data center. We expect minimal to no impact to services during the maintenance window.&nbsp; Please update your firewall policy rules and any upstream Access Control Lists to allow all IP addresses for this DC For more information, please visit: https://config.zscaler.com/zscaler.net/cenr https://config.zscaler.com/zscalertwo.net/cenr https://config.zscaler.com/zscloud.net/cenr Start t
+
+---
+
+## Frankfurt IV (FRA4) Datacenter Network Maintenance - zscloud.net
+- 公開: Tue, 25 Aug 2026 10:19:07 GMT
+- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zscloud.net/posts/31441
+- 影響: During the maintenance, traffic will failover to redundant devices in the same datacenter. However, intermittent connections and connection reestablishment may be observed.
+
+Zscaler will be performing hardware maintenance in the Frankfurt IV (FRA4) Datacenter. Maintenance window, Start: 2026-08-27 02:00 CEST End: &nbsp;2026-08-27 04:00 CEST (i.e. 2026-08-27 00:00 - 02:00 UTC)
+
+---
 
 ## Atlanta III Datacenter Scheduled Maintenance - Service Expansion  - zscalertwo.net
 - 公開: Mon, 24 Aug 2026 22:05:04 GMT
@@ -49,7 +79,7 @@ You are receiving this notice in accordance with the&nbsp; Zscaler Service Conti
 
 ## Zscaler-Managed Dedicated IP Issue on Tokyo V Datacenter - zscalerthree.net
 - 公開: Mon, 24 Aug 2026 06:17:31 GMT
-- ステータス: Monitoring  カテゴリ: Recent incident
+- ステータス: Resolved  カテゴリ: Recent incident
 - URL: https://trust.zscaler.com/zscalerthree.net/posts/31416
 - 影響: Customers might face an issue with traffic forwarding Using Zscaler-Managed Dedicated IP.
 
@@ -119,11 +149,11 @@ The Zscaler Site Reliability Engineering team will be performing an urgent maint
 
 ## San Francisco IV Datacenter Scheduled Maintenance - IPv6 Enablement - zscaler.net, zscalerone.net, zscloud.net
 - 公開: Fri, 21 Aug 2026 21:15:44 GMT
-- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- ステータス: Completed  カテゴリ: Scheduled maintenance
 - URL: https://trust.zscaler.com/zscaler.net/posts/31381
 - 影響: 
 
-Zscaler will be enabling IPv6 at our San Francisco IV (SJC4) Data Center.&nbsp; During the maintenance window the services through SJC4 Data Center will be restarted in phases to minimize the service impact. Other Zscaler sites and Zscaler Services will continue to operate normally. Maintenance Window: Start time is August 24, 5:00 pm PDT (August 25, 00:00 UTC) End time is August 24, 11:00 pm PDT (August 25, 6:00 UTC)
+Zscaler will be enabling IPv6 at our San Francisco IV (SJC4) Data Center.&nbsp; During the maintenance window the services through SJC4 Data Center will be restarted in phases to minimize the service impact. Other Zscaler sites and Zscaler Services will continue to operate normally. Maintenance Window: Start time is August 24, 5:00 pm PDT (August 25, 00:00 UTC) End time is August 24, 11:00 pm PDT (August 25, 6:00 UTC) Update - Tue, 25 Aug 2026 05:46:30 UTC This activity has been completed. Pleas
 
 ---
 
@@ -174,35 +204,5 @@ Zscaler is aware of and investigating an intermittent issue affecting a subset o
 - 影響: 
 
 Zscaler has detected an issue with the administration UI and user authentication on its zscalertwo.net Cloud. Customers may encounter issues with Administation UI login, Authentication, User Policies, Zscaler Client Connector portal, and SCIM auto-provisioning.&nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be pos
-
----
-
-## China-region ZPA App Connector connectivity issue - private.zscaler.com
-- 公開: Thu, 20 Aug 2026 11:49:04 GMT
-- ステータス: Resolved  カテゴリ: Recent incident
-- URL: https://trust.zscaler.com/private.zscaler.com/posts/31351
-- 影響: Affected customers may experience application access failures, including AC connection setup timeout or cannot connect to broker errors. 
-
-Zscaler has identified an issue affecting ZPA App Connector connectivity in the China region, impacting services through the Shanghai and Beijing data centers. Affected customers may experience application access failures, including AC connection setup timeout or cannot connect to broker errors.&nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes
-
----
-
-## Datacenter Expansion San Francisco IV (SJC4) - zpatwo.net
-- 公開: Thu, 20 Aug 2026 10:14:46 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/zpatwo.net/posts/31346
-- 影響: 
-
-As part of our regular expansion of capacity, we are adding ZPA Public Service Edge nodes to our existing data center in San Francisco IV (SJC4). If you restrict outbound firewall access, please ensure you have added the complete set of published IPs in the URL below https://config.zscaler.com/zpatwo.net/zpa Update - Thu, 20 Aug 2026 17:04:14 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions.
-
----
-
-## Urgent Maintenance - zscaler.net
-- 公開: Thu, 20 Aug 2026 05:14:45 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/zscaler.net/posts/31341
-- 影響: 
-
-The Zscaler Site Reliability Engineering team will be performing an urgent maintenance on zscaler.net cloud. This maintenance is scheduled for Wednesday at 10:30 PM Pacific Time on August 19, 2026 (Thursday, August 20, 2026 05:30 AM UTC), and can take up to 30 minutes to complete. During the maintenance, the ZIA Admin Portal, and access to policy management will not be available. A brief impact to new user authentication might occur. However, all the logs that are collected during this period wi
 
 ---

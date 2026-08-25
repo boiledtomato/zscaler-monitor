@@ -1,6 +1,40 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-08-25 23:18 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- ## Amsterdam II, Amsterdam III, Frankfurt IV, Frankfurt VI Datacenter Issue - zscalerthree.net
+- ## Vancouver I Datacenter Scheduled Maintenance - Service Expansion  - zscaler.net, zscalertwo.net, zscloud.net
+- ## Frankfurt IV (FRA4) Datacenter Network Maintenance - zscloud.net
+**追加内容（抜粋）:**
+> - 公開: Tue, 25 Aug 2026 23:06:15 GMT
+> - ステータス: Resolved  カテゴリ: Recent incident
+> - URL: https://trust.zscaler.com/zscalerthree.net/posts/31451
+> - 影響:
+> Zscaler has detected an issue with its Amsterdam II, Amsterdam III, Frankfurt IV, Frankfurt VI datacenter and is currently investigating the matter. If you’re currently experiencing any traffic impacting issues please failover to your secondary DC or any other alternate DC. For more information, please refer to the following support article. &nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscal
+> ...他 16 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-08-24 23:13 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
+## 2026-08-25 23:18 UTC — ZPA リリースノート
+
+ソース: [https://help.zscaler.com/zpa/release-notes](https://help.zscaler.com/zpa/release-notes)
+**更新セクション:**
+- ## https://help.zscaler.com/zpa/release-upgrade-summary-2025
+**追加内容（抜粋）:**
+> - 2026-08-24T12:00Z | https://help.zscaler.com/zpa/release-upgrade-summary-2025
+> 最終更新: 2026-08-24T12:00Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-08-22 23:16 UTC~~
+> ~~> ソース: https://help.zscaler.com/zpa/release-notes~~
+> ~~---~~
+
+---
 ## 2026-08-24 23:13 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
