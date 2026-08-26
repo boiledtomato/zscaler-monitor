@@ -1,6 +1,54 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-08-26 23:25 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- ## SaaS Security and Shadow IT Reporting Data Inconsistency - zscaler.net, zscalertwo.net, zscloud.net
+- ## Shanghai II (SHA2) Datacenter Network Maintenance - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
+**追加内容（抜粋）:**
+> - 公開: Wed, 26 Aug 2026 22:04:54 GMT
+> - ステータス: In Progress  カテゴリ: Recent incident
+> - URL: https://trust.zscaler.com/zscaler.net/posts/31461
+> - 影響: Customers may observe inaccurate or incomplete discovered cloud application counts within SaaS Security Reports in the ZIA Admin Portal and the Shadow IT report in Zscaler Experience Center. This may affect application visibility and associated reporting used to assess cloud application usage and risk. Traffic processing and policy enforcement are not impacted.
+> Zscaler is aware of and investigating an issue affecting application reporting within SaaS Security Reports in the ZIA Admin Portal and the Shadow IT report in Zscaler Experience Center. Customers may observe an inaccurate or incomplete count of discovered cloud applications when viewing reporting data for selected time periods. This issue may affect the accuracy of application visibility and associated reporting used to assess cloud application usage and risk. This issue affects reporting only
+> ...他 10 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-08-25 23:18 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
+## 2026-08-26 23:24 UTC — ZPA リリースノート
+
+ソース: [https://help.zscaler.com/zpa/release-notes](https://help.zscaler.com/zpa/release-notes)
+**更新セクション:**
+- ## https://help.zscaler.com/zpa/release-upgrade-summary-2026
+- ## https://help.zscaler.com/zpa/release-upgrade-summary-2025
+**追加内容（抜粋）:**
+> - 2026-08-25T16:04Z | https://help.zscaler.com/zpa/release-upgrade-summary-2026
+> - 2026-08-25T08:35Z | https://help.zscaler.com/zpa/release-upgrade-summary-2025
+> 最終更新: 2026-08-25T16:04Z
+> 最終更新: 2026-08-25T08:35Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-08-25 23:18 UTC~~
+> ~~> ソース: https://help.zscaler.com/zpa/release-notes~~
+> ~~---~~
+
+---
+## 2026-08-26 23:24 UTC — ZIA リリースノート
+
+ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)
+**追加内容（抜粋）:**
+> - 2026-08-24T22:12Z | https://help.zscaler.com/zia/release-upgrade-summary-2026
+> 最終更新: 2026-08-24T22:12Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-08-22 23:15 UTC~~
+> ~~> ソース: https://help.zscaler.com/zia/release-notes~~
+> ~~---~~
+
+---
 ## 2026-08-25 23:18 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)

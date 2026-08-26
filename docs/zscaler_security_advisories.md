@@ -1,11 +1,31 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-08-25 23:18 UTC  
+> 最終更新: 2026-08-26 23:25 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
 
 # Zscaler Trust - インシデント/アドバイザリ RSS
+
+## SaaS Security and Shadow IT Reporting Data Inconsistency - zscaler.net, zscalertwo.net, zscloud.net
+- 公開: Wed, 26 Aug 2026 22:04:54 GMT
+- ステータス: In Progress  カテゴリ: Recent incident
+- URL: https://trust.zscaler.com/zscaler.net/posts/31461
+- 影響: Customers may observe inaccurate or incomplete discovered cloud application counts within SaaS Security Reports in the ZIA Admin Portal and the Shadow IT report in Zscaler Experience Center. This may affect application visibility and associated reporting used to assess cloud application usage and risk. Traffic processing and policy enforcement are not impacted.
+
+Zscaler is aware of and investigating an issue affecting application reporting within SaaS Security Reports in the ZIA Admin Portal and the Shadow IT report in Zscaler Experience Center. Customers may observe an inaccurate or incomplete count of discovered cloud applications when viewing reporting data for selected time periods. This issue may affect the accuracy of application visibility and associated reporting used to assess cloud application usage and risk. This issue affects reporting only 
+
+---
+
+## Shanghai II (SHA2) Datacenter Network Maintenance - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- 公開: Wed, 26 Aug 2026 12:51:33 GMT
+- ステータス: Completed  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zscaler.net/posts/31456
+- 影響: During the maintenance, traffic will failover to redundant devices in the same datacenter, however intermittent connections and connection reestablishment may be observed.
+
+Zscaler will be performing hardware maintenance in Shanghai II (SHA2) Datacenter. Scheduled Maintenance window, Start Time: 2026-08-26 16:00 UTC End Time: &nbsp;2026-08-26 22:00 UTC (Local Time 2026-08-27 00:00 - 2026-08-27 06:00) Update - Wed, 26 Aug 2026 22:32:57 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions.
+
+---
 
 ## Amsterdam II, Amsterdam III, Frankfurt IV, Frankfurt VI Datacenter Issue - zscalerthree.net
 - 公開: Tue, 25 Aug 2026 23:06:15 GMT
@@ -49,17 +69,17 @@ Zscaler will be expanding its global data center footprint and performing mainte
 
 ## Tokyo IV (TYO4) Datacenter Network Maintenance - zscaler.net
 - 公開: Mon, 24 Aug 2026 20:57:37 GMT
-- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- ステータス: Completed  カテゴリ: Scheduled maintenance
 - URL: https://trust.zscaler.com/zscaler.net/posts/31431
 - 影響: 
 
-Zscaler will be performing hardware maintenance in the Tokyo IV (TYO4) Datacenter. Maintenance window, Start: 2026-08-27 02:00 JST End: 2026-08-27 04:00 JST (i.e. 2026-08-26 17:00 -19:00 UTC) During the maintenance, traffic will failover to redundant devices in the same datacenter. However, intermittent connections and connection reestablishment may be observed.
+Zscaler will be performing hardware maintenance in the Tokyo IV (TYO4) Datacenter. Maintenance window, Start: 2026-08-27 02:00 JST End: 2026-08-27 04:00 JST (i.e. 2026-08-26 17:00 -19:00 UTC) During the maintenance, traffic will failover to redundant devices in the same datacenter. However, intermittent connections and connection reestablishment may be observed. Update - Wed, 26 Aug 2026 18:59:09 UTC This activity has been completed. Please contact Zscaler Support if you have additional question
 
 ---
 
 ## Rio de Janeiro I Datacenter Scheduled Maintenance - Service Expansion  - zscalertwo.net
 - 公開: Mon, 24 Aug 2026 20:32:05 GMT
-- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- ステータス: Postponed  カテゴリ: Scheduled maintenance
 - URL: https://trust.zscaler.com/zscalertwo.net/posts/31426
 - 影響: 
 
@@ -184,25 +204,5 @@ Zscaler has identified an issue affecting the&nbsp;admin.zscaleranalytics.net&nb
 - 影響: Subset of customers might face issues with logging and reporting.
 
 Zscaler has identified a reporting and logging issue affecting the zscalerthree.net cloud. A subset of customers may experience delays or issues with logging and reporting. &nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Root Cause: Zscaler failed over services to a health
-
----
-
-## ZTW Cloud Connector: Intermittent ZPA Access Impact for Some VDI/AVD Users - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
-- 公開: Thu, 20 Aug 2026 16:25:32 GMT
-- ステータス: Monitoring  カテゴリ: Recent incident
-- URL: https://trust.zscaler.com/zscaler.net/posts/31361
-- 影響: A subset of users connecting through ZTW Cloud Connectors from VDI/AVD environments may be unable to access certain ZPA applications intermittently.
-
-Zscaler is aware of and investigating an intermittent issue affecting a subset of users connecting through ZTW Cloud Connectors from VDI/AVD environments. Impacted users may be unable to access certain ZPA private applications, even though DNS resolution completes successfully. Zscaler has identified an interim mitigation to clear impacted sessions and help restore access while a permanent fix is being developed. Customers experiencing this issue should contact Zscaler Support for assistance wit
-
----
-
-## Administration UI and User Authentication Issues - zscalertwo.net
-- 公開: Thu, 20 Aug 2026 14:43:25 GMT
-- ステータス: Resolved  カテゴリ: Recent incident
-- URL: https://trust.zscaler.com/zscalertwo.net/posts/31356
-- 影響: 
-
-Zscaler has detected an issue with the administration UI and user authentication on its zscalertwo.net Cloud. Customers may encounter issues with Administation UI login, Authentication, User Policies, Zscaler Client Connector portal, and SCIM auto-provisioning.&nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be pos
 
 ---
