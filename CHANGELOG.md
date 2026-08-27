@@ -1,6 +1,60 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-08-27 23:14 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- ## Planned Maintenance Activity for ZPA Platform - zpatwo.net
+- ## Zscaler Client Connector Portal Issue - zscalertwo.net
+- ## Zscaler-Managed Dedicated IP Issue on Tokyo IV Datacenter - zscaler.net
+- ## Scheduled Maintenance Extended - AMER Region - zscalertwo.net
+- ## Shanghai II (SHA2) Datacenter Network Maintenance - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
+**追加内容（抜粋）:**
+> - 公開: Thu, 27 Aug 2026 17:17:48 GMT
+> - ステータス: Upcoming  カテゴリ: Scheduled maintenance
+> - URL: https://trust.zscaler.com/zpatwo.net/posts/31486
+> - 影響:
+> We will be performing planned maintenance on our platform infrastructure in the ZPATWO cloud to enhance availability and resiliency. Some customers may witness below impact during this maintenance window: &nbsp; Momentary disconnect and auto-reconnect of zcc. Any active session will be disconnected. Important Note: No action is required from customers and this communication is only intended to inform in advance.
+> ...他 25 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-08-26 23:25 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
+## 2026-08-27 23:13 UTC — ZPA リリースノート
+
+ソース: [https://help.zscaler.com/zpa/release-notes](https://help.zscaler.com/zpa/release-notes)
+**更新セクション:**
+- ## https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026
+- ## https://help.zscaler.com/zpa/private-cloud-controller-release-summary-2026
+- ## https://help.zscaler.com/zpa/network-connector-release-summary-2026
+**追加内容（抜粋）:**
+> - 2026-08-26T10:00Z | https://help.zscaler.com/zpa/release-upgrade-summary-2026
+> - 2026-08-26T09:29Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026
+> - 2026-08-26T09:28Z | https://help.zscaler.com/zpa/private-cloud-controller-release-summary-2026
+> - 2026-08-26T09:28Z | https://help.zscaler.com/zpa/network-connector-release-summary-2026
+> - 2026-08-26T09:27Z | https://help.zscaler.com/zpa/app-connector-release-summary-2026
+> ...他 5 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-08-26 23:24 UTC~~
+> ~~> ソース: https://help.zscaler.com/zpa/release-notes~~
+> ~~---~~
+
+---
+## 2026-08-27 23:12 UTC — ZIA リリースノート
+
+ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)
+**追加内容（抜粋）:**
+> - 2026-08-26T10:05Z | https://help.zscaler.com/zia/release-upgrade-summary-2026
+> 最終更新: 2026-08-26T10:05Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-08-26 23:24 UTC~~
+> ~~> ソース: https://help.zscaler.com/zia/release-notes~~
+> ~~---~~
+
+---
 ## 2026-08-26 23:25 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
