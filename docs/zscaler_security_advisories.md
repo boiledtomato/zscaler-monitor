@@ -1,11 +1,51 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-08-27 23:14 UTC  
+> 最終更新: 2026-08-28 23:16 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
 
 # Zscaler Trust - インシデント/アドバイザリ RSS
+
+##  Kuala Lumpur II Datacenter Issue - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com
+- 公開: Fri, 28 Aug 2026 08:53:37 GMT
+- ステータス: Resolved  カテゴリ: Recent incident
+- URL: https://trust.zscaler.com/zscaler.net/posts/31506
+- 影響: 
+
+We are currently investigating a potential issue affecting Kuala Lumpur II Data center reported by customers. Our teams are working to validate the impact and determine if this is a service-related event. We will provide further updates as more information becomes available . For more information, please refer to the following support article. &nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zsc
+
+---
+
+## Scheduled Maintenance Extended - AMER Region - zscalerthree.net
+- 公開: Fri, 28 Aug 2026 08:06:56 GMT
+- ステータス: Completed  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zscalerthree.net/posts/31501
+- 影響: 
+
+The Zscaler Site Reliability Engineering team will be extending the scheduled maintenance of the zscalerthree.net cloud (AMER Region) by 2 hours. As part of our standard maintenance process, all logs will be collected and available after maintenance has been completed. Please contact Zscaler Support if you have additional questions. Update - Fri, 28 Aug 2026 10:27:15 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions.
+
+---
+
+## Urgent Scheduled Maintenance - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- 公開: Fri, 28 Aug 2026 06:26:36 GMT
+- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zscaler.net/posts/31496
+- 影響: 
+
+Zscaler is performing a service upgrade on Saturday at 6:00 AM PDT on August 29, 2026 (Saturday, August 29, 2026 , 01:00 PM UTC), and is expected to last up to 4 hours. During this maintenance period, the Zscaler Client Connector Portal on zscaler.net will be in maintenance mode. As a result, access to policy management and reporting will not be available. For the the clouds zscalerone.net, zscalertwo.net, zscalerthree.net, zscloud.net and zscaler.net the existing devices that are already enroll
+
+---
+
+## DNS Resolution Issue with Tokyo V Data Center - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- 公開: Fri, 28 Aug 2026 03:35:43 GMT
+- ステータス: Resolved  カテゴリ: Recent incident
+- URL: https://trust.zscaler.com/zscaler.net/posts/31491
+- 影響: A subset of customers forwarding traffic to the Tokyo V data center might face issues with DNS resolution which could lead to slowness and degraded internet performance.
+
+Zscaler is currently investigating reports of an issue with its Tokyo V data center. If you’re currently experiencing any traffic impacting issues please failover to your secondary DC or any other alternate DC. For more information, please refer to the following support article. &nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and updates wil
+
+---
 
 ## Planned Maintenance Activity for ZPA Platform - zpatwo.net
 - 公開: Thu, 27 Aug 2026 17:17:48 GMT
@@ -109,7 +149,7 @@ Zscaler will be performing hardware maintenance in the Frankfurt IV (FRA4) Datac
 
 ## Atlanta III Datacenter Scheduled Maintenance - Service Expansion  - zscalertwo.net
 - 公開: Mon, 24 Aug 2026 22:05:04 GMT
-- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- ステータス: Completed  カテゴリ: Scheduled maintenance
 - URL: https://trust.zscaler.com/zscalertwo.net/posts/31436
 - 影響: 
 
@@ -129,11 +169,11 @@ Zscaler will be performing hardware maintenance in the Tokyo IV (TYO4) Datacente
 
 ## Rio de Janeiro I Datacenter Scheduled Maintenance - Service Expansion  - zscalertwo.net
 - 公開: Mon, 24 Aug 2026 20:32:05 GMT
-- ステータス: Postponed  カテゴリ: Scheduled maintenance
+- ステータス: Upcoming  カテゴリ: Scheduled maintenance
 - URL: https://trust.zscaler.com/zscalertwo.net/posts/31426
 - 影響: 
 
-Zscaler will be expanding its global data center footprint and performing maintenance at our&nbsp;Rio de Janeiro I&nbsp;(RIO1) data center. We expect minimal to no impact to services during the maintenance window.&nbsp; Please update your firewall policy rules and any upstream Access Control Lists to allow all IP addresses for this DC For more information, please visit: https://config.zscaler.com/zscalertwo.net/cenr Maintenance Window: Start time is August 26, 2:00 pm PDT (August 26, 21:00 UTC) 
+Zscaler will be expanding its global data center footprint and performing maintenance at our&nbsp;Rio de Janeiro I&nbsp;(RIO1) data center. We expect minimal to no impact to services during the maintenance window.&nbsp; Please update your firewall policy rules and any upstream Access Control Lists to allow all IP addresses for this DC For more information, please visit: https://config.zscaler.com/zscalertwo.net/cenr Maintenance Window: Start time is September 1, 2:00 pm PDT (September 1, 21:00 U
 
 ---
 
@@ -164,45 +204,5 @@ Zscaler has detected an issue with its Tokyo V datacenter and is currently inves
 - 影響: ZDX Advanced and Advanced Plus customers utilizing the ZDX Public API might be impacted with automation related activities. Authentication for ZDX and UI login is not impacted.
 
 Zscaler has detected an issue with its zdxcloud.net Cloud.&nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Root Cause: Root cause of the issue is attributed to a missing production image caused by an internal configuration change. Update - Mon, 24 Aug 2026 06:19:29 UTC Zsca
-
----
-
-## Scheduled Maintenance Extended - zscalertwo.net
-- 公開: Sun, 23 Aug 2026 19:10:15 GMT
-- ステータス: In Progress  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/zscalertwo.net/posts/31406
-- 影響: 
-
-The Zscaler Site Reliability Engineering team will be extending the scheduled maintenance of the zscalertwo.net cloud (Asia Pacific Region) by 2 hours. As part of our standard maintenance process, all logs will be collected and available after maintenance has been completed. Please contact Zscaler Support if you have additional questions.
-
----
-
-## Scheduled Maintenance Extended - zdxcloud.net
-- 公開: Sat, 22 Aug 2026 16:53:14 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/zdxcloud.net/posts/31401
-- 影響: 
-
-The Zscaler Site Reliability Engineering team will be extending the scheduled maintenance of the zdxcloud.net cloud by 2 hours. As part of our standard maintenance process, all logs will be collected and available after maintenance has been completed. Please contact Zscaler Support if you have additional questions. Update - Sat, 22 Aug 2026 18:56:00 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions.
-
----
-
-## Santiago I Datacenter Issue - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
-- 公開: Sat, 22 Aug 2026 12:19:07 GMT
-- ステータス: Resolved  カテゴリ: Recent incident
-- URL: https://trust.zscaler.com/zscaler.net/posts/31396
-- 影響: Subset of customers forwarding traffic to the Santiago I datacenter might face traffic related issues.
-
-Zscaler has detected an issue with our Santiago I datacenter and is currently investigating the matter. If you’re currently experiencing any traffic impacting issues please failover to your secondary DC or any other alternate DC. For more information, please refer to the following support article. &nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status chan
-
----
-
-## ZPA Logging Zone Maintenance - zpatwo.net
-- 公開: Sat, 22 Aug 2026 03:36:32 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/zpatwo.net/posts/31391
-- 影響: 
-
-We will be performing routine maintenance on our&nbsp;logging&nbsp;infrastructure in the ZPATWO de1 Logging&nbsp;Zone to enhance availability and resiliency. &nbsp;Some customers may witness below impact during this maintenance window: Admin UI dashboards and diagnostics may display incomplete data temporarily. If alerts are configured for these components, false events may be triggered. Nanolog enabled customer will see timeouts on the dashboards. Important Note:This maintenance will not impact
 
 ---

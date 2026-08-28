@@ -1,6 +1,51 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-08-28 23:16 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- ##  Kuala Lumpur II Datacenter Issue - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com
+- ## Scheduled Maintenance Extended - AMER Region - zscalerthree.net
+- ## Urgent Scheduled Maintenance - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- ## DNS Resolution Issue with Tokyo V Data Center - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
+**追加内容（抜粋）:**
+> - 公開: Fri, 28 Aug 2026 08:53:37 GMT
+> - ステータス: Resolved  カテゴリ: Recent incident
+> - URL: https://trust.zscaler.com/zscaler.net/posts/31506
+> - 影響:
+> We are currently investigating a potential issue affecting Kuala Lumpur II Data center reported by customers. Our teams are working to validate the impact and determine if this is a service-related event. We will provide further updates as more information becomes available . For more information, please refer to the following support article. &nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zsc
+> ...他 22 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-08-27 23:14 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
+## 2026-08-28 23:15 UTC — ZDX リリースノート
+
+ソース: [https://help.zscaler.com/zdx/release-notes](https://help.zscaler.com/zdx/release-notes)
+**追加内容（抜粋）:**
+> - 2026-08-27T10:13Z | https://help.zscaler.com/zdx/release-upgrade-summary-2026
+> 最終更新: 2026-08-27T10:13Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-08-22 23:16 UTC~~
+> ~~> ソース: https://help.zscaler.com/zdx/release-notes~~
+> ~~---~~
+
+---
+## 2026-08-28 23:15 UTC — ZPA リリースノート
+
+ソース: [https://help.zscaler.com/zpa/release-notes](https://help.zscaler.com/zpa/release-notes)
+**追加内容（抜粋）:**
+> - 2026-08-27T15:42Z | https://help.zscaler.com/zpa/release-upgrade-summary-2026
+> 最終更新: 2026-08-27T15:42Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-08-27 23:13 UTC~~
+> ~~> ソース: https://help.zscaler.com/zpa/release-notes~~
+> ~~---~~
+
+---
 ## 2026-08-27 23:14 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
