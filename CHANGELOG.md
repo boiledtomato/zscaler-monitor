@@ -1,6 +1,52 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-08-29 23:15 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- ## Lagos II Datacenter Issue - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- ## CASB Scan Issues - zscalertwo.net
+- ## ZPA Logs Not Being Forwarded to SIEM - private.zscaler.com
+- ## Advanced Sandbox: Patient Zero Alert Changes - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- ## Chennai II (MAA2) Datacenter Network Maintenance - zscaler.net
+**追加内容（抜粋）:**
+> - 公開: Sat, 29 Aug 2026 12:16:30 GMT
+> - ステータス: Monitoring  カテゴリ: Recent incident
+> - URL: https://trust.zscaler.com/zscaler.net/posts/31536
+> - 影響: Customer may experience issues with all types of traffic forwarding to Lagos II Datacenter.
+> Zscaler has detected an issue with our Lagos II datacenter and is currently investigating the matter. If you’re currently experiencing any traffic impacting issues please failover to your secondary DC or any other alternate DC. For more information, please refer to the following support article. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and a
+> ...他 25 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-08-28 23:16 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
+## 2026-08-29 23:14 UTC — ZDX リリースノート
+
+ソース: [https://help.zscaler.com/zdx/release-notes](https://help.zscaler.com/zdx/release-notes)
+**追加内容（抜粋）:**
+> - 2026-08-28T08:17Z | https://help.zscaler.com/zdx/release-upgrade-summary-2026
+> 最終更新: 2026-08-28T08:17Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-08-28 23:15 UTC~~
+> ~~> ソース: https://help.zscaler.com/zdx/release-notes~~
+> ~~---~~
+
+---
+## 2026-08-29 23:14 UTC — ZIA リリースノート
+
+ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)
+**追加内容（抜粋）:**
+> - 2026-08-28T11:21Z | https://help.zscaler.com/zia/release-upgrade-summary-2026
+> 最終更新: 2026-08-28T11:21Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-08-27 23:12 UTC~~
+> ~~> ソース: https://help.zscaler.com/zia/release-notes~~
+> ~~---~~
+
+---
 ## 2026-08-28 23:16 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
