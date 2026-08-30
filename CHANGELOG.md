@@ -1,6 +1,18 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-08-30 23:14 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**追加内容（抜粋）:**
+> - ステータス: Resolved  カテゴリ: Recent incident
+> Zscaler has detected an issue with the Zscaler Client Connector Portal on its zscalertwo.net Cloud. Customers may experience intermittent issues accessing the Zscaler Client Connector Portal. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Latest Update - Sun, 30 Aug 2026 00:53:0
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-08-29 23:15 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
 ## 2026-08-29 23:15 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)

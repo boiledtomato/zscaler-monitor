@@ -1,6 +1,6 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-08-29 23:15 UTC  
+> 最終更新: 2026-08-30 23:14 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
@@ -9,7 +9,7 @@
 
 ## Lagos II Datacenter Issue - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
 - 公開: Sat, 29 Aug 2026 12:16:30 GMT
-- ステータス: Monitoring  カテゴリ: Recent incident
+- ステータス: Resolved  カテゴリ: Recent incident
 - URL: https://trust.zscaler.com/zscaler.net/posts/31536
 - 影響: Customer may experience issues with all types of traffic forwarding to Lagos II Datacenter.
 
@@ -113,7 +113,7 @@ We will be performing planned maintenance on our platform infrastructure in the 
 - URL: https://trust.zscaler.com/zscalertwo.net/posts/31481
 - 影響: Customers may experience intermittent issues accessing the Zscaler Client Connector Portal.
 
-Zscaler has detected an issue with the Zscaler Client Connector Portal on its zscalertwo.net Cloud. Customers may experience intermittent issues accessing the Zscaler Client Connector Portal. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Latest Update - Sat, 29 Aug 2026 00:53:0
+Zscaler has detected an issue with the Zscaler Client Connector Portal on its zscalertwo.net Cloud. Customers may experience intermittent issues accessing the Zscaler Client Connector Portal. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Latest Update - Sun, 30 Aug 2026 00:53:0
 
 ---
 
