@@ -1,11 +1,21 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-08-30 23:14 UTC  
+> 最終更新: 2026-08-31 23:16 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
 
 # Zscaler Trust - インシデント/アドバイザリ RSS
+
+## Administration UI Issue - zdxcloud.net
+- 公開: Mon, 31 Aug 2026 13:14:09 GMT
+- ステータス: Resolved  カテゴリ: Recent incident
+- URL: https://trust.zscaler.com/zdxcloud.net/posts/31541
+- 影響: Customers might face issue while accessing zdxcloud.net Cloud administration UI
+
+Zscaler has detected an issue with the administration UI on its zdxcloud.net Cloud.&nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Root Cause: The issue was caused by an unexpected ZDX control plane service failure that briefly impacted administration UI access. Latest Upd
+
+---
 
 ## Lagos II Datacenter Issue - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
 - 公開: Sat, 29 Aug 2026 12:16:30 GMT
@@ -194,15 +204,5 @@ Zscaler will be expanding its global data center footprint and performing mainte
 - 影響: During the maintenance, traffic will failover to redundant devices in the same datacenter. However, intermittent connections and connection reestablishment may be observed.
 
 Zscaler will be performing hardware maintenance in the Frankfurt IV (FRA4) Datacenter. Maintenance window, Start: 2026-08-27 02:00 CEST End: &nbsp;2026-08-27 04:00 CEST (i.e. 2026-08-27 00:00 - 02:00 UTC) Update - Thu, 27 Aug 2026 02:56:05 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions.
-
----
-
-## Atlanta III Datacenter Scheduled Maintenance - Service Expansion  - zscalertwo.net
-- 公開: Mon, 24 Aug 2026 22:05:04 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/zscalertwo.net/posts/31436
-- 影響: 
-
-Zscaler will be expanding its global data center footprint and performing maintenance at our&nbsp;Atlanta III&nbsp;(ATL3) data center. We expect minimal to no impact to services during the maintenance window.&nbsp; Please update your firewall policy rules and any upstream Access Control Lists to allow all IP addresses for this DC For more information, please visit: https://config.zscaler.com/zscalertwo.net/cenr Maintenance Window: Start time is August 27, 3:00 pm PDT (August 27, 22:00 UTC) End t
 
 ---
