@@ -1,6 +1,65 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-09-01 23:18 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- ## Mumbai VI (BOM6) Datacenter Network Maintenance - zscaler.net, zscalertwo.net
+- ## Zurich I (ZRH1) Datacenter Network Maintenance - zscaler.net, zscalertwo.net
+- ## CASB Scanning Delays - zscalertwo.net
+- ## ZTB-IN-M1 Cloud Upgrade and Maintenance - ztb-in-m1
+- ## Cloud App Miscategorization Issue - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- ## Urgent Maintenance - zscaler.net
+**追加内容（抜粋）:**
+> - 公開: Tue, 01 Sep 2026 21:00:44 GMT
+> - ステータス: Upcoming  カテゴリ: Scheduled maintenance
+> - URL: https://trust.zscaler.com/zscaler.net/posts/31571
+> - 影響:
+> Zscaler will be performing hardware maintenance in the Mumbai VI (BOM6) Datacenter. Maintenance window, Start: 2026-09-04 22:00:00 IST End: 2026-09-04 23:59 IST (i.e. 2026-09-04 09:30 - 11:29 UTC) During this maintenance, traffic will failover to redundant devices in the same datacenter, and we expect no service impact.&nbsp; &nbsp;
+> ...他 25 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-08-31 23:16 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
+## 2026-09-01 23:18 UTC — ZDX リリースノート
+
+ソース: [https://help.zscaler.com/zdx/release-notes](https://help.zscaler.com/zdx/release-notes)
+**追加内容（抜粋）:**
+> - 2026-08-31T15:28Z | https://help.zscaler.com/zdx/release-upgrade-summary-2026
+> 最終更新: 2026-08-31T15:28Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-08-29 23:14 UTC~~
+> ~~> ソース: https://help.zscaler.com/zdx/release-notes~~
+> ~~---~~
+
+---
+## 2026-09-01 23:17 UTC — ZPA リリースノート
+
+ソース: [https://help.zscaler.com/zpa/release-notes](https://help.zscaler.com/zpa/release-notes)
+**追加内容（抜粋）:**
+> - 2026-08-31T14:01Z | https://help.zscaler.com/zpa/release-upgrade-summary-2026
+> 最終更新: 2026-08-31T14:01Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-08-28 23:15 UTC~~
+> ~~> ソース: https://help.zscaler.com/zpa/release-notes~~
+> ~~---~~
+
+---
+## 2026-09-01 23:16 UTC — ZIA リリースノート
+
+ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)
+**追加内容（抜粋）:**
+> - 2026-08-31T08:05Z | https://help.zscaler.com/zia/release-upgrade-summary-2026
+> 最終更新: 2026-08-31T08:05Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-08-29 23:14 UTC~~
+> ~~> ソース: https://help.zscaler.com/zia/release-notes~~
+> ~~---~~
+
+---
 ## 2026-08-31 23:16 UTC — 製品アップデート
 
 ソース: [https://www.zscaler.com/products](https://www.zscaler.com/products)
