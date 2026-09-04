@@ -1,19 +1,39 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-09-03 23:16 UTC  
+> 最終更新: 2026-09-04 23:19 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
 
 # Zscaler Trust - インシデント/アドバイザリ RSS
 
+## San Francisco 4 (SJC4) Datacenter Network Maintenance - zscalerthree.net
+- 公開: Fri, 04 Sep 2026 15:39:01 GMT
+- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zscalerthree.net/posts/31631
+- 影響: During the maintenance, traffic will failover to redundant devices in the same datacenter, however intermittent connections and connection reestablishment may be observed.
+
+Zscaler will be performing hardware maintenance in the San Francisco 4 (SJC4) Datacenter. Maintenance window, Start: 2026-09-08 18:00 PDT End: 2026-09-08 20:00 PDT (i.e. 2026-09-09 01:00 - 03:00 UTC)
+
+---
+
+## Degraded performance on ZPA applications via Indian Public Service Edges - private.zscaler.com
+- 公開: Fri, 04 Sep 2026 07:25:58 GMT
+- ステータス: Resolved  カテゴリ: Recent incident
+- URL: https://trust.zscaler.com/private.zscaler.com/posts/31626
+- 影響: A subset of customers may have experienced degraded performance or connectivity failures on ZPA applications routing through Indian Public Service Edges, impacting connectivity between Indian Public Service Edges and app connectors in the UK and US/Canada regions. Other internet applications and services traversing the same third-party international transit path may also have been impacted.
+
+Zscaler received reports of issues with its Chennai II, Chennai III, Hyderabad I, Kolkata I, Mumbai VI, Mumbai VII, New Delhi I datacenter and is currently investigating the matter. If you’re currently experiencing any traffic impacting issues please failover to your secondary DC or any other alternate DC. For more information, please refer to the following support article. &nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Ser
+
+---
+
 ## Urgent Maintenance - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net
 - 公開: Thu, 03 Sep 2026 18:54:42 GMT
-- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- ステータス: Completed  カテゴリ: Scheduled maintenance
 - URL: https://trust.zscaler.com/zscaler.net/posts/31621
 - 影響: 
 
-Zscaler will be performing an urgent maintenance on websites https://sitereview.zscaler.com/ and http://filecheck.zscaler.com/ . For more information, please check our FAQ . If you need further assistance, contact Zscaler Support with reference to this incident. Status changes will be updated here when available.&nbsp;
+Zscaler will be performing an urgent maintenance on websites https://sitereview.zscaler.com/ and http://filecheck.zscaler.com/ . For more information, please check our FAQ . If you need further assistance, contact Zscaler Support with reference to this incident. Status changes will be updated here when available.&nbsp; Latest Update - Fri, 04 Sep 2026 10:06:51 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions. Update - Fri, 04 Sep 2026 08:55:53
 
 ---
 
@@ -59,7 +79,7 @@ Zscaler will be performing cloud software upgrade and maintenance activity for Z
 
 ## Seoul I Datacenter Scheduled Maintenance - Service Expansion - zscalerthree.net
 - 公開: Thu, 03 Sep 2026 00:01:20 GMT
-- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- ステータス: Completed  カテゴリ: Scheduled maintenance
 - URL: https://trust.zscaler.com/zscalerthree.net/posts/31596
 - 影響: 
 
@@ -109,21 +129,21 @@ Dear Zscaler Customer, In accordance with&nbsp; Zscaler Service Continuity Polic
 
 ## Mumbai VI (BOM6) Datacenter Network Maintenance - zscaler.net, zscalertwo.net
 - 公開: Tue, 01 Sep 2026 21:00:44 GMT
-- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- ステータス: Completed  カテゴリ: Scheduled maintenance
 - URL: https://trust.zscaler.com/zscaler.net/posts/31571
 - 影響: 
 
-Zscaler will be performing hardware maintenance in the Mumbai VI (BOM6) Datacenter. Maintenance window, Start: 2026-09-04 22:00:00 IST End: 2026-09-04 23:59 IST (i.e. 2026-09-04 016:30 - 18:29 UTC) During this maintenance, traffic will failover to redundant devices in the same datacenter, and we expect no service impact.&nbsp; &nbsp; [UPDATE: corrected UTC start time]
+Zscaler will be performing hardware maintenance in the Mumbai VI (BOM6) Datacenter. Maintenance window, Start: 2026-09-04 22:00:00 IST End: 2026-09-04 23:59 IST (i.e. 2026-09-04 016:30 - 18:29 UTC) During this maintenance, traffic will failover to redundant devices in the same datacenter, and we expect no service impact.&nbsp; &nbsp; [UPDATE: corrected UTC start time] Update - Fri, 04 Sep 2026 20:59:35 UTC This activity has been completed. Please contact Zscaler Support if you have additional qu
 
 ---
 
 ## Zurich I (ZRH1) Datacenter Network Maintenance - zscaler.net, zscalertwo.net
 - 公開: Tue, 01 Sep 2026 20:58:07 GMT
-- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- ステータス: Completed  カテゴリ: Scheduled maintenance
 - URL: https://trust.zscaler.com/zscaler.net/posts/31566
 - 影響: 
 
-Zscaler will be performing hardware maintenance in the Zurich I (ZRH1) Datacenter. Maintenance window, Start: 2026-09-04 18:00 CEST End: 2026-09-04 20:00 CEST (i.e. 2026-09-04 16:00 - 18:00 UTC) During the maintenance, traffic will failover to redundant devices in the same datacenter. However, intermittent connections and connection reestablishment may be observed. &nbsp;
+Zscaler will be performing hardware maintenance in the Zurich I (ZRH1) Datacenter. Maintenance window, Start: 2026-09-04 11:30 CEST End: 2026-09-05 02:30 CEST (i.e. 2026-09-04 21:30 - 2026-09-05 00:30 UTC) During the maintenance, traffic will failover to redundant devices in the same datacenter. However, intermittent connections and connection reestablishment may be observed. &nbsp; [UPDATED START TIME DUE TO RESOURCE CONSTRAINT] Update - Fri, 04 Sep 2026 22:41:47 UTC This activity has been comp
 
 ---
 
@@ -186,25 +206,5 @@ Zscaler has detected an issue with the administration UI on its zdxcloud.net Clo
 - 影響: Customer may experience issues with all types of traffic forwarding to Lagos II Datacenter.
 
 Zscaler has detected an issue with our Lagos II datacenter and is currently investigating the matter. If you’re currently experiencing any traffic impacting issues please failover to your secondary DC or any other alternate DC. For more information, please refer to the following support article. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and a
-
----
-
-## CASB Scan Issues - zscalertwo.net
-- 公開: Sat, 29 Aug 2026 07:17:04 GMT
-- ステータス: Resolved  カテゴリ: Recent incident
-- URL: https://trust.zscaler.com/zscalertwo.net/posts/31531
-- 影響: This issue may affect Cloud Access Security Broker (CASB) scans, causing delays or failures when initiating new scans. Existing scans remain unaffected.
-
-Zscaler has detected an issue with Data Loss Prevention (DLP) timeouts in the zscalertwo.net cloud. This issue may potentially affect Cloud Access Security Broker (CASB) scans, leading to scan delays and failures in performing scans. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available
-
----
-
-## ZPA Logs Not Being Forwarded to SIEM - private.zscaler.com
-- 公開: Sat, 29 Aug 2026 00:04:18 GMT
-- ステータス: Resolved  カテゴリ: Recent incident
-- URL: https://trust.zscaler.com/private.zscaler.com/posts/31526
-- 影響: 
-
-Zscaler has detected an issue with its private.zscaler.com Cloud. Customers on US-1 logging zone may experience difficulties forwarding ZPA logs to their SIEM platforms We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Root Cause: The issue was caused by a recent change within the 
 
 ---
