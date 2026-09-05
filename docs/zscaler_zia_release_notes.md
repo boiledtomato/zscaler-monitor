@@ -1,13 +1,13 @@
 # ZIA リリースノート
 
-> 最終更新: 2026-09-04 23:17 UTC  
+> 最終更新: 2026-09-05 23:22 UTC  
 > ソース: https://help.zscaler.com/zia/release-notes
 
 ---
 
 # ZIA リリースノート ページ一覧 (sitemap)
 
-- 2026-09-03T10:20Z | https://help.zscaler.com/zia/release-upgrade-summary-2026
+- 2026-09-04T06:29Z | https://help.zscaler.com/zia/release-upgrade-summary-2026
 - 2026-07-06T14:30Z | https://help.zscaler.com/zia/zscaler-endpoint-dlp-release-summary-2026
 - 2026-06-17T02:45Z | https://help.zscaler.com/zia/release-upgrade-summary-2025
 - 2026-02-03T22:12Z | https://help.zscaler.com/zia/release-upgrade-summary-2024
@@ -18,7 +18,7 @@
 - 2026-02-03T22:12Z | https://help.zscaler.com/zia/release-upgrade-summary-2019
 
 ## https://help.zscaler.com/zia/release-upgrade-summary-2026
-最終更新: 2026-09-03T10:20Z
+最終更新: 2026-09-04T06:29Z
 
 
 ## https://help.zscaler.com/zia/zscaler-endpoint-dlp-release-summary-2026

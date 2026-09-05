@@ -1,11 +1,61 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-09-04 23:19 UTC  
+> 最終更新: 2026-09-05 23:24 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
 
 # Zscaler Trust - インシデント/アドバイザリ RSS
+
+## Microsoft 365 Copilot Changes and Impacts to Zscaler One Click - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zdxcloud.net, zpatwo.net
+- 公開: Sat, 05 Sep 2026 00:00:00 GMT
+- ステータス:   カテゴリ: Advisory
+- URL: https://trust.zscaler.com/zscaler.net/posts/31656
+- 影響: 
+
+Microsoft is making changes to the integrated M365 Copilot experience over&nbsp; the month of September 2026 as part of their continued updates to the corporate, personal, and educational versions of the M365 service.&nbsp; These updates continue the pattern of increased integration of Copilot within various features of M365 but now start to unify these interactions under their .copilot.cloud.microsoft FQDN endpoint. Zscaler will continue to exclude the Copilot cloud application from our M365 On
+
+---
+
+## Insights and analytics reports - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, admin.zscaleranalytics.net
+- 公開: Sat, 05 Sep 2026 17:25:34 GMT
+- ステータス: Resolved  カテゴリ: Recent incident
+- URL: https://trust.zscaler.com/zscaler.net/posts/31651
+- 影響: Customers on EU region may experience issues when accessing Insights and analytics reports.
+
+We are investigating a data-loading issue, customers on EU region may experience issues when accessing Insights and analytics reports. However there is no impact to other services and traffic is not impacted We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Root Cause: The issue wa
+
+---
+
+## Scheduled Maintenance Extended - zdxcloud.net
+- 公開: Sat, 05 Sep 2026 16:48:51 GMT
+- ステータス: Completed  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zdxcloud.net/posts/31646
+- 影響: 
+
+The Zscaler Site Reliability Engineering team will be extending the scheduled maintenance of the zdxcloud.net cloud by 2 hours. As part of our standard maintenance process, all logs will be collected and available after maintenance has been completed. Please contact Zscaler Support if you have additional questions. Update - Sat, 05 Sep 2026 17:56:52 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions.
+
+---
+
+## Tokyo V (TYO5) Critical Datacenter Network Maintenance - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zpatwo.net
+- 公開: Sat, 05 Sep 2026 02:20:50 GMT
+- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zscaler.net/posts/31641
+- 影響: 
+
+Zscaler will be performing hardware maintenance in the Tokyo V (TYO5) Datacenter. Maintenance window, Start: 2026-09-09 22:00 JST End: 2026-09-10 02:00 JST (i.e. 2026-09-09 13:00 - 17:00 UTC) During the maintenance, traffic will failover to redundant devices in the same datacenter. However, intermittent connection and connection reestablishment may be observed.
+
+---
+
+## Potential disruption of alert notification service - zscalerone.net
+- 公開: Sat, 05 Sep 2026 00:47:50 GMT
+- ステータス: In Progress  カテゴリ: Recent incident
+- URL: https://trust.zscaler.com/zscalerone.net/posts/31636
+- 影響: Some customers may receive alerts with links that do not resolve correctly. Alert criteria and functionality is intact and continues to operate normally. Customers can access the alerts in the UI portal.
+
+Zscaler is investigating a potential disruption of the alert notification service on the&nbsp; zscalerone.net cloud. Some customers may receive alerts with links that do not resolve correctly. Alert criteria and functionality is intact and continues to operate normally. Customers can access the alerts in the UI portal. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CS
+
+---
 
 ## San Francisco 4 (SJC4) Datacenter Network Maintenance - zscalerthree.net
 - 公開: Fri, 04 Sep 2026 15:39:01 GMT
@@ -156,55 +206,5 @@ Zscaler will be performing hardware maintenance in the Zurich I (ZRH1) Datacente
 Live, inline traffic and inline enforcement are not impacted.
 
 Zscaler is investigating an issue affecting SaaS API scanning for some customers. Affected customers may experience delays or failures when scanning SaaS content, which may result in DLP inspection results being delayed or unavailable for affected content. The issue is limited to out-of-band SaaS API scanning. Inline traffic and inline enforcement are not impacted. Zscaler teams are actively working to restore normal scanning performance and are investigating the underlying cause. We will contin
-
----
-
-## ZTB-IN-M1 Cloud Upgrade and Maintenance - ztb-in-m1
-- 公開: Tue, 01 Sep 2026 08:59:00 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/ztb-in-m1/posts/31556
-- 影響: 
-
-Zscaler will be performing a cloud software upgrade and maintenance activity for ZTB-IN-M1 to deliver continued improvements in performance, stability, and security. Maintenance window: Sep 2, 2026, 13:30 to 17:30 UTC &nbsp; Duration: 4 hours No service downtime is anticipated during this maintenance window, and services are expected to remain available. However, as with any maintenance activity, there remains a limited risk of intermittent impact or brief disruption. We appreciate your understa
-
----
-
-## Cloud App Miscategorization Issue - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
-- 公開: Tue, 01 Sep 2026 08:37:28 GMT
-- ステータス: Resolved  カテゴリ: Recent incident
-- URL: https://trust.zscaler.com/zscaler.net/posts/31551
-- 影響: Customers may have faced issues with cloud applications not behaving as expected under their configured ZIA policies, resulting in unintended behavior.
-
-Zscaler is currently investigating reports of issues with its zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net Cloud. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Root Cause: The issue occurred due to a configuration and software defect, resulting in traffic for the 
-
----
-
-## Urgent Maintenance - zscaler.net
-- 公開: Tue, 01 Sep 2026 02:43:39 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/zscaler.net/posts/31546
-- 影響: 
-
-The Zscaler Site Reliability Engineering team will be performing an urgent maintenance on zscaler.net cloud. This maintenance is scheduled for Monday at 07:45 PM Pacific Time on August 31, 2026 (Tuesday, September 1, 2026 02:45 AM UTC), and can take up to 30 minutes to complete. During the maintenance, the ZIA Admin Portal, and access to policy management will not be available. A brief impact to new user authentication might occur. However, all the logs that are collected during this period will
-
----
-
-## Administration UI Issue - zdxcloud.net
-- 公開: Mon, 31 Aug 2026 13:14:09 GMT
-- ステータス: Resolved  カテゴリ: Recent incident
-- URL: https://trust.zscaler.com/zdxcloud.net/posts/31541
-- 影響: Customers might face issue while accessing zdxcloud.net Cloud administration UI
-
-Zscaler has detected an issue with the administration UI on its zdxcloud.net Cloud.&nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Root Cause: The issue was caused by an unexpected ZDX control plane service failure that briefly impacted administration UI access. Latest Upd
-
----
-
-## Lagos II Datacenter Issue - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
-- 公開: Sat, 29 Aug 2026 12:16:30 GMT
-- ステータス: Resolved  カテゴリ: Recent incident
-- URL: https://trust.zscaler.com/zscaler.net/posts/31536
-- 影響: Customer may experience issues with all types of traffic forwarding to Lagos II Datacenter.
-
-Zscaler has detected an issue with our Lagos II datacenter and is currently investigating the matter. If you’re currently experiencing any traffic impacting issues please failover to your secondary DC or any other alternate DC. For more information, please refer to the following support article. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and a
 
 ---

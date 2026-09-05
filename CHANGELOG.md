@@ -1,6 +1,70 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-09-05 23:24 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- ## Microsoft 365 Copilot Changes and Impacts to Zscaler One Click - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zdxcloud.net, zpatwo.net
+- ## Insights and analytics reports - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, admin.zscaleranalytics.net
+- ## Scheduled Maintenance Extended - zdxcloud.net
+- ## Tokyo V (TYO5) Critical Datacenter Network Maintenance - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zpatwo.net
+- ## Potential disruption of alert notification service - zscalerone.net
+**追加内容（抜粋）:**
+> - 公開: Sat, 05 Sep 2026 00:00:00 GMT
+> - ステータス:   カテゴリ: Advisory
+> - URL: https://trust.zscaler.com/zscaler.net/posts/31656
+> - 影響:
+> Microsoft is making changes to the integrated M365 Copilot experience over&nbsp; the month of September 2026 as part of their continued updates to the corporate, personal, and educational versions of the M365 service.&nbsp; These updates continue the pattern of increased integration of Copilot within various features of M365 but now start to unify these interactions under their .copilot.cloud.microsoft FQDN endpoint. Zscaler will continue to exclude the Copilot cloud application from our M365 On
+> ...他 25 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-09-04 23:19 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
+## 2026-09-05 23:24 UTC — ZDX リリースノート
+
+ソース: [https://help.zscaler.com/zdx/release-notes](https://help.zscaler.com/zdx/release-notes)
+**追加内容（抜粋）:**
+> - 2026-09-04T08:15Z | https://help.zscaler.com/zdx/release-upgrade-summary-2026
+> 最終更新: 2026-09-04T08:15Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-09-04 23:18 UTC~~
+> ~~> ソース: https://help.zscaler.com/zdx/release-notes~~
+> ~~---~~
+
+---
+## 2026-09-05 23:23 UTC — ZPA リリースノート
+
+ソース: [https://help.zscaler.com/zpa/release-notes](https://help.zscaler.com/zpa/release-notes)
+**更新セクション:**
+- ## https://help.zscaler.com/zpa/release-upgrade-summary-2026
+**追加内容（抜粋）:**
+> - 2026-09-04T13:53Z | https://help.zscaler.com/zpa/private-cloud-controller-release-summary-2026
+> - 2026-09-04T13:50Z | https://help.zscaler.com/zpa/network-connector-release-summary-2026
+> - 2026-09-04T13:48Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026
+> - 2026-09-04T13:45Z | https://help.zscaler.com/zpa/app-connector-release-summary-2026
+> - 2026-09-04T13:42Z | https://help.zscaler.com/zpa/release-upgrade-summary-2026
+> ...他 5 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-09-04 23:18 UTC~~
+> ~~> ソース: https://help.zscaler.com/zpa/release-notes~~
+> ~~---~~
+
+---
+## 2026-09-05 23:22 UTC — ZIA リリースノート
+
+ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)
+**追加内容（抜粋）:**
+> - 2026-09-04T06:29Z | https://help.zscaler.com/zia/release-upgrade-summary-2026
+> 最終更新: 2026-09-04T06:29Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-09-04 23:17 UTC~~
+> ~~> ソース: https://help.zscaler.com/zia/release-notes~~
+> ~~---~~
+
+---
 ## 2026-09-04 23:20 UTC — 製品アップデート
 
 ソース: [https://www.zscaler.com/products](https://www.zscaler.com/products)
