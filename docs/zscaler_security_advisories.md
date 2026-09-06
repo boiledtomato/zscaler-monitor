@@ -1,6 +1,6 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-09-05 23:24 UTC  
+> 最終更新: 2026-09-06 23:14 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
@@ -49,7 +49,7 @@ Zscaler will be performing hardware maintenance in the Tokyo V (TYO5) Datacenter
 
 ## Potential disruption of alert notification service - zscalerone.net
 - 公開: Sat, 05 Sep 2026 00:47:50 GMT
-- ステータス: In Progress  カテゴリ: Recent incident
+- ステータス: Resolved  カテゴリ: Recent incident
 - URL: https://trust.zscaler.com/zscalerone.net/posts/31636
 - 影響: Some customers may receive alerts with links that do not resolve correctly. Alert criteria and functionality is intact and continues to operate normally. Customers can access the alerts in the UI portal.
 

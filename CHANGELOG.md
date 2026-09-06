@@ -1,6 +1,17 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-09-06 23:14 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**追加内容（抜粋）:**
+> - ステータス: Resolved  カテゴリ: Recent incident
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-09-05 23:24 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
 ## 2026-09-05 23:24 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
