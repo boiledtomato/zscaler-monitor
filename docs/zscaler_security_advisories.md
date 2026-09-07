@@ -1,11 +1,21 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-09-06 23:14 UTC  
+> 最終更新: 2026-09-07 23:15 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
 
 # Zscaler Trust - インシデント/アドバイザリ RSS
+
+## New Delhi Datacenter issue - zscalerthree.net
+- 公開: Mon, 07 Sep 2026 09:48:34 GMT
+- ステータス: Resolved  カテゴリ: Recent incident
+- URL: https://trust.zscaler.com/zscalerthree.net/posts/31661
+- 影響: A subset of customers might face slowness and/or increased latency while traffic forwarding.
+
+Zscaler has detected an issue with our New Delhi I datacenter and is currently investigating the matter. If you’re currently experiencing any traffic impacting issues please failover to your secondary DC or any other alternate DC. For more information, please refer to the following support article. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes an
+
+---
 
 ## Microsoft 365 Copilot Changes and Impacts to Zscaler One Click - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zdxcloud.net, zpatwo.net
 - 公開: Sat, 05 Sep 2026 00:00:00 GMT
@@ -194,17 +204,5 @@ Zscaler will be performing hardware maintenance in the Mumbai VI (BOM6) Datacent
 - 影響: 
 
 Zscaler will be performing hardware maintenance in the Zurich I (ZRH1) Datacenter. Maintenance window, Start: 2026-09-04 11:30 CEST End: 2026-09-05 02:30 CEST (i.e. 2026-09-04 21:30 - 2026-09-05 00:30 UTC) During the maintenance, traffic will failover to redundant devices in the same datacenter. However, intermittent connections and connection reestablishment may be observed. &nbsp; [UPDATED START TIME DUE TO RESOURCE CONSTRAINT] Update - Fri, 04 Sep 2026 22:41:47 UTC This activity has been comp
-
----
-
-## CASB Scanning Delays - zscalertwo.net
-- 公開: Tue, 01 Sep 2026 16:43:00 GMT
-- ステータス: Resolved  カテゴリ: Recent incident
-- URL: https://trust.zscaler.com/zscalertwo.net/posts/31561
-- 影響: Affected customers may experience delays or incomplete out-of-band scanning of SaaS content. As a result, DLP inspection of affected content may be delayed or incomplete.
-
-Live, inline traffic and inline enforcement are not impacted.
-
-Zscaler is investigating an issue affecting SaaS API scanning for some customers. Affected customers may experience delays or failures when scanning SaaS content, which may result in DLP inspection results being delayed or unavailable for affected content. The issue is limited to out-of-band SaaS API scanning. Inline traffic and inline enforcement are not impacted. Zscaler teams are actively working to restore normal scanning performance and are investigating the underlying cause. We will contin
 
 ---
