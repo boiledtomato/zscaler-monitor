@@ -1,11 +1,83 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-09-09 23:17 UTC  
+> 最終更新: 2026-09-10 23:18 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
 
 # Zscaler Trust - インシデント/アドバイザリ RSS
+
+## Atlanta II (ATL2) Datacenter Network Maintenance - zscalertwo.net
+- 公開: Thu, 10 Sep 2026 22:19:26 GMT
+- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zscalertwo.net/posts/31726
+- 影響: 
+
+Zscaler will be performing hardware maintenance in the Atlanta II (ATL2) Datacenter. Maintenance window, Start: 2026-09-14 18:00 EDT End: 2026-09-14 19:59 EDT (i.e. 2026-09-14 22:00 - 23:59 UTC) During the maintenance, traffic will failover to redundant devices in the same datacenter. However, intermittent connections and connection reestablishment may be observed.
+
+---
+
+## Washington DC (WAS1) Datacenter Network Maintenance - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- 公開: Thu, 10 Sep 2026 22:17:16 GMT
+- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zscaler.net/posts/31721
+- 影響: 
+
+Zscaler will be performing hardware maintenance in the Washington DC (WAS1) Datacenter. Maintenance window, Start: 2026-09-14 18:00 EDT End: 2026-09-14 19:59 EDT (i.e. 2026-09-14 22:00 - 23:59 UTC) During this maintenance, traffic will failover to redundant devices in the same datacenter, and we expect no service impact.
+
+---
+
+## Urgent Maintenance - zscalerone.net
+- 公開: Thu, 10 Sep 2026 20:00:08 GMT
+- ステータス: Completed  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zscalerone.net/posts/31716
+- 影響: 
+
+The Zscaler Site Reliability Engineering team will be performing an urgent maintenance on zscalerone.net cloud. This maintenance is scheduled for Thursday , September 10, 2026 01:15 PM PDT (Thursday, Sep 10, 08:15 PM UTC 2026), and can take up to 30 minutes to complete. During the maintenance, the ZIA Admin Portal, and access to policy management will not be available. A brief impact to new user authentication might occur. However, all the logs that are collected during this period will be avail
+
+---
+
+## Scheduled Maintenance Extended - APAC Region - zscalertwo.net
+- 公開: Thu, 10 Sep 2026 18:38:58 GMT
+- ステータス: Completed  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zscalertwo.net/posts/31711
+- 影響: 
+
+The Zscaler Site Reliability Engineering team will be extending the scheduled maintenance of the zscalertwo.net cloud's APAC region by 2 hours. As part of our standard maintenance process, all logs will be collected and available after maintenance has been completed. Please contact Zscaler Support if you have additional questions. Update - Thu, 10 Sep 2026 21:03:48 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions.
+
+---
+
+## Partner Admin UI and Security & UEBA Alert Notification Issues - zscaler.net
+- 公開: Thu, 10 Sep 2026 06:17:29 GMT
+- ステータス: In Progress  カテゴリ: Recent incident
+- URL: https://trust.zscaler.com/zscaler.net/posts/31706
+- 影響: Partner Admin UI: Partners may be unable to perform administrative actions for their customer tenants.
+
+Security & UEBA Alerts: Customers may not receive alert notifications through configured email aliases or webhooks.
+
+Zscaler has detected an issue with the partner admin UI on its zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net Cloud.&nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Latest Update - Thu, 10 Sep 2026 22:36:32 UTC Zscaler has identified the cause of
+
+---
+
+## Administration UI and User Authentication Issues - zscaler.net
+- 公開: Thu, 10 Sep 2026 04:59:04 GMT
+- ステータス: Monitoring  カテゴリ: Recent incident
+- URL: https://trust.zscaler.com/zscaler.net/posts/31701
+- 影響: Customers might experience issues accessing the Administration UI, user authentication , SCIM auto-provisioning and  ZDX administration UI. ZCC device registrations along with email forwarding to securemail.zscaler.net might also be impacted.
+
+Zscaler has detected an issue with the administration UI and user authentication on its zscaler.net Cloud.&nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Latest Update - Thu, 10 Sep 2026 22:27:31 UTC Zscaler has identified the cause of the issue and validated a fix. To min
+
+---
+
+## Urgent Maintenance - zscaler.net
+- 公開: Thu, 10 Sep 2026 00:17:13 GMT
+- ステータス: Completed  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zscaler.net/posts/31696
+- 影響: 
+
+The Zscaler Site Reliability Engineering team will be performing an urgent maintenance on zscaler.net cloud. This maintenance is scheduled for Wednesday, September 09, 2026 06:00 PM PDT (Thursday, September 10, 2026 01:00 AM UTC), and can take up to 30 minutes to complete. During the maintenance, the ZIA Admin Portal, and access to policy management will not be available. A brief impact to new user authentication might occur. However, all the logs that are collected during this period will be av
+
+---
 
 ## ZTB-IN-M1 Cloud Maintenance - ztb-in-m1
 - 公開: Wed, 09 Sep 2026 16:09:26 GMT
@@ -39,7 +111,7 @@ Zscaler will be performing cloud software upgrade and maintenance activity for P
 
 ## Prod4, Prod5 and Quasar Cloud Upgrade and Maintenance - quasar, prod4, prod5
 - 公開: Wed, 09 Sep 2026 15:38:50 GMT
-- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- ステータス: Completed  カテゴリ: Scheduled maintenance
 - URL: https://trust.zscaler.com/quasar/posts/31676
 - 影響: 
 
@@ -134,75 +206,5 @@ Zscaler is investigating a potential disruption of the alert notification servic
 - 影響: During the maintenance, traffic will failover to redundant devices in the same datacenter, however intermittent connections and connection reestablishment may be observed.
 
 Zscaler will be performing hardware maintenance in the San Francisco 4 (SJC4) Datacenter. Maintenance window, Start: 2026-09-08 18:00 PDT End: 2026-09-08 20:00 PDT (i.e. 2026-09-09 01:00 - 03:00 UTC) Update - Wed, 09 Sep 2026 02:08:54 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions.
-
----
-
-## Degraded performance on ZPA applications via Indian Public Service Edges - private.zscaler.com
-- 公開: Fri, 04 Sep 2026 07:25:58 GMT
-- ステータス: Resolved  カテゴリ: Recent incident
-- URL: https://trust.zscaler.com/private.zscaler.com/posts/31626
-- 影響: A subset of customers may have experienced degraded performance or connectivity failures on ZPA applications routing through Indian Public Service Edges, impacting connectivity between Indian Public Service Edges and app connectors in the UK and US/Canada regions. Other internet applications and services traversing the same third-party international transit path may also have been impacted.
-
-Zscaler received reports of issues with its Chennai II, Chennai III, Hyderabad I, Kolkata I, Mumbai VI, Mumbai VII, New Delhi I datacenter and is currently investigating the matter. If you’re currently experiencing any traffic impacting issues please failover to your secondary DC or any other alternate DC. For more information, please refer to the following support article. &nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Ser
-
----
-
-## Urgent Maintenance - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net
-- 公開: Thu, 03 Sep 2026 18:54:42 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/zscaler.net/posts/31621
-- 影響: 
-
-Zscaler will be performing an urgent maintenance on websites https://sitereview.zscaler.com/ and http://filecheck.zscaler.com/ . For more information, please check our FAQ . If you need further assistance, contact Zscaler Support with reference to this incident. Status changes will be updated here when available.&nbsp; Latest Update - Fri, 04 Sep 2026 10:06:51 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions. Update - Fri, 04 Sep 2026 08:55:53
-
----
-
-## Sandbox Issue - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net
-- 公開: Thu, 03 Sep 2026 09:42:18 GMT
-- ステータス: Resolved  カテゴリ: Recent incident
-- URL: https://trust.zscaler.com/zscaler.net/posts/31616
-- 影響:  Customers might face issues with Sandbox functionality.
-
-Zscaler is currently investigating reports of issues with its zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net Cloud. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Root Cause: Issue ocurred due to recent service update Update - Thu, 03 Sep 2026 09:40:0
-
----
-
-## Mumbai VI (BOM6) Datacenter Network Maintenance - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com
-- 公開: Thu, 03 Sep 2026 07:55:13 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/zscaler.net/posts/31611
-- 影響: During this maintenance, traffic will failover to redundant devices in the same datacenter, and we expect no service impact. 
-
-Zscaler will be performing hardware maintenance in the Mumbai VI (BOM6) Datacenter. Maintenance window, Start: 2026-09-09 22:00 IST End: &nbsp;2026-09-09 23:59 IST (i.e. 2026-09-09 16:30 - 18:29 UTC) Update - Wed, 09 Sep 2026 18:52:43 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions.
-
----
-
-## ZTB-EUC-M1 Cloud Upgrade and Maintenance - ztb-euc-m1
-- 公開: Thu, 03 Sep 2026 06:07:47 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/ztb-euc-m1/posts/31606
-- 影響: 
-
-Zscaler will be performing cloud software upgrade and maintenance activity for ZTB-EUC-M1 to deliver continued improvements in performance, stability, and security. Maintenance window: &nbsp; Wed, 09 Sep 2026 01:00:00 UTC &nbsp; Duration: 5 hours 30 mins No service downtime is anticipated during this maintenance window, and services are expected to remain available. However, as with any maintenance activity, there remains a limited risk of intermittent impact or brief disruption. We appreciate y
-
----
-
-## ZTB-US-M4 Cloud Upgrade and Maintenance - ztb-us-m4
-- 公開: Thu, 03 Sep 2026 05:56:02 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/ztb-us-m4/posts/31601
-- 影響: 
-
-&nbsp;Zscaler will be performing cloud software upgrade and maintenance activity for ZTB-US-M4 to deliver continued improvements in performance, stability, and security. Maintenance window: Fri, 04 Sep 2026 05:30:00 UTC &nbsp; Duration: 4 hours No service downtime is anticipated during this maintenance window, and services are expected to remain available. However, as with any maintenance activity, there remains a limited risk of intermittent impact or brief disruption. We appreciate your unders
-
----
-
-## Seoul I Datacenter Scheduled Maintenance - Service Expansion - zscalerthree.net
-- 公開: Thu, 03 Sep 2026 00:01:20 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/zscalerthree.net/posts/31596
-- 影響: 
-
-Zscaler will be expanding its global data center footprint and performing maintenance at our&nbsp;Seoul I&nbsp;(SEL1) data center. We expect minimal to no impact to services during the maintenance window. Please update your firewall policy rules and any upstream Access Control Lists to allow all IP addresses for this DC For more information, please visit: https://config.zscaler.com/zscalerthree.net/cenr Maintenance Window: Start time is September 4, 9:00 am PDT (September 4, 4:00 PM UTC) End tim
 
 ---

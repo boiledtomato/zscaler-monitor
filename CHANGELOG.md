@@ -1,6 +1,46 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-09-10 23:18 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- ## Atlanta II (ATL2) Datacenter Network Maintenance - zscalertwo.net
+- ## Washington DC (WAS1) Datacenter Network Maintenance - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- ## Urgent Maintenance - zscalerone.net
+- ## Scheduled Maintenance Extended - APAC Region - zscalertwo.net
+- ## Partner Admin UI and Security & UEBA Alert Notification Issues - zscaler.net
+- ## Administration UI and User Authentication Issues - zscaler.net
+- ## Urgent Maintenance - zscaler.net
+**追加内容（抜粋）:**
+> - 公開: Thu, 10 Sep 2026 22:19:26 GMT
+> - ステータス: Upcoming  カテゴリ: Scheduled maintenance
+> - URL: https://trust.zscaler.com/zscalertwo.net/posts/31726
+> - 影響:
+> Zscaler will be performing hardware maintenance in the Atlanta II (ATL2) Datacenter. Maintenance window, Start: 2026-09-14 18:00 EDT End: 2026-09-14 19:59 EDT (i.e. 2026-09-14 22:00 - 23:59 UTC) During the maintenance, traffic will failover to redundant devices in the same datacenter. However, intermittent connections and connection reestablishment may be observed.
+> ...他 25 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-09-09 23:17 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
+## 2026-09-10 23:17 UTC — ZPA リリースノート
+
+ソース: [https://help.zscaler.com/zpa/release-notes](https://help.zscaler.com/zpa/release-notes)
+**更新セクション:**
+- ## https://help.zscaler.com/zpa/network-connector-release-summary-2026
+**追加内容（抜粋）:**
+> - 2026-09-09T11:10Z | https://help.zscaler.com/zpa/release-upgrade-summary-2026
+> - 2026-09-08T10:25Z | https://help.zscaler.com/zpa/network-connector-release-summary-2026
+> 最終更新: 2026-09-09T11:10Z
+> 最終更新: 2026-09-08T10:25Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-09-09 23:16 UTC~~
+> ~~> ソース: https://help.zscaler.com/zpa/release-notes~~
+> ~~---~~
+
+---
 ## 2026-09-09 23:17 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
