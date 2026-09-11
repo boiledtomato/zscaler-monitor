@@ -12,15 +12,15 @@
     "initialized": true
   },
   "zdx_release_notes": {
-    "hash": "3cc5cba3e9a0633b0e041545549428d4c73b8496a56eac17ef56406a0f1f5735",
-    "last_checked": "2026-09-09T23:17:48.708115+00:00",
-    "last_updated": "2026-09-09T23:17:48.708149+00:00",
+    "hash": "a548bb00feb125dc328e98f810f33bb3704716d47d6443f8e2b71f6e7d88f2d9",
+    "last_checked": "2026-09-11T23:14:08.393439+00:00",
+    "last_updated": "2026-09-11T23:14:08.393472+00:00",
     "initialized": true
   },
   "security_advisories": {
-    "hash": "a03d7081f90b3623e198ea358ef3122dc7ddf7e644e4877d17e0be5a19b7cc47",
-    "last_checked": "2026-09-10T23:19:03.693828+00:00",
-    "last_updated": "2026-09-10T23:19:03.693860+00:00",
+    "hash": "1de7326a3606da1ccbb2011e201804c6c98b39c21d002943932edef74f7832f8",
+    "last_checked": "2026-09-11T23:14:45.138317+00:00",
+    "last_updated": "2026-09-11T23:14:45.138346+00:00",
     "initialized": true
   },
   "product_updates": {

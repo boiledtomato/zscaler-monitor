@@ -1,6 +1,37 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-09-11 23:14 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- ## Zscaler Client Connector Support of Windows 10 after Microsoft EOS in October - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com
+- ## Risk360 and Business Insights issue - zscalerrisk.net, admin.zscaleranalytics.net
+**追加内容（抜粋）:**
+> - 公開: Fri, 11 Sep 2026 00:00:00 GMT
+> - ステータス:   カテゴリ: Advisory
+> - URL: https://trust.zscaler.com/zscaler.net/posts/31736
+> - 影響:
+> Microsoft has announced on their&nbsp; Support page that support for Windows 10 will end on October 14, 2025. Zscaler Client Connector will continue supporting Windows 10 for 12 months after this date, until October 13, 2026. Note that customers remaining on Windows 10 after October 14, 2025 can continue receiving security patches from Microsoft after October 14, 2025 through Microsoft’s Extended Security Update (ESU) program. Beyond October 13, 2026, there might be fundamental issues preventing
+> ...他 14 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-09-10 23:18 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
+## 2026-09-11 23:13 UTC — ZDX リリースノート
+
+ソース: [https://help.zscaler.com/zdx/release-notes](https://help.zscaler.com/zdx/release-notes)
+**追加内容（抜粋）:**
+> - 2026-09-10T14:21Z | https://help.zscaler.com/zdx/release-upgrade-summary-2026
+> 最終更新: 2026-09-10T14:21Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-09-09 23:17 UTC~~
+> ~~> ソース: https://help.zscaler.com/zdx/release-notes~~
+> ~~---~~
+
+---
 ## 2026-09-10 23:18 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
