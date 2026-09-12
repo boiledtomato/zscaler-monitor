@@ -1,11 +1,21 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-09-11 23:14 UTC  
+> 最終更新: 2026-09-12 23:14 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
 
 # Zscaler Trust - インシデント/アドバイザリ RSS
+
+## Data Plane and traffic forwarding issue - zscaler.net
+- 公開: Sat, 12 Sep 2026 16:50:23 GMT
+- ステータス: Monitoring  カテゴリ: Recent incident
+- URL: https://trust.zscaler.com/zscaler.net/posts/31741
+- 影響: Customers may encounter issues with Administration UI login, Authentication, Traffic Forwarding, User Policies, Source IP Anchoring (SIPA) and SCIM auto-provisioning.
+
+Zscaler has detected an issue on its zscaler.net Cloud. Customers may encounter issues with Administration UI login, Authentication, Traffic Forwarding, User Policies, Source IP Anchoring (SIPA) and SCIM auto-provisioning. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Latest Up
+
+---
 
 ## Zscaler Client Connector Support of Windows 10 after Microsoft EOS in October - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com
 - 公開: Fri, 11 Sep 2026 00:00:00 GMT
@@ -196,15 +206,5 @@ We are investigating a data-loading issue, customers on EU region may experience
 - 影響: 
 
 The Zscaler Site Reliability Engineering team will be extending the scheduled maintenance of the zdxcloud.net cloud by 2 hours. As part of our standard maintenance process, all logs will be collected and available after maintenance has been completed. Please contact Zscaler Support if you have additional questions. Update - Sat, 05 Sep 2026 17:56:52 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions.
-
----
-
-## Tokyo V (TYO5) Critical Datacenter Network Maintenance - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zpatwo.net
-- 公開: Sat, 05 Sep 2026 02:20:50 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/zscaler.net/posts/31641
-- 影響: 
-
-Zscaler will be performing hardware maintenance in the Tokyo V (TYO5) Datacenter. Maintenance window, Start: 2026-09-09 22:00 JST End: 2026-09-10 02:00 JST (i.e. 2026-09-09 13:00 - 17:00 UTC) During the maintenance, traffic will failover to redundant devices in the same datacenter. However, intermittent connection and connection reestablishment may be observed. Update - Wed, 09 Sep 2026 16:32:18 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions
 
 ---

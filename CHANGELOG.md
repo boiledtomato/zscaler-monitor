@@ -1,6 +1,68 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-09-12 23:14 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- ## Data Plane and traffic forwarding issue - zscaler.net
+**追加内容（抜粋）:**
+> - 公開: Sat, 12 Sep 2026 16:50:23 GMT
+> - ステータス: Monitoring  カテゴリ: Recent incident
+> - URL: https://trust.zscaler.com/zscaler.net/posts/31741
+> - 影響: Customers may encounter issues with Administration UI login, Authentication, Traffic Forwarding, User Policies, Source IP Anchoring (SIPA) and SCIM auto-provisioning.
+> Zscaler has detected an issue on its zscaler.net Cloud. Customers may encounter issues with Administration UI login, Authentication, Traffic Forwarding, User Policies, Source IP Anchoring (SIPA) and SCIM auto-provisioning. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Latest Up
+> ...他 1 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-09-11 23:14 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
+## 2026-09-12 23:13 UTC — ZDX リリースノート
+
+ソース: [https://help.zscaler.com/zdx/release-notes](https://help.zscaler.com/zdx/release-notes)
+**追加内容（抜粋）:**
+> - 2026-09-11T06:46Z | https://help.zscaler.com/zdx/release-upgrade-summary-2026
+> 最終更新: 2026-09-11T06:46Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-09-11 23:13 UTC~~
+> ~~> ソース: https://help.zscaler.com/zdx/release-notes~~
+> ~~---~~
+
+---
+## 2026-09-12 23:13 UTC — ZPA リリースノート
+
+ソース: [https://help.zscaler.com/zpa/release-notes](https://help.zscaler.com/zpa/release-notes)
+**更新セクション:**
+- ## https://help.zscaler.com/zpa/private-cloud-controller-release-summary-2026
+- ## https://help.zscaler.com/zpa/app-connector-release-summary-2026
+- ## https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026
+**追加内容（抜粋）:**
+> - 2026-09-11T10:25Z | https://help.zscaler.com/zpa/private-cloud-controller-release-summary-2026
+> - 2026-09-11T10:10Z | https://help.zscaler.com/zpa/release-upgrade-summary-2026
+> - 2026-09-11T10:10Z | https://help.zscaler.com/zpa/app-connector-release-summary-2026
+> - 2026-09-11T08:53Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026
+> 最終更新: 2026-09-11T10:25Z
+> ...他 3 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-09-10 23:17 UTC~~
+> ~~> ソース: https://help.zscaler.com/zpa/release-notes~~
+> ~~---~~
+
+---
+## 2026-09-12 23:12 UTC — ZIA リリースノート
+
+ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)
+**追加内容（抜粋）:**
+> - 2026-09-11T10:22Z | https://help.zscaler.com/zia/release-upgrade-summary-2026
+> 最終更新: 2026-09-11T10:22Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-09-09 23:15 UTC~~
+> ~~> ソース: https://help.zscaler.com/zia/release-notes~~
+> ~~---~~
+
+---
 ## 2026-09-11 23:14 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
