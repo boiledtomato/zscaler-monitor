@@ -1,6 +1,18 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-09-13 23:13 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**追加内容（抜粋）:**
+> - ステータス: Resolved  カテゴリ: Recent incident
+> Zscaler has detected an issue on its zscaler.net Cloud. Customers may encounter issues with Administration UI login, Authentication, Traffic Forwarding, User Policies, Source IP Anchoring (SIPA) and SCIM auto-provisioning. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Root Caus
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-09-12 23:14 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
 ## 2026-09-12 23:14 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)

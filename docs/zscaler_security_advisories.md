@@ -1,6 +1,6 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-09-12 23:14 UTC  
+> 最終更新: 2026-09-13 23:13 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
@@ -9,11 +9,11 @@
 
 ## Data Plane and traffic forwarding issue - zscaler.net
 - 公開: Sat, 12 Sep 2026 16:50:23 GMT
-- ステータス: Monitoring  カテゴリ: Recent incident
+- ステータス: Resolved  カテゴリ: Recent incident
 - URL: https://trust.zscaler.com/zscaler.net/posts/31741
 - 影響: Customers may encounter issues with Administration UI login, Authentication, Traffic Forwarding, User Policies, Source IP Anchoring (SIPA) and SCIM auto-provisioning.
 
-Zscaler has detected an issue on its zscaler.net Cloud. Customers may encounter issues with Administration UI login, Authentication, Traffic Forwarding, User Policies, Source IP Anchoring (SIPA) and SCIM auto-provisioning. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Latest Up
+Zscaler has detected an issue on its zscaler.net Cloud. Customers may encounter issues with Administration UI login, Authentication, Traffic Forwarding, User Policies, Source IP Anchoring (SIPA) and SCIM auto-provisioning. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Root Caus
 
 ---
 
