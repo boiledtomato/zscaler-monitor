@@ -1,6 +1,25 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-09-14 23:24 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- ## Zscaler Analytics Portal Issue - admin.zscaleranalytics.net
+- ## Reporting and Logging Issue - zscaler.net
+**追加内容（抜粋）:**
+> - 公開: Mon, 14 Sep 2026 10:07:56 GMT
+> - ステータス: In Progress  カテゴリ: Recent incident
+> - URL: https://trust.zscaler.com/admin.zscaleranalytics.net/posts/31751
+> - 影響: The impact is not traffic-affecting — customers can still operate normally except they cannot edit policies or view scan results for endpoint data.
+> Zscaler has detected an issue affecting the admin.zscaleranalytics.net cloud. As a result, the following Analytics areas are impacted: customers are unable to view scan results or edit Endpoint Data Scan policies, access the Application Inventory view, or edit Device Control policies under Policy. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and
+> ...他 8 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-09-13 23:13 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
 ## 2026-09-13 23:13 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)

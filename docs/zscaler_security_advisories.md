@@ -1,11 +1,31 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-09-13 23:13 UTC  
+> 最終更新: 2026-09-14 23:24 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
 
 # Zscaler Trust - インシデント/アドバイザリ RSS
+
+## Zscaler Analytics Portal Issue - admin.zscaleranalytics.net
+- 公開: Mon, 14 Sep 2026 10:07:56 GMT
+- ステータス: In Progress  カテゴリ: Recent incident
+- URL: https://trust.zscaler.com/admin.zscaleranalytics.net/posts/31751
+- 影響: The impact is not traffic-affecting — customers can still operate normally except they cannot edit policies or view scan results for endpoint data. 
+
+Zscaler has detected an issue affecting the admin.zscaleranalytics.net cloud. As a result, the following Analytics areas are impacted: customers are unable to view scan results or edit Endpoint Data Scan policies, access the Application Inventory view, or edit Device Control policies under Policy. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and
+
+---
+
+## Reporting and Logging Issue - zscaler.net
+- 公開: Mon, 14 Sep 2026 08:00:28 GMT
+- ステータス: Resolved  カテゴリ: Recent incident
+- URL: https://trust.zscaler.com/zscaler.net/posts/31746
+- 影響: Subset of customers might face issues with logging and reporting.
+
+Zscaler has detected an issue with its zscaler.net Cloud.&nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Root Cause: Issue occurred due to software defect. Latest Update - Mon, 14 Sep 2026 09:38:50 UTC Zscaler has applied the necessary mitigation steps to address the issue
+
+---
 
 ## Data Plane and traffic forwarding issue - zscaler.net
 - 公開: Sat, 12 Sep 2026 16:50:23 GMT
@@ -39,7 +59,7 @@ Zscaler has detected an issue with its zscaler.net, zscalerone.net, zscalertwo.n
 
 ## Atlanta II (ATL2) Datacenter Network Maintenance - zscalertwo.net
 - 公開: Thu, 10 Sep 2026 22:19:26 GMT
-- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- ステータス: Cancelled  カテゴリ: Scheduled maintenance
 - URL: https://trust.zscaler.com/zscalertwo.net/posts/31726
 - 影響: 
 
@@ -186,25 +206,5 @@ Zscaler has detected an issue with our New Delhi I datacenter and is currently i
 - 影響: 
 
 Microsoft is making changes to the integrated M365 Copilot experience over&nbsp; the month of September 2026 as part of their continued updates to the corporate, personal, and educational versions of the M365 service.&nbsp; These updates continue the pattern of increased integration of Copilot within various features of M365 but now start to unify these interactions under their .copilot.cloud.microsoft FQDN endpoint. Zscaler will continue to exclude the Copilot cloud application from our M365 On
-
----
-
-## Insights and analytics reports - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, admin.zscaleranalytics.net
-- 公開: Sat, 05 Sep 2026 17:25:34 GMT
-- ステータス: Resolved  カテゴリ: Recent incident
-- URL: https://trust.zscaler.com/zscaler.net/posts/31651
-- 影響: Customers on EU region may experience issues when accessing Insights and analytics reports.
-
-We are investigating a data-loading issue, customers on EU region may experience issues when accessing Insights and analytics reports. However there is no impact to other services and traffic is not impacted We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Root Cause: The issue wa
-
----
-
-## Scheduled Maintenance Extended - zdxcloud.net
-- 公開: Sat, 05 Sep 2026 16:48:51 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/zdxcloud.net/posts/31646
-- 影響: 
-
-The Zscaler Site Reliability Engineering team will be extending the scheduled maintenance of the zdxcloud.net cloud by 2 hours. As part of our standard maintenance process, all logs will be collected and available after maintenance has been completed. Please contact Zscaler Support if you have additional questions. Update - Sat, 05 Sep 2026 17:56:52 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions.
 
 ---
