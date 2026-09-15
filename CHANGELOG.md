@@ -1,6 +1,33 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-09-15 23:12 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- ## Tokyo V (TYO5) Datacenter Network Maintenance - zscloud.net
+- ## Atlanta II (ATL2) Datacenter Network Maintenance - zscalertwo.net
+- ## Singapore IV Datacenter Scheduled Maintenance - Service Expansion  - zscalertwo.net
+- ## Frankfurt VI Datacenter Scheduled Maintenance - Service Expansion  - zscaler.net
+- ## Chicago II Datacenter Scheduled Maintenance - Service Expansion  - zscalerthree.net
+- ## Data Plane and Traffic Forwarding Degradation - zscaler.net
+- ## Release Upgrade for Zscaler Data Security Posture Management (DSPM) - app.eu.zsdpc.net
+- ## Zero Trust Branch EMEA Region Cloud Upgrade and Maintenance - ztb-euc-m1
+- ## DLP notification issue - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- ## Reminder Notification for Additions to HUB IP Address Ranges - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, zdxcloud.net
+**追加内容（抜粋）:**
+> - 公開: Tue, 15 Sep 2026 22:35:49 GMT
+> - ステータス: Upcoming  カテゴリ: Scheduled maintenance
+> - URL: https://trust.zscaler.com/zscloud.net/posts/31801
+> - 影響:
+> Zscaler will be performing hardware maintenance in the Tokyo V (TYO5) Datacenter. Maintenance window, Start: 2026-09-19 02:00 JST End: 2026-09-19 05:00 JST (i.e. 2026-09-18 17:00 - 20:00 UTC) During the maintenance, traffic will failover to redundant devices in the same datacenter. However, intermittent connections and connection reestablishment may be observed.
+> ...他 25 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-09-14 23:24 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
 ## 2026-09-14 23:24 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
