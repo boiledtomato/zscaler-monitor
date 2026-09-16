@@ -1,6 +1,40 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-09-16 23:25 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- ## Urgent Maintenance - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- ## Salesforce Platform Disruption Affecting Support Services - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- ## Experience Center Issue - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- ## Upcoming New Data Center - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zpatwo.net
+**追加内容（抜粋）:**
+> - 公開: Wed, 16 Sep 2026 09:39:23 GMT
+> - ステータス: Completed  カテゴリ: Scheduled maintenance
+> - URL: https://trust.zscaler.com/zscaler.net/posts/31821
+> - 影響:
+> The Zscaler Site Reliability Engineering team will be performing an urgent maintenance during which access to the Partner Admin UI will not be available. This maintenance can take up to 30 minutes to complete. All the logs that are collected during this period will be available after the maintenance ends. Update - Wed, 16 Sep 2026 09:52:56 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions.
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-09-15 23:12 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
+## 2026-09-16 23:25 UTC — ZPA リリースノート
+
+ソース: [https://help.zscaler.com/zpa/release-notes](https://help.zscaler.com/zpa/release-notes)
+**更新セクション:**
+- ## https://help.zscaler.com/zpa/release-upgrade-summary-2026
+**追加内容（抜粋）:**
+> - 2026-09-15T13:57Z | https://help.zscaler.com/zpa/release-upgrade-summary-2026
+> 最終更新: 2026-09-15T13:57Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-09-12 23:13 UTC~~
+> ~~> ソース: https://help.zscaler.com/zpa/release-notes~~
+> ~~---~~
+
+---
 ## 2026-09-15 23:12 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
