@@ -1,6 +1,66 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-09-19 23:35 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- # Zscaler Trust - インシデント/アドバイザリ RSS
+- ## Jakarta I Data Center online - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- ## San Francisco IV Datacenter Scheduled Maintenance - Service Expansion  - zscalertwo.net
+- ## Hyderabad I Datacenter Scheduled Maintenance - Service Expansion  - zscaler.net
+- ## Miami III, Miami IV Datacenter Issue - zscalertwo.net, zscalerthree.net
+- ## Intermittent Connectivity Issues Affecting Plain UDP Tunnels for Branch Connectors and Cloud Connectors in APAC - zscloud.net
+- ## Marseille I Datacenter Scheduled Maintenance - Service Expansion  - zscaler.net
+- ## Boston I Datacenter Scheduled Maintenance - Service Expansion  - zscalertwo.net
+- ## Los Angeles II Datacenter Scheduled Maintenance - Service Expansion  - zscalertwo.net
+- ## Zscaler is upgrading PRA services to comply with SSL 3.5 standards - private.zscaler.com, zpatwo.net, zpabeta.net
+**追加内容（抜粋）:**
+> - 公開: Fri, 18 Sep 2026 22:18:47 GMT
+> - ステータス: Completed  カテゴリ: Scheduled maintenance
+> - URL: https://trust.zscaler.com/zscaler.net/posts/31876
+> Dear Zscaler Customer, You are receiving this notice in accordance with the&nbsp; Zscaler Service Continuity Policy . As part of our effort to enhance our Security Cloud’s robustness and performance, Zscaler is bringing online our new Jakarta I (CGK1) data center. This facility will not be added to
+> - 公開: Fri, 18 Sep 2026 21:08:26 GMT
+> ...他 25 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-09-16 23:25 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~- 影響:~~
+
+---
+## 2026-09-19 23:34 UTC — ZDX リリースノート
+
+ソース: [https://help.zscaler.com/zdx/release-notes](https://help.zscaler.com/zdx/release-notes)
+**追加内容（抜粋）:**
+> - 2026-09-18T08:31Z | https://help.zscaler.com/zdx/release-upgrade-summary-2026
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-09-12 23:13 UTC~~
+> ~~> ソース: https://help.zscaler.com/zdx/release-notes~~
+> ~~---~~
+
+---
+## 2026-09-19 23:34 UTC — ZPA リリースノート
+
+ソース: [https://help.zscaler.com/zpa/release-notes](https://help.zscaler.com/zpa/release-notes)
+**追加内容（抜粋）:**
+> - 2026-09-18T10:31Z | https://help.zscaler.com/zpa/release-upgrade-summary-2026
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-09-16 23:25 UTC~~
+> ~~> ソース: https://help.zscaler.com/zpa/release-notes~~
+> ~~---~~
+
+---
+## 2026-09-19 23:33 UTC — ZIA リリースノート
+
+ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)
+**追加内容（抜粋）:**
+> - 2026-09-18T10:17Z | https://help.zscaler.com/zia/release-upgrade-summary-2026
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-09-12 23:12 UTC~~
+> ~~> ソース: https://help.zscaler.com/zia/release-notes~~
+> ~~---~~
+
+---
 ## 2026-09-16 23:25 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
