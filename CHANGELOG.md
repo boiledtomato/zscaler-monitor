@@ -1,6 +1,88 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-09-20 23:28 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- ## Datacenter Expansion Tokyo V (TYO5) - private.zscaler.com
+- ## Urgent Service Update - ZIRSVR virtual role - zscaler.net, zscalerone.net
+**追加内容（抜粋）:**
+> - 公開: Sun, 20 Sep 2026 18:12:29 GMT
+> - ステータス: Upcoming  カテゴリ: Scheduled maintenance
+> - URL: https://trust.zscaler.com/private.zscaler.com/posts/31886
+> - 影響:
+> As part of our regular expansion of capacity, we are adding ZPA Public Service Edge nodes to our existing data center in Tokyo V (TYO5). If you restrict outbound firewall access, please ensure you have added the complete set of published IPs in the URL below https://config.zscaler.com/private.zscaler.com/zpa
+> ...他 25 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-09-19 23:35 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
+## 2026-09-20 23:27 UTC — ZDX リリースノート
+
+ソース: [https://help.zscaler.com/zdx/release-notes](https://help.zscaler.com/zdx/release-notes)
+**更新セクション:**
+- ## https://help.zscaler.com/zdx/release-upgrade-summary-2026
+- ## https://help.zscaler.com/zdx/release-upgrade-summary-2025
+- ## https://help.zscaler.com/zdx/release-upgrade-summary-2024
+- ## https://help.zscaler.com/zdx/release-upgrade-summary-2023
+- ## https://help.zscaler.com/zdx/release-upgrade-summary-2022
+**追加内容（抜粋）:**
+> 最終更新: 2026-09-18T08:31Z
+> 最終更新: 2026-07-13T17:31Z
+> 最終更新: 2024-12-23T09:42Z
+> 最終更新: 2023-04-04T07:06Z
+> 最終更新: 2022-03-14T09:52Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-09-19 23:34 UTC~~
+> ~~> ソース: https://help.zscaler.com/zdx/release-notes~~
+> ~~---~~
+
+---
+## 2026-09-20 23:27 UTC — ZPA リリースノート
+
+ソース: [https://help.zscaler.com/zpa/release-notes](https://help.zscaler.com/zpa/release-notes)
+**更新セクション:**
+- ## https://help.zscaler.com/zpa/release-upgrade-summary-2026
+- ## https://help.zscaler.com/zpa/private-cloud-controller-release-summary-2026
+- ## https://help.zscaler.com/zpa/app-connector-release-summary-2026
+- ## https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026
+- ## https://help.zscaler.com/zpa/network-connector-release-summary-2026
+**追加内容（抜粋）:**
+> 最終更新: 2026-09-18T10:31Z
+> 最終更新: 2026-09-11T10:25Z
+> 最終更新: 2026-09-11T10:10Z
+> 最終更新: 2026-09-11T08:53Z
+> 最終更新: 2026-09-08T10:25Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-09-19 23:34 UTC~~
+> ~~> ソース: https://help.zscaler.com/zpa/release-notes~~
+> ~~---~~
+
+---
+## 2026-09-20 23:26 UTC — ZIA リリースノート
+
+ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)
+**更新セクション:**
+- ## https://help.zscaler.com/zia/release-upgrade-summary-2026
+- ## https://help.zscaler.com/zia/zscaler-endpoint-dlp-release-summary-2026
+- ## https://help.zscaler.com/zia/release-upgrade-summary-2025
+- ## https://help.zscaler.com/zia/release-upgrade-summary-2024
+- ## https://help.zscaler.com/zia/release-upgrade-summary-2023
+**追加内容（抜粋）:**
+> 最終更新: 2026-09-18T10:17Z
+> 最終更新: 2026-07-06T14:30Z
+> 最終更新: 2026-06-17T02:45Z
+> 最終更新: 2026-02-03T22:12Z
+> 最終更新: 2026-02-03T22:12Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-09-19 23:33 UTC~~
+> ~~> ソース: https://help.zscaler.com/zia/release-notes~~
+> ~~---~~
+
+---
 ## 2026-09-19 23:35 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
