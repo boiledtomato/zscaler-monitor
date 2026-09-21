@@ -1,6 +1,53 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-09-21 23:35 UTC — ZIA リリースノート
+
+ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-09-20 23:26 UTC~~
+> ~~> ソース: https://help.zscaler.com/zia/release-notes~~
+> ~~---~~
+
+---
+## 2026-09-21 23:35 UTC — ZPA リリースノート
+
+ソース: [https://help.zscaler.com/zpa/release-notes](https://help.zscaler.com/zpa/release-notes)
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-09-20 23:27 UTC~~
+> ~~> ソース: https://help.zscaler.com/zpa/release-notes~~
+> ~~---~~
+
+---
+## 2026-09-21 23:35 UTC — ZDX リリースノート
+
+ソース: [https://help.zscaler.com/zdx/release-notes](https://help.zscaler.com/zdx/release-notes)
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-09-20 23:27 UTC~~
+> ~~> ソース: https://help.zscaler.com/zdx/release-notes~~
+> ~~---~~
+
+---
+## 2026-09-21 23:35 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- # Zscaler Trust - インシデント/アドバイザリ RSS
+- ## Critical Mumbai VI (BOM6) Datacenter Network Maintenance - zscloud.net, zscalerthree.net
+- ## Traffic Congestion Affecting US–APAC and Intra-APAC Routes - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zpatwo.net
+**追加内容（抜粋）:**
+> - 公開: Mon, 21 Sep 2026 23:23:12 GMT
+> - ステータス: Upcoming  カテゴリ: Scheduled maintenance
+> - URL: https://trust.zscaler.com/zscloud.net/posts/31901
+> Zscaler will be performing critical hardware maintenance in the Mumbai VI (BOM6) Datacenter. Maintenance window, Start: 2026-09-23 20:30 IST End: 2026-09-23 23:30 IST (i.e. 2026-09-23 15:00 - 18:00 UTC) During the maintenance, traffic will failover to redundant devices in the same datacenter. However, intermittent connections and connection reestablishment may be observed.
+> - 公開: Mon, 21 Sep 2026 00:00:00 GMT
+> ...他 6 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-09-20 23:28 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~- 影響:~~
+
+---
 ## 2026-09-20 23:28 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
