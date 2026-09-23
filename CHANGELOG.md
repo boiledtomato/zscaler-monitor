@@ -1,6 +1,106 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-09-23 23:34 UTC — ZIA リリースノート
+
+ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)
+**更新セクション:**
+- ## https://help.zscaler.com/zia/release-upgrade-summary-2026
+- ## https://help.zscaler.com/zia/zscaler-endpoint-dlp-release-summary-2026
+- ## https://help.zscaler.com/zia/release-upgrade-summary-2025
+- ## https://help.zscaler.com/zia/release-upgrade-summary-2024
+- ## https://help.zscaler.com/zia/release-upgrade-summary-2023
+**追加内容（抜粋）:**
+> - 2026-09-21T16:58Z | https://help.zscaler.com/zia/release-upgrade-summary-2026
+> 最終更新: 2026-09-21T16:58Z
+> 最終更新: 2026-07-06T14:30Z
+> 最終更新: 2026-06-17T02:45Z
+> 最終更新: 2026-02-03T22:12Z
+> ...他 1 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-09-21 23:35 UTC~~
+> ~~> ソース: https://help.zscaler.com/zia/release-notes~~
+> ~~---~~
+
+[GitHubリンク](https://github.com/boiledtomato/zscaler-monitor/blob/main/docs/zscaler_zia_release_notes.md)
+
+---
+## 2026-09-23 23:34 UTC — ZPA リリースノート
+
+ソース: [https://help.zscaler.com/zpa/release-notes](https://help.zscaler.com/zpa/release-notes)
+**更新セクション:**
+- ## https://help.zscaler.com/zpa/release-upgrade-summary-2026
+- ## https://help.zscaler.com/zpa/private-cloud-controller-release-summary-2026
+- ## https://help.zscaler.com/zpa/app-connector-release-summary-2026
+- ## https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026
+- ## https://help.zscaler.com/zpa/network-connector-release-summary-2026
+**追加内容（抜粋）:**
+> - 2026-09-22T08:01Z | https://help.zscaler.com/zpa/release-upgrade-summary-2026
+> 最終更新: 2026-09-22T08:01Z
+> 最終更新: 2026-09-11T10:25Z
+> 最終更新: 2026-09-11T10:10Z
+> 最終更新: 2026-09-11T08:53Z
+> ...他 1 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-09-21 23:35 UTC~~
+> ~~> ソース: https://help.zscaler.com/zpa/release-notes~~
+> ~~---~~
+
+[GitHubリンク](https://github.com/boiledtomato/zscaler-monitor/blob/main/docs/zscaler_zpa_release_notes.md)
+
+---
+## 2026-09-23 23:34 UTC — ZDX リリースノート
+
+ソース: [https://help.zscaler.com/zdx/release-notes](https://help.zscaler.com/zdx/release-notes)
+**更新セクション:**
+- ## https://help.zscaler.com/zdx/release-upgrade-summary-2026
+- ## https://help.zscaler.com/zdx/release-upgrade-summary-2025
+- ## https://help.zscaler.com/zdx/release-upgrade-summary-2024
+- ## https://help.zscaler.com/zdx/release-upgrade-summary-2023
+- ## https://help.zscaler.com/zdx/release-upgrade-summary-2022
+**追加内容（抜粋）:**
+> - 2026-09-22T13:44Z | https://help.zscaler.com/zdx/release-upgrade-summary-2026
+> 最終更新: 2026-09-22T13:44Z
+> 最終更新: 2026-07-13T17:31Z
+> 最終更新: 2024-12-23T09:42Z
+> 最終更新: 2023-04-04T07:06Z
+> ...他 1 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-09-21 23:35 UTC~~
+> ~~> ソース: https://help.zscaler.com/zdx/release-notes~~
+> ~~---~~
+
+[GitHubリンク](https://github.com/boiledtomato/zscaler-monitor/blob/main/docs/zscaler_zdx_release_notes.md)
+
+---
+## 2026-09-23 23:34 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- # Zscaler Trust - インシデント/アドバイザリ RSS
+- ## Scheduled Maintenance | Experience Center - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zdxcloud.net, zpatwo.net
+- ## ZPA Browser-Based and Privileged Remote Access Application Accessibility Issue - private.zscaler.com, zpatwo.net
+- ## Datacenter Expansion Manchester I (MAN1) - private.zscaler.com
+- ## Decommissioning "Original" Navigation on Experience Center - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zdxcloud.net, zpatwo.net
+- ## Zero Trust Branch EMEA Region Cloud Upgrade and Maintenance - ztb-euc-m1
+- ## ZTB-US-M4 Cloud Maintenance - ztb-us-m4
+- ## Increased CAPTCHA Challenges During Web Access - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- ## Datacenter Expansion Shanghai II (SHA2) - private.zscaler.com
+**追加内容（抜粋）:**
+> - 公開: Wed, 23 Sep 2026 22:26:15 GMT
+> - ステータス: Upcoming  カテゴリ: Scheduled maintenance
+> - URL: https://trust.zscaler.com/zscaler.net/posts/31941
+> Zscaler will perform scheduled maintenance to improve Experience Center service resiliency. Maintenance will proceed one region at a time, with each region scheduled for approximately one hour within the overall maintenance window. Expected Customer Impact: Customers may experience a brief interruption to Experience Center availability lasting approximately 15 minutes within the scheduled maintenance window.
+> - 公開: Wed, 23 Sep 2026 19:00:13 GMT
+> ...他 25 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-09-21 23:35 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~- ステータス: Upcoming  カテゴリ: Scheduled maintenance~~
+
+[GitHubリンク](https://github.com/boiledtomato/zscaler-monitor/blob/main/docs/zscaler_security_advisories.md)
+
+---
 ## 2026-09-21 23:35 UTC — ZIA リリースノート
 
 ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)
