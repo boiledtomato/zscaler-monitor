@@ -1,6 +1,33 @@
 # Zscaler 更新履歴
 
 自動生成 by zscaler-monitor
+## 2026-09-24 23:29 UTC - セキュリティアドバイザリ
+ソース: https://trust.zscaler.com/
+
+### 追加されたエントリ
+- Reporting and Logging Issue - zscalertwo.net
+- Business Continuity - Mumbai I Datacenter Scheduled Maintenance - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zpatwo.net
+- Scheduled Maintenance Extended - APAC Region - zscalerthree.net
+- ZPA Browser Isolation Policy Issue - private.zscaler.com, zpatwo.net, zpabeta.net
+- Zero Trust Branch APAC Region Cloud Upgrade and Maintenance - ztb-in-m1
+- Zero Trust Branch AMER Region Cloud Upgrade and Maintenance - ztb-us-m2, ztb-us-m3 (beta), ztb-us-m4, ztb-us-m7
+- Tokyo IV and Tokyo V Data Center Issue - zscalerthree.net
+- Chennai II (MAA2) Datacenter Network Maintenance - zscalerthree.net
+- Scheduled Maintenance | Experience Center - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zdxcloud.net, zpatwo.net
+
+### ロールオフしたエントリ（RSSから削除）
+- Datacenter Expansion Tokyo V (TYO5) - private.zscaler.com
+- Urgent Service Update - ZIRSVR virtual role - zscaler.net, zscalerone.net
+- Jakarta I Data Center online - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- San Francisco IV Datacenter Scheduled Maintenance - Service Expansion  - zscalertwo.net
+- Hyderabad I Datacenter Scheduled Maintenance - Service Expansion  - zscaler.net
+- Miami III, Miami IV Datacenter Issue - zscalertwo.net, zscalerthree.net
+- Intermittent Connectivity Issues Affecting Plain UDP Tunnels for Branch Connectors and Cloud Connectors in APAC - zscloud.net
+- Marseille I Datacenter Scheduled Maintenance - Service Expansion  - zscaler.net
+- Boston I Datacenter Scheduled Maintenance - Service Expansion  - zscalertwo.net
+- Los Angeles II Datacenter Scheduled Maintenance - Service Expansion  - zscalertwo.net
+
+---
 ## 2026-09-23 23:34 UTC — ZIA リリースノート
 
 ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)
