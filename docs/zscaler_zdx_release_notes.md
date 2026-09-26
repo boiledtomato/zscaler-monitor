@@ -1,6 +1,6 @@
 # ZDX リリースノート
 
-最終更新日時: 2026-09-25 23:23 UTC
+最終更新日時: 2026-09-26T23:28 UTC
 ソースURL: https://help.zscaler.com/zdx/release-notes
 
 ---
@@ -77,6 +77,7 @@ Custom SOW
 Training & Certification
 Tools
 Release Notes
+
 Internet & SaaS (ZIA) Release Notes
 Private Access (ZPA) Release Notes
 Digital Experience Monitoring (ZDX) Release Notes
