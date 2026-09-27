@@ -1,3 +1,11 @@
+## 2026-09-27T23:24:45Z - セキュリティアドバイザリ
+ソース: https://trust.zscaler.com/
+変更内容: コンテンツのハッシュが変更されました。主要な変更点: All Zscaler Services are functional  All zscaler services are currently online.  Transactions Processed 0 444 K 889 K 1.3 M 1.8 M 2.2 M 2.7 M 3.1 M 3.6 M 4 M 2,402,195 per second  3.7 M  Daily Peak  224.5 B  Last Day  13.2 T  Last Month  84.4 T  Last Year  Policies Enforced 0 80 K 160 K 240 K 320 K...
+
+## 2026-09-27T23:24:45Z - 製品アップデート
+ソース: https://www.zscaler.com/products
+変更内容: コンテンツのハッシュが変更されました。主要な変更点: Find a product, solution, or technology  SEARCH BY NAME OR KEYWORD  SELECT ALL THAT INTEREST YOU  AI Security  AI/ML  Accelerate M&A and Divestitures  Application Transformation  Data Security  Exposure Management  Network & Security Transformation  Optimize Digital Experiences  Show 22 more Jump to...
+
 ## 2026-09-26T23:28 UTC - ZIA リリースノート
 ソース: https://help.zscaler.com/zia/release-notes
 変更内容: コンテンツに変更が検出されました。

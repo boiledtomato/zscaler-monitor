@@ -1,6 +1,5 @@
 # セキュリティアドバイザリ
-
-最終更新日時: 2026-09-26T23:28 UTC
+最終更新日時: 2026年09月27日 23:24 UTC
 ソースURL: https://trust.zscaler.com/
 
 ---
@@ -11,35 +10,29 @@ All zscaler services are currently online.
 
 Transactions Processed
 0
-389 K
-778 K
-1.2 M
-1.6 M
-1.9 M
-2.3 M
+444 K
+889 K
+1.3 M
+1.8 M
+2.2 M
 2.7 M
 3.1 M
-3.5 M
-2,357,124
+3.6 M
+4 M
+2,402,195
 per second
 
-9 M
+3.7 M
 
 Daily Peak
 
-	
-
-509.2 B
+224.5 B
 
 Last Day
-
-	
 
 13.2 T
 
 Last Month
-
-	
 
 84.4 T
 
@@ -52,26 +45,20 @@ Policies Enforced
 240 K
 320 K
 400 K
-187,027
+183,421
 per second
 
-504.2 K
+331.8 K
 
 Daily Peak
 
-	
-
-28.5 B
+17.9 B
 
 Last Day
-
-	
 
 754.1 B
 
 Last Month
-
-	
 
 4.4 T
 
@@ -79,32 +66,26 @@ Last Year
 
 Threats Blocked
 0
-833
-1.7 K
-2.5 K
-3.3 K
-4.2 K
-5 K
-3,513
+917
+1.8 K
+2.8 K
+3.7 K
+4.6 K
+6 K
+3,766
 per second
 
-13.4 K
+5.4 K
 
 Daily Peak
 
-	
-
-439 M
+331.1 M
 
 Last Day
-
-	
 
 12.3 B
 
 Last Month
-
-	
 
 41.9 B
 
