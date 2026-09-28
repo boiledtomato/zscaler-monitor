@@ -1,6 +1,113 @@
 ## 2026-09-27T23:24:45Z - セキュリティアドバイザリ
 ソース: https://trust.zscaler.com/
 変更内容: コンテンツのハッシュが変更されました。主要な変更点: All Zscaler Services are functional  All zscaler services are currently online.  Transactions Processed 0 444 K 889 K 1.3 M 1.8 M 2.2 M 2.7 M 3.1 M 3.6 M 4 M 2,402,195 per second  3.7 M  Daily Peak  224.5 B  Last Day  13.2 T  Last Month  84.4 T  Last Year  Policies Enforced 0 80 K 160 K 240 K 320 K...
+## 2026-09-28 23:25 UTC — 製品アップデート
+
+ソース: [https://www.zscaler.com/products](https://www.zscaler.com/products)
+**追加内容（抜粋）:**
+> Products &amp; Solutions | Zscaler This site uses JavaScript to provide a number of functions, to use this site please enable JavaScript in your browser. Request a demo Contact Us Show Sign In Zscaler Cloud Portal Zscaler Cloud Portal One Zscaler Cloud Portal Two Zscaler Cloud Portal Three Zscaler Cloud Portal Beta admin.zscloud.net Zscaler Private Access Cloud Portal One Zscaler Private Access Cloud Portal Two Show English Français Deutsch Italiano 日本語 Castellano - Mexico Castellano - España Portugues - Brasil Home Platform Solutions Resources Company Zscaler&#x27;s Unified Platform The Zscaler unified cybersecurity platform, built on the Zero Trust Exchange. One platform makes your attack surface disappear and scales with AI. Learn More Zero Trust SASE Everywhere Security for AI Data Security Agentic SecOps Zero Trust SASE Everywhere Secure users, devices, workloads, and agents with the only SASE built for zero trust and AI. Learn More Secure Internet Access (ZIA) Protect users when they browse the internet or use SaaS apps. Secure Private Access (ZPA) Connect users to private apps without a VPN. Zero Trust Branch Connect users and devices across branches, campuses, and factories. Zero Trust Cloud Transform your workload security from firewalls to zero trust. Digital Experience (ZDX) Rapidly detect and resolve app, network, and device issues. Zero Trust Browser Secure browsing and private app access on any device. Cloud Sandbox Defend against unknown file-based threats. Zero Trust Firewall Extend traffic inspection to all ports and protocols. Zero Trust Gateway Manage security for all workloads. Business Continuity Maintain security and uptime during critical failures. Privileged Remote Access Enable secure, controlled, clientless remote access. Zscaler Cellular Secure cellular devices and telecom infrastructure. Zero Trust SASE Everywhere Security for AI Data Security Agentic SecOps Solutions From use cases and industries to technology partners, find the right combination of solutions for your organization. Learn More Use Cases Industries Partner Technology Partnerships AI Asset Management AI Security Attack Surface Management BYOD Security Continuous Threat Exposure Management Data Security Microsegmentation OT Segmentation Replace VPN Secure Access to AI Secure B2B Secure East-West Traffic Secure Ingress and Egress Traffic Secure IoT/OT Secure the Workforce Security Context Graph Zero Trust + AI Zero Trust SD-WAN Use Cases Industries Partner Technology Partnerships Resource Library Stay up to date with the latest cybersecurity insights, reports, guides, webinars, and customer stories. Learn More Community and Support Resources and Insights Tools We are here to help. Connect with experts, find answers, and get the help you need from documentation and peer forums to live technical support. Get Help Contact Support Reach Zscaler&#x27;s technical support team 24/7 by ticket or phone. Customer Success Center Training, best practices, and resources to get the most from your Zscaler deployment. Release Notes The latest product updates, new features, and bug fixes across all Zscaler services. Trust Portal Real-time service health, uptime status, and planned maintenance notifications. Zenith Community Connect with 374,000+ Zscaler users, partners, and experts. Zscaler Help Portal Technical documentation, product guides, and troubleshooting tips. Community and Support Resources and Insights Tools About Zscaler Using the world’s largest security cloud, Zscaler helps leading companies stay ahead of threats and simplify business. Learn More Company Information News and Announcements Who We Are The people, values, and vision behind Zscaler and everything you need to know about us as a company. Analyst Recognition See why Gartner, Forrester, and others rank Zscaler a leader. Careers Join a team on a mission to make the world a safer place to do business. Compliance Certifications, authorizations, and audit reports for the Zscaler platform. Corporate Responsibility How Zscaler drives positive impact through stewardship. Culture Learn how we work, what we value, and what drives us. Frequently Asked Questions Quick answers about who we are, what we do, and how the platform works. Investor Relations Financial results, SEC filings, and corporate governance for NASDAQ: ZS. Leadership Team Meet the executives and board members driving Zscaler&#x27;s vision and strategy. Zenith Ventures Investing in the next generation of zero trust and AI startups. Company Information News and Announcements Home Platform Solutions Resources Company Request a demo Contact Us Sign In Language Browse industry solutions for your market Solutions Connect and secure your entire enterprise. 01 Zscaler for Users Detect and prevent sophisticated cyberthreats with the context you need for fast, accurate incident response. Dive deeper 02 Zscaler for Workloads Minimize your organization’s attack surface, automate your security, and dramatically reduce business risk. Dive deeper 03 Zscaler for IoT and OT Deploy AI-powered protection and secure, direct, private application access for anyone, anywhere, on any device. Dive deeper Zscaler&#x27;s Unified Cybersecurity Platform Learn more Platform Zscaler Platform AI Security Data Security SecOps Product &amp; Solutions Product Tours Industries Partners Carbon Company About Zscaler Zscaler FAQ Leadership Careers Investors Press Responsibility Contact Pricing Popular Links Red Canary Community Analysts News Zenith Live Events Executive Insights App RESOURCES ThreatLabz Research Resource Library Blog Webinars Zpedia Articles Cyber Academy Customer Stories Customer Success Center Support Contact Support Help Portal Security Advisories Disclose a Vulnerability Security Risk Assessments Compliance Partner Portal Home Zscaler is universally recognized as the leader in zero trust. Leveraging the largest security cloud on the planet, Zscaler anticipates, secures, and simplifies the experience of doing business for the world&#x27;s most established companies. Visit us on Facebook (opens in a new tab) Find us on LinkedIn (opens in a new tab) Follow us on X (opens in a new tab) Subscribe our Youtube Channel (opens in a new tab) Follow us on Instagram (opens in a new tab) Sitemap Privacy Legal Security Cookie preferences © 2026 Zscaler, Inc. All rights reserved. Zscaler™ and other trademarks listed at zscaler.com/legal/trademarks are either (i) registered trademarks or service marks or (ii) trademarks or service marks of Zscaler, Inc. in the United States and/or other countries. Any other trademarks are the properties of their respective owners.
+**削除内容（抜粋）:**
+> ~~最終更新日時: 2026年09月27日 23:24 UTC~~
+> ~~ソースURL: https://www.zscaler.com/products~~
+> ~~---~~
+
+---
+## 2026-09-28 23:25 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- # Zscaler Trust - インシデント/アドバイザリ RSS
+- ## Reminder Notification for Upcoming Data Center Expansion - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zpatwo.net
+- ## Toronto III (YTO3) Datacenter Network Maintenance - zscalertwo.net
+- ## Datacenter Expansion Tokyo V (TYO5) - zpatwo.net
+- ## Hyderabad I  Datacenter Scheduled Maintenance - Service Expansion  - zscalerthree.net
+- ## Connectivity Issues Through AWS Cloud Connectors - zscloud.net
+- ## ZPA Service Maintenance - private.zscaler.com
+- ## ZPA Service Maintenance - zpabeta.net
+- ## Zscaler Client Connector Portal Issue - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- ## Jakarta I Datacenter Issue - zscalertwo.net
+**追加内容（抜粋）:**
+> - 公開: Mon, 28 Sep 2026 21:45:18 GMT
+> - ステータス: Completed カテゴリ: Scheduled maintenance
+> - URL: https://trust.zscaler.com/zscaler.net/posts/32076
+> Dear Customer,&nbsp; In accordance with the&nbsp; Zscaler Service Continuity Policy and as previously announced via&nbsp; email notification and&nbsp; Trust&nbsp; on August 14, 2026, we would like to remind you of the upcoming data center expansion at the locations listed below. These would be effective anytime on or after October 13, 2026. Region Location CIDR Notes Americas Dallas II 137.31.160.0/23 Expansion of existing data center Americas Dallas II 137.31.162.0/23 Expansion of existing data
+> - 公開: Mon, 28 Sep 2026 21:10:51 GMT
+> ...他 25 件
+**削除内容（抜粋）:**
+> ~~最終更新日時: 2026年09月27日 23:24 UTC~~
+> ~~ソースURL: https://trust.zscaler.com/~~
+> ~~All Zscaler Services are functional~~
+
+---
+## 2026-09-28 23:25 UTC — ZDX リリースノート
+
+ソース: [https://help.zscaler.com/zdx/release-notes](https://help.zscaler.com/zdx/release-notes)
+**更新セクション:**
+- # ZDX リリースノート ページ一覧 (sitemap)
+- ## https://help.zscaler.com/zdx/release-upgrade-summary-2026
+- ## https://help.zscaler.com/zdx/release-upgrade-summary-2025
+- ## https://help.zscaler.com/zdx/release-upgrade-summary-2024
+- ## https://help.zscaler.com/zdx/release-upgrade-summary-2023
+- ## https://help.zscaler.com/zdx/release-upgrade-summary-2022
+**追加内容（抜粋）:**
+> - 2026-09-22T13:44Z | https://help.zscaler.com/zdx/release-upgrade-summary-2026
+> - 2026-07-13T17:31Z | https://help.zscaler.com/zdx/release-upgrade-summary-2025
+> - 2024-12-23T09:42Z | https://help.zscaler.com/zdx/release-upgrade-summary-2024
+> - 2023-04-04T07:06Z | https://help.zscaler.com/zdx/release-upgrade-summary-2023
+> - 2022-03-14T09:52Z | https://help.zscaler.com/zdx/release-upgrade-summary-2022
+> ...他 7 件
+**削除内容（抜粋）:**
+> ~~最終更新日時: 2026-09-26T23:28 UTC~~
+> ~~ソースURL: https://help.zscaler.com/zdx/release-notes~~
+> ~~---~~
+
+---
+## 2026-09-28 23:25 UTC — ZPA リリースノート
+
+ソース: [https://help.zscaler.com/zpa/release-notes](https://help.zscaler.com/zpa/release-notes)
+**更新セクション:**
+- # ZPA リリースノート ページ一覧 (sitemap)
+- ## https://help.zscaler.com/zpa/network-connector-release-summary-2026
+- ## https://help.zscaler.com/zpa/private-cloud-controller-release-summary-2026
+- ## https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026
+- ## https://help.zscaler.com/zpa/app-connector-release-summary-2026
+- ## https://help.zscaler.com/zpa/release-upgrade-summary-2026
+**追加内容（抜粋）:**
+> - 2026-09-24T15:50Z | https://help.zscaler.com/zpa/network-connector-release-summary-2026
+> - 2026-09-24T15:48Z | https://help.zscaler.com/zpa/private-cloud-controller-release-summary-2026
+> - 2026-09-24T15:46Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026
+> - 2026-09-24T15:43Z | https://help.zscaler.com/zpa/app-connector-release-summary-2026
+> - 2026-09-22T08:01Z | https://help.zscaler.com/zpa/release-upgrade-summary-2026
+> ...他 25 件
+**削除内容（抜粋）:**
+> ~~最終更新日時: 2026-09-26T23:28 UTC~~
+> ~~ソースURL: https://help.zscaler.com/zpa/release-notes~~
+> ~~---~~
+
+---
+## 2026-09-28 23:25 UTC — ZIA リリースノート
+
+ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)
+**更新セクション:**
+- # ZIA リリースノート ページ一覧 (sitemap)
+- ## https://help.zscaler.com/zia/release-upgrade-summary-2026
+- ## https://help.zscaler.com/zia/zscaler-endpoint-dlp-release-summary-2026
+- ## https://help.zscaler.com/zia/release-upgrade-summary-2025
+- ## https://help.zscaler.com/zia/release-upgrade-summary-2024
+- ## https://help.zscaler.com/zia/release-upgrade-summary-2023
+**追加内容（抜粋）:**
+> - 2026-09-25T03:52Z | https://help.zscaler.com/zia/release-upgrade-summary-2026
+> - 2026-07-06T14:30Z | https://help.zscaler.com/zia/zscaler-endpoint-dlp-release-summary-2026
+> - 2026-06-17T02:45Z | https://help.zscaler.com/zia/release-upgrade-summary-2025
+> - 2026-02-03T22:12Z | https://help.zscaler.com/zia/release-upgrade-summary-2024
+> - 2026-02-03T22:12Z | https://help.zscaler.com/zia/release-upgrade-summary-2023
+> ...他 9 件
+**削除内容（抜粋）:**
+> ~~最終更新日時: 2026-09-26T23:28 UTC~~
+> ~~ソースURL: https://help.zscaler.com/zia/release-notes~~
+> ~~---~~
+
+---
 
 ## 2026-09-27T23:24:45Z - 製品アップデート
 ソース: https://www.zscaler.com/products
