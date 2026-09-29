@@ -1,3 +1,84 @@
+## 2026-09-29T23:33:00Z - 製品アップデート
+
+ソース: https://www.zscaler.com/products
+
+**追加:**
+- Zscaler for Workloads
+- Schedule a custom demo
+- Zscaler's Unified Cybersecurity Platform
+- SEARCH BY NAME OR KEYWORD
+- Secure Remote Access | Zscaler
+**削除:**
+- Products &amp; Solutions | Zscaler This site uses JavaScript to provide a number of functions, to us
+
+## 2026-09-29T23:33:00Z - セキュリティアドバイザリ
+
+ソース: https://trust.zscaler.com/
+
+**追加:**
+- ztb-us-m7
+- 5 M
+- ZSDK
+- ztb-euc-m1
+- ztb-us-m3 (beta)
+**削除:**
+- - 公開: Thu, 24 Sep 2026 19:16:12 GMT
+- - URL: https://trust.zscaler.com/zscloud.net/posts/32026
+- ## ZPA Browser Isolation Policy Issue - private.zscaler.com, zpatwo.net, zpabeta.net
+- - URL: https://trust.zscaler.com/zscaler.net/posts/31991
+- - URL: https://trust.zscaler.com/zscaler.net/posts/32006
+
+## 2026-09-29T23:33:00Z - ZDX リリースノート
+
+ソース: https://help.zscaler.com/zdx/release-notes
+
+**追加:**
+- Support
+- All
+- Legacy UI: Zero Trust Branch
+- . Zscaler uses cookies, pixels, and other tools to collect information you provide to us and to capt
+- Authentication Service Release Notes
+**削除:**
+- 最終更新: 2026-09-22T13:44Z
+- - 2024-12-23T09:42Z | https://help.zscaler.com/zdx/release-upgrade-summary-2024
+- ## https://help.zscaler.com/zdx/release-upgrade-summary-2022
+- 最終更新: 2022-03-14T09:52Z
+- ## https://help.zscaler.com/zdx/release-upgrade-summary-2026
+
+## 2026-09-29T23:33:00Z - ZPA リリースノート
+
+ソース: https://help.zscaler.com/zpa/release-notes
+
+**追加:**
+- All
+- Authentication Service Release Notes
+- Agentic SOC Release Notes
+- Identity Protection Release Notes
+- Zscaler Cellular Release Notes
+**削除:**
+- 最終更新: 2026-09-24T15:46Z
+- - 2026-09-24T15:43Z | https://help.zscaler.com/zpa/app-connector-release-summary-2026
+- - 2026-09-24T15:46Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026
+- - 2024-03-03T06:06Z | https://help.zscaler.com/zpa/app-connector-release-summary-2024
+- - 2026-09-24T15:50Z | https://help.zscaler.com/zpa/network-connector-release-summary-2026
+
+## 2026-09-29T23:33:00Z - ZIA リリースノート
+
+ソース: https://help.zscaler.com/zia/release-notes
+
+**追加:**
+- Support
+- All
+- Legacy UI: Zero Trust Branch
+- . Zscaler uses cookies, pixels, and other tools to collect information you provide to us and to capt
+- Authentication Service Release Notes
+**削除:**
+- ## https://help.zscaler.com/zia/release-upgrade-summary-2024
+- - 2026-02-03T22:12Z | https://help.zscaler.com/zia/release-upgrade-summary-2022
+- - 2026-02-03T22:12Z | https://help.zscaler.com/zia/release-upgrade-summary-2023
+- 最終更新: 2026-02-03T22:12Z
+- 最終更新: 2026-06-17T02:45Z
+
 ## 2026-09-27T23:24:45Z - セキュリティアドバイザリ
 ソース: https://trust.zscaler.com/
 変更内容: コンテンツのハッシュが変更されました。主要な変更点: All Zscaler Services are functional  All zscaler services are currently online.  Transactions Processed 0 444 K 889 K 1.3 M 1.8 M 2.2 M 2.7 M 3.1 M 3.6 M 4 M 2,402,195 per second  3.7 M  Daily Peak  224.5 B  Last Day  13.2 T  Last Month  84.4 T  Last Year  Policies Enforced 0 80 K 160 K 240 K 320 K...
