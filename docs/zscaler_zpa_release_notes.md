@@ -1,19 +1,19 @@
 # ZPA リリースノート
 
-> 最終更新: 2026-09-30 23:27 UTC  
+> 最終更新: 2026-10-02 23:25 UTC  
 > ソース: https://help.zscaler.com/zpa/release-notes
 
 ---
 
 # ZPA リリースノート ページ一覧 (sitemap)
 
-- 2026-09-29T16:43Z | https://help.zscaler.com/zpa/app-connector-release-summary-2026
-- 2026-09-29T16:42Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026
-- 2026-09-29T16:42Z | https://help.zscaler.com/zpa/private-cloud-controller-release-summary-2026
+- 2026-10-01T14:28Z | https://help.zscaler.com/zpa/release-upgrade-summary-2026
+- 2026-09-30T11:38Z | https://help.zscaler.com/zpa/private-cloud-controller-release-summary-2026
+- 2026-09-30T11:34Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026
+- 2026-09-30T11:33Z | https://help.zscaler.com/zpa/app-connector-release-summary-2026
 - 2026-09-29T16:42Z | https://help.zscaler.com/zpa/network-connector-release-summary-2026
 - 2026-09-29T13:30Z | https://help.zscaler.com/zpa/release-upgrade-summary-2025
 - 2026-09-29T13:30Z | https://help.zscaler.com/zpa/release-upgrade-summary-2024
-- 2026-09-22T08:01Z | https://help.zscaler.com/zpa/release-upgrade-summary-2026
 - 2026-08-19T14:50Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2025
 - 2026-07-01T14:20Z | https://help.zscaler.com/zpa/release-upgrade-summary-2022
 - 2026-07-01T13:05Z | https://help.zscaler.com/zpa/release-upgrade-summary-2023
@@ -34,21 +34,21 @@
 - 2020-11-16T10:40Z | https://help.zscaler.com/zpa/app-connector-release-summary-2020
 - 2020-10-23T14:03Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2020
 
-## https://help.zscaler.com/zpa/app-connector-release-summary-2026
-最終更新: 2026-09-29T16:43Z
-
-
-## https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026
-最終更新: 2026-09-29T16:42Z
+## https://help.zscaler.com/zpa/release-upgrade-summary-2026
+最終更新: 2026-10-01T14:28Z
 
 
 ## https://help.zscaler.com/zpa/private-cloud-controller-release-summary-2026
-最終更新: 2026-09-29T16:42Z
+最終更新: 2026-09-30T11:38Z
+
+
+## https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026
+最終更新: 2026-09-30T11:34Z
+
+
+## https://help.zscaler.com/zpa/app-connector-release-summary-2026
+最終更新: 2026-09-30T11:33Z
 
 
 ## https://help.zscaler.com/zpa/network-connector-release-summary-2026
 最終更新: 2026-09-29T16:42Z
-
-
-## https://help.zscaler.com/zpa/release-upgrade-summary-2025
-最終更新: 2026-09-29T13:30Z
