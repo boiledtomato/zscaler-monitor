@@ -1,54 +1,8 @@
 # ZPA リリースノート
 
-> 最終更新: 2026-10-02 23:25 UTC  
-> ソース: https://help.zscaler.com/zpa/release-notes
+最終更新日時: 2026-10-03 23:27 UTC
+ソースURL: https://help.zscaler.com/zpa/release-notes
 
 ---
 
-# ZPA リリースノート ページ一覧 (sitemap)
-
-- 2026-10-01T14:28Z | https://help.zscaler.com/zpa/release-upgrade-summary-2026
-- 2026-09-30T11:38Z | https://help.zscaler.com/zpa/private-cloud-controller-release-summary-2026
-- 2026-09-30T11:34Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026
-- 2026-09-30T11:33Z | https://help.zscaler.com/zpa/app-connector-release-summary-2026
-- 2026-09-29T16:42Z | https://help.zscaler.com/zpa/network-connector-release-summary-2026
-- 2026-09-29T13:30Z | https://help.zscaler.com/zpa/release-upgrade-summary-2025
-- 2026-09-29T13:30Z | https://help.zscaler.com/zpa/release-upgrade-summary-2024
-- 2026-08-19T14:50Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2025
-- 2026-07-01T14:20Z | https://help.zscaler.com/zpa/release-upgrade-summary-2022
-- 2026-07-01T13:05Z | https://help.zscaler.com/zpa/release-upgrade-summary-2023
-- 2026-06-23T17:29Z | https://help.zscaler.com/zpa/private-cloud-controller-release-summary-2025
-- 2026-06-23T17:26Z | https://help.zscaler.com/zpa/app-connector-release-summary-2025
-- 2026-06-23T17:25Z | https://help.zscaler.com/zpa/network-connector-release-summary-2025
-- 2024-03-03T06:06Z | https://help.zscaler.com/zpa/app-connector-release-summary-2024
-- 2024-03-03T06:06Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2024
-- 2023-11-03T09:51Z | https://help.zscaler.com/zpa/release-upgrade-summary-2019
-- 2022-12-19T18:57Z | https://help.zscaler.com/zpa/app-connector-release-summary-2023
-- 2022-12-19T18:47Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2023
-- 2022-03-24T16:30Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2021
-- 2022-02-27T06:00Z | https://help.zscaler.com/zpa/app-connector-release-summary-2022
-- 2022-02-27T06:00Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2022
-- 2021-11-29T14:41Z | https://help.zscaler.com/zpa/release-upgrade-summary-2021
-- 2021-06-23T17:06Z | https://help.zscaler.com/zpa/release-upgrade-summary-2020
-- 2021-05-01T07:00Z | https://help.zscaler.com/zpa/app-connector-release-summary-2021
-- 2020-11-16T10:40Z | https://help.zscaler.com/zpa/app-connector-release-summary-2020
-- 2020-10-23T14:03Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2020
-
-## https://help.zscaler.com/zpa/release-upgrade-summary-2026
-最終更新: 2026-10-01T14:28Z
-
-
-## https://help.zscaler.com/zpa/private-cloud-controller-release-summary-2026
-最終更新: 2026-09-30T11:38Z
-
-
-## https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026
-最終更新: 2026-09-30T11:34Z
-
-
-## https://help.zscaler.com/zpa/app-connector-release-summary-2026
-最終更新: 2026-09-30T11:33Z
-
-
-## https://help.zscaler.com/zpa/network-connector-release-summary-2026
-最終更新: 2026-09-29T16:42Z
+Zscaler is rolling out an improved navigation system for Experience Center. Articles and videos on Help Portal will be updated to reflect these changes. During this transition, if a menu path doesn't match the UI, we recommend using search within Experience Center to locate the page. Documentation Getting Started with Zscaler Internet & SaaS (ZIA) Private Access (ZPA) Digital Experience Monitoring (ZDX) Workflow Automation Data Security Posture Management (DSPM) Zscaler Connectors Client Connector Zero Trust Branch Zscaler Cellular Cloud & Branch Connector Security Operations Platform Unified Vulnerability Management (UVM) Asset Exposure Management External Attack Surface Management Agentic SOC Deception Identity Protection Breach Predictor Zero Trust Browser Risk360 Business Insights Authentication Service Developer Center Legacy Zscaler APIs AI Protect AI Asset Management Secure Access to AI Apps Secure AI Apps & Infrastructure Zscaler Legacy ITDR Posture Control (ZPC) Zscaler SDK for Mobile Apps Legacy UI: Internet & SaaS (ZIA) Legacy UI: Private Access (ZPA) Legacy UI: Digital Experience Monitoring (ZDX) Legacy UI: Workflow Automation Legacy UI: Data Security Posture Management (DSPM) Legacy UI: Zscaler Client Connector Legacy UI: Cloud & Branch Connector Legacy UI: Zscaler Cellular Legacy UI: Zero Trust Branch Legacy UI: Zero Trust Browser Legacy UI: Risk360 Advanced Legacy UI: Business Insights Legacy UI: Authentication Service Logs & Fair Use Zscaler Support Troubleshooting Runbooks Zscaler Deployments & Operations Zscaler Technology Partners Multi-Tenant Portal Product Usage Terms & Policies Release Notes Support Support Overview Support Teams Support Scope & Communication Methods Case Types & Severity Levels Agent Z Support Troubleshooting Runbooks Services Deployment Services Zscaler Threat Hunting Service Services Credits Staff Augmentation Custom SOW Training & Certification Tools Release Notes Internet & SaaS (ZIA) Release Notes Private Access (ZPA) Release Notes ZPA Service Release Notes ZPA App Connector Release Notes ZPA Private Service Edge Release Notes ZPA Private Cloud Controller Release Notes ZPA Network Connector Release Notes Digital Experience Monitoring (ZDX) Release Notes Workflow Automation Release Notes Data Security Posture Management (DSPM) Release Notes Zscaler Client Connector Release Notes Zscaler Cloud & Branch Connector Release Notes Zscaler Cellular Release Notes Zero Trust Branch Release Notes Unified Vulnerability Management (UVM) Release Notes Asset Exposure Management (AEM) Release Notes Agentic SOC Release Notes Identity Protection Release Notes Deception Release Notes Breach Predictor Release Notes External Attack Surface Management (EASM) Release Notes Risk360 Release Notes Business Insights Release Notes Authentication Service Release Notes AI Asset Management Release Notes Secure Access to AI Apps Release Notes Secure AI Apps & Infrastructure Release Notes
