@@ -1,16 +1,16 @@
 # ZPA リリースノート
 
-> 最終更新: 2026-10-04 23:27 UTC  
+> 最終更新: 2026-10-06 23:27 UTC  
 > ソース: https://help.zscaler.com/zpa/release-notes
 
 ---
 
 # ZPA リリースノート ページ一覧 (sitemap)
 
-- 2026-10-02T08:25Z | https://help.zscaler.com/zpa/release-upgrade-summary-2026
-- 2026-09-30T11:38Z | https://help.zscaler.com/zpa/private-cloud-controller-release-summary-2026
-- 2026-09-30T11:34Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026
-- 2026-09-30T11:33Z | https://help.zscaler.com/zpa/app-connector-release-summary-2026
+- 2026-10-05T15:30Z | https://help.zscaler.com/zpa/app-connector-release-summary-2026
+- 2026-10-05T15:23Z | https://help.zscaler.com/zpa/release-upgrade-summary-2026
+- 2026-10-05T08:01Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026
+- 2026-10-05T08:00Z | https://help.zscaler.com/zpa/private-cloud-controller-release-summary-2026
 - 2026-09-29T16:42Z | https://help.zscaler.com/zpa/network-connector-release-summary-2026
 - 2026-09-29T13:30Z | https://help.zscaler.com/zpa/release-upgrade-summary-2025
 - 2026-09-29T13:30Z | https://help.zscaler.com/zpa/release-upgrade-summary-2024
@@ -34,20 +34,20 @@
 - 2020-11-16T10:40Z | https://help.zscaler.com/zpa/app-connector-release-summary-2020
 - 2020-10-23T14:03Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2020
 
+## https://help.zscaler.com/zpa/app-connector-release-summary-2026
+最終更新: 2026-10-05T15:30Z
+
+
 ## https://help.zscaler.com/zpa/release-upgrade-summary-2026
-最終更新: 2026-10-02T08:25Z
-
-
-## https://help.zscaler.com/zpa/private-cloud-controller-release-summary-2026
-最終更新: 2026-09-30T11:38Z
+最終更新: 2026-10-05T15:23Z
 
 
 ## https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026
-最終更新: 2026-09-30T11:34Z
+最終更新: 2026-10-05T08:01Z
 
 
-## https://help.zscaler.com/zpa/app-connector-release-summary-2026
-最終更新: 2026-09-30T11:33Z
+## https://help.zscaler.com/zpa/private-cloud-controller-release-summary-2026
+最終更新: 2026-10-05T08:00Z
 
 
 ## https://help.zscaler.com/zpa/network-connector-release-summary-2026
