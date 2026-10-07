@@ -1,11 +1,21 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-10-06 23:27 UTC  
+> 最終更新: 2026-10-07 23:38 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
 
 # Zscaler Trust - インシデント/アドバイザリ RSS
+
+## Reporting and Logging Issue - zscalertwo.net
+- 公開: Wed, 07 Oct 2026 16:15:40 GMT
+- ステータス: In Progress  カテゴリ: Recent incident
+- URL: https://trust.zscaler.com/zscalertwo.net/posts/32221
+- 影響: Customers may encounter errors such as “Connection to Nanolog server is lost” or 503 responses when trying to access their Web Insights logs.
+
+Zscaler is currently investigating reports of issues with its zscalertwo.net Cloud. Affected customers may see a “Connection to Nanolog server is lost” message and/or 503 errors when attempting to view Web Insights logs. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Latest Upda
+
+---
 
 ## ZCC Flow Logging Issue - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net
 - 公開: Tue, 06 Oct 2026 22:06:30 GMT
@@ -39,11 +49,11 @@ Symptoms : ZPA Users attempting to access &nbsp;Browser Access or User Portal ap
 
 ## ZTB API Service Issues in AMER (ZTB-US-M4) Cloud - ztb-us-m4
 - 公開: Mon, 05 Oct 2026 18:04:52 GMT
-- ステータス: Monitoring  カテゴリ: Recent incident
+- ステータス: Resolved  カテゴリ: Recent incident
 - URL: https://trust.zscaler.com/ztb-us-m4/posts/32206
 - 影響: Customers may experience degraded API service performance, including elevated error rates.
 
-We are currently investigating increased errors in the AMER (ZTB-US-M4) cloud . Customers may experience issues with API services , including elevated error rates. Our engineering team is actively working to identify the cause and restore normal service as quickly as possible. We will share additional updates as soon as more information becomes available. Latest Update - Tue, 06 Oct 2026 14:09:21 UTC Zscaler teams implemented mitigation actions that restored API service performance and resolved 
+We are currently investigating increased errors in the AMER (ZTB-US-M4) cloud . Customers may experience issues with API services , including elevated error rates. Our engineering team is actively working to identify the cause and restore normal service as quickly as possible. We will share additional updates as soon as more information becomes available. Latest Update - Wed, 07 Oct 2026 05:55:01 UTC Following the actions previously taken by Zscaler, the incident has been resolved. Root Cause: P
 
 ---
 
@@ -89,7 +99,7 @@ As part of our regular expansion of capacity, we are adding ZPA Public Service E
 
 ## ZPA Service Maintenance - zpatwo.net
 - 公開: Sat, 03 Oct 2026 05:23:44 GMT
-- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- ステータス: In Progress  カテゴリ: Scheduled maintenance
 - URL: https://trust.zscaler.com/zpatwo.net/posts/32176
 - 影響: 
 
@@ -99,7 +109,7 @@ Zscaler will perform routine maintenance on ZPA services to improve availability
 
 ## ZPA Service Maintenance - private.zscaler.com
 - 公開: Sat, 03 Oct 2026 05:13:00 GMT
-- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- ステータス: In Progress  カテゴリ: Scheduled maintenance
 - URL: https://trust.zscaler.com/private.zscaler.com/posts/32171
 - 影響: 
 
@@ -129,7 +139,7 @@ Dear Zscaler Customer, You are receiving this notice in accordance with the&nbsp
 
 ## Los Angeles II Datacenter Scheduled Maintenance - Service Expansion  - zscalertwo.net
 - 公開: Fri, 02 Oct 2026 18:03:14 GMT
-- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- ステータス: Completed  カテゴリ: Scheduled maintenance
 - URL: https://trust.zscaler.com/zscalertwo.net/posts/32156
 - 影響: 
 
@@ -194,15 +204,5 @@ Zscaler will be performing hardware maintenance in San Francisco IV (SJC4) Datac
 - 影響: 
 
 Zscaler is announcing the official End-of-Life (EOL) and End-of-Support for&nbsp; ZscalerOS 24 (ZSOS24) , effective&nbsp; December 31, 2026 . To maintain continuous secure connectivity and ensure uninterrupted technical support, all organizations operating Cloud Connector (CC) and Branch Connector (BC) infrastructure on ZSOS24 must execute their respective transition paths prior to the EOL date. The migration pathways are determined by appliance form factor: Virtual Connectors (Cloud Connector &
-
----
-
-## China Premium Access Beijing Datacenter (Beijing IV) Network Maintenance - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
-- 公開: Wed, 30 Sep 2026 20:55:40 GMT
-- ステータス: Upcoming  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/zscaler.net/posts/32121
-- 影響: 
-
-Zscaler Engineering will be implementing scheduled platform and security enhancements for all China Premium Access subscribed customers across China Premium access platform located in the Beijing IV Data Centre. During the maintenance window, customers may experience brief intermittent disconnections or temporary impact while the changes are applied. Start Time: 2026/10/15 16:00 (UTC) End Time: 2026/10/15 19:00 (UTC) (Datacenter Local Time: 2026-10-16 00:00 – 2026-10-16 03:00 China Standard Time
 
 ---
