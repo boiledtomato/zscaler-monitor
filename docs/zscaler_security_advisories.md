@@ -1,11 +1,29 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-10-08 23:28 UTC  
+> 最終更新: 2026-10-09 23:23 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
 
 # Zscaler Trust - インシデント/アドバイザリ RSS
+
+## Network Connectivity Degradation — Mexico City I and Mexico City II Data Centers - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- 公開: Fri, 09 Oct 2026 20:56:36 GMT
+- ステータス: In Progress  カテゴリ: Recent incident
+- URL: https://trust.zscaler.com/zscaler.net/posts/32236
+
+Zscaler has detected an issue with our Mexico City I, Mexico City II datacenter and is currently investigating the matter. If you’re currently experiencing any traffic impacting issues please failover to your secondary DC or any other alternate DC. For more information, please refer to the following support article. &nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal
+
+---
+
+## Cloud NSS Issue - zscaler.net, zscloud.net
+- 公開: Fri, 09 Oct 2026 10:49:42 GMT
+- ステータス: Resolved  カテゴリ: Recent incident
+- URL: https://trust.zscaler.com/zscaler.net/posts/32231
+
+Zscaler has detected an issue with its zscaler.net, zscloud.net Cloud.&nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Root Cause: An underlying infrastructure failure caused loss of network connectivity to Cloud NSS firewall instances, disrupting firewall log delivery to c
+
+---
 
 ## Lisbon I (LIS1) Critical Datacenter Network Maintenance - zscalertwo.net
 - 公開: Thu, 08 Oct 2026 20:19:35 GMT
@@ -166,23 +184,5 @@ Dear Zscaler Customer, In accordance with&nbsp; Zscaler Service Continuity Polic
 - URL: https://trust.zscaler.com/zscaler.net/posts/32141
 
 Zscaler Client Connector Long-Term Support (LTS) is intended for organizations that need longer change windows and prefer a more stable release cycle. An LTS version receives critical bug fixes and security updates for up to 12 months, without introducing new features or feature-related changes.You can read more about this program&nbsp; here . While Zscaler generally recommends adopting the latest General Availability (GA) version, customers with stricter change management requirements may prefe
-
----
-
-## Scheduled Maintenance of Zero Trust Browser  - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zpatwo.net
-- 公開: Thu, 01 Oct 2026 16:26:39 GMT
-- ステータス: Upcoming  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/zscaler.net/posts/32136
-
-The Zscaler operations team will be performing routine maintenance on the Zero Trust Browser platform. During the scheduled maintenance window, updates to Isolation Profiles may experience brief disruptions. However, no impact is expected on active isolation sessions. If you have any questions or require additional information, please contact Zscaler Support. &nbsp;
-
----
-
-## San Francisco IV (SJC4) Datacenter Network Maintenance - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
-- 公開: Thu, 01 Oct 2026 03:15:03 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/zscaler.net/posts/32131
-
-Zscaler will be performing hardware maintenance in San Francisco IV (SJC4) Datacenter. Maintenance window: &nbsp; &nbsp;Start: &nbsp;2026-10-02 01:00 UTC &nbsp; &nbsp;End: &nbsp; 2026-10-02 04:00 UTC &nbsp; &nbsp;(Local Time 2026-10-01 18:00 - 2026-10-01 21:00) Update - Fri, 02 Oct 2026 02:05:11 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions.
 
 ---
