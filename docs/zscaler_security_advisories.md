@@ -1,15 +1,33 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-10-09 23:23 UTC  
+> 最終更新: 2026-10-10 23:29 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
 
 # Zscaler Trust - インシデント/アドバイザリ RSS
 
+## Risk360 Data Update and Risk Score Accuracy Issue - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, zscalerrisk.net
+- 公開: Sat, 10 Oct 2026 17:35:44 GMT
+- ステータス: In Progress  カテゴリ: Recent incident
+- URL: https://trust.zscaler.com/zscaler.net/posts/32246
+
+Zscaler is investigating an issue affecting Risk360 connectors for a subset of customers. Affected connectors may appear inactive and stop receiving data updates, resulting in inaccurate risk scores, including scores higher than expected. We are assessing the scope of impact and working to restore connector functionality and risk-data accuracy. Further updates will be provided as more information becomes available. We will continue to provide updates here as the investigation progresses. For det
+
+---
+
+## Cloud Connector Certificate Expiration - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- 公開: Sat, 10 Oct 2026 00:00:00 GMT
+- ステータス:   カテゴリ: Advisory
+- URL: https://trust.zscaler.com/zscaler.net/posts/32241
+
+The TLS certificate for the Zscaler Cloud Connector software update repository will expire on&nbsp; March 18, 2027 . To preserve software update functionality and avoid deployment failures, customers must update their virtual machines or use the latest Marketplace images. Zscaler recommends that all customers complete these updates by&nbsp; December 31, 2026 . Action Required Please follow the guidance below based on your deployment type: Deployment Type Action Required Details Existing Running 
+
+---
+
 ## Network Connectivity Degradation — Mexico City I and Mexico City II Data Centers - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
 - 公開: Fri, 09 Oct 2026 20:56:36 GMT
-- ステータス: In Progress  カテゴリ: Recent incident
+- ステータス: Resolved  カテゴリ: Recent incident
 - URL: https://trust.zscaler.com/zscaler.net/posts/32236
 
 Zscaler has detected an issue with our Mexico City I, Mexico City II datacenter and is currently investigating the matter. If you’re currently experiencing any traffic impacting issues please failover to your secondary DC or any other alternate DC. For more information, please refer to the following support article. &nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal
@@ -166,23 +184,5 @@ Zscaler will be expanding its global data center footprint and performing mainte
 - URL: https://trust.zscaler.com/zscaler.net/posts/32151
 
 Zscaler is aware of a network issue affecting customers in the Philippines who are forwarding traffic to the Singapore data centers SIN4 and SIN5. Affected customers may experience degraded connectivity, increased latency, or packet loss when routing through these data centers. Our investigation confirms that Zscaler infrastructure is stable and operating normally — the issue has been identified as occurring within the Philippines network, specific to certain ISPs in the region. If you’re curren
-
----
-
-## Upcoming New Data Center and Changes - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zpatwo.net
-- 公開: Fri, 02 Oct 2026 01:23:57 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/zscaler.net/posts/32146
-
-Dear Zscaler Customer, In accordance with&nbsp; Zscaler Service Continuity Policy and per email notification sent on&nbsp; October 1, 2026 , we would like to notify you of the upcoming new data center and IP allocation changes at the locations listed below. These would be effective anytime on or after November 30, 2026; 60 days or more from the date the first email notification is sent. Please update your firewall policy rules and any upstream Access Control Lists (ACLs) to allow the new and rem
-
----
-
-##  Announcing ZCC Long Term Support (LTS) versions for 2027 - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zdxcloud.net, zpatwo.net, zscalerrisk.net, zslogin.net
-- 公開: Thu, 01 Oct 2026 00:00:00 GMT
-- ステータス:   カテゴリ: Advisory
-- URL: https://trust.zscaler.com/zscaler.net/posts/32141
-
-Zscaler Client Connector Long-Term Support (LTS) is intended for organizations that need longer change windows and prefer a more stable release cycle. An LTS version receives critical bug fixes and security updates for up to 12 months, without introducing new features or feature-related changes.You can read more about this program&nbsp; here . While Zscaler generally recommends adopting the latest General Availability (GA) version, customers with stricter change management requirements may prefe
 
 ---
