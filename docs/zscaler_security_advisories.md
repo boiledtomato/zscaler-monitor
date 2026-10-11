@@ -1,6 +1,6 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-10-10 23:29 UTC  
+> 最終更新: 2026-10-11 23:29 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
@@ -144,7 +144,7 @@ Zscaler will perform routine maintenance on ZPA services to improve availability
 
 ## ZPA Service Maintenance - private.zscaler.com
 - 公開: Sat, 03 Oct 2026 05:13:00 GMT
-- ステータス: In Progress  カテゴリ: Scheduled maintenance
+- ステータス: Completed  カテゴリ: Scheduled maintenance
 - URL: https://trust.zscaler.com/private.zscaler.com/posts/32171
 
 Zscaler will perform routine maintenance on ZPA global and regional services to improve availability and resiliency. During the maintenance window, Some users may witness the following impact during the scheduled regional maintenance windows between 6th Oct and &nbsp;11th Oct: - Brief delays in Admin Portal data updates, including dashboards and diagnostic information. - Temporary delays in user synchronization, SCIM provisioning, or certain administrative operations and configuration changes - 
