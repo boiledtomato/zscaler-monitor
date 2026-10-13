@@ -1,11 +1,51 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-10-12 23:25 UTC  
+> 最終更新: 2026-10-13 23:35 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
 
 # Zscaler Trust - インシデント/アドバイザリ RSS
+
+## Mexico City II Datacenter Issue - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- 公開: Tue, 13 Oct 2026 06:40:23 GMT
+- ステータス: Resolved  カテゴリ: Recent incident
+- URL: https://trust.zscaler.com/zscaler.net/posts/32276
+- 影響: A subset of customers using the Mexico City II data center may experience degraded performance, including increased latency and intermittent connection timeouts.
+
+Zscaler has detected an issue with our Mexico City II datacenter and is currently investigating the matter. If you’re currently experiencing any traffic impacting issues please failover to your secondary DC or any other alternate DC. For more information, please refer to the following support article. &nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status 
+
+---
+
+## ZPA Service Maintenance - private.zscaler.com
+- 公開: Tue, 13 Oct 2026 05:22:02 GMT
+- ステータス: In Progress  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/private.zscaler.com/posts/32271
+- 影響: 
+
+What is happening? Zscaler is performing routine maintenance on ZPA services during the scheduled maintenance windows between 16th Oct and 18th Oct to improve availability and resiliency. Does this affect me? Admins may see brief delays in ZPA Admin Portal data updates, including dashboards and diagnostic information. Users may experience transient latency during enrollment, ZPA authentication, and clientless access. The ZPA Admin Portal will remain accessible throughout the window. Live applica
+
+---
+
+## ZPA Service Maintenance - zpatwo.net
+- 公開: Tue, 13 Oct 2026 05:18:38 GMT
+- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zpatwo.net/posts/32266
+- 影響: 
+
+What is happening? Zscaler is performing routine maintenance on ZPA services during the scheduled maintenance windows between 14th Oct and 17th Oct to improve availability and resiliency. Does this affect me? Admins may see brief delays in ZPA Admin Portal data updates, including dashboards and diagnostic information. Users may experience transient latency during enrollment, ZPA authentication, and clientless access. The ZPA Admin Portal will remain accessible throughout the window. Live applica
+
+---
+
+## ZPA Service Maintenance - zpabeta.net
+- 公開: Tue, 13 Oct 2026 05:01:08 GMT
+- ステータス: Completed  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zpabeta.net/posts/32261
+- 影響: 
+
+What is happening? Zscaler is performing routine maintenance on ZPA services to improve availability and resiliency. Does this affect me? Admins may see brief delays in ZPA Admin Portal data updates, including dashboards and diagnostic information. Users may experience transient latency during enrollment, ZPA authentication, and clientless access. The ZPA Admin Portal will remain accessible throughout the window. Live application traffic and existing ZPA sessions will not be affected. What do I 
+
+---
 
 ## Mumbai VII Datacenter Scheduled Maintenance - Service Expansion  - zscaler.net
 - 公開: Mon, 12 Oct 2026 21:53:53 GMT
@@ -164,45 +204,5 @@ As part of our regular expansion of capacity, we are adding ZPA Public Service E
 - 影響: 
 
 As part of our regular expansion of capacity, we are adding ZPA Public Service Edge nodes to our new data center in EMEA , Dubai I (DXB1) . If you restrict outbound firewall access, please ensure you have added the complete set of published IPs in the URL below https://config.zscaler.com/private.zscaler.com/zpa
-
----
-
-## ZPA Service Maintenance - zpatwo.net
-- 公開: Sat, 03 Oct 2026 05:23:44 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/zpatwo.net/posts/32176
-- 影響: 
-
-Zscaler will perform routine maintenance on ZPA services to improve availability and resiliency. During the maintenance window, Some users may experience the following impacts during the scheduled regional maintenance windows between October 7 and October 8: - Brief delays in Admin Portal data updates, including dashboards and diagnostic information. - Temporary delays while completing certain administrative operations or configuration changes. - Brief latency during enrollment, clientless acces
-
----
-
-## ZPA Service Maintenance - private.zscaler.com
-- 公開: Sat, 03 Oct 2026 05:13:00 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/private.zscaler.com/posts/32171
-- 影響: 
-
-Zscaler will perform routine maintenance on ZPA global and regional services to improve availability and resiliency. During the maintenance window, Some users may witness the following impact during the scheduled regional maintenance windows between 6th Oct and &nbsp;11th Oct: - Brief delays in Admin Portal data updates, including dashboards and diagnostic information. - Temporary delays in user synchronization, SCIM provisioning, or certain administrative operations and configuration changes - 
-
----
-
-## ZPA Service Maintenance - zpabeta.net
-- 公開: Sat, 03 Oct 2026 05:01:25 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/zpabeta.net/posts/32166
-- 影響: 
-
-Zscaler will perform routine maintenance on ZPA services to improve availability and resiliency. During the maintenance window, some users may experience: - Brief delays in Admin Portal data updates, including dashboards and diagnostic information. - Temporary delays while completing certain administrative operations or configuration changes. - Brief latency during enrollment, SAML authentication, clientless access, or administrative/API requests. Retrying the request should resolve any transien
-
----
-
-## Honolulu I Data Center online - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
-- 公開: Fri, 02 Oct 2026 22:03:09 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/zscaler.net/posts/32161
-- 影響: 
-
-Dear Zscaler Customer, You are receiving this notice in accordance with the&nbsp; Zscaler Service Continuity Policy . As part of our effort to enhance our Security Cloud’s robustness and performance, Zscaler will be bringing online a new Honolulu I (HNL1) data center. This facility will be added to the public resolution service (Auto Geo Proximity) on October 5, 2026. What if I have more questions?&nbsp; Contact Zscaler Support via the “Support” link at the top-right of the Zscaler Administratio
 
 ---
