@@ -1,11 +1,21 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-10-13 23:35 UTC  
+> 最終更新: 2026-10-14 23:23 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
 
 # Zscaler Trust - インシデント/アドバイザリ RSS
+
+## Datacenter Expansion Warsaw II (WAW2) - zpatwo.net
+- 公開: Wed, 14 Oct 2026 12:35:57 GMT
+- ステータス: In Progress  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zpatwo.net/posts/32281
+- 影響: 
+
+As part of our regular expansion of capacity, we are adding ZPA Public Service Edge nodes to our new data center in EMEA, Warsaw II (WAW2) . If you restrict outbound firewall access, please ensure you have added the complete set of published IPs in the URL below https://config.zscaler.com/zpatwo.net/zpa
+
+---
 
 ## Mexico City II Datacenter Issue - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
 - 公開: Tue, 13 Oct 2026 06:40:23 GMT
@@ -29,7 +39,7 @@ What is happening? Zscaler is performing routine maintenance on ZPA services dur
 
 ## ZPA Service Maintenance - zpatwo.net
 - 公開: Tue, 13 Oct 2026 05:18:38 GMT
-- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- ステータス: In Progress  カテゴリ: Scheduled maintenance
 - URL: https://trust.zscaler.com/zpatwo.net/posts/32266
 - 影響: 
 
@@ -49,7 +59,7 @@ What is happening? Zscaler is performing routine maintenance on ZPA services to 
 
 ## Mumbai VII Datacenter Scheduled Maintenance - Service Expansion  - zscaler.net
 - 公開: Mon, 12 Oct 2026 21:53:53 GMT
-- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- ステータス: Completed  カテゴリ: Scheduled maintenance
 - URL: https://trust.zscaler.com/zscaler.net/posts/32256
 - 影響: 
 
@@ -109,7 +119,7 @@ Zscaler has detected an issue with its zscaler.net, zscloud.net Cloud.&nbsp; We 
 
 ## Lisbon I (LIS1) Critical Datacenter Network Maintenance - zscalertwo.net
 - 公開: Thu, 08 Oct 2026 20:19:35 GMT
-- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- ステータス: Cancelled  カテゴリ: Scheduled maintenance
 - URL: https://trust.zscaler.com/zscalertwo.net/posts/32226
 - 影響: 
 
@@ -194,15 +204,5 @@ Zscaler will be performing hardware maintenance in Atlanta III (ATL3) Datacenter
 - 影響: 
 
 As part of our regular expansion of capacity, we are adding ZPA Public Service Edge nodes to our new data center in APAC , Tokyo IV (TYO4) . If you restrict outbound firewall access, please ensure you have added the complete set of published IPs in the URL below https://config.zscaler.com/private.zscaler.com/zpa &nbsp; &nbsp;
-
----
-
-## Datacenter Expansion Dubai I (DXB1) - private.zscaler.com
-- 公開: Mon, 05 Oct 2026 07:06:51 GMT
-- ステータス: In Progress  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/private.zscaler.com/posts/32181
-- 影響: 
-
-As part of our regular expansion of capacity, we are adding ZPA Public Service Edge nodes to our new data center in EMEA , Dubai I (DXB1) . If you restrict outbound firewall access, please ensure you have added the complete set of published IPs in the URL below https://config.zscaler.com/private.zscaler.com/zpa
 
 ---
