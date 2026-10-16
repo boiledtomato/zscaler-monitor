@@ -1,31 +1,31 @@
 {
   "zia_release_notes": {
-    "hash": "ff5fea170c1453ae8c8e7409bc00d8942b812610ea7a5cf49a9c3b9325c9f038",
-    "last_checked": "2026-10-15T23:34:31.633703+00:00",
-    "last_updated": "2026-10-15T23:34:31.633729+00:00",
+    "hash": "a4e814cc726f87d3c8cc958a7d7e1488706023f886e26b9ec8a01f38394ff793",
+    "last_checked": "2026-10-16T23:33:26.435051+00:00",
+    "last_updated": "2026-10-16T23:33:26.435082+00:00",
     "initialized": true
   },
   "zpa_release_notes": {
-    "hash": "cd1cf98f669d021726db931cbcd86cb8a1090f02a0301020f7ce38aafa46c509",
-    "last_checked": "2026-10-15T23:35:03.353140+00:00",
-    "last_updated": "2026-10-15T23:35:03.353168+00:00",
+    "hash": "863a944a95e964d6398bf5eaa54ddfae01d48d549b68e2685584e5123f1a5607",
+    "last_checked": "2026-10-16T23:33:53.180395+00:00",
+    "last_updated": "2026-10-16T23:33:53.180427+00:00",
     "initialized": true
   },
   "zdx_release_notes": {
-    "hash": "ae7f7d5e5258467e55f9c271c7c82da9cb3e6833abf48f2049fc063f88f51263",
-    "last_checked": "2026-10-15T23:35:35.095857+00:00",
-    "last_updated": "2026-10-15T23:35:35.095887+00:00",
+    "hash": "e62a1947c1c09cacc68d030e7239fa96dae3dbb96bada64ba51a55ca317fbe07",
+    "last_checked": "2026-10-16T23:34:19.907830+00:00",
+    "last_updated": "2026-10-16T23:34:19.907862+00:00",
     "initialized": true
   },
   "security_advisories": {
-    "hash": "2df0187e0aec3937b5f470ecc8e55491b585140caf975a9d0a7b901baa0a9bb4",
-    "last_checked": "2026-10-15T23:36:06.693659+00:00",
-    "last_updated": "2026-10-15T23:36:06.693688+00:00",
+    "hash": "5b7fecb1815a827905cbe289dee8b05eb80fed0e95407bd0cc637ade46aea97e",
+    "last_checked": "2026-10-16T23:34:46.622180+00:00",
+    "last_updated": "2026-10-16T23:34:46.622205+00:00",
     "initialized": true
   },
   "product_updates": {
     "hash": "f09ed8897a0680d39a23eca95ab1a576f18ccb2541c9a3f7b634f0f293f7e874",
-    "last_checked": "2026-10-13T23:35:57.015437+00:00",
+    "last_checked": "2026-10-16T23:34:48.480133+00:00",
     "last_updated": "2026-10-09T23:23:21.582925+00:00",
     "initialized": true
   }
