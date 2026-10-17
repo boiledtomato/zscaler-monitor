@@ -1,13 +1,13 @@
 # ZPA リリースノート
 
-> 最終更新: 2026-10-16 23:32 UTC  
+> 最終更新: 2026-10-17 23:17 UTC  
 > ソース: https://help.zscaler.com/zpa/release-notes
 
 ---
 
 # ZPA リリースノート ページ一覧 (sitemap)
 
-- 2026-10-15T11:43Z | https://help.zscaler.com/zpa/release-upgrade-summary-2026
+- 2026-10-16T14:06Z | https://help.zscaler.com/zpa/release-upgrade-summary-2026
 - 2026-10-14T14:57Z | https://help.zscaler.com/zpa/network-connector-release-summary-2026
 - 2026-10-14T14:53Z | https://help.zscaler.com/zpa/private-cloud-controller-release-summary-2026
 - 2026-10-14T14:49Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026
@@ -35,7 +35,7 @@
 - 2020-10-23T14:03Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2020
 
 ## https://help.zscaler.com/zpa/release-upgrade-summary-2026
-最終更新: 2026-10-15T11:43Z
+最終更新: 2026-10-16T14:06Z
 
 
 ## https://help.zscaler.com/zpa/network-connector-release-summary-2026

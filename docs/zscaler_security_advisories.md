@@ -1,11 +1,31 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-10-16 23:32 UTC  
+> 最終更新: 2026-10-17 23:17 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
 
 # Zscaler Trust - インシデント/アドバイザリ RSS
+
+## Zscaler Admin Console issue - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net, zslogin.net
+- 公開: Sat, 17 Oct 2026 06:38:53 GMT
+- ステータス: Resolved  カテゴリ: Recent incident
+- URL: https://trust.zscaler.com/zscaler.net/posts/32316
+- 影響: A subset of customers may have experienced an inability to access the Zscaler Admin Console portal via IDP-based admin authentication.
+
+Zscaler is investigating login issues with the Zscaler Admin Console on the zscaler.net, zscloud.net, zscalertwo.net, zsalerthree.net, and zslogin.net Clouds. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Root Cause: Root cause of this issue is attributed to a defect introduced
+
+---
+
+## Scheduled Maintenance Extended - zscalertwo.net
+- 公開: Sat, 17 Oct 2026 05:58:59 GMT
+- ステータス: Completed  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zscalertwo.net/posts/32311
+- 影響: 
+
+The Zscaler Site Reliability Engineering team will be extending the scheduled maintenance of the zscalertwo.net cloud by 2 hours. As part of our standard maintenance process, all logs will be collected and available after maintenance has been completed. Please contact Zscaler Support if you have additional questions. Update - Sat, 17 Oct 2026 08:08:08 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions.
+
+---
 
 ## Datacenter Expansion Honolulu I (HNL1) - zpatwo.net
 - 公開: Fri, 16 Oct 2026 21:37:06 GMT
@@ -184,25 +204,5 @@ Zscaler will be performing critical hardware maintenance in the Lisbon I (LIS1) 
 - 影響: Customers may encounter errors such as “Connection to Nanolog server is lost” or 503 responses when trying to access their Web Insights logs.
 
 Zscaler is currently investigating reports of issues with its zscalertwo.net Cloud. Affected customers may see a “Connection to Nanolog server is lost” message and/or 503 errors when attempting to view Web Insights logs. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Root Cause:
-
----
-
-## ZCC Flow Logging Issue - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net
-- 公開: Tue, 06 Oct 2026 22:06:30 GMT
-- ステータス: In Progress  カテゴリ: Recent incident
-- URL: https://trust.zscaler.com/zscaler.net/posts/32216
-- 影響: Customers may encounter missing ZCC flow logs for direct (Zscaler-bypassed) traffic in Web Insight
-
-Zscaler has detected an issue with its zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net Cloud. Affected customer may have missing ZCC flow logs for direct (Zscaler-bypassed) traffic in Web Insight. Customer data and network traffic is unaffected.&nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details 
-
----
-
-## Washington IV Datacenter Scheduled Maintenance - Service Expansion  - zscalerthree.net
-- 公開: Mon, 05 Oct 2026 18:33:46 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/zscalerthree.net/posts/32211
-- 影響: 
-
-Zscaler will be expanding its global data center footprint and performing maintenance at our Washington IV (WAS4) data center. We expect minimal to no impact to services during the maintenance window.&nbsp; Please update your firewall policy rules and any upstream Access Control Lists to allow all IP addresses for this DC For more information, please visit: https://config.zscaler.com/zscalerthree.net/cenr Maintenance Window: Start time is October 7, 3:00 pm PDT (October 7, 22:00 UTC) End time is
 
 ---
