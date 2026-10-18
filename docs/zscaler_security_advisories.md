@@ -1,11 +1,21 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-10-17 23:17 UTC  
+> 最終更新: 2026-10-18 23:29 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
 
 # Zscaler Trust - インシデント/アドバイザリ RSS
+
+## Urgent Maintenance : ZIdentity Service Upgrade - zslogin.net
+- 公開: Sun, 18 Oct 2026 03:45:28 GMT
+- ステータス: Completed  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zslogin.net/posts/32321
+- 影響: 
+
+Zscaler will perform an urgent maintenance for the ZIdentity (ZID) Authentication service between 05:00 UTC and 07:00 UTC on Sunday, Oct 18, 2026. This maintenance includes feature enhancements and bug fixes designed to improve platform reliability and performance. During the maintenance window, users may experience intermittent login or portal access issues for approximately 30–45 minutes. Following completion of the maintenance activities, service is expected to operate normally without custom
+
+---
 
 ## Zscaler Admin Console issue - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net, zslogin.net
 - 公開: Sat, 17 Oct 2026 06:38:53 GMT
@@ -194,15 +204,5 @@ Zscaler has detected an issue with its zscaler.net, zscloud.net Cloud.&nbsp; We 
 - 影響: 
 
 Zscaler will be performing critical hardware maintenance in the Lisbon I (LIS1) Datacenter. Maintenance window, Start: 2025-10-15 22:00 WEST End: 2025-10-15 01:00 WEST (i.e. 2025-10-15 21:00 - 2025-10-16 00:00 UTC) Zscaler will be performing critical hardware maintenance in the LIS1 data center. During this maintenance window the LIS1 ZS2 cloud will be offline for up to 60 minutes. Please failover to your secondary DC or any other alternate DC during the maintenance. Refer to this support articl
-
----
-
-## Reporting and Logging Issue - zscalertwo.net
-- 公開: Wed, 07 Oct 2026 16:15:40 GMT
-- ステータス: Resolved  カテゴリ: Recent incident
-- URL: https://trust.zscaler.com/zscalertwo.net/posts/32221
-- 影響: Customers may encounter errors such as “Connection to Nanolog server is lost” or 503 responses when trying to access their Web Insights logs.
-
-Zscaler is currently investigating reports of issues with its zscalertwo.net Cloud. Affected customers may see a “Connection to Nanolog server is lost” message and/or 503 errors when attempting to view Web Insights logs. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Root Cause:
 
 ---
