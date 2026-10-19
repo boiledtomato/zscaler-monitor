@@ -1,11 +1,41 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-10-18 23:29 UTC  
+> 最終更新: 2026-10-19 23:15 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
 
 # Zscaler Trust - インシデント/アドバイザリ RSS
+
+## New York IV  Datacenter Scheduled Maintenance - Service Expansion  - zscalertwo.net
+- 公開: Mon, 19 Oct 2026 18:48:40 GMT
+- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zscalertwo.net/posts/32336
+- 影響: 
+
+Zscaler will be expanding its global data center footprint and performing maintenance at our New York IV (NYC4) data center. We expect minimal to no impact to services during the maintenance window.&nbsp; Please update your firewall policy rules and any upstream Access Control Lists to allow all IP addresses for this DC For more information, please visit: https://config.zscaler.com/zscalertwo.net/cenr Maintenance Window: Start time is October 20, 4:00 pm PDT (October 20, 23:00 UTC) End time is O
+
+---
+
+## New York IV  Datacenter Scheduled Maintenance - Service Expansion  - zscloud.net, zscalerthree.net
+- 公開: Mon, 19 Oct 2026 18:40:34 GMT
+- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zscloud.net/posts/32331
+- 影響: 
+
+Zscaler will be expanding its global data center footprint and performing maintenance at our New York IV (NYC4) data center. We expect minimal to no impact to services during the maintenance window.&nbsp; Please update your firewall policy rules and any upstream Access Control Lists to allow all IP addresses for this DC For more information, please visit: https://config.zscaler.com/zscalerthree.net/cenr https://config.zscaler.com/zscloud.net/cenr Maintenance Window: Start time is October 20, 4:0
+
+---
+
+## San Francisco IV (SJC4) Datacenter Network Maintenance - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- 公開: Mon, 19 Oct 2026 02:45:06 GMT
+- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zscaler.net/posts/32326
+- 影響: During the maintenance, traffic will failover to redundant devices in the same datacenter, however intermittent connections and connection reestablishment may be observed.
+
+Zscaler will be performing hardware maintenance in San Francisco IV (SJC4) Datacenter. Maintenance window: &nbsp; &nbsp;Start: &nbsp;2026-10-21 01:00 UTC &nbsp; &nbsp;End: &nbsp; 2026-10-21 05:00 UTC &nbsp; &nbsp;(Local Time 2026-10-20 18:00 - 2026-10-20 22:00)
+
+---
 
 ## Urgent Maintenance : ZIdentity Service Upgrade - zslogin.net
 - 公開: Sun, 18 Oct 2026 03:45:28 GMT
@@ -174,35 +204,5 @@ Zscaler is investigating an issue affecting Risk360 connectors for a subset of c
 - 影響: 
 
 The TLS certificate for the Zscaler Cloud Connector software update repository will expire on&nbsp; March 18, 2027 . To preserve software update functionality and avoid deployment failures, customers must update their virtual machines or use the latest Marketplace images. Zscaler recommends that all customers complete these updates by&nbsp; December 31, 2026 . Action Required Please follow the guidance below based on your deployment type: Deployment Type Action Required Details Existing Running 
-
----
-
-## Network Connectivity Degradation — Mexico City I and Mexico City II Data Centers - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
-- 公開: Fri, 09 Oct 2026 20:56:36 GMT
-- ステータス: Resolved  カテゴリ: Recent incident
-- URL: https://trust.zscaler.com/zscaler.net/posts/32236
-- 影響: A subset of customers using the Mexico City I and Mexico City II data centers may experience degraded performance, including increased latency and intermittent connection timeouts.
-
-Zscaler has detected an issue with our Mexico City I, Mexico City II datacenter and is currently investigating the matter. If you’re currently experiencing any traffic impacting issues please failover to your secondary DC or any other alternate DC. For more information, please refer to the following support article. &nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal
-
----
-
-## Cloud NSS Issue - zscaler.net, zscloud.net
-- 公開: Fri, 09 Oct 2026 10:49:42 GMT
-- ステータス: Resolved  カテゴリ: Recent incident
-- URL: https://trust.zscaler.com/zscaler.net/posts/32231
-- 影響: A subset of customers across ZSNet, and ZSCloud clouds may have experienced disruption in Cloud NSS firewall log delivery to their configured SIEMs.
-
-Zscaler has detected an issue with its zscaler.net, zscloud.net Cloud.&nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Root Cause: An underlying infrastructure failure caused loss of network connectivity to Cloud NSS firewall instances, disrupting firewall log delivery to c
-
----
-
-## Lisbon I (LIS1) Critical Datacenter Network Maintenance - zscalertwo.net
-- 公開: Thu, 08 Oct 2026 20:19:35 GMT
-- ステータス: Cancelled  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/zscalertwo.net/posts/32226
-- 影響: 
-
-Zscaler will be performing critical hardware maintenance in the Lisbon I (LIS1) Datacenter. Maintenance window, Start: 2025-10-15 22:00 WEST End: 2025-10-15 01:00 WEST (i.e. 2025-10-15 21:00 - 2025-10-16 00:00 UTC) Zscaler will be performing critical hardware maintenance in the LIS1 data center. During this maintenance window the LIS1 ZS2 cloud will be offline for up to 60 minutes. Please failover to your secondary DC or any other alternate DC during the maintenance. Refer to this support articl
 
 ---
