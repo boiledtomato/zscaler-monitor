@@ -1,6 +1,75 @@
 ## 2026-09-29T23:33:00Z - 製品アップデート
 
 ## 2026-10-03T23:27:36Z - ZIA リリースノート\n\nソース: https://help.zscaler.com/zia/release-notes\n\nページ「ZIA リリースノート」の内容が変化しました。\n\nコンテンツ冒頭:\nZscaler is rolling out an improved navigation system for Experience Center. Articles and videos on Help Portal will be updated to reflect these changes. During this transition, if a menu path doesn't match the UI, we recommend using search within Experience Center to locate the page. Documentation Getting Started with Zscaler Internet & SaaS (ZIA) Private Access (ZPA) Digital Experience Monitoring (ZDX) Workflow Automation Data Security Posture Management (DSPM) Zscaler Connectors Client Connector Zero Trust Branch Zscaler Cellular Cloud & Branch Connector Security Operations Platform Unified \n\n---\n\n## 2026-10-03T23:27:36Z - ZPA リリースノート\n\nソース: https://help.zscaler.com/zpa/release-notes\n\nページ「ZPA リリースノート」の内容が変化しました。\n\nコンテンツ冒頭:\nZscaler is rolling out an improved navigation system for Experience Center. Articles and videos on Help Portal will be updated to reflect these changes. During this transition, if a menu path doesn't match the UI, we recommend using search within Experience Center to locate the page. Documentation Getting Started with Zscaler Internet & SaaS (ZIA) Private Access (ZPA) Digital Experience Monitoring (ZDX) Workflow Automation Data Security Posture Management (DSPM) Zscaler Connectors Client Connector Zero Trust Branch Zscaler Cellular Cloud & Branch Connector Security Operations Platform Unified \n\n---\n\n## 2026-10-03T23:27:36Z - ZDX リリースノート\n\nソース: https://help.zscaler.com/zdx/release-notes\n\nページ「ZDX リリースノート」の内容が変化しました。\n\nコンテンツ冒頭:\nZscaler is rolling out an improved navigation system for Experience Center. Articles and videos on Help Portal will be updated to reflect these changes. During this transition, if a menu path doesn't match the UI, we recommend using search within Experience Center to locate the page. Documentation Getting Started with Zscaler Internet & SaaS (ZIA) Private Access (ZPA) Digital Experience Monitoring (ZDX) Workflow Automation Data Security Posture Management (DSPM) Zscaler Connectors Client Connector Zero Trust Branch Zscaler Cellular Cloud & Branch Connector Security Operations Platform Unified \n\n---\n\n## 2026-10-03T23:27:36Z - セキュリティアドバイザリ\n\nソース: https://trust.zscaler.com/\n\nページ「セキュリティアドバイザリ」の内容が変化しました。\n\nコンテンツ冒頭:\nAll Zscaler Services are functional All zscaler services are currently online. Transactions Processed 0 389 K 778 K 1.2 M 1.6 M 1.9 M 2.3 M 2.7 M 3.1 M 3.5 M 2,400,635 per second 8.9 M Daily Peak 480.5 B Last Day 14.1 T Last Month 84.4 T Last Year Policies Enforced 0 80 K 160 K 240 K 320 K 400 K 186,478 per second 523.7 K Daily Peak 25.9 B Last Day 795.3 B Last Month 4.4 T Last Year Threats Blocked 0 833 1.7 K 2.5 K 3.3 K 4.2 K 5 K 3,766 per second 51.1 K Daily Peak 473.5 M Last Day 12.5 B Last Month 41.9 B Last Year Zscaler provides transparency around service availability and changes to our \n\n---\n\n## 2026-10-03T23:27:36Z - 製品アップデート\n\nソース: https://www.zscaler.com/products\n\nページ「製品アップデート」の内容が変化しました。\n\nコンテンツ冒頭:\nFind a product, solution, or technology SEARCH BY NAME OR KEYWORD SELECT ALL THAT INTEREST YOU AI Security AI/ML Accelerate M&A and Divestitures Application Transformation Data Security Exposure Management Network & Security Transformation Optimize Digital Experiences Show 22 more Jump to Industry Solutions Divestitures | Solutions | Zscaler When you’re ready to secure your deal value, Zscaler M&A and divestiture experts can help. Zscaler GDPR | Guidelines and Compliance The General Data Protection Regulation (GDPR) imposed rules that significantly changed the data privacy landscape in the E\n\n---\n\n
+## 2026-10-20 23:16 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- ## Lisbon I (LIS1) Critical Datacenter Network Maintenance - zscalertwo.net
+- ## Madrid IV Datacenter Scheduled Maintenance - zscaler.net
+- ## Chicago I Datacenter Scheduled Maintenance - Service Expansion  - zscalerthree.net
+- ## Frankfurt VI  Datacenter Scheduled Maintenance - Service Expansion  - zscloud.net
+- ## Experience Center Issue - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zdxcloud.net
+- ## Administration UI Issue - zscloud.net
+- ## Scheduled Maintenance Extended - AMER Region - zscaler.net
+- ## Audit Logs Issue - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net
+**追加内容（抜粋）:**
+> - 公開: Tue, 20 Oct 2026 21:59:06 GMT
+> - ステータス: Upcoming  カテゴリ: Scheduled maintenance
+> - URL: https://trust.zscaler.com/zscalertwo.net/posts/32376
+> - 影響:
+> Zscaler will be performing critical hardware maintenance in the Lisbon I (LIS1) Datacenter. Maintenance window, Start: 2025-11-5 22:00 WEST End: 2025-11-6 01:00 WEST (i.e. 2025-11-5 22:00 - 2025-11-6 01:00 UTC) Zscaler will be performing critical hardware maintenance in the LIS1 data center. During this maintenance window the LIS1 ZS2 cloud will be offline for up to 60 minutes. Please failover to your secondary DC or any other alternate DC during the maintenance. Refer to this support article. O
+> ...他 25 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-10-19 23:15 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
+## 2026-10-20 23:16 UTC — ZDX リリースノート
+
+ソース: [https://help.zscaler.com/zdx/release-notes](https://help.zscaler.com/zdx/release-notes)
+**追加内容（抜粋）:**
+> - 2026-10-19T16:40Z | https://help.zscaler.com/zdx/release-upgrade-summary-2026
+> 最終更新: 2026-10-19T16:40Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-10-19 23:14 UTC~~
+> ~~> ソース: https://help.zscaler.com/zdx/release-notes~~
+> ~~---~~
+
+---
+## 2026-10-20 23:15 UTC — ZPA リリースノート
+
+ソース: [https://help.zscaler.com/zpa/release-notes](https://help.zscaler.com/zpa/release-notes)
+**更新セクション:**
+- ## https://help.zscaler.com/zpa/private-cloud-controller-release-summary-2026
+- ## https://help.zscaler.com/zpa/app-connector-release-summary-2026
+- ## https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026
+**追加内容（抜粋）:**
+> - 2026-10-19T16:50Z | https://help.zscaler.com/zpa/release-upgrade-summary-2026
+> - 2026-10-19T16:35Z | https://help.zscaler.com/zpa/private-cloud-controller-release-summary-2026
+> - 2026-10-19T16:30Z | https://help.zscaler.com/zpa/app-connector-release-summary-2026
+> - 2026-10-19T16:30Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026
+> - 2026-10-19T16:30Z | https://help.zscaler.com/zpa/network-connector-release-summary-2026
+> ...他 5 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-10-19 23:13 UTC~~
+> ~~> ソース: https://help.zscaler.com/zpa/release-notes~~
+> ~~---~~
+
+---
+## 2026-10-20 23:14 UTC — ZIA リリースノート
+
+ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)
+**追加内容（抜粋）:**
+> - 2026-10-19T16:35Z | https://help.zscaler.com/zia/release-upgrade-summary-2026
+> 最終更新: 2026-10-19T16:35Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-10-19 23:13 UTC~~
+> ~~> ソース: https://help.zscaler.com/zia/release-notes~~
+> ~~---~~
+
+---
 ## 2026-10-19 23:15 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)

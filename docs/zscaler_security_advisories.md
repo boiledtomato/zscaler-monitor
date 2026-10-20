@@ -1,11 +1,91 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-10-19 23:15 UTC  
+> 最終更新: 2026-10-20 23:16 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
 
 # Zscaler Trust - インシデント/アドバイザリ RSS
+
+## Lisbon I (LIS1) Critical Datacenter Network Maintenance - zscalertwo.net
+- 公開: Tue, 20 Oct 2026 21:59:06 GMT
+- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zscalertwo.net/posts/32376
+- 影響: 
+
+Zscaler will be performing critical hardware maintenance in the Lisbon I (LIS1) Datacenter. Maintenance window, Start: 2025-11-5 22:00 WEST End: 2025-11-6 01:00 WEST (i.e. 2025-11-5 22:00 - 2025-11-6 01:00 UTC) Zscaler will be performing critical hardware maintenance in the LIS1 data center. During this maintenance window the LIS1 ZS2 cloud will be offline for up to 60 minutes. Please failover to your secondary DC or any other alternate DC during the maintenance. Refer to this support article. O
+
+---
+
+## Madrid IV Datacenter Scheduled Maintenance - zscaler.net
+- 公開: Tue, 20 Oct 2026 19:05:56 GMT
+- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zscaler.net/posts/32371
+- 影響: 
+
+Zscaler will be performing maintenance at our&nbsp;Madrid IV&nbsp;(MAD4) data center. We expect minimal to no impact to services during the maintenance window.&nbsp; Maintenance Window: Start time is October 21, 12:00 pm PDT (October 21, 19:00 UTC) End time is October 21, 3:30 pm PDT (October 21, 22:30 UTC)
+
+---
+
+## Chicago I Datacenter Scheduled Maintenance - Service Expansion  - zscalerthree.net
+- 公開: Tue, 20 Oct 2026 17:19:08 GMT
+- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zscalerthree.net/posts/32366
+- 影響: 
+
+Zscaler will be expanding its global data center footprint and performing maintenance at our&nbsp;Chicago I&nbsp;(CHI1) data center. We expect minimal to no impact to services during the maintenance window.&nbsp; Please update your firewall policy rules and any upstream Access Control Lists to allow all IP addresses for this DC For more information, please visit: https://config.zscaler.com/zscalerthree.net/cenr Maintenance Window: Start time is October 21, 4:00 pm PDT (October 21, 23:00 UTC) End
+
+---
+
+## Frankfurt VI  Datacenter Scheduled Maintenance - Service Expansion  - zscloud.net
+- 公開: Tue, 20 Oct 2026 15:57:07 GMT
+- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zscloud.net/posts/32361
+- 影響: 
+
+Zscaler will be expanding its global data center footprint and performing maintenance at our Frankfurt VI (FRA6) data center. We expect minimal to no impact to services during the maintenance window.&nbsp; Please update your firewall policy rules and any upstream Access Control Lists to allow all IP addresses for this DC For more information, please visit: https://config.zscaler.com/zscloud.net/cenr &nbsp; Maintenance Window: Start time is October 21, 9:00 am PDT (October 21 16:00 UTC) End time 
+
+---
+
+## Experience Center Issue - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zdxcloud.net
+- 公開: Tue, 20 Oct 2026 10:59:32 GMT
+- ステータス: Resolved  カテゴリ: Recent incident
+- URL: https://trust.zscaler.com/zscaler.net/posts/32356
+- 影響: Customers are unable to access  Zscaler customer support portal (CSP) via Experience Center or community.zscaler.com/s/customer-support-portal .
+
+Zscaler has detected an issue with its Experience Center on zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zdxcloud.net Cloud. We will continue to provide updates here as the investigation progresses. Status changes and additional details will be posted there as they become available. Root Cause: The issue was traced to a recent change that impacted a specific service workflow for customers with multiple account associations, resulting in errors 
+
+---
+
+## Administration UI Issue - zscloud.net
+- 公開: Tue, 20 Oct 2026 08:41:16 GMT
+- ステータス: Monitoring  カテゴリ: Recent incident
+- URL: https://trust.zscaler.com/zscloud.net/posts/32351
+- 影響: 
+
+Zscaler has detected an issue with its zscloud.net Cloud. Customers may encounter issues with Administation UI login, Zscaler Client Connector portal, and SCIM auto-provisioning.&nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Latest Update - Tue, 20 Oct 2026 14:14:19 UTC Z
+
+---
+
+## Scheduled Maintenance Extended - AMER Region - zscaler.net
+- 公開: Tue, 20 Oct 2026 08:11:13 GMT
+- ステータス: Completed  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zscaler.net/posts/32346
+- 影響: 
+
+The Zscaler Site Reliability Engineering team will be extending the scheduled maintenance of the zscaler.net cloud (AMER Region) by 2 hours. As part of our standard maintenance process, all logs will be collected and available after maintenance has been completed. Please contact Zscaler Support if you have additional questions. Update - Tue, 20 Oct 2026 10:00:10 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions.
+
+---
+
+## Audit Logs Issue - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- 公開: Tue, 20 Oct 2026 01:13:18 GMT
+- ステータス: Resolved  カテゴリ: Recent incident
+- URL: https://trust.zscaler.com/zscaler.net/posts/32341
+- 影響: Customers might experience an issue with audit logs visibility on the Zscaler Admin Console. Log ingestion is not affected.
+
+Zscaler has detected an issue with Audit Logs visibility on its zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net Clouds.&nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Root Cause: A license violation on the underlying log management platform disab
+
+---
 
 ## New York IV  Datacenter Scheduled Maintenance - Service Expansion  - zscalertwo.net
 - 公開: Mon, 19 Oct 2026 18:48:40 GMT
@@ -124,85 +204,5 @@ Beijing V and Shanghai VI DC network providers have scheduled supplier interconn
 - 影響: 
 
 As part of our regular expansion of capacity, we are adding ZPA Public Service Edge nodes to our new data center in EMEA, Warsaw II (WAW2) . If you restrict outbound firewall access, please ensure you have added the complete set of published IPs in the URL below https://config.zscaler.com/zpatwo.net/zpa Update - Thu, 15 Oct 2026 17:25:13 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions.
-
----
-
-## Mexico City II Datacenter Issue - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
-- 公開: Tue, 13 Oct 2026 06:40:23 GMT
-- ステータス: Resolved  カテゴリ: Recent incident
-- URL: https://trust.zscaler.com/zscaler.net/posts/32276
-- 影響: A subset of customers using the Mexico City II data center may experience degraded performance, including increased latency and intermittent connection timeouts.
-
-Zscaler has detected an issue with our Mexico City II datacenter and is currently investigating the matter. If you’re currently experiencing any traffic impacting issues please failover to your secondary DC or any other alternate DC. For more information, please refer to the following support article. &nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status 
-
----
-
-## ZPA Service Maintenance - private.zscaler.com
-- 公開: Tue, 13 Oct 2026 05:22:02 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/private.zscaler.com/posts/32271
-- 影響: 
-
-What is happening? Zscaler is performing routine maintenance on ZPA services during the scheduled maintenance windows between 16th Oct and 18th Oct to improve availability and resiliency. Does this affect me? Admins may see brief delays in ZPA Admin Portal data updates, including dashboards and diagnostic information. Users may experience transient latency during enrollment, ZPA authentication, and clientless access. The ZPA Admin Portal will remain accessible throughout the window. Live applica
-
----
-
-## ZPA Service Maintenance - zpatwo.net
-- 公開: Tue, 13 Oct 2026 05:18:38 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/zpatwo.net/posts/32266
-- 影響: 
-
-What is happening? Zscaler is performing routine maintenance on ZPA services during the scheduled maintenance windows between 14th Oct and 17th Oct to improve availability and resiliency. Does this affect me? Admins may see brief delays in ZPA Admin Portal data updates, including dashboards and diagnostic information. Users may experience transient latency during enrollment, ZPA authentication, and clientless access. The ZPA Admin Portal will remain accessible throughout the window. Live applica
-
----
-
-## ZPA Service Maintenance - zpabeta.net
-- 公開: Tue, 13 Oct 2026 05:01:08 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/zpabeta.net/posts/32261
-- 影響: 
-
-What is happening? Zscaler is performing routine maintenance on ZPA services to improve availability and resiliency. Does this affect me? Admins may see brief delays in ZPA Admin Portal data updates, including dashboards and diagnostic information. Users may experience transient latency during enrollment, ZPA authentication, and clientless access. The ZPA Admin Portal will remain accessible throughout the window. Live application traffic and existing ZPA sessions will not be affected. What do I 
-
----
-
-## Mumbai VII Datacenter Scheduled Maintenance - Service Expansion  - zscaler.net
-- 公開: Mon, 12 Oct 2026 21:53:53 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/zscaler.net/posts/32256
-- 影響: 
-
-Zscaler will be expanding its global data center footprint and performing maintenance at our Mumbai VII (BOM7) data center. We expect minimal to no impact to services during the maintenance window.&nbsp; Please update your firewall policy rules and any upstream Access Control Lists to allow all IP addresses for this DC For more information, please visit: https://config.zscaler.com/zscaler.net/cenr Maintenance Window: Start time is October 14, 9:00 am PDT (October 14, 16:00 UTC) End time is Octob
-
----
-
-## Datacenter Expansion Kolkata I (CCU1) - zpatwo.net
-- 公開: Mon, 12 Oct 2026 20:20:57 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/zpatwo.net/posts/32251
-- 影響: 
-
-As part of our regular expansion of capacity, we are adding ZPA Public Service Edge nodes to our new data center in Kolkata I (CCU1). If you restrict outbound firewall access, please ensure you have added the complete set of published IPs in the URL below https://config.zscaler.com/zpatwo.net/zpa Update - Fri, 16 Oct 2026 21:28:37 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions.
-
----
-
-## Risk360 Data Update and Risk Score Accuracy Issue - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, zscalerrisk.net
-- 公開: Sat, 10 Oct 2026 17:35:44 GMT
-- ステータス: Resolved  カテゴリ: Recent incident
-- URL: https://trust.zscaler.com/zscaler.net/posts/32246
-- 影響: A subset of customers may see inactive Risk360 connectors and inaccurate risk scores, including scores higher than expected, due to interrupted data updates. This issue does not affect traffic forwarding.
-
-Zscaler is investigating an issue affecting Risk360 connectors for a subset of customers. Affected connectors may appear inactive and stop receiving data updates, resulting in inaccurate risk scores, including scores higher than expected. We are assessing the scope of impact and working to restore connector functionality and risk-data accuracy. Further updates will be provided as more information becomes available. We will continue to provide updates here as the investigation progresses. For det
-
----
-
-## Cloud Connector Certificate Expiration - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
-- 公開: Sat, 10 Oct 2026 00:00:00 GMT
-- ステータス:   カテゴリ: Advisory
-- URL: https://trust.zscaler.com/zscaler.net/posts/32241
-- 影響: 
-
-The TLS certificate for the Zscaler Cloud Connector software update repository will expire on&nbsp; March 18, 2027 . To preserve software update functionality and avoid deployment failures, customers must update their virtual machines or use the latest Marketplace images. Zscaler recommends that all customers complete these updates by&nbsp; December 31, 2026 . Action Required Please follow the guidance below based on your deployment type: Deployment Type Action Required Details Existing Running 
 
 ---
