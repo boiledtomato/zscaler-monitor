@@ -1,3 +1,264 @@
+## 2026-10-21 23:27:21 UTC - 製品アップデート
+
+ソース: https://www.zscaler.com/products
+
+変更要約:
+Find a product, solution, or technology
+
+SEARCH BY NAME OR KEYWORD
+
+SELECT ALL THAT INTEREST YOU
+
+Jump to Industry Solutions
+Sorry, no results match your search.
+
+Please review your query and try again.
+
+Browse industry solutions for your market
+
+SOLUTIONS
+
+Connect and secure your entire enterprise.
+01
+Zscaler for Users
+
+Detect and prevent sophisticated cyberthreats with the context you need for fast, accurate incident response.
+
+Dive deeper
+02
+Zscaler for Workloads
+
+Minimize your organization’s attack surface, automate your security, and dramatically reduce business risk.
+
+Dive deeper
+03
+Zscaler for IoT and OT
+
+Deploy AI-powered protection and secure, direct, private application access for anyone, anywhere, on any device.
+
+Dive deeper
+Zscaler's Unified Cybersecurity Platform
+Learn more
+Sc
+
+---
+
+## 2026-10-21 23:27:21 UTC - セキュリティアドバイザリ
+
+ソース: https://trust.zscaler.com/
+
+変更要約:
+All Zscaler Services are functional
+
+All zscaler services are currently online.
+
+Transactions Processed
+0
+1000 K
+2 M
+3 M
+4 M
+5 M
+6 M
+7 M
+8 M
+9 M
+6,226,833
+per second
+
+10 M
+
+Daily Peak
+
+	
+
+523.8 B
+
+Last Day
+
+	
+
+14.1 T
+
+Last Month
+
+	
+
+84.4 T
+
+Last Year
+
+Policies Enforced
+0
+120 K
+240 K
+360 K
+480 K
+600 K
+284,999
+per second
+
+439 K
+
+Daily Peak
+
+	
+
+26.7 B
+
+Last Day
+
+	
+
+795.3 B
+
+Last Month
+
+	
+
+4.4 T
+
+Last Year
+
+Threats Blocked
+0
+1.5 K
+3 K
+4.5 K
+6 K
+8 K
+9 K
+6,359
+per second
+
+10 K
+
+Daily Peak
+
+	
+
+487.3 M
+
+Last Day
+
+	
+
+12.5 B
+
+Last Month
+
+	
+
+41.9 B
+
+Last Year
+
+Zscaler provides transparency around service availability and changes to our customers. Please refer to Zscaler’s service continuity customer notification policy for details.
+
+---
+
+## 2026-10-21 23:27:21 UTC - ZDX リリースノート
+
+ソース: https://help.zscaler.com/zdx/release-notes
+
+変更要約:
+Zscaler is rolling out an improved navigation system for Experience Center. Articles and videos on Help Portal will be updated to reflect these changes.
+During this transition, if a menu path doesn't match the UI, we recommend using search within Experience Center to locate the page.
+Documentation
+Getting Started with Zscaler
+Internet & SaaS (ZIA)
+Private Access (ZPA)
+Digital Experience Monitoring (ZDX)
+Workflow Automation
+Data Security Posture Management (DSPM)
+Zscaler Connectors
+Client Connector
+Zero Trust Branch
+Zscaler Cellular
+Cloud & Branch Connector
+Security Operations Platform
+Unified Vulnerability Management (UVM)
+Asset Exposure Management
+External Attack Surface Management
+Agentic SOC
+Deception
+Identity Protection
+Breach Predictor
+Zero Trust Browser
+Risk360
+Business Insights
+Auth
+
+---
+
+## 2026-10-21 23:27:21 UTC - ZPA リリースノート
+
+ソース: https://help.zscaler.com/zpa/release-notes
+
+変更要約:
+Zscaler is rolling out an improved navigation system for Experience Center. Articles and videos on Help Portal will be updated to reflect these changes.
+During this transition, if a menu path doesn't match the UI, we recommend using search within Experience Center to locate the page.
+Documentation
+Getting Started with Zscaler
+Internet & SaaS (ZIA)
+Private Access (ZPA)
+Digital Experience Monitoring (ZDX)
+Workflow Automation
+Data Security Posture Management (DSPM)
+Zscaler Connectors
+Client Connector
+Zero Trust Branch
+Zscaler Cellular
+Cloud & Branch Connector
+Security Operations Platform
+Unified Vulnerability Management (UVM)
+Asset Exposure Management
+External Attack Surface Management
+Agentic SOC
+Deception
+Identity Protection
+Breach Predictor
+Zero Trust Browser
+Risk360
+Business Insights
+Auth
+
+---
+
+## 2026-10-21 23:27:21 UTC - ZIA リリースノート
+
+ソース: https://help.zscaler.com/zia/release-notes
+
+変更要約:
+Zscaler is rolling out an improved navigation system for Experience Center. Articles and videos on Help Portal will be updated to reflect these changes.
+During this transition, if a menu path doesn't match the UI, we recommend using search within Experience Center to locate the page.
+Documentation
+Getting Started with Zscaler
+Internet & SaaS (ZIA)
+Private Access (ZPA)
+Digital Experience Monitoring (ZDX)
+Workflow Automation
+Data Security Posture Management (DSPM)
+Zscaler Connectors
+Client Connector
+Zero Trust Branch
+Zscaler Cellular
+Cloud & Branch Connector
+Security Operations Platform
+Unified Vulnerability Management (UVM)
+Asset Exposure Management
+External Attack Surface Management
+Agentic SOC
+Deception
+Identity Protection
+Breach Predictor
+Zero Trust Browser
+Risk360
+Business Insights
+Auth
+
+---
+
 ## 2026-09-29T23:33:00Z - 製品アップデート
 
 ## 2026-10-03T23:27:36Z - ZIA リリースノート\n\nソース: https://help.zscaler.com/zia/release-notes\n\nページ「ZIA リリースノート」の内容が変化しました。\n\nコンテンツ冒頭:\nZscaler is rolling out an improved navigation system for Experience Center. Articles and videos on Help Portal will be updated to reflect these changes. During this transition, if a menu path doesn't match the UI, we recommend using search within Experience Center to locate the page. Documentation Getting Started with Zscaler Internet & SaaS (ZIA) Private Access (ZPA) Digital Experience Monitoring (ZDX) Workflow Automation Data Security Posture Management (DSPM) Zscaler Connectors Client Connector Zero Trust Branch Zscaler Cellular Cloud & Branch Connector Security Operations Platform Unified \n\n---\n\n## 2026-10-03T23:27:36Z - ZPA リリースノート\n\nソース: https://help.zscaler.com/zpa/release-notes\n\nページ「ZPA リリースノート」の内容が変化しました。\n\nコンテンツ冒頭:\nZscaler is rolling out an improved navigation system for Experience Center. Articles and videos on Help Portal will be updated to reflect these changes. During this transition, if a menu path doesn't match the UI, we recommend using search within Experience Center to locate the page. Documentation Getting Started with Zscaler Internet & SaaS (ZIA) Private Access (ZPA) Digital Experience Monitoring (ZDX) Workflow Automation Data Security Posture Management (DSPM) Zscaler Connectors Client Connector Zero Trust Branch Zscaler Cellular Cloud & Branch Connector Security Operations Platform Unified \n\n---\n\n## 2026-10-03T23:27:36Z - ZDX リリースノート\n\nソース: https://help.zscaler.com/zdx/release-notes\n\nページ「ZDX リリースノート」の内容が変化しました。\n\nコンテンツ冒頭:\nZscaler is rolling out an improved navigation system for Experience Center. Articles and videos on Help Portal will be updated to reflect these changes. During this transition, if a menu path doesn't match the UI, we recommend using search within Experience Center to locate the page. Documentation Getting Started with Zscaler Internet & SaaS (ZIA) Private Access (ZPA) Digital Experience Monitoring (ZDX) Workflow Automation Data Security Posture Management (DSPM) Zscaler Connectors Client Connector Zero Trust Branch Zscaler Cellular Cloud & Branch Connector Security Operations Platform Unified \n\n---\n\n## 2026-10-03T23:27:36Z - セキュリティアドバイザリ\n\nソース: https://trust.zscaler.com/\n\nページ「セキュリティアドバイザリ」の内容が変化しました。\n\nコンテンツ冒頭:\nAll Zscaler Services are functional All zscaler services are currently online. Transactions Processed 0 389 K 778 K 1.2 M 1.6 M 1.9 M 2.3 M 2.7 M 3.1 M 3.5 M 2,400,635 per second 8.9 M Daily Peak 480.5 B Last Day 14.1 T Last Month 84.4 T Last Year Policies Enforced 0 80 K 160 K 240 K 320 K 400 K 186,478 per second 523.7 K Daily Peak 25.9 B Last Day 795.3 B Last Month 4.4 T Last Year Threats Blocked 0 833 1.7 K 2.5 K 3.3 K 4.2 K 5 K 3,766 per second 51.1 K Daily Peak 473.5 M Last Day 12.5 B Last Month 41.9 B Last Year Zscaler provides transparency around service availability and changes to our \n\n---\n\n## 2026-10-03T23:27:36Z - 製品アップデート\n\nソース: https://www.zscaler.com/products\n\nページ「製品アップデート」の内容が変化しました。\n\nコンテンツ冒頭:\nFind a product, solution, or technology SEARCH BY NAME OR KEYWORD SELECT ALL THAT INTEREST YOU AI Security AI/ML Accelerate M&A and Divestitures Application Transformation Data Security Exposure Management Network & Security Transformation Optimize Digital Experiences Show 22 more Jump to Industry Solutions Divestitures | Solutions | Zscaler When you’re ready to secure your deal value, Zscaler M&A and divestiture experts can help. Zscaler GDPR | Guidelines and Compliance The General Data Protection Regulation (GDPR) imposed rules that significantly changed the data privacy landscape in the E\n\n---\n\n
