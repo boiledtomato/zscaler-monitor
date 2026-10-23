@@ -1,6 +1,70 @@
 ## 2026-10-21 23:27:21 UTC - 製品アップデート
 
 ソース: https://www.zscaler.com/products
+## 2026-10-23 23:16 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- ## Zero Trust Branch EMEA Region Cloud Upgrade and Maintenance - ztb-euc-m1
+- ## Zero Trust Branch AMER Region Cloud Upgrade and Maintenance - ztb-us-m4
+- ## Zero Trust Branch APAC Region Cloud Upgrade and Maintenance - ztb-in-m1
+- ## Scheduled Maintenance Extended - AMER Region - zscalerthree.net
+**追加内容（抜粋）:**
+> - 公開: Fri, 23 Oct 2026 18:19:48 GMT
+> - ステータス: Upcoming  カテゴリ: Scheduled maintenance
+> - URL: https://trust.zscaler.com/ztb-euc-m1/posts/32431
+> - 影響:
+> Zscaler will be performing cloud software upgrade and maintenance activity for Zero Trust Branch (EMEA region) cloud ZTB-EUC-M1 to deliver continued improvements in performance, stability, and security. Maintenance window: &nbsp;&nbsp; Thu, 29 Oct 2026 00:30:00 UTC &nbsp;&nbsp;&nbsp; Duration: 4 hours&nbsp; No service downtime is anticipated during this maintenance window, and services are expected to remain available. However, as with any maintenance activity, there remains a limited risk of in
+> ...他 20 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-10-22 23:15 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
+## 2026-10-23 23:16 UTC — ZDX リリースノート
+
+ソース: [https://help.zscaler.com/zdx/release-notes](https://help.zscaler.com/zdx/release-notes)
+**追加内容（抜粋）:**
+> - 2026-10-22T07:31Z | https://help.zscaler.com/zdx/release-upgrade-summary-2026
+> 最終更新: 2026-10-22T07:31Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-10-22 23:15 UTC~~
+> ~~> ソース: https://help.zscaler.com/zdx/release-notes~~
+> ~~---~~
+
+---
+## 2026-10-23 23:15 UTC — ZPA リリースノート
+
+ソース: [https://help.zscaler.com/zpa/release-notes](https://help.zscaler.com/zpa/release-notes)
+**更新セクション:**
+- ## https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026
+- ## https://help.zscaler.com/zpa/release-upgrade-summary-2026
+**追加内容（抜粋）:**
+> - 2026-10-22T12:04Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026
+> - 2026-10-22T09:09Z | https://help.zscaler.com/zpa/release-upgrade-summary-2026
+> - 2026-10-22T08:59Z | https://help.zscaler.com/zpa/private-cloud-controller-release-summary-2026
+> 最終更新: 2026-10-22T12:04Z
+> 最終更新: 2026-10-22T09:09Z
+> ...他 1 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-10-22 23:14 UTC~~
+> ~~> ソース: https://help.zscaler.com/zpa/release-notes~~
+> ~~---~~
+
+---
+## 2026-10-23 23:15 UTC — ZIA リリースノート
+
+ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)
+**追加内容（抜粋）:**
+> - 2026-10-22T09:08Z | https://help.zscaler.com/zia/release-upgrade-summary-2026
+> 最終更新: 2026-10-22T09:08Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-10-22 23:13 UTC~~
+> ~~> ソース: https://help.zscaler.com/zia/release-notes~~
+> ~~---~~
+
+---
 ## 2026-10-22 23:16 UTC — 製品アップデート
 
 ソース: [https://www.zscaler.com/products](https://www.zscaler.com/products)

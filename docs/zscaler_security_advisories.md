@@ -1,11 +1,51 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-10-22 23:15 UTC  
+> 最終更新: 2026-10-23 23:16 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
 
 # Zscaler Trust - インシデント/アドバイザリ RSS
+
+## Zero Trust Branch EMEA Region Cloud Upgrade and Maintenance - ztb-euc-m1
+- 公開: Fri, 23 Oct 2026 18:19:48 GMT
+- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/ztb-euc-m1/posts/32431
+- 影響: 
+
+Zscaler will be performing cloud software upgrade and maintenance activity for Zero Trust Branch (EMEA region) cloud ZTB-EUC-M1 to deliver continued improvements in performance, stability, and security. Maintenance window: &nbsp;&nbsp; Thu, 29 Oct 2026 00:30:00 UTC &nbsp;&nbsp;&nbsp; Duration: 4 hours&nbsp; No service downtime is anticipated during this maintenance window, and services are expected to remain available. However, as with any maintenance activity, there remains a limited risk of in
+
+---
+
+## Zero Trust Branch AMER Region Cloud Upgrade and Maintenance - ztb-us-m4
+- 公開: Fri, 23 Oct 2026 18:14:23 GMT
+- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/ztb-us-m4/posts/32426
+- 影響: 
+
+Zscaler will be performing cloud software upgrade and maintenance activity for Zero Trust Branch (AMER region) cloud ZTB-US-M4 to deliver continued improvements in performance, stability, and security. Maintenance window: &nbsp; Tue, 27 Oct 2026 05:30:00 UTC &nbsp;&nbsp; Duration: 4 hours&nbsp; No service downtime is anticipated during this maintenance window, and services are expected to remain available. However, as with any maintenance activity, there remains a limited risk of intermittent im
+
+---
+
+## Zero Trust Branch APAC Region Cloud Upgrade and Maintenance - ztb-in-m1
+- 公開: Fri, 23 Oct 2026 18:05:45 GMT
+- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/ztb-in-m1/posts/32421
+- 影響: 
+
+Zscaler will be performing cloud software upgrade and maintenance activity for Zero Trust Branch (APAC region) cloud ZTB-IN-M1 to deliver continued improvements in performance, stability, and security. Maintenance window: &nbsp; &nbsp; Fri, 23 Oct 2026 22:00:00 UTC &nbsp; Duration: 4 hours&nbsp; No service downtime is anticipated during this maintenance window, and services are expected to remain available. However, as with any maintenance activity, there remains a limited risk of intermittent i
+
+---
+
+## Scheduled Maintenance Extended - AMER Region - zscalerthree.net
+- 公開: Fri, 23 Oct 2026 07:47:01 GMT
+- ステータス: Completed  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zscalerthree.net/posts/32416
+- 影響: 
+
+The Zscaler Site Reliability Engineering team will be extending the scheduled maintenance of the zscalerthree.net cloud (AMER Region) by 2 hours. As part of our standard maintenance process, all logs will be collected and available after maintenance has been completed. Please contact Zscaler Support if you have additional questions. Update - Fri, 23 Oct 2026 10:03:29 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions.
+
+---
 
 ## Quasar Cloud Maintenance - quasar
 - 公開: Thu, 22 Oct 2026 06:29:12 GMT
@@ -133,7 +173,7 @@ Zscaler has detected an issue with its Experience Center on zscaler.net, zscaler
 - URL: https://trust.zscaler.com/zscloud.net/posts/32351
 - 影響: 
 
-Zscaler has detected an issue with its zscloud.net Cloud. Customers may encounter issues with Administation UI login, Zscaler Client Connector portal, and SCIM auto-provisioning.&nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Latest Update - Wed, 21 Oct 2026 19:07:39 UTC Z
+Zscaler has detected an issue with its zscloud.net Cloud. Customers may encounter issues with Administation UI login, Zscaler Client Connector portal, and SCIM auto-provisioning.&nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Latest Update - Fri, 23 Oct 2026 02:29:03 UTC Z
 
 ---
 
@@ -164,45 +204,5 @@ Zscaler has detected an issue with Audit Logs visibility on its zscaler.net, zsc
 - 影響: 
 
 Zscaler will be expanding its global data center footprint and performing maintenance at our New York IV (NYC4) data center. We expect minimal to no impact to services during the maintenance window.&nbsp; Please update your firewall policy rules and any upstream Access Control Lists to allow all IP addresses for this DC For more information, please visit: https://config.zscaler.com/zscalertwo.net/cenr Maintenance Window: Start time is October 20, 4:00 pm PDT (October 20, 23:00 UTC) End time is O
-
----
-
-## New York IV  Datacenter Scheduled Maintenance - Service Expansion  - zscloud.net, zscalerthree.net
-- 公開: Mon, 19 Oct 2026 18:40:34 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/zscloud.net/posts/32331
-- 影響: 
-
-Zscaler will be expanding its global data center footprint and performing maintenance at our New York IV (NYC4) data center. We expect minimal to no impact to services during the maintenance window.&nbsp; Please update your firewall policy rules and any upstream Access Control Lists to allow all IP addresses for this DC For more information, please visit: https://config.zscaler.com/zscalerthree.net/cenr https://config.zscaler.com/zscloud.net/cenr Maintenance Window: Start time is October 20, 4:0
-
----
-
-## San Francisco IV (SJC4) Datacenter Network Maintenance - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
-- 公開: Mon, 19 Oct 2026 02:45:06 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/zscaler.net/posts/32326
-- 影響: During the maintenance, traffic will failover to redundant devices in the same datacenter, however intermittent connections and connection reestablishment may be observed.
-
-Zscaler will be performing hardware maintenance in San Francisco IV (SJC4) Datacenter. Maintenance window: &nbsp; &nbsp;Start: &nbsp;2026-10-21 01:00 UTC &nbsp; &nbsp;End: &nbsp; 2026-10-21 05:00 UTC &nbsp; &nbsp;(Local Time 2026-10-20 18:00 - 2026-10-20 22:00) Update - Wed, 21 Oct 2026 02:50:24 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions.
-
----
-
-## Urgent Maintenance : ZIdentity Service Upgrade - zslogin.net
-- 公開: Sun, 18 Oct 2026 03:45:28 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/zslogin.net/posts/32321
-- 影響: 
-
-Zscaler will perform an urgent maintenance for the ZIdentity (ZID) Authentication service between 05:00 UTC and 07:00 UTC on Sunday, Oct 18, 2026. This maintenance includes feature enhancements and bug fixes designed to improve platform reliability and performance. During the maintenance window, users may experience intermittent login or portal access issues for approximately 30–45 minutes. Following completion of the maintenance activities, service is expected to operate normally without custom
-
----
-
-## Zscaler Admin Console issue - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net, zslogin.net
-- 公開: Sat, 17 Oct 2026 06:38:53 GMT
-- ステータス: Resolved  カテゴリ: Recent incident
-- URL: https://trust.zscaler.com/zscaler.net/posts/32316
-- 影響: A subset of customers may have experienced an inability to access the Zscaler Admin Console portal via IDP-based admin authentication.
-
-Zscaler is investigating login issues with the Zscaler Admin Console on the zscaler.net, zscloud.net, zscalertwo.net, zsalerthree.net, and zslogin.net Clouds. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Root Cause: Root cause of this issue is attributed to a defect introduced
 
 ---
