@@ -1,6 +1,18 @@
 ## 2026-10-21 23:27:21 UTC - 製品アップデート
 
 ソース: https://www.zscaler.com/products
+## 2026-10-24 23:14 UTC — ZIA リリースノート
+
+ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)
+**追加内容（抜粋）:**
+> - 2026-10-23T12:09Z | https://help.zscaler.com/zia/release-upgrade-summary-2026
+> 最終更新: 2026-10-23T12:09Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-10-23 23:15 UTC~~
+> ~~> ソース: https://help.zscaler.com/zia/release-notes~~
+> ~~---~~
+
+---
 ## 2026-10-23 23:16 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
