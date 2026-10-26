@@ -1,11 +1,31 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-10-23 23:16 UTC  
+> 最終更新: 2026-10-26 23:15 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
 
 # Zscaler Trust - インシデント/アドバイザリ RSS
+
+## Zscaler Update on Google Brotli and Brotlicffi CVE-2026-111497 - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zdxcloud.net, zpatwo.net, app.zsdpc.net, app.eu.zsdpc.net, zpabeta.net, zsdkone.net, zscalerrisk.net, admin.zscaleranalytics.net, zslogin.net, app.avalor.io, app.eu.avalor.io, app.aps.avalor.io, ztb-us-m2, ztb-us-m3 (beta), ztb-us-m4, ztb-us-m7, ztb-euc-m1, ztb-in-m1, pulsar, quasar, prod3, prod4, prod5, prod6, zseclipse.net, zsaiguard.net, app.in.zsdpc.net
+- 公開: Mon, 26 Oct 2026 00:00:00 GMT
+- ステータス:   カテゴリ: Advisory
+- URL: https://trust.zscaler.com/zscaler.net/posts/32441
+- 影響: 
+
+Zscaler is aware of the recently disclosed vulnerability CVE-2026-111497 in some versions of&nbsp; Google Brotli and Brotlicffi CVE .&nbsp; Our Security and Engineering teams are investigating potential impact of Brotli and Brotclicffi and associated downstream dependencies. We will update this post as new information emerges.
+
+---
+
+## Urgent Maintenance - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- 公開: Mon, 26 Oct 2026 06:30:56 GMT
+- ステータス: Completed  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zscaler.net/posts/32436
+- 影響: 
+
+The Zscaler Site Reliability Engineering team will be performing an urgent maintenance during which access to the Partner Admin UI will not be available. This maintenance can take up to 30 minutes to complete. All the logs that are collected during this period will be available after the maintenance ends. Update - Mon, 26 Oct 2026 07:07:14 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions.
+
+---
 
 ## Zero Trust Branch EMEA Region Cloud Upgrade and Maintenance - ztb-euc-m1
 - 公開: Fri, 23 Oct 2026 18:19:48 GMT
@@ -83,7 +103,7 @@ Zscaler is aware of reports of Zscaler Client Connector displaying “Unsupporte
 - URL: https://trust.zscaler.com/zscaler.net/posts/32396
 - 影響: 
 
-Zscaler is aware of the recently disclosed PHP CVEs. Our Security and Engineering teams are assessing potential impact and will update this post as the new information emerges. Update&nbsp; Wed, 21 Oct 2026 23:00:31 UTC &nbsp; After thorough assessment by our Security and Engineering teams, there is no impact to Zscaler Cloud Platforms. We will update this post as the new information emerges. Update&nbsp; Thu, 22 Oct 2026 18:30:00 UTC &nbsp; After thorough assessment by our Security and Engineer
+Zscaler is aware of the recently disclosed PHP CVEs. Our Security and Engineering teams are assessing potential impact and will update this post as the new information emerges. Update&nbsp; Wed, 21 Oct 2026 23:00:31 UTC &nbsp; After thorough assessment by our Security and Engineering teams, there is no impact to Zscaler Cloud Platforms. We will update this post as the new information emerges. Update 2&nbsp; Thu, 22 Oct 2026 18:30:00 UTC &nbsp; After thorough assessment by our Security and Engine
 
 ---
 
@@ -184,25 +204,5 @@ Zscaler has detected an issue with its zscloud.net Cloud. Customers may encounte
 - 影響: 
 
 The Zscaler Site Reliability Engineering team will be extending the scheduled maintenance of the zscaler.net cloud (AMER Region) by 2 hours. As part of our standard maintenance process, all logs will be collected and available after maintenance has been completed. Please contact Zscaler Support if you have additional questions. Update - Tue, 20 Oct 2026 10:00:10 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions.
-
----
-
-## Audit Logs Issue - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net
-- 公開: Tue, 20 Oct 2026 01:13:18 GMT
-- ステータス: Resolved  カテゴリ: Recent incident
-- URL: https://trust.zscaler.com/zscaler.net/posts/32341
-- 影響: Customers might experience an issue with audit logs visibility on the Zscaler Admin Console. Log ingestion is not affected.
-
-Zscaler has detected an issue with Audit Logs visibility on its zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net Clouds.&nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Root Cause: A license violation on the underlying log management platform disab
-
----
-
-## New York IV  Datacenter Scheduled Maintenance - Service Expansion  - zscalertwo.net
-- 公開: Mon, 19 Oct 2026 18:48:40 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/zscalertwo.net/posts/32336
-- 影響: 
-
-Zscaler will be expanding its global data center footprint and performing maintenance at our New York IV (NYC4) data center. We expect minimal to no impact to services during the maintenance window.&nbsp; Please update your firewall policy rules and any upstream Access Control Lists to allow all IP addresses for this DC For more information, please visit: https://config.zscaler.com/zscalertwo.net/cenr Maintenance Window: Start time is October 20, 4:00 pm PDT (October 20, 23:00 UTC) End time is O
 
 ---

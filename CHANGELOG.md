@@ -1,6 +1,25 @@
 ## 2026-10-21 23:27:21 UTC - 製品アップデート
 
 ソース: https://www.zscaler.com/products
+## 2026-10-26 23:15 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- ## Zscaler Update on Google Brotli and Brotlicffi CVE-2026-111497 - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zdxcloud.net, zpatwo.net, app.zsdpc.net, app.eu.zsdpc.net, zpabeta.net, zsdkone.net, zscalerrisk.net, admin.zscaleranalytics.net, zslogin.net, app.avalor.io, app.eu.avalor.io, app.aps.avalor.io, ztb-us-m2, ztb-us-m3 (beta), ztb-us-m4, ztb-us-m7, ztb-euc-m1, ztb-in-m1, pulsar, quasar, prod3, prod4, prod5, prod6, zseclipse.net, zsaiguard.net, app.in.zsdpc.net
+- ## Urgent Maintenance - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net
+**追加内容（抜粋）:**
+> - 公開: Mon, 26 Oct 2026 00:00:00 GMT
+> - ステータス:   カテゴリ: Advisory
+> - URL: https://trust.zscaler.com/zscaler.net/posts/32441
+> - 影響:
+> Zscaler is aware of the recently disclosed vulnerability CVE-2026-111497 in some versions of&nbsp; Google Brotli and Brotlicffi CVE .&nbsp; Our Security and Engineering teams are investigating potential impact of Brotli and Brotclicffi and associated downstream dependencies. We will update this post as new information emerges.
+> ...他 8 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-10-23 23:16 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
 ## 2026-10-24 23:14 UTC — ZIA リリースノート
 
 ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)
