@@ -1,6 +1,59 @@
 ## 2026-10-21 23:27:21 UTC - 製品アップデート
 
 ソース: https://www.zscaler.com/products
+## 2026-10-27 23:20 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- ## Administration UI Issue - zscloud.net
+- ## Datacenter Expansion Dallas II (DFW2) - zpatwo.net
+- ## Datacenter Expansion Dallas II (DFW2) - private.zscaler.com
+**追加内容（抜粋）:**
+> - 公開: Tue, 27 Oct 2026 20:54:46 GMT
+> - ステータス: Resolved  カテゴリ: Recent incident
+> - URL: https://trust.zscaler.com/zscloud.net/posts/32456
+> - 影響: Customers on the zscloud.net cloud intermittently experienced Admin Portal unavailability, API errors, and an inability to save or activate policy and configuration. SCIM provisioning was also affected. Further assessment confirmed that new device registrations and Zscaler Client Connector enrollments were not affected. Existing user connections, traffic forwarding, and security policy enforcement remained unaffected throughout the incident.
+> Zscaler has detected and mitigated the issue affecting administrative services on the zscloud.net cloud and is monitoring service stability. During the incident, customers may have experienced intermittent Admin Portal login failures, API errors, and an inability to save or activate policy and configuration changes. SCIM provisioning and new Zscaler Client Connector enrollments or device registrations may also have been affected. Existing user connections, traffic forwarding, and security policy
+> ...他 15 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-10-26 23:15 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
+## 2026-10-27 23:19 UTC — ZPA リリースノート
+
+ソース: [https://help.zscaler.com/zpa/release-notes](https://help.zscaler.com/zpa/release-notes)
+**更新セクション:**
+- ## https://help.zscaler.com/zpa/app-connector-release-summary-2026
+- ## https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026
+**追加内容（抜粋）:**
+> - 2026-10-26T14:20Z | https://help.zscaler.com/zpa/app-connector-release-summary-2026
+> - 2026-10-26T14:15Z | https://help.zscaler.com/zpa/release-upgrade-summary-2026
+> - 2026-10-26T14:00Z | https://help.zscaler.com/zpa/private-cloud-controller-release-summary-2026
+> - 2026-10-26T13:40Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026
+> - 2026-10-26T13:40Z | https://help.zscaler.com/zpa/network-connector-release-summary-2026
+> ...他 5 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-10-23 23:15 UTC~~
+> ~~> ソース: https://help.zscaler.com/zpa/release-notes~~
+> ~~---~~
+
+---
+## 2026-10-27 23:18 UTC — ZIA リリースノート
+
+ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)
+**追加内容（抜粋）:**
+> - 2026-10-26T10:55Z | https://help.zscaler.com/zia/release-upgrade-summary-2026
+> - 2026-10-26T09:35Z | https://help.zscaler.com/zia/zscaler-endpoint-dlp-release-summary-2026
+> 最終更新: 2026-10-26T10:55Z
+> 最終更新: 2026-10-26T09:35Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-10-24 23:14 UTC~~
+> ~~> ソース: https://help.zscaler.com/zia/release-notes~~
+> ~~---~~
+
+---
 ## 2026-10-26 23:15 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)

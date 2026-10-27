@@ -1,11 +1,41 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-10-26 23:15 UTC  
+> 最終更新: 2026-10-27 23:20 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
 
 # Zscaler Trust - インシデント/アドバイザリ RSS
+
+## Administration UI Issue - zscloud.net
+- 公開: Tue, 27 Oct 2026 20:54:46 GMT
+- ステータス: Resolved  カテゴリ: Recent incident
+- URL: https://trust.zscaler.com/zscloud.net/posts/32456
+- 影響: Customers on the zscloud.net cloud intermittently experienced Admin Portal unavailability, API errors, and an inability to save or activate policy and configuration. SCIM provisioning was also affected. Further assessment confirmed that new device registrations and Zscaler Client Connector enrollments were not affected. Existing user connections, traffic forwarding, and security policy enforcement remained unaffected throughout the incident.
+
+Zscaler has detected and mitigated the issue affecting administrative services on the zscloud.net cloud and is monitoring service stability. During the incident, customers may have experienced intermittent Admin Portal login failures, API errors, and an inability to save or activate policy and configuration changes. SCIM provisioning and new Zscaler Client Connector enrollments or device registrations may also have been affected. Existing user connections, traffic forwarding, and security policy
+
+---
+
+## Datacenter Expansion Dallas II (DFW2) - zpatwo.net
+- 公開: Tue, 27 Oct 2026 11:22:58 GMT
+- ステータス: In Progress  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zpatwo.net/posts/32451
+- 影響: 
+
+As part of our regular expansion of capacity, we are adding ZPA Public Service Edge nodes to our new data center in AMER , Dallas II (DFW2) . If you restrict outbound firewall access, please ensure you have added the complete set of published IPs in the URL below https://config.zscaler.com/zpatwo.net/zpa
+
+---
+
+## Datacenter Expansion Dallas II (DFW2) - private.zscaler.com
+- 公開: Tue, 27 Oct 2026 11:20:44 GMT
+- ステータス: In Progress  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/private.zscaler.com/posts/32446
+- 影響: 
+
+As part of our regular expansion of capacity, we are adding ZPA Public Service Edge nodes to our new data center in AMER , Dallas II (DFW2) . If you restrict outbound firewall access, please ensure you have added the complete set of published IPs in the URL below https://config.zscaler.com/private.zscaler.com/zpa
+
+---
 
 ## Zscaler Update on Google Brotli and Brotlicffi CVE-2026-111497 - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zdxcloud.net, zpatwo.net, app.zsdpc.net, app.eu.zsdpc.net, zpabeta.net, zsdkone.net, zscalerrisk.net, admin.zscaleranalytics.net, zslogin.net, app.avalor.io, app.eu.avalor.io, app.aps.avalor.io, ztb-us-m2, ztb-us-m3 (beta), ztb-us-m4, ztb-us-m7, ztb-euc-m1, ztb-in-m1, pulsar, quasar, prod3, prod4, prod5, prod6, zseclipse.net, zsaiguard.net, app.in.zsdpc.net
 - 公開: Mon, 26 Oct 2026 00:00:00 GMT
@@ -33,7 +63,7 @@ The Zscaler Site Reliability Engineering team will be performing an urgent maint
 - URL: https://trust.zscaler.com/ztb-euc-m1/posts/32431
 - 影響: 
 
-Zscaler will be performing cloud software upgrade and maintenance activity for Zero Trust Branch (EMEA region) cloud ZTB-EUC-M1 to deliver continued improvements in performance, stability, and security. Maintenance window: &nbsp;&nbsp; Thu, 29 Oct 2026 00:30:00 UTC &nbsp;&nbsp;&nbsp; Duration: 4 hours&nbsp; No service downtime is anticipated during this maintenance window, and services are expected to remain available. However, as with any maintenance activity, there remains a limited risk of in
+Zscaler will be performing cloud software upgrade and maintenance activity for Zero Trust Branch (EMEA region) cloud ZTB-EUC-M1 to deliver continued improvements in performance, stability, and security. Maintenance window: &nbsp;&nbsp; Tue, 3rd Nov 2026 00:30:00 UTC &nbsp;&nbsp;&nbsp; Duration: 4 hours&nbsp; No service downtime is anticipated during this maintenance window, and services are expected to remain available. However, as with any maintenance activity, there remains a limited risk of i
 
 ---
 
@@ -43,7 +73,7 @@ Zscaler will be performing cloud software upgrade and maintenance activity for Z
 - URL: https://trust.zscaler.com/ztb-us-m4/posts/32426
 - 影響: 
 
-Zscaler will be performing cloud software upgrade and maintenance activity for Zero Trust Branch (AMER region) cloud ZTB-US-M4 to deliver continued improvements in performance, stability, and security. Maintenance window: &nbsp; Tue, 27 Oct 2026 05:30:00 UTC &nbsp;&nbsp; Duration: 4 hours&nbsp; No service downtime is anticipated during this maintenance window, and services are expected to remain available. However, as with any maintenance activity, there remains a limited risk of intermittent im
+Zscaler will be performing cloud software upgrade and maintenance activity for Zero Trust Branch (AMER region) cloud ZTB-US-M4 to deliver continued improvements in performance, stability, and security. Maintenance window: &nbsp; Tue, 28 Oct 2026 05:30:00 UTC &nbsp;&nbsp; Duration: 4 hours&nbsp; No service downtime is anticipated during this maintenance window, and services are expected to remain available. However, as with any maintenance activity, there remains a limited risk of intermittent im
 
 ---
 
@@ -174,35 +204,5 @@ Zscaler will be expanding its global data center footprint and performing mainte
 - 影響: 
 
 Zscaler will be expanding its global data center footprint and performing maintenance at our Frankfurt VI (FRA6) data center. We expect minimal to no impact to services during the maintenance window.&nbsp; Please update your firewall policy rules and any upstream Access Control Lists to allow all IP addresses for this DC For more information, please visit: https://config.zscaler.com/zscloud.net/cenr &nbsp; Maintenance Window: Start time is October 21, 9:00 am PDT (October 21 16:00 UTC) End time 
-
----
-
-## Experience Center Issue - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zdxcloud.net
-- 公開: Tue, 20 Oct 2026 10:59:32 GMT
-- ステータス: Resolved  カテゴリ: Recent incident
-- URL: https://trust.zscaler.com/zscaler.net/posts/32356
-- 影響: Customers are unable to access  Zscaler customer support portal (CSP) via Experience Center or community.zscaler.com/s/customer-support-portal .
-
-Zscaler has detected an issue with its Experience Center on zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zdxcloud.net Cloud. We will continue to provide updates here as the investigation progresses. Status changes and additional details will be posted there as they become available. Root Cause: The issue was traced to a recent change that impacted a specific service workflow for customers with multiple account associations, resulting in errors 
-
----
-
-## Administration UI Issue - zscloud.net
-- 公開: Tue, 20 Oct 2026 08:41:16 GMT
-- ステータス: Monitoring  カテゴリ: Recent incident
-- URL: https://trust.zscaler.com/zscloud.net/posts/32351
-- 影響: 
-
-Zscaler has detected an issue with its zscloud.net Cloud. Customers may encounter issues with Administation UI login, Zscaler Client Connector portal, and SCIM auto-provisioning.&nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Latest Update - Fri, 23 Oct 2026 02:29:03 UTC Z
-
----
-
-## Scheduled Maintenance Extended - AMER Region - zscaler.net
-- 公開: Tue, 20 Oct 2026 08:11:13 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/zscaler.net/posts/32346
-- 影響: 
-
-The Zscaler Site Reliability Engineering team will be extending the scheduled maintenance of the zscaler.net cloud (AMER Region) by 2 hours. As part of our standard maintenance process, all logs will be collected and available after maintenance has been completed. Please contact Zscaler Support if you have additional questions. Update - Tue, 20 Oct 2026 10:00:10 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions.
 
 ---
