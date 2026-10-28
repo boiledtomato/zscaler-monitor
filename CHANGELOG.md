@@ -1,6 +1,26 @@
 ## 2026-10-21 23:27:21 UTC - 製品アップデート
 
 ソース: https://www.zscaler.com/products
+## 2026-10-28 23:18 UTC — ZPA リリースノート
+
+ソース: [https://help.zscaler.com/zpa/release-notes](https://help.zscaler.com/zpa/release-notes)
+**更新セクション:**
+- ## https://help.zscaler.com/zpa/release-upgrade-summary-2026
+- ## https://help.zscaler.com/zpa/app-connector-release-summary-2026
+- ## https://help.zscaler.com/zpa/network-connector-release-summary-2026
+**追加内容（抜粋）:**
+> - 2026-10-27T14:21Z | https://help.zscaler.com/zpa/release-upgrade-summary-2026
+> - 2026-10-27T13:10Z | https://help.zscaler.com/zpa/app-connector-release-summary-2026
+> - 2026-10-27T13:07Z | https://help.zscaler.com/zpa/network-connector-release-summary-2026
+> - 2026-10-27T13:06Z | https://help.zscaler.com/zpa/private-cloud-controller-release-summary-2026
+> - 2026-10-27T12:55Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026
+> ...他 5 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-10-27 23:19 UTC~~
+> ~~> ソース: https://help.zscaler.com/zpa/release-notes~~
+> ~~---~~
+
+---
 ## 2026-10-27 23:20 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
