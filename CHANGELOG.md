@@ -1,3 +1,28 @@
+## 2026-10-29T23:22:33Z - ZIA リリースノート
+
+ソース: https://help.zscaler.com/zia/release-notes
+変更内容: コンテンツ変更を検出 (old hash: e721708e616b2a64... → new: b091802056856b02...)
+
+## 2026-10-29T23:22:33Z - ZPA リリースノート
+
+ソース: https://help.zscaler.com/zpa/release-notes
+変更内容: コンテンツ変更を検出 (old hash: b7c050f9a4714de5... → new: fdd6d868e4598771...)
+
+## 2026-10-29T23:22:33Z - ZDX リリースノート
+
+ソース: https://help.zscaler.com/zdx/release-notes
+変更内容: コンテンツ変更を検出 (old hash: 65e343ba7ab0a570... → new: 9c4bd50ef2c031ae...)
+
+## 2026-10-29T23:22:33Z - セキュリティアドバイザリ
+
+ソース: https://trust.zscaler.com/
+変更内容: コンテンツ変更を検出 (old hash: 312975cba26d1f88... → new: 6e89b8fae5a4e21c...)
+
+## 2026-10-29T23:22:33Z - 製品アップデート
+
+ソース: https://www.zscaler.com/products
+変更内容: コンテンツ変更を検出 (old hash: f09ed8897a0680d3... → new: b7bd04c0237a32e6...)
+
 ## 2026-10-21 23:27:21 UTC - 製品アップデート
 
 ソース: https://www.zscaler.com/products

@@ -1,32 +1,32 @@
 {
   "zia_release_notes": {
-    "hash": "e721708e616b2a643952abf9692a91b30624c61c0628953c387917dfdead1072",
-    "last_checked": "2026-10-27T23:19:27.450359+00:00",
-    "last_updated": "2026-10-27T23:19:27.450393+00:00",
+    "hash": "b091802056856b02f0b45bbf9865be6f36038c1dc69f4bebbea031058d8f16e6",
+    "last_checked": "2026-10-29T23:22:33Z",
+    "last_updated": "2026-10-29T23:22:33Z",
     "initialized": true
   },
   "zpa_release_notes": {
-    "hash": "b7c050f9a4714de5ff5116f1b36f4852278070df889878b8ccf0b0c23a8cfd97",
-    "last_checked": "2026-10-28T23:18:52.138566+00:00",
-    "last_updated": "2026-10-28T23:18:52.138600+00:00",
+    "hash": "fdd6d868e45987718d74130622cd20bc6f6267353001525684681bbe5e3bbf79",
+    "last_checked": "2026-10-29T23:22:33Z",
+    "last_updated": "2026-10-29T23:22:33Z",
     "initialized": true
   },
   "zdx_release_notes": {
-    "hash": "65e343ba7ab0a57080de3036ff423aaf73c9e182f7f1ce9c8474e953fefcd1fd",
-    "last_checked": "2026-10-26T23:15:42.176346+00:00",
-    "last_updated": "2026-10-23T23:16:57.641924+00:00",
+    "hash": "9c4bd50ef2c031ae40c04275d0573817e1dd96ca491b6e7672645f0e996f4794",
+    "last_checked": "2026-10-29T23:22:33Z",
+    "last_updated": "2026-10-29T23:22:33Z",
     "initialized": true
   },
   "security_advisories": {
-    "hash": "312975cba26d1f88e5003dce6b72b89c2ae15fe20db7684892bb9bbe98322ad0",
-    "last_checked": "2026-10-27T23:20:42.528184+00:00",
-    "last_updated": "2026-10-27T23:20:42.528215+00:00",
+    "hash": "6e89b8fae5a4e21cd3882e949f8b15547f5250f147917e90a7fe96751e201eeb",
+    "last_checked": "2026-10-29T23:22:33Z",
+    "last_updated": "2026-10-29T23:22:33Z",
     "initialized": true
   },
   "product_updates": {
-    "hash": "f09ed8897a0680d39a23eca95ab1a576f18ccb2541c9a3f7b634f0f293f7e874",
-    "last_checked": "2026-10-26T23:15:42.176346+00:00",
-    "last_updated": "2026-10-22T23:16:58.168307+00:00",
+    "hash": "b7bd04c0237a32e6b8d104d13b21dc7041e7036075f7df214f8a5d0e15938a8c",
+    "last_checked": "2026-10-29T23:22:33Z",
+    "last_updated": "2026-10-29T23:22:33Z",
     "initialized": true
   }
 }
