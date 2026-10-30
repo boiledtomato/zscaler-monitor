@@ -1,3 +1,38 @@
+## 2026-10-30T23:16:37Z - ZIA リリースノート
+
+ソース: https://help.zscaler.com/zia/release-notes
+変更内容: コンテンツ変更を検出 (old hash: b091802056856b02... → new: 52a5925a76523a9d...)
+変更サマリー: ページコンテンツが更新されました。
+抜粋: Zscaler is rolling out an improved navigation system for Experience Center. Articles and videos on Help Portal will be updated to reflect these changes. During this transition, if a menu path doesn't ...
+
+## 2026-10-30T23:16:37Z - ZPA リリースノート
+
+ソース: https://help.zscaler.com/zpa/release-notes
+変更内容: コンテンツ変更を検出 (old hash: fdd6d868e4598771... → new: d94cbaec3c05ef9b...)
+変更サマリー: ページコンテンツが更新されました。
+抜粋: Zscaler is rolling out an improved navigation system for Experience Center. Articles and videos on Help Portal will be updated to reflect these changes. During this transition, if a menu path doesn't ...
+
+## 2026-10-30T23:16:37Z - ZDX リリースノート
+
+ソース: https://help.zscaler.com/zdx/release-notes
+変更内容: コンテンツ変更を検出 (old hash: 9c4bd50ef2c031ae... → new: cd40e082d14d2235...)
+変更サマリー: ページコンテンツが更新されました。
+抜粋: Zscaler is rolling out an improved navigation system for Experience Center. Articles and videos on Help Portal will be updated to reflect these changes. During this transition, if a menu path doesn't ...
+
+## 2026-10-30T23:16:37Z - セキュリティアドバイザリ
+
+ソース: https://trust.zscaler.com/
+変更内容: コンテンツ変更を検出 (old hash: 6e89b8fae5a4e21c... → new: 87f6d722aa2e171e...)
+変更サマリー: ページコンテンツが更新されました。
+抜粋: All Zscaler Services are functional  All zscaler services are currently online.  Transactions Processed 0 889 K 1.8 M 2.7 M 3.6 M 4.4 M 5.3 M 6.2 M 7.1 M 8 M 5,506,736 per second  14.4 M  Daily Peak  ...
+
+## 2026-10-30T23:16:37Z - 製品アップデート
+
+ソース: https://www.zscaler.com/products
+変更内容: コンテンツ変更を検出 (old hash: b7bd04c0237a32e6... → new: 11ffbe1e07ae4522...)
+変更サマリー: ページコンテンツが更新されました。
+抜粋: Find a product, solution, or technology  SEARCH BY NAME OR KEYWORD  SELECT ALL THAT INTEREST YOU  AI Security  AI/ML  Accelerate M&A and Divestitures  Application Transformation  Data Security  Exposu...
+
 ## 2026-10-29T23:22:33Z - ZIA リリースノート
 
 ソース: https://help.zscaler.com/zia/release-notes

@@ -1,6 +1,6 @@
 # ZDX リリースノート
 
-最終更新日時: 2026-10-29T23:22:33Z
+最終更新日時: 2026-10-30 23:16:37 UTC  
 ソースURL: https://help.zscaler.com/zdx/release-notes
 
 ---
@@ -41,19 +41,7 @@ Zscaler Legacy
 ITDR
 Posture Control (ZPC)
 Zscaler SDK for Mobile Apps
-Legacy UI: Internet & SaaS (ZIA)
-Legacy UI: Private Access (ZPA)
-Legacy UI: Digital Experience Monitoring (ZDX)
-Legacy UI: Workflow Automation
-Legacy UI: Data Security Posture Management (DSPM)
-Legacy UI: Zscaler Client Connector
-Legacy UI: Cloud & Branch Connector
-Legacy UI: Zscaler Cellular
-Legacy UI: Zero Trust Branch
-Legacy UI: Zero Trust Browser
-Legacy UI: Risk360 Advanced
 Legacy UI: Business Insights
-Legacy UI: Authentication Service
 Logs & Fair Use
 Zscaler Support Troubleshooting Runbooks
 Zscaler Deployments & Operations
@@ -77,6 +65,7 @@ Custom SOW
 Training & Certification
 Tools
 Release Notes
+
 Internet & SaaS (ZIA) Release Notes
 Private Access (ZPA) Release Notes
 Digital Experience Monitoring (ZDX) Release Notes
