@@ -1,113 +1,81 @@
 # セキュリティアドバイザリ
 
-最終更新日時: 2026-10-30 23:16:37 UTC  
+最終更新日時: 2026-10-31 23:15:21 UTC  
 ソースURL: https://trust.zscaler.com/
 
 ---
 
+TRUST
+CloudZIA - zscaler.net
+Support
+RSS
+Sign In
+Subscribe
+Cloud OverviewCloud StatusMaintenanceIncidentsAdvisories
+Notifications
+Data Center MapFAQ
 All Zscaler Services are functional
-
 All zscaler services are currently online.
-
 Transactions Processed
 0
+444 K
 889 K
+1.3 M
 1.8 M
+2.2 M
 2.7 M
+3.1 M
 3.6 M
-4.4 M
-5.3 M
-6.2 M
-7.1 M
-8 M
-5,506,736
+4 M
+2,615,376
 per second
-
-14.4 M
-
+12 M
 Daily Peak
-
-	
-
-612.4 B
-
+557.9 B
 Last Day
-
-	
-
-14.1 T
-
+14.5 T
 Last Month
-
-	
-
 84.4 T
-
 Last Year
-
 Policies Enforced
 0
-120 K
+80 K
+160 K
 240 K
-360 K
-480 K
-600 K
-290,359
+320 K
+400 K
+194,439
 per second
-
-653.8 K
-
+736.5 K
 Daily Peak
-
-	
-
-33.6 B
-
+32.1 B
 Last Day
-
-	
-
-795.3 B
-
+827.4 B
 Last Month
-
-	
-
 4.4 T
-
 Last Year
-
 Threats Blocked
 0
-1.3 K
-2.7 K
-4 K
+833
+1.7 K
+2.5 K
+3.3 K
+4.2 K
 5 K
-7 K
-8 K
-6,221
+3,920
 per second
-
 9.2 K
-
 Daily Peak
-
-	
-
-503.6 M
-
+500.1 M
 Last Day
-
-	
-
-12.5 B
-
+13.4 B
 Last Month
-
-	
-
 41.9 B
-
 Last Year
-
 Zscaler provides transparency around service availability and changes to our customers. Please refer to Zscaler’s service continuity customer notification policy for details.
+Any Questions? Leave us feedback: trust-feedback@zscaler.com
+. Zscaler uses cookies, pixels, and other tools to collect information you provide to us and to capture and record your interaction with our site. We use this information to enhance site navigation, personalize content, analyze your use of our website, and assist in our marketing efforts and customer service. To deliver the best experience and to assist with our efforts, Zscaler social media, advertising, analytics, and hosting service providers may have access to the information that you provide to us. By clicking "Accept All," you consent to our collection, use, and disclosure of such information and to our Terms of Service. For more information about our data processing practices, please see our Privacy Policy.
+Zscaler uses cookies, pixels, and other tools to collect information you provide to us and to capture and record your interaction with our site. We use this information to enhance site navigation, personalize content, analyze your use of our website, and assist in our marketing efforts and customer service. To deliver the best experience and to assist with our efforts, Zscaler social media, advertising, analytics, and hosting service providers may have access to the information that you provide to us. By clicking "Accept All," you consent to our collection, use, and disclosure of such information and to our Terms of Service. For more information about our data processing practices, please see our Privacy Policy.
+Manage Cookie Preferences
+Accept All
+Reject All

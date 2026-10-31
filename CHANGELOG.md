@@ -1,3 +1,38 @@
+## 2026-10-31T23:15:53Z - ZIA リリースノート
+
+ソース: https://help.zscaler.com/zia/release-notes
+変更内容: クッキーバナーテキストの追加 (+5行) (old hash: 52a5925a76523a9d... → new: fa72cb385108da00...)
+追加内容抜粋: . Zscaler uses cookies, pixels, and other tools to collect information you provide to us and to capture and record your interaction with our site. We 
+削除内容抜粋: なし
+
+## 2026-10-31T23:15:53Z - ZPA リリースノート
+
+ソース: https://help.zscaler.com/zpa/release-notes
+変更内容: クッキーバナーテキストの追加 (+5行) (old hash: d94cbaec3c05ef9b... → new: 991961334a1eb67c...)
+追加内容抜粋: . Zscaler uses cookies, pixels, and other tools to collect information you provide to us and to capture and record your interaction with our site. We 
+削除内容抜粋: なし
+
+## 2026-10-31T23:15:53Z - ZDX リリースノート
+
+ソース: https://help.zscaler.com/zdx/release-notes
+変更内容: クッキーバナーテキストの追加 (+5行) (old hash: cd40e082d14d2235... → new: c5dc331089395f12...)
+追加内容抜粋: . Zscaler uses cookies, pixels, and other tools to collect information you provide to us and to capture and record your interaction with our site. We 
+削除内容抜粋: なし
+
+## 2026-10-31T23:15:53Z - セキュリティアドバイザリ
+
+ソース: https://trust.zscaler.com/
+変更内容: ページ構造の更新 (+37行追加, -21行削除) (old hash: 87f6d722aa2e171e... → new: bff89042453f695e...)
+追加内容抜粋: TRUST
+削除内容抜粋: 4.4 M
+
+## 2026-10-31T23:15:53Z - 製品アップデート
+
+ソース: https://www.zscaler.com/products
+変更内容: クッキーバナーテキストの追加 (+6行) (old hash: 11ffbe1e07ae4522... → new: 027928b7c2e04f9c...)
+追加内容抜粋: Preference Center. Zscaler uses cookies, pixels, and other tools to collect information you provide to us and to capture and record your interaction w
+削除内容抜粋: なし
+
 ## 2026-10-30T23:16:37Z - ZIA リリースノート
 
 ソース: https://help.zscaler.com/zia/release-notes
