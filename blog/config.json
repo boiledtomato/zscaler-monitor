@@ -1,0 +1,56 @@
+{
+  "site_title": "ゼロトラストと美術のノート",
+  "site_description": "Zscaler の最新アップデートを日本語でかみ砕く解説と、時代を超えた美術作品の読み解き。毎日少しずつ学べる個人ブログ。",
+  "author": "boiledtomato",
+  "base_url": "https://boiledtomato.github.io/zscaler-monitor",
+  "language": "ja",
+  "posts_per_page": 20,
+  "monetization": {
+    "adsense_client": "",
+    "amazon_associate_tag": "",
+    "pr_disclosure": "※当ブログはアフィリエイト広告（Amazonアソシエイト等）を利用しています。",
+    "affiliates": {
+      "zscaler": [
+        {
+          "label": "ゼロトラスト関連の入門書を探す",
+          "amazon_keyword": "ゼロトラスト セキュリティ 入門"
+        },
+        {
+          "label": "情報処理安全確保支援士 参考書",
+          "amazon_keyword": "情報処理安全確保支援士 参考書"
+        }
+      ],
+      "art": [
+        {
+          "label": "西洋美術史の入門書を探す",
+          "amazon_keyword": "西洋美術史 入門"
+        },
+        {
+          "label": "名画の画集・図録を探す",
+          "amazon_keyword": "名画 画集"
+        }
+      ]
+    }
+  },
+  "categories": {
+    "zscaler": {
+      "name": "Zscaler / ゼロトラスト",
+      "description": "ZIA・ZPA・ZDX のアップデート解説と基礎知識"
+    },
+    "art": {
+      "name": "美術・アート",
+      "description": "古代から現代まで、名作を一枚ずつ読み解く"
+    }
+  },
+  "schedule": {
+    "comment": "曜日(0=月)ごとの記事タイプ。scripts/blog_sources.py today が参照する",
+    "0": "zscaler-digest",
+    "1": "art-artwork",
+    "2": "zscaler-topic",
+    "3": "art-topic",
+    "4": "zscaler-topic",
+    "5": "art-artwork",
+    "6": "art-topic"
+  },
+  "publish_dashboard": false
+}

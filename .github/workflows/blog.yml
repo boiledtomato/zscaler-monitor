@@ -1,0 +1,68 @@
+name: Blog build & deploy
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "blog/**"
+      - "scripts/build_site.py"
+      - ".github/workflows/blog.yml"
+  workflow_dispatch:
+  schedule:
+    # APIモード（リポジトリ変数 BLOG_MODE=api のときだけ記事生成）: 毎日 10:20 JST
+    - cron: "20 1 * * *"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: blog
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    if: github.event_name == 'schedule' && vars.BLOG_MODE == 'api'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install markdown PyYAML anthropic
+      - name: Generate today's post
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python3 scripts/generate_post.py
+      - name: Commit
+        run: |
+          python3 scripts/build_site.py
+          git config user.name "blog-bot"
+          git config user.email "blog-bot@users.noreply.github.com"
+          git add blog/
+          git diff --cached --quiet || git commit -m "blog: $(date -u +%F) の記事を自動生成"
+          git pull --rebase origin main && git push origin HEAD:main
+
+  build:
+    needs: [generate]
+    if: always() && (needs.generate.result == 'success' || needs.generate.result == 'skipped')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install markdown PyYAML
+      - run: python3 scripts/build_site.py
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: _site }
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
