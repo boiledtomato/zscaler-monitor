@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """
-blog/content/posts/*.md から静的サイトを _site/ に生成する。
-あわせて blog/REPORT.md（記事数・コスト・売上のレポート）を更新する。
+blogs/<site>/content/posts/*.md から、ブログごとに独立した静的サイトを _site/<site>/ に生成する。
+あわせて blogs/<site>/REPORT.md（記事数・コスト・売上のレポート）を更新する。
 
-  python3 scripts/build_site.py            # ビルド
-  python3 scripts/build_site.py --check    # フロントマター検証のみ（エラーなら終了コード1）
+  python3 scripts/build_site.py                    # 全ブログをビルド
+  python3 scripts/build_site.py --site art         # 美術ブログだけ
+  python3 scripts/build_site.py --check            # フロントマター検証のみ（エラーなら終了コード1）
 """
 
 from __future__ import annotations
@@ -24,14 +25,26 @@ import markdown
 import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
-BLOG = ROOT / "blog"
-POSTS_DIR = BLOG / "content" / "posts"
-OUT = ROOT / "_site"
-CFG = json.loads((BLOG / "config.json").read_text(encoding="utf-8"))
-BASE = CFG["base_url"].rstrip("/")
-BASE_PATH = urllib.parse.urlparse(BASE).path.rstrip("/")  # 例: /zscaler-monitor
+SITES = ("zscaler", "art")
+OUT_ROOT = ROOT / "_site"
 
-REQUIRED = ["title", "date", "category", "summary", "topic_id", "sources", "learning", "quiz"]
+# configure() でブログごとに設定される
+SITE = BLOG = POSTS_DIR = OUT = None
+CFG: dict = {}
+BASE = BASE_PATH = ""
+
+REQUIRED = ["title", "date", "summary", "topic_id", "sources", "learning", "quiz"]
+
+
+def configure(site: str) -> None:
+    global SITE, BLOG, POSTS_DIR, OUT, CFG, BASE, BASE_PATH
+    SITE = site
+    BLOG = ROOT / "blogs" / site
+    POSTS_DIR = BLOG / "content" / "posts"
+    OUT = OUT_ROOT / site
+    CFG = json.loads((BLOG / "config.json").read_text(encoding="utf-8"))
+    BASE = CFG["base_url"].rstrip("/")
+    BASE_PATH = urllib.parse.urlparse(BASE).path.rstrip("/")  # 例: /zscaler-monitor/art
 USD_JPY = 150  # レポート用の概算レート
 
 
@@ -54,8 +67,9 @@ def load_posts() -> tuple[list[dict], list[str]]:
         missing = [k for k in REQUIRED if not fm.get(k)]
         if missing:
             errors.append(f"{p.name}: 必須項目が不足 {missing}")
-        if fm.get("category") not in CFG["categories"]:
-            errors.append(f"{p.name}: category が不正 ({fm.get('category')})")
+        nav_tags = [n["tag"] for n in CFG.get("nav", [])]
+        if nav_tags and not (set(fm.get("tags") or []) & set(nav_tags)):
+            errors.append(f"{p.name}: tags にナビ用タグ {nav_tags} のいずれかを含めてください")
         if fm.get("image") and not fm.get("image_credit"):
             errors.append(f"{p.name}: image には image_credit が必要です")
         for q in fm.get("quiz") or []:
@@ -90,11 +104,20 @@ def url(path: str) -> str:
     return f"{BASE_PATH}/{path.lstrip('/')}"
 
 
+def css() -> str:
+    t = CFG.get("theme", {})
+    font = ('"Hiragino Mincho ProN","Noto Serif JP","Yu Mincho",serif' if t.get("font") == "serif"
+            else '"Hiragino Sans","Noto Sans JP","Yu Gothic",system-ui,sans-serif')
+    return (CSS.replace("__ACCENT__", t.get("accent", "#2f5d8a"))
+               .replace("__ACCENT_DARK__", t.get("accent_dark", "#8ab4e0"))
+               .replace("__FONT__", font)).strip()
+
+
 CSS = """
-:root{--bg:#fbfaf7;--fg:#1f2328;--muted:#5d646d;--line:#e3e0d8;--card:#fff;--accent:#2f5d8a;--accent2:#9a4e2b;--code:#f2efe8}
-@media (prefers-color-scheme:dark){:root{--bg:#16181c;--fg:#e6e6e6;--muted:#a2a8b0;--line:#2c3036;--card:#1d2025;--accent:#8ab4e0;--accent2:#e0a07e;--code:#24282e}}
+:root{--bg:#fbfaf7;--fg:#1f2328;--muted:#5d646d;--line:#e3e0d8;--card:#fff;--accent:__ACCENT__;--code:#f2efe8}
+@media (prefers-color-scheme:dark){:root{--bg:#16181c;--fg:#e6e6e6;--muted:#a2a8b0;--line:#2c3036;--card:#1d2025;--accent:__ACCENT_DARK__;--code:#24282e}}
 *{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.85 "Hiragino Sans","Noto Sans JP","Yu Gothic",system-ui,sans-serif}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.85 __FONT__}
 a{color:var(--accent)}img{max-width:100%;height:auto}
 .wrap{max-width:780px;margin:0 auto;padding:0 16px}
 header.site{border-bottom:1px solid var(--line);background:var(--card)}
@@ -106,7 +129,7 @@ h1{font-size:1.6rem;line-height:1.45;margin:.2em 0 .4em}h2{font-size:1.25rem;mar
 h3{font-size:1.08rem;margin-top:1.6em}
 .meta{color:var(--muted);font-size:.85rem}
 .chip{display:inline-block;font-size:.75rem;padding:1px 8px;border-radius:99px;border:1px solid var(--line);margin-right:4px;color:var(--muted);text-decoration:none}
-.chip.zscaler{color:var(--accent);border-color:var(--accent)}.chip.art{color:var(--accent2);border-color:var(--accent2)}
+.chip.nav{color:var(--accent);border-color:var(--accent)}
 .list{list-style:none;padding:0;margin:0}.list li{padding:16px 0;border-bottom:1px solid var(--line)}
 .list a.t{font-weight:700;font-size:1.05rem;text-decoration:none;color:var(--fg)}.list p{margin:.3em 0 0;color:var(--muted);font-size:.92rem}
 table{border-collapse:collapse;width:100%;display:block;overflow-x:auto;font-size:.92rem}th,td{border:1px solid var(--line);padding:6px 10px;text-align:left;vertical-align:top}th{background:var(--code)}
@@ -139,7 +162,7 @@ def layout(title: str, body: str, *, description: str = "", canonical: str = "",
         head_extra.append(f'<meta property="og:image" content="{e(og_image)}">')
     if json_ld:
         head_extra.append(f'<script type="application/ld+json">{json.dumps(json_ld, ensure_ascii=False)}</script>')
-    cats = "".join(f'<a href="{url("category/" + k + "/")}">{e(v["name"])}</a>' for k, v in CFG["categories"].items())
+    cats = "".join(f'<a href="{url("tag/" + urllib.parse.quote(n["tag"]) + "/")}">{e(n["label"])}</a>' for n in CFG.get("nav", []))
     return f"""<!doctype html>
 <html lang="{CFG['language']}"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -153,15 +176,20 @@ def layout(title: str, body: str, *, description: str = "", canonical: str = "",
 <nav>{cats}<a href="{url('learn/')}">学習ノート</a><a href="{url('about/')}">このブログについて</a></nav></div></header>
 <main><div class="wrap">{body}</div></main>
 <footer><div class="wrap">{e(CFG['monetization']['pr_disclosure'])}<br>
-本ブログは個人の学習記録であり、Zscaler, Inc. および各美術館とは関係ありません。製品情報は必ず公式ドキュメントでご確認ください。<br>
+{e(CFG['disclaimer'])}<br>
 © {date.today().year} {e(CFG['author'])} · <a href="{url('about/')}">プライバシーポリシー</a> · <a href="{url('feed.xml')}">RSS</a></div></footer>
 </body></html>"""
 
 
 def chips(p: dict) -> str:
-    cat = p["category"]
-    out = f'<a class="chip {cat}" href="{url("category/" + cat + "/")}">{e(CFG["categories"][cat]["name"])}</a>'
-    out += "".join(f'<span class="chip">{e(str(t))}</span>' for t in p["tags"][:4])
+    nav_tags = {n["tag"] for n in CFG.get("nav", [])}
+    out = ""
+    for t in p["tags"][:5]:
+        t = str(t)
+        if t in nav_tags:
+            out += f'<a class="chip nav" href="{url("tag/" + urllib.parse.quote(t) + "/")}">{e(t)}</a>'
+        else:
+            out += f'<span class="chip">{e(t)}</span>'
     return out
 
 
@@ -174,10 +202,10 @@ def post_list(posts: list[dict]) -> str:
     return f'<ul class="list">{"".join(items)}</ul>' if items else "<p>まだ記事がありません。</p>"
 
 
-def affiliate_box(cat: str) -> str:
+def affiliate_box() -> str:
     mon = CFG["monetization"]
     tag = mon.get("amazon_associate_tag")
-    links = mon.get("affiliates", {}).get(cat) or []
+    links = mon.get("affiliates") or []
     if not tag or not links:
         return ""
     lis = "".join(
@@ -212,7 +240,7 @@ def post_page(p: dict, prev_p: dict | None, next_p: dict | None) -> str:
 <div class="box"><h2>この記事で学べること</h2><ul>{learn}</ul></div>
 {render_md(p['body_md'])}
 <div class="box"><h2>確認クイズ</h2>{quiz}</div>
-{affiliate_box(p['category'])}
+{affiliate_box()}
 <div class="box"><h2>参考・出典</h2><ul>{srcs}</ul></div>
 </article>
 <p class="meta">{'　'.join(nav)}</p>"""
@@ -226,11 +254,9 @@ def post_page(p: dict, prev_p: dict | None, next_p: dict | None) -> str:
 
 
 def learn_page(posts: list[dict]) -> str:
-    parts = ["<h1>学習ノート</h1><p>全記事の学習ポイントと確認クイズをまとめた復習用ページです。</p>"]
-    for cat, meta in CFG["categories"].items():
-        ps = [p for p in posts if p["category"] == cat]
-        parts.append(f"<h2>{e(meta['name'])}（{len(ps)}本）</h2>")
-        for p in ps:
+    parts = [f"<h1>学習ノート</h1><p>全{len(posts)}記事の学習ポイントと確認クイズをまとめた復習用ページです。</p>"]
+    if True:
+        for p in posts:
             pts = "".join(f"<li>{e(str(x))}</li>" for x in p["learning"])
             qs = "".join(f"<details><summary>{e(q['q'])}</summary><p>{e(q['a'])}</p></details>" for q in p["quiz"])
             parts.append(f'<h3><a href="{url("posts/" + p["slug"] + "/")}">{e(p["title"])}</a></h3>'
@@ -239,13 +265,10 @@ def learn_page(posts: list[dict]) -> str:
 
 
 def about_page() -> str:
+    intro = "".join(f"<p>{e(x)}</p>" for x in CFG.get("about", []))
     body = f"""<h1>このブログについて</h1>
-<p>{e(CFG['site_description'])}</p>
-<p>記事は、公開情報（Zscaler 公式ヘルプ・ステータスページ、美術館のオープンアクセスデータ等）をもとに、
-AI（Claude）の支援を受けて作成し、出典を明記しています。内容の正確性には注意していますが、
-製品の仕様・設定は必ず公式ドキュメントでご確認ください。誤りに気づかれた場合はお知らせください。</p>
-<h2>画像について</h2>
-<p>美術作品の画像は、メトロポリタン美術館の Open Access（パブリックドメイン / CC0）として公開されているもののみを使用しています。</p>
+{intro}
+<p>内容の正確性には注意していますが、最終的な判断は一次情報（公式ドキュメント・所蔵館の情報）でご確認ください。</p>
 <h2>プライバシーポリシー</h2>
 <p>当ブログでは、第三者配信の広告サービス（Google AdSense）やアフィリエイトプログラム（Amazonアソシエイト等）を利用する場合があります。
 これらの事業者は、ユーザーの興味に応じた広告を表示するために Cookie を使用することがあります。
@@ -280,9 +303,10 @@ def finance(posts: list[dict]) -> dict:
 
 def write_report(posts: list[dict], fin: dict) -> None:
     t = fin["total"]
-    lines = ["# ブログ運用レポート", "",
+    lines = [f"# ブログ運用レポート：{CFG['site_title']}", "",
              f"_自動生成: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}（scripts/build_site.py）_", "",
-             f"- 公開記事数: **{t['posts']}**（Zscaler {sum(p['category']=='zscaler' for p in posts)} / 美術 {sum(p['category']=='art' for p in posts)}）",
+             f"- 公開URL: {BASE}/",
+             f"- 公開記事数: **{t['posts']}**",
              f"- 累計売上: **{t['revenue_jpy']:,.0f} 円**",
              f"- 累計コスト: **{t['cost_jpy']:,.0f} 円**（API・ドメイン等。サブスク内の実行は0円計上）",
              f"- 累計収支: **{t['revenue_jpy'] - t['cost_jpy']:,.0f} 円**", "",
@@ -293,8 +317,8 @@ def write_report(posts: list[dict], fin: dict) -> None:
         lines += ["", "## 収益源別", "", "| 収益源 | 累計(円) |", "|---|---:|"]
         lines += [f"| {k} | {v:,.0f} |" for k, v in fin["by_source"].items()]
     lines += ["", "## 最近の記事", ""]
-    lines += [f"- {p['date']} [{p['category']}] {p['title']}" for p in posts[:10]]
-    lines += ["", "売上は `blog/data/revenue.json` に月ごとに記録します（Claude に「11月のAdSenseは○円」と伝えれば追記されます）。", ""]
+    lines += [f"- {p['date']} {p['title']}" for p in posts[:10]]
+    lines += ["", f"売上は `blogs/{SITE}/data/revenue.json` に月ごとに記録します（Claude に「11月のAdSenseは○円」と伝えれば追記されます）。", ""]
     (BLOG / "REPORT.md").write_text("\n".join(lines), encoding="utf-8")
 
 
@@ -324,7 +348,7 @@ def feed_xml(posts: list[dict]) -> str:
 
 
 def sitemap_xml(posts: list[dict]) -> str:
-    urls = [f"{BASE}/", f"{BASE}/learn/", f"{BASE}/about/"] + [f"{BASE}/category/{k}/" for k in CFG["categories"]]
+    urls = [f"{BASE}/", f"{BASE}/learn/", f"{BASE}/about/"] + [f"{BASE}/tag/{urllib.parse.quote(n['tag'])}/" for n in CFG.get("nav", [])]
     entries = [f"<url><loc>{u}</loc></url>" for u in urls]
     entries += [f"<url><loc>{BASE}/posts/{p['slug']}/</loc><lastmod>{p['date'].isoformat()}</lastmod></url>" for p in posts]
     return f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{"".join(entries)}</urlset>'
@@ -338,29 +362,25 @@ def write(rel: str, content: str) -> None:
     f.write_text(content, encoding="utf-8")
 
 
-def main() -> int:
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--check", action="store_true")
-    a = ap.parse_args()
+def build(check: bool) -> int:
     posts, errors = load_posts()
     if errors:
-        print("\n".join("ERROR: " + x for x in errors), file=sys.stderr)
+        print("\n".join(f"ERROR [{SITE}]: " + x for x in errors), file=sys.stderr)
         return 1
-    if a.check:
-        print(f"OK: {len(posts)} posts")
+    if check:
+        print(f"OK [{SITE}]: {len(posts)} posts")
         return 0
 
     if OUT.exists():
         shutil.rmtree(OUT)
-    OUT.mkdir()
-    write("style.css", CSS.strip())
-    write(".nojekyll", "")
+    OUT.mkdir(parents=True)
+    write("style.css", css())
     intro = f"<p>{e(CFG['site_description'])}</p>"
     write("index.html", layout(CFG["site_title"], intro + post_list(posts), canonical=f"{BASE}/"))
-    for k, v in CFG["categories"].items():
-        ps = [p for p in posts if p["category"] == k]
-        write(f"category/{k}/index.html", layout(v["name"], f"<h1>{e(v['name'])}</h1><p>{e(v['description'])}</p>" + post_list(ps),
-                                                  canonical=f"{BASE}/category/{k}/"))
+    for n in CFG.get("nav", []):
+        ps = [p for p in posts if n["tag"] in map(str, p["tags"])]
+        write(f"tag/{n['tag']}/index.html", layout(n["label"], f"<h1>{e(n['label'])}</h1>" + post_list(ps),
+                                                   canonical=f"{BASE}/tag/{urllib.parse.quote(n['tag'])}/"))
     for i, p in enumerate(posts):
         prev_p = posts[i + 1] if i + 1 < len(posts) else None
         next_p = posts[i - 1] if i > 0 else None
@@ -369,7 +389,6 @@ def main() -> int:
     write("about/index.html", about_page())
     write("feed.xml", feed_xml(posts))
     write("sitemap.xml", sitemap_xml(posts))
-    write("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {BASE}/sitemap.xml\n")
     ads = CFG["monetization"].get("adsense_client")
     if ads:
         write("ads.txt", f"google.com, {ads.replace('ca-', '')}, DIRECT, f08c47fec0942fa0\n")
@@ -377,7 +396,37 @@ def main() -> int:
     if CFG.get("publish_dashboard"):
         write("dashboard/index.html", dashboard_page(fin))
     write_report(posts, fin)
-    print(f"Built {len(posts)} posts -> {OUT}")
+    print(f"Built [{SITE}] {len(posts)} posts -> {OUT}")
+    return 0
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--site", choices=SITES + ("all",), default="all")
+    ap.add_argument("--check", action="store_true")
+    a = ap.parse_args()
+    sites = SITES if a.site == "all" else (a.site,)
+    rc = 0
+    if a.site == "all" and not a.check and OUT_ROOT.exists():
+        shutil.rmtree(OUT_ROOT)
+    for site in sites:
+        configure(site)
+        rc |= build(a.check)
+    if a.check or rc or a.site != "all":
+        return rc
+    # 同じ GitHub Pages に2サイトを置く間だけ使うルート（検索対象外）
+    (OUT_ROOT / ".nojekyll").write_text("", encoding="utf-8")
+    (OUT_ROOT / "robots.txt").write_text(
+        "User-agent: *\nAllow: /\n" + "".join(
+            f"Sitemap: {json.loads((ROOT / 'blogs' / s / 'config.json').read_text(encoding='utf-8'))['base_url'].rstrip('/')}/sitemap.xml\n"
+            for s in SITES), encoding="utf-8")
+    links = "".join(
+        f'<li><a href="{s}/">{e(json.loads((ROOT / "blogs" / s / "config.json").read_text(encoding="utf-8"))["site_title"])}</a></li>'
+        for s in SITES)
+    (OUT_ROOT / "index.html").write_text(
+        f'<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="robots" content="noindex">'
+        f'<meta name="viewport" content="width=device-width,initial-scale=1"><title>Blogs</title></head>'
+        f'<body style="font-family:sans-serif;padding:16px"><ul>{links}</ul></body></html>', encoding="utf-8")
     return 0
 
 

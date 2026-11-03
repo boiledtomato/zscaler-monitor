@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - "blog/**"
+      - "blogs/**"
       - "scripts/build_site.py"
       - ".github/workflows/blog.yml"
   workflow_dispatch:
@@ -33,13 +33,15 @@ jobs:
       - name: Generate today's post
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python3 scripts/generate_post.py
+        run: |
+          python3 scripts/generate_post.py --site zscaler
+          python3 scripts/generate_post.py --site art
       - name: Commit
         run: |
           python3 scripts/build_site.py
           git config user.name "blog-bot"
           git config user.email "blog-bot@users.noreply.github.com"
-          git add blog/
+          git add blogs/
           git diff --cached --quiet || git commit -m "blog: $(date -u +%F) の記事を自動生成"
           git pull --rebase origin main && git push origin HEAD:main
 

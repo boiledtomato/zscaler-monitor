@@ -1,8 +1,7 @@
 ---
 title: "ゼロトラストとは何か：境界型防御との違いとZscalerの考え方"
 date: 2026-11-03
-category: zscaler
-tags: [ゼロトラスト, ZIA, ZPA, 基礎]
+tags: [基礎, ゼロトラスト, ZIA, ZPA]
 summary: "「社内は安全、社外は危険」という境界型防御はなぜ限界を迎えたのか。ゼロトラストの基本原則と、Zscaler が ZIA・ZPA でそれをどう実装しているかを初学者向けに整理します。"
 topic_id: zt-what-is-zero-trust
 sources:

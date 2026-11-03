@@ -2,12 +2,12 @@
 """
 ブログ記事の「材料」を集めるスクリプト。
 
-  python3 scripts/blog_sources.py today              # 今日の記事タイプを決め、材料一式を出力
-  python3 scripts/blog_sources.py today --date 2026-11-09
-  python3 scripts/blog_sources.py digest --days 7    # Zscaler 週次ダイジェストの材料
-  python3 scripts/blog_sources.py artwork            # Met 美術館のパブリックドメイン作品を1点
-  python3 scripts/blog_sources.py topic zscaler      # 未執筆の解説テーマを1つ
-  python3 scripts/blog_sources.py used               # 既に使った topic_id 一覧
+  python3 scripts/blog_sources.py --site zscaler today     # 今日の記事タイプを決め、材料一式を出力
+  python3 scripts/blog_sources.py --site art today --date 2026-11-10
+  python3 scripts/blog_sources.py --site zscaler digest --days 7   # 週次ダイジェストの材料
+  python3 scripts/blog_sources.py --site art artwork       # Met 美術館のパブリックドメイン作品を1点
+  python3 scripts/blog_sources.py --site art topic         # 未執筆のテーマを1つ
+  python3 scripts/blog_sources.py --site art used          # 既に使った topic_id 一覧
 
 出力は Markdown のブリーフ（人間/Claude がそのまま読める形式）。
 外部ライブラリは PyYAML のみ使用。
@@ -29,10 +29,19 @@ from pathlib import Path
 import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
-BLOG = ROOT / "blog"
-POSTS_DIR = BLOG / "content" / "posts"
-CONFIG = json.loads((BLOG / "config.json").read_text(encoding="utf-8"))
-TOPICS = json.loads((BLOG / "data" / "topics.json").read_text(encoding="utf-8"))
+SITES = ("zscaler", "art")
+
+
+def site_dir(site: str) -> Path:
+    return ROOT / "blogs" / site
+
+
+def site_config(site: str) -> dict:
+    return json.loads((site_dir(site) / "config.json").read_text(encoding="utf-8"))
+
+
+def site_topics(site: str) -> list[dict]:
+    return json.loads((site_dir(site) / "data" / "topics.json").read_text(encoding="utf-8"))
 
 MET_API = "https://collectionapi.metmuseum.org/public/collection/v1"
 MET_SEARCH = "https://collectionapi.metmuseum.org/public/collection/v1.1/search"
@@ -68,9 +77,9 @@ def read_front_matter(path: Path) -> dict:
     return yaml.safe_load(m.group(1)) or {}
 
 
-def used_topic_ids() -> set[str]:
+def used_topic_ids(site: str) -> set[str]:
     ids = set()
-    for p in POSTS_DIR.glob("*.md"):
+    for p in (site_dir(site) / "content" / "posts").glob("*.md"):
         tid = read_front_matter(p).get("topic_id")
         if tid:
             ids.add(str(tid))
@@ -169,40 +178,40 @@ def artwork_brief(obj: dict) -> str:
 
 # ------------------------------------------------------------------ topics
 
-def next_topic(category: str, used: set[str]) -> dict | None:
-    for t in TOPICS.get(category, []):
+def next_topic(site: str, used: set[str]) -> dict | None:
+    for t in site_topics(site):
         if t["id"] not in used:
             return t
     return None
 
 
-def topic_brief(category: str, used: set[str]) -> str:
-    t = next_topic(category, used)
+def topic_brief(site: str, used: set[str]) -> str:
+    t = next_topic(site, used)
     if not t:
-        return (f"## テーマ在庫切れ（{category}）\n\nblog/data/topics.json の {category} に新しいテーマを"
+        return (f"## テーマ在庫切れ\n\nblogs/{site}/data/topics.json に新しいテーマを"
                 "5件ほど追加してから（重複しないこと）、その1件目で書くこと。")
     return f"## 今回のテーマ\n\n- topic_id: {t['id']}\n- 仮タイトル: {t['title']}"
 
 
 # ------------------------------------------------------------------ main
 
-def build_today(d: date) -> str:
-    kind = CONFIG["schedule"][str(d.weekday())]
-    used = used_topic_ids()
-    head = [f"# 記事ブリーフ {d.isoformat()}", "", f"- 記事タイプ: **{kind}**",
-            f"- 保存先: blog/content/posts/{d.isoformat()}-<slug>.md",
-            "- 執筆ルール: blog/WRITING_GUIDE.md を必ず読むこと", ""]
+def build_today(site: str, d: date) -> str:
+    kind = site_config(site)["schedule"].get(str(d.weekday()))
+    if not kind:
+        return f"# {site} ブログ {d.isoformat()}\n\n今日は休みの日です。何もしないで終了してください。"
+    used = used_topic_ids(site)
+    head = [f"# 記事ブリーフ（{site} ブログ）{d.isoformat()}", "", f"- 記事タイプ: **{kind}**",
+            f"- 保存先: blogs/{site}/content/posts/{d.isoformat()}-<topic_id>.md",
+            f"- 執筆ルール: blogs/WRITING_RULES_COMMON.md と blogs/{site}/WRITING_GUIDE.md を必ず読むこと", ""]
     if kind == "zscaler-digest":
         topic_id = f"digest-{d.isoformat()}"
         if topic_id in used:
             return "\n".join(head + ["本日分は既に作成済みです。何もしないで終了してください。"])
-        body = f"推奨フロントマター: category: zscaler / topic_id: {topic_id}\n\n" + collect_digest(7, d)
-    elif kind == "zscaler-topic":
-        body = "推奨フロントマター: category: zscaler\n\n" + topic_brief("zscaler", used)
+        body = f"推奨フロントマター: topic_id: {topic_id}\n\n" + collect_digest(7, d)
+    elif kind in ("zscaler-topic", "art-topic"):
+        body = topic_brief(site, used)
     elif kind == "art-artwork":
-        body = "推奨フロントマター: category: art\n\n" + artwork_brief(pick_artwork(used))
-    elif kind == "art-topic":
-        body = "推奨フロントマター: category: art\n\n" + topic_brief("art", used)
+        body = artwork_brief(pick_artwork(used))
     else:
         raise SystemExit(f"unknown kind: {kind}")
     return "\n".join(head) + "\n" + body
@@ -210,25 +219,26 @@ def build_today(d: date) -> str:
 
 def main() -> None:
     ap = argparse.ArgumentParser()
+    ap.add_argument("--site", choices=SITES, required=True)
     sub = ap.add_subparsers(dest="cmd", required=True)
     t = sub.add_parser("today"); t.add_argument("--date")
     g = sub.add_parser("digest"); g.add_argument("--days", type=int, default=7)
     sub.add_parser("artwork")
-    tp = sub.add_parser("topic"); tp.add_argument("category", choices=["zscaler", "art"])
+    sub.add_parser("topic")
     sub.add_parser("used")
     a = ap.parse_args()
 
     today = datetime.now(timezone(timedelta(hours=9))).date()  # 日本時間
     if a.cmd == "today":
-        print(build_today(date.fromisoformat(a.date) if a.date else today))
+        print(build_today(a.site, date.fromisoformat(a.date) if a.date else today))
     elif a.cmd == "digest":
         print(collect_digest(a.days, today))
     elif a.cmd == "artwork":
-        print(artwork_brief(pick_artwork(used_topic_ids())))
+        print(artwork_brief(pick_artwork(used_topic_ids(a.site))))
     elif a.cmd == "topic":
-        print(topic_brief(a.category, used_topic_ids()))
+        print(topic_brief(a.site, used_topic_ids(a.site)))
     elif a.cmd == "used":
-        print("\n".join(sorted(used_topic_ids())))
+        print("\n".join(sorted(used_topic_ids(a.site))))
 
 
 if __name__ == "__main__":

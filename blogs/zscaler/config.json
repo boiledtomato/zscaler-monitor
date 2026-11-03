@@ -1,0 +1,37 @@
+{
+  "site_title": "ゼロトラスト実践ノート",
+  "site_description": "Zscaler（ZIA・ZPA・ZDX）の最新アップデートを日本語でかみ砕く解説と、ゼロトラストの基礎・設計の学習ノート。",
+  "author": "boiledtomato",
+  "base_url": "https://boiledtomato.github.io/zscaler-monitor/zscaler",
+  "language": "ja",
+  "theme": {"accent": "#2f5d8a", "accent_dark": "#8ab4e0", "font": "sans"},
+  "nav": [
+    {"label": "週次アップデート", "tag": "週次まとめ"},
+    {"label": "基礎・設計", "tag": "基礎"}
+  ],
+  "disclaimer": "本ブログは個人の学習記録であり、Zscaler, Inc. とは関係ありません。製品の仕様・設定は必ず公式ドキュメント（help.zscaler.com）でご確認ください。",
+  "about": [
+    "Zscaler を業務で扱うネットワーク/セキュリティ担当者向けに、公式リリースノートやステータス情報（trust.zscaler.com）の変更点を毎週日本語で整理し、あわせてゼロトラストの基礎・設計を解説しています。",
+    "記事は公開情報をもとに AI（Claude）の支援を受けて作成し、出典を明記しています。誤りに気づかれた場合はお知らせください。"
+  ],
+  "monetization": {
+    "adsense_client": "",
+    "amazon_associate_tag": "",
+    "pr_disclosure": "※当ブログはアフィリエイト広告（Amazonアソシエイト等）を利用しています。",
+    "affiliates": [
+      {"label": "ゼロトラスト関連の入門書を探す", "amazon_keyword": "ゼロトラスト セキュリティ 入門"},
+      {"label": "情報処理安全確保支援士 参考書", "amazon_keyword": "情報処理安全確保支援士 参考書"}
+    ]
+  },
+  "schedule": {
+    "comment": "曜日(0=月)ごとの記事タイプ。null は休み",
+    "0": "zscaler-digest",
+    "1": null,
+    "2": "zscaler-topic",
+    "3": null,
+    "4": "zscaler-topic",
+    "5": null,
+    "6": null
+  },
+  "publish_dashboard": false
+}
