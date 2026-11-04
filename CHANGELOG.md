@@ -1,6 +1,60 @@
 ## 2026-11-01 23:15:30 UTC - ZIA リリースノート
 
 ソース: https://help.zscaler.com/zia/release-notes
+## 2026-11-04 23:17 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- ## Degraded Performance for Some Users Connecting Through Dallas, Miami, and Atlanta - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zpatwo.net
+- ## Osaka I (OSA1) Critical Datacenter Network Maintenance - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zpatwo.net
+- ## Reporting and Logging Issue - zscalerthree.net
+- ## ZPA Service Maintenance - private.zscaler.com
+- ## ZPA Service Maintenance - zpatwo.net
+- ## Zscaler Virtual Service Edge: Policy and Configuration Connectivity Update - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- ## Upcoming Data Center Expansion - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zpatwo.net
+**追加内容（抜粋）:**
+> - 公開: Wed, 04 Nov 2026 22:59:44 GMT
+> - ステータス: In Progress  カテゴリ: Recent incident
+> - URL: https://trust.zscaler.com/zscaler.net/posts/32541
+> - 影響: Some users connecting through Dallas, Miami, or Atlanta may experience degraded performance when using Zscaler Internet Access (ZIA) or Zscaler Private Access (ZPA).
+> &nbsp; Zscaler is investigating degraded performance affecting some users connecting through Dallas, Miami, or Atlanta via Zscaler Internet Access (ZIA) or Zscaler Private Access (ZPA). Some ZPA users have reported slower access to private applications. If you’re currently experiencing any traffic impacting issues please failover to your secondary DC or any other alternate DC. For more information, please refer to the following support article. &nbsp; We will continue to provide updates here as
+> ...他 25 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-11-02 23:16 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
+## 2026-11-04 23:16 UTC — ZPA リリースノート
+
+ソース: [https://help.zscaler.com/zpa/release-notes](https://help.zscaler.com/zpa/release-notes)
+**更新セクション:**
+- ## https://help.zscaler.com/zpa/app-connector-release-summary-2026
+**追加内容（抜粋）:**
+> - 2026-11-03T08:55Z | https://help.zscaler.com/zpa/release-upgrade-summary-2026
+> - 2026-11-02T13:43Z | https://help.zscaler.com/zpa/app-connector-release-summary-2026
+> - 2026-11-02T11:32Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026
+> 最終更新: 2026-11-03T08:55Z
+> 最終更新: 2026-11-02T13:43Z
+> ...他 1 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-11-02 23:16 UTC~~
+> ~~> ソース: https://help.zscaler.com/zpa/release-notes~~
+> ~~---~~
+
+---
+## 2026-11-04 23:16 UTC — ZIA リリースノート
+
+ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)
+**追加内容（抜粋）:**
+> - 2026-11-02T20:52Z | https://help.zscaler.com/zia/release-upgrade-summary-2026
+> 最終更新: 2026-11-02T20:52Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-11-02 23:15 UTC~~
+> ~~> ソース: https://help.zscaler.com/zia/release-notes~~
+> ~~---~~
+
+---
 ## 2026-11-02 23:17 UTC — 製品アップデート
 
 ソース: [https://www.zscaler.com/products](https://www.zscaler.com/products)
