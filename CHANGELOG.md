@@ -1,6 +1,78 @@
 ## 2026-11-01 23:15:30 UTC - ZIA リリースノート
 
 ソース: https://help.zscaler.com/zia/release-notes
+## 2026-11-05 23:17 UTC — ZIA リリースノート
+
+ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)
+**更新セクション:**
+- ## https://help.zscaler.com/zia/release-upgrade-summary-2022
+- ## https://help.zscaler.com/zia/release-upgrade-summary-2021
+- ## https://help.zscaler.com/zia/release-upgrade-summary-2020
+**追加内容（抜粋）:**
+> - 2026-11-04T11:10Z | https://help.zscaler.com/zia/release-upgrade-summary-2026
+> - 2026-11-04T02:03Z | https://help.zscaler.com/zia/release-upgrade-summary-2023
+> - 2026-11-04T02:03Z | https://help.zscaler.com/zia/release-upgrade-summary-2022
+> - 2026-11-04T02:03Z | https://help.zscaler.com/zia/release-upgrade-summary-2021
+> - 2026-11-04T02:03Z | https://help.zscaler.com/zia/release-upgrade-summary-2020
+> ...他 8 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-11-04 23:16 UTC~~
+> ~~> ソース: https://help.zscaler.com/zia/release-notes~~
+> ~~---~~
+
+---
+## 2026-11-05 23:17 UTC — ZPA リリースノート
+
+ソース: [https://help.zscaler.com/zpa/release-notes](https://help.zscaler.com/zpa/release-notes)
+**更新セクション:**
+- ## https://help.zscaler.com/zpa/private-cloud-controller-release-summary-2026
+**追加内容（抜粋）:**
+> - 2026-11-04T11:55Z | https://help.zscaler.com/zpa/private-cloud-controller-release-summary-2026
+> - 2026-11-04T11:00Z | https://help.zscaler.com/zpa/release-upgrade-summary-2026
+> - 2026-11-04T10:10Z | https://help.zscaler.com/zpa/app-connector-release-summary-2026
+> - 2026-11-04T10:05Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026
+> - 2026-11-04T10:05Z | https://help.zscaler.com/zpa/network-connector-release-summary-2026
+> ...他 5 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-11-04 23:16 UTC~~
+> ~~> ソース: https://help.zscaler.com/zpa/release-notes~~
+> ~~---~~
+
+---
+## 2026-11-05 23:17 UTC — ZDX リリースノート
+
+ソース: [https://help.zscaler.com/zdx/release-notes](https://help.zscaler.com/zdx/release-notes)
+**追加内容（抜粋）:**
+> - 2026-11-04T11:05Z | https://help.zscaler.com/zdx/release-upgrade-summary-2026
+> 最終更新: 2026-11-04T11:05Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-11-02 23:16 UTC~~
+> ~~> ソース: https://help.zscaler.com/zdx/release-notes~~
+> ~~---~~
+
+---
+## 2026-11-05 23:17 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- ## Zscaler Agentic SecOps Branding and Domain Update - app.avalor.io, app.eu.avalor.io, app.aps.avalor.io
+- ## ZTB-IN-M1 Cloud Maintenance - ztb-in-m1
+- ## Datacenter Expansion Honolulu I (HNL1) - private.zscaler.com
+- ## Hong Kong III (HKG3) Critical Datacenter Network Maintenance - zscloud.net
+- ## Degraded Performance for Some Users Connecting Through Dallas, Miami, Atlanta, And Los Angeles - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zpatwo.net
+**追加内容（抜粋）:**
+> - 公開: Thu, 05 Nov 2026 00:00:00 GMT
+> - ステータス:   カテゴリ: Advisory
+> - URL: https://trust.zscaler.com/app.avalor.io/posts/32561
+> - 影響:
+> We are updating the SecOps portal experience (previously Avalor) to align with its new name:&nbsp; Zscaler Agentic SecOps . This release introduces updated product branding, new regional domains and a new sender address for platform-generated emails. The transition is designed to be backward compatible. Existing authentication, API and webhook domains will remain supported alongside the new domains until further notice. Effective date: November 15th, 2026 What Is Changing Product and Email Brand
+> ...他 21 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-11-04 23:17 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
 ## 2026-11-04 23:17 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)

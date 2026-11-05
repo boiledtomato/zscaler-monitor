@@ -1,17 +1,57 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-11-04 23:17 UTC  
+> 最終更新: 2026-11-05 23:17 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
 
 # Zscaler Trust - インシデント/アドバイザリ RSS
 
-## Degraded Performance for Some Users Connecting Through Dallas, Miami, and Atlanta - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zpatwo.net
+## Zscaler Agentic SecOps Branding and Domain Update - app.avalor.io, app.eu.avalor.io, app.aps.avalor.io
+- 公開: Thu, 05 Nov 2026 00:00:00 GMT
+- ステータス:   カテゴリ: Advisory
+- URL: https://trust.zscaler.com/app.avalor.io/posts/32561
+- 影響: 
+
+We are updating the SecOps portal experience (previously Avalor) to align with its new name:&nbsp; Zscaler Agentic SecOps . This release introduces updated product branding, new regional domains and a new sender address for platform-generated emails. The transition is designed to be backward compatible. Existing authentication, API and webhook domains will remain supported alongside the new domains until further notice. Effective date: November 15th, 2026 What Is Changing Product and Email Brand
+
+---
+
+## ZTB-IN-M1 Cloud Maintenance - ztb-in-m1
+- 公開: Thu, 05 Nov 2026 12:05:36 GMT
+- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/ztb-in-m1/posts/32556
+- 影響: 
+
+Zscaler will be performing cloud maintenance activity for ZTB-IN-M1 to deliver continued improvements in performance, stability, and security. Maintenance window: &nbsp; Tue, 10 Nov 2026 15:30:00 UTC &nbsp; Duration: 4 hours No service downtime is anticipated during this maintenance window, and services are expected to remain available. However, as with any maintenance activity, there remains a limited risk of intermittent impact or brief disruption. We appreciate your understanding and cooperat
+
+---
+
+## Datacenter Expansion Honolulu I (HNL1) - private.zscaler.com
+- 公開: Thu, 05 Nov 2026 07:44:41 GMT
+- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/private.zscaler.com/posts/32551
+- 影響: 
+
+As part of our regular expansion of capacity, we are adding ZPA Public Service Edge nodes to our new data center in Honolulu I (HNL1). If you restrict outbound firewall access, please ensure you have added the complete set of published IPs in the URL below https://config.zscaler.com/private.zscaler.com/zpa
+
+---
+
+## Hong Kong III (HKG3) Critical Datacenter Network Maintenance - zscloud.net
+- 公開: Thu, 05 Nov 2026 04:55:42 GMT
+- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zscloud.net/posts/32546
+- 影響: 
+
+Zscaler will be performing hardware maintenance in the Hong Kong III (HKG3) Datacenter. Maintenance window, Start: 2026-11-7 02:00 HKT End: 2026-11-7 04:00 HKT (i.e. 2026-11-6 18:00 - 20:00 UTC) During the maintenance, traffic will failover to redundant devices in the same datacenter. However, intermittent connections and connection reestablishment may be observed. &nbsp;
+
+---
+
+## Degraded Performance for Some Users Connecting Through Dallas, Miami, Atlanta, And Los Angeles - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zpatwo.net
 - 公開: Wed, 04 Nov 2026 22:59:44 GMT
-- ステータス: In Progress  カテゴリ: Recent incident
+- ステータス: Resolved  カテゴリ: Recent incident
 - URL: https://trust.zscaler.com/zscaler.net/posts/32541
-- 影響: Some users connecting through Dallas, Miami, or Atlanta may experience degraded performance when using Zscaler Internet Access (ZIA) or Zscaler Private Access (ZPA).
+- 影響: Some users connecting through Dallas, Miami, Atlanta or Los Angeles may experience degraded performance when using Zscaler Internet Access (ZIA) or Zscaler Private Access (ZPA).
 
 &nbsp; Zscaler is investigating degraded performance affecting some users connecting through Dallas, Miami, or Atlanta via Zscaler Internet Access (ZIA) or Zscaler Private Access (ZPA). Some ZPA users have reported slower access to private applications. If you’re currently experiencing any traffic impacting issues please failover to your secondary DC or any other alternate DC. For more information, please refer to the following support article. &nbsp; We will continue to provide updates here as 
 
@@ -164,45 +204,5 @@ Zscaler has detected an issue with its zscloud.net Cloud.&nbsp;We will continue 
 - 影響: A subset of customers using the Mexico City II data center may experience degraded performance, including increased latency and intermittent connection timeouts.
 
 Zscaler has detected an issue with our Mexico City I, Mexico City II datacenter and is currently investigating the matter. If you’re currently experiencing any traffic impacting issues please failover to your secondary DC or any other alternate DC. For more information, please refer to the following support article. &nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal
-
----
-
-## Administration UI Issue - zscloud.net
-- 公開: Tue, 27 Oct 2026 20:54:46 GMT
-- ステータス: Resolved  カテゴリ: Recent incident
-- URL: https://trust.zscaler.com/zscloud.net/posts/32456
-- 影響: Customers on the zscloud.net cloud intermittently experienced Admin Portal unavailability, API errors, and an inability to save or activate policy and configuration. SCIM provisioning was also affected. Further assessment confirmed that new device registrations and Zscaler Client Connector enrollments were not affected. Existing user connections, traffic forwarding, and security policy enforcement remained unaffected throughout the incident.
-
-Zscaler has detected and mitigated the issue affecting administrative services on the zscloud.net cloud and is monitoring service stability. During the incident, customers may have experienced intermittent Admin Portal login failures, API errors, and an inability to save or activate policy and configuration changes. SCIM provisioning and new Zscaler Client Connector enrollments or device registrations may also have been affected. Existing user connections, traffic forwarding, and security policy
-
----
-
-## Datacenter Expansion Dallas II (DFW2) - zpatwo.net
-- 公開: Tue, 27 Oct 2026 11:22:58 GMT
-- ステータス: In Progress  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/zpatwo.net/posts/32451
-- 影響: 
-
-As part of our regular expansion of capacity, we are adding ZPA Public Service Edge nodes to our new data center in AMER , Dallas II (DFW2) . If you restrict outbound firewall access, please ensure you have added the complete set of published IPs in the URL below https://config.zscaler.com/zpatwo.net/zpa
-
----
-
-## Datacenter Expansion Dallas II (DFW2) - private.zscaler.com
-- 公開: Tue, 27 Oct 2026 11:20:44 GMT
-- ステータス: In Progress  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/private.zscaler.com/posts/32446
-- 影響: 
-
-As part of our regular expansion of capacity, we are adding ZPA Public Service Edge nodes to our new data center in AMER , Dallas II (DFW2) . If you restrict outbound firewall access, please ensure you have added the complete set of published IPs in the URL below https://config.zscaler.com/private.zscaler.com/zpa
-
----
-
-## Zscaler Update on Google Brotli and Brotlicffi CVE-2026-111497 - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zdxcloud.net, zpatwo.net, app.zsdpc.net, app.eu.zsdpc.net, zpabeta.net, zsdkone.net, zscalerrisk.net, admin.zscaleranalytics.net, zslogin.net, app.avalor.io, app.eu.avalor.io, app.aps.avalor.io, ztb-us-m2, ztb-us-m3 (beta), ztb-us-m4, ztb-us-m7, ztb-euc-m1, ztb-in-m1, pulsar, quasar, prod3, prod4, prod5, prod6, zseclipse.net, zsaiguard.net, app.in.zsdpc.net
-- 公開: Mon, 26 Oct 2026 00:00:00 GMT
-- ステータス:   カテゴリ: Advisory
-- URL: https://trust.zscaler.com/zscaler.net/posts/32441
-- 影響: 
-
-Zscaler is aware of the recently disclosed vulnerability CVE-2026-111497 in some versions of&nbsp; Google Brotli and Brotlicffi CVE .&nbsp; Our Security and Engineering teams are investigating potential impact of Brotli and Brotclicffi and associated downstream dependencies. We will update this post as new information emerges. Update&nbsp; Thu, 29 Oct 2026 11:35:47 UTC &nbsp; This vulnerability&nbsp; does not impact Zscaler Cloud platforms, products, distributed components, services, or enterpri
 
 ---

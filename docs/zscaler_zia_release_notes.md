@@ -1,37 +1,37 @@
 # ZIA リリースノート
 
-> 最終更新: 2026-11-04 23:16 UTC  
+> 最終更新: 2026-11-05 23:17 UTC  
 > ソース: https://help.zscaler.com/zia/release-notes
 
 ---
 
 # ZIA リリースノート ページ一覧 (sitemap)
 
-- 2026-11-02T20:52Z | https://help.zscaler.com/zia/release-upgrade-summary-2026
+- 2026-11-04T11:10Z | https://help.zscaler.com/zia/release-upgrade-summary-2026
+- 2026-11-04T02:03Z | https://help.zscaler.com/zia/release-upgrade-summary-2023
+- 2026-11-04T02:03Z | https://help.zscaler.com/zia/release-upgrade-summary-2022
+- 2026-11-04T02:03Z | https://help.zscaler.com/zia/release-upgrade-summary-2021
+- 2026-11-04T02:03Z | https://help.zscaler.com/zia/release-upgrade-summary-2020
+- 2026-11-04T02:03Z | https://help.zscaler.com/zia/release-upgrade-summary-2019
+- 2026-11-04T02:02Z | https://help.zscaler.com/zia/release-upgrade-summary-2025
+- 2026-11-04T02:02Z | https://help.zscaler.com/zia/release-upgrade-summary-2024
 - 2026-10-26T09:35Z | https://help.zscaler.com/zia/zscaler-endpoint-dlp-release-summary-2026
-- 2026-06-17T02:45Z | https://help.zscaler.com/zia/release-upgrade-summary-2025
-- 2026-02-03T22:12Z | https://help.zscaler.com/zia/release-upgrade-summary-2024
-- 2026-02-03T22:12Z | https://help.zscaler.com/zia/release-upgrade-summary-2023
-- 2026-02-03T22:12Z | https://help.zscaler.com/zia/release-upgrade-summary-2022
-- 2026-02-03T22:12Z | https://help.zscaler.com/zia/release-upgrade-summary-2021
-- 2026-02-03T22:12Z | https://help.zscaler.com/zia/release-upgrade-summary-2020
-- 2026-02-03T22:12Z | https://help.zscaler.com/zia/release-upgrade-summary-2019
 
 ## https://help.zscaler.com/zia/release-upgrade-summary-2026
-最終更新: 2026-11-02T20:52Z
-
-
-## https://help.zscaler.com/zia/zscaler-endpoint-dlp-release-summary-2026
-最終更新: 2026-10-26T09:35Z
-
-
-## https://help.zscaler.com/zia/release-upgrade-summary-2025
-最終更新: 2026-06-17T02:45Z
-
-
-## https://help.zscaler.com/zia/release-upgrade-summary-2024
-最終更新: 2026-02-03T22:12Z
+最終更新: 2026-11-04T11:10Z
 
 
 ## https://help.zscaler.com/zia/release-upgrade-summary-2023
-最終更新: 2026-02-03T22:12Z
+最終更新: 2026-11-04T02:03Z
+
+
+## https://help.zscaler.com/zia/release-upgrade-summary-2022
+最終更新: 2026-11-04T02:03Z
+
+
+## https://help.zscaler.com/zia/release-upgrade-summary-2021
+最終更新: 2026-11-04T02:03Z
+
+
+## https://help.zscaler.com/zia/release-upgrade-summary-2020
+最終更新: 2026-11-04T02:03Z
