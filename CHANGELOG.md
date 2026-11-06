@@ -1,3 +1,97 @@
+# CHANGELOG
+
+## 2026-11-06 23:28:04 UTC - ZIA リリースノート
+ソース: https://help.zscaler.com/zia/release-notes
+
+変更内容の要約:
+English
+Dark Mode
+Release Notes
+
+Internet & SaaS (ZIA) Release Notes
+Internet & SaaS Service Release Notes
+Zscaler Endpoint DLP Release Notes
+Private Access (ZPA) Release Notes
+Digital Experience Monitoring (ZDX) Release Notes
+Workflow Automation Release Notes
+Data Security Posture Management (DSPM)
+
+---
+
+## 2026-11-06 23:28:04 UTC - ZPA リリースノート
+ソース: https://help.zscaler.com/zpa/release-notes
+
+変更内容の要約:
+English
+Dark Mode
+Release Notes
+
+Internet & SaaS (ZIA) Release Notes
+Private Access (ZPA) Release Notes
+ZPA Service Release Notes
+ZPA App Connector Release Notes
+ZPA Private Service Edge Release Notes
+ZPA Private Cloud Controller Release Notes
+ZPA Network Connector Release Notes
+Digital Experience M
+
+---
+
+## 2026-11-06 23:28:04 UTC - ZDX リリースノート
+ソース: https://help.zscaler.com/zdx/release-notes
+
+変更内容の要約:
+English
+Dark Mode
+Release Notes
+
+Internet & SaaS (ZIA) Release Notes
+Private Access (ZPA) Release Notes
+Digital Experience Monitoring (ZDX) Release Notes
+Release Upgrade Summary (2026)
+Release Upgrade Summary (2025)
+Release Upgrade Summary (2024)
+Release Upgrade Summary (2023)
+Release Upgrade Summar
+
+---
+
+## 2026-11-06 23:28:04 UTC - セキュリティアドバイザリ
+ソース: https://trust.zscaler.com/
+
+変更内容の要約:
+TRUST
+TRUST
+CloudZIA - zscaler.net
+ZIA (5)ZPA (3)ZDX (1)Zero Trust Branch (ZTB) (12)ZSDK (1)ZPC (2)Z-DSPM (3)Risk360 (1)Business Insights (1)Authentication Service (1)Security Operations Platform (3)AI Protect (3)
+SupportRSSSign InSubscribe
+SupportRSSSign InSubscribe
+Cloud OverviewCloud StatusMainte
+
+---
+
+## 2026-11-06 23:28:04 UTC - 製品アップデート
+ソース: https://www.zscaler.com/products
+
+変更内容の要約:
+Press Alt+1 for screen-reader mode, Alt+0 to cancel
+Accessibility Screen-Reader Guide, Feedback, and Issue Reporting | New window
+Find a product, solution, or technology
+
+SEARCH BY NAME OR KEYWORD
+
+SELECT ALL THAT INTEREST YOU
+
+AI Security
+
+AI/ML
+
+Accelerate M&A and Divestitures
+
+Application Transfo
+
+---
+
 ## 2026-11-01 23:15:30 UTC - ZIA リリースノート
 
 ソース: https://help.zscaler.com/zia/release-notes

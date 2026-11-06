@@ -1,54 +1,38 @@
 # ZPA リリースノート
 
-> 最終更新: 2026-11-05 23:17 UTC  
-> ソース: https://help.zscaler.com/zpa/release-notes
+最終更新日時: 2026-11-06 23:28:04 UTC
+ソースURL: https://help.zscaler.com/zpa/release-notes
 
 ---
 
-# ZPA リリースノート ページ一覧 (sitemap)
+English
+Dark Mode
+Release Notes
 
-- 2026-11-04T11:55Z | https://help.zscaler.com/zpa/private-cloud-controller-release-summary-2026
-- 2026-11-04T11:00Z | https://help.zscaler.com/zpa/release-upgrade-summary-2026
-- 2026-11-04T10:10Z | https://help.zscaler.com/zpa/app-connector-release-summary-2026
-- 2026-11-04T10:05Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026
-- 2026-11-04T10:05Z | https://help.zscaler.com/zpa/network-connector-release-summary-2026
-- 2026-10-06T19:00Z | https://help.zscaler.com/zpa/release-upgrade-summary-2025
-- 2026-09-29T13:30Z | https://help.zscaler.com/zpa/release-upgrade-summary-2024
-- 2026-08-19T14:50Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2025
-- 2026-07-01T14:20Z | https://help.zscaler.com/zpa/release-upgrade-summary-2022
-- 2026-07-01T13:05Z | https://help.zscaler.com/zpa/release-upgrade-summary-2023
-- 2026-06-23T17:29Z | https://help.zscaler.com/zpa/private-cloud-controller-release-summary-2025
-- 2026-06-23T17:26Z | https://help.zscaler.com/zpa/app-connector-release-summary-2025
-- 2026-06-23T17:25Z | https://help.zscaler.com/zpa/network-connector-release-summary-2025
-- 2024-03-03T06:06Z | https://help.zscaler.com/zpa/app-connector-release-summary-2024
-- 2024-03-03T06:06Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2024
-- 2023-11-03T09:51Z | https://help.zscaler.com/zpa/release-upgrade-summary-2019
-- 2022-12-19T18:57Z | https://help.zscaler.com/zpa/app-connector-release-summary-2023
-- 2022-12-19T18:47Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2023
-- 2022-03-24T16:30Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2021
-- 2022-02-27T06:00Z | https://help.zscaler.com/zpa/app-connector-release-summary-2022
-- 2022-02-27T06:00Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2022
-- 2021-11-29T14:41Z | https://help.zscaler.com/zpa/release-upgrade-summary-2021
-- 2021-06-23T17:06Z | https://help.zscaler.com/zpa/release-upgrade-summary-2020
-- 2021-05-01T07:00Z | https://help.zscaler.com/zpa/app-connector-release-summary-2021
-- 2020-11-16T10:40Z | https://help.zscaler.com/zpa/app-connector-release-summary-2020
-- 2020-10-23T14:03Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2020
-
-## https://help.zscaler.com/zpa/private-cloud-controller-release-summary-2026
-最終更新: 2026-11-04T11:55Z
-
-
-## https://help.zscaler.com/zpa/release-upgrade-summary-2026
-最終更新: 2026-11-04T11:00Z
-
-
-## https://help.zscaler.com/zpa/app-connector-release-summary-2026
-最終更新: 2026-11-04T10:10Z
-
-
-## https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026
-最終更新: 2026-11-04T10:05Z
-
-
-## https://help.zscaler.com/zpa/network-connector-release-summary-2026
-最終更新: 2026-11-04T10:05Z
+Internet & SaaS (ZIA) Release Notes
+Private Access (ZPA) Release Notes
+ZPA Service Release Notes
+ZPA App Connector Release Notes
+ZPA Private Service Edge Release Notes
+ZPA Private Cloud Controller Release Notes
+ZPA Network Connector Release Notes
+Digital Experience Monitoring (ZDX) Release Notes
+Workflow Automation Release Notes
+Data Security Posture Management (DSPM) Release Notes
+Zscaler Client Connector Release Notes
+Zero Trust Cloud Release Notes
+Zscaler Cellular Release Notes
+Zero Trust Branch Release Notes
+Unified Vulnerability Management (UVM) Release Notes
+Asset Exposure Management (AEM) Release Notes
+Agentic SOC Release Notes
+Identity Protection Release Notes
+Deception Release Notes
+Breach Predictor Release Notes
+External Attack Surface Management (EASM) Release Notes
+Risk360 Release Notes
+Business Insights Release Notes
+Authentication Service Release Notes
+AI Asset Management Release Notes
+Secure Access to AI Apps Release Notes
+Secure AI Apps & Infrastructure Release Notes
