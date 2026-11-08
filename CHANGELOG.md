@@ -1,3 +1,38 @@
+## 2026-11-07T23:21:16Z - 製品アップデート
+
+- **ソース**: https://www.zscaler.com/products
+- **変更内容**: コンテンツのハッシュが変更されました (hash: 4423f33030dd0648)
+- **新しいハッシュ**: 4423f33030dd0648...
+- **旧ハッシュ**: bee7a54bef132137...
+
+## 2026-11-07T23:21:16Z - セキュリティアドバイザリ
+
+- **ソース**: https://trust.zscaler.com/
+- **変更内容**: セキュリティアドバイザリ更新: Zscaler Update on CVE-2026-98432 Linux Kernel IPv4 TCP RCE, Phased Rollout of Client Connector app updates does not work for tenants with Authentication Service enabled for its users, Zscaler Virtual Service Edge: Policy and Configuration Connectivity Update
+- **新しいハッシュ**: 2498aa3dd4171238...
+- **旧ハッシュ**: d198c85370768724...
+
+## 2026-11-07T23:21:16Z - ZDX リリースノート
+
+- **ソース**: https://help.zscaler.com/zdx/release-notes
+- **変更内容**: リリースノートページのコンテンツが更新されました
+- **新しいハッシュ**: 334f2e7b4e94b4fc...
+- **旧ハッシュ**: a2e42b4db1ea9f7e...
+
+## 2026-11-07T23:21:16Z - ZPA リリースノート
+
+- **ソース**: https://help.zscaler.com/zpa/release-notes
+- **変更内容**: リリースノートページのコンテンツが更新されました
+- **新しいハッシュ**: 334f2e7b4e94b4fc...
+- **旧ハッシュ**: cb151960ae51e67f...
+
+## 2026-11-07T23:21:16Z - ZIA リリースノート
+
+- **ソース**: https://help.zscaler.com/zia/release-notes
+- **変更内容**: リリースノートページのコンテンツが更新されました
+- **新しいハッシュ**: 334f2e7b4e94b4fc...
+- **旧ハッシュ**: 1eda05e2a3ac04c1...
+
 # CHANGELOG
 
 ## 2026-11-06 23:28:04 UTC - ZIA リリースノート
