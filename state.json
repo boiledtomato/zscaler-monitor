@@ -1,32 +1,32 @@
 {
   "zia_release_notes": {
-    "hash": "e42b4d3b8a9e5ddc4b1ca161737a626e5a68be46c7a27b273f16a0c3f63a2ddb",
-    "last_checked": "2026-11-08T23:15:11Z",
-    "last_updated": "2026-11-08T23:15:11Z",
+    "hash": "961f222651af5cc2f4423f8215155b30f3d6b87ce36f72d4effbb7404f7f9bb6",
+    "last_checked": "2026-11-09T23:16:09Z",
+    "last_updated": "2026-11-09T23:16:09Z",
     "initialized": true
   },
   "zpa_release_notes": {
-    "hash": "2c6416959eb88ab82987e7531f75985c9e8538b2484dad9f1096c7af2bb55ca7",
-    "last_checked": "2026-11-08T23:15:11Z",
-    "last_updated": "2026-11-08T23:15:11Z",
+    "hash": "2f50f1814f03d7879b93c32cff98edae0c61cb381fc1aee229b4e3c874f5aa81",
+    "last_checked": "2026-11-09T23:16:09Z",
+    "last_updated": "2026-11-09T23:16:09Z",
     "initialized": true
   },
   "zdx_release_notes": {
-    "hash": "4edd4e096368d70b9eab81ad7ea82176c3d873bc36be7142bbdd693ee0e3501c",
-    "last_checked": "2026-11-08T23:15:11Z",
-    "last_updated": "2026-11-08T23:15:11Z",
+    "hash": "9068c9fe3cf91e2b6b9223be17a5450b2f06dadcc27b69e2fe5755119c4d349c",
+    "last_checked": "2026-11-09T23:16:09Z",
+    "last_updated": "2026-11-09T23:16:09Z",
     "initialized": true
   },
   "security_advisories": {
-    "hash": "9534c4a689bec5fc9455d37550287959feb7416cf8ae25526a31b0e3f60a855f",
-    "last_checked": "2026-11-08T23:15:11Z",
-    "last_updated": "2026-11-08T23:15:11Z",
+    "hash": "43ecc39afa5fd4563b940b56b55951413b53565c4edd5bbfa6b53d64d80eabbc",
+    "last_checked": "2026-11-09T23:16:09Z",
+    "last_updated": "2026-11-09T23:16:09Z",
     "initialized": true
   },
   "product_updates": {
-    "hash": "26821b8ff830d9d13a5c2472ce168731302677e8c49e3ef7e87feb941e8167d9",
-    "last_checked": "2026-11-08T23:15:11Z",
-    "last_updated": "2026-11-08T23:15:11Z",
+    "hash": "580aed519a2380e889fb86f3aa74ac8b77b754e48a7ac4fcfb6129d647fc46bc",
+    "last_checked": "2026-11-09T23:16:09Z",
+    "last_updated": "2026-11-09T23:16:09Z",
     "initialized": true
   }
 }
