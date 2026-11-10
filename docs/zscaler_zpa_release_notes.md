@@ -1,46 +1,54 @@
 # ZPA リリースノート
 
-最終更新日時: 2026-11-09T23:15:48Z
-ソースURL: https://help.zscaler.com/zpa/release-notes
+> 最終更新: 2026-11-10 23:19 UTC  
+> ソース: https://help.zscaler.com/zpa/release-notes
 
 ---
 
-English
-Dark Mode
-All
-Zscaler is rolling out an improved navigation system for Experience Center. Articles and videos on Help Portal will be updated to reflect these changes.
-During this transition, if a menu path doesn't match the UI, we recommend using search within Experience Center to locate the page.
-Release Notes
+# ZPA リリースノート ページ一覧 (sitemap)
 
-Internet & SaaS (ZIA) Release Notes
-Private Access (ZPA) Release Notes
-ZPA Service Release Notes
-ZPA App Connector Release Notes
-ZPA Private Service Edge Release Notes
-ZPA Private Cloud Controller Release Notes
-ZPA Network Connector Release Notes
-Digital Experience Monitoring (ZDX) Release Notes
-Workflow Automation Release Notes
-Data Security Posture Management (DSPM) Release Notes
-Zscaler Client Connector Release Notes
-Zero Trust Cloud Release Notes
-Zscaler Cellular Release Notes
-Zero Trust Branch Release Notes
-Unified Vulnerability Management (UVM) Release Notes
-Asset Exposure Management (AEM) Release Notes
-Agentic SOC Release Notes
-Identity Protection Release Notes
-Deception Release Notes
-Breach Predictor Release Notes
-External Attack Surface Management (EASM) Release Notes
-Risk360 Release Notes
-Business Insights Release Notes
-Authentication Service Release Notes
-AI Asset Management Release Notes
-Secure Access to AI Apps Release Notes
-Secure AI Apps & Infrastructure Release Notes
-. Zscaler uses cookies, pixels, and other tools to collect information you provide to us and to capture and record your interaction with our site. We use this information to enhance site navigation, personalize content, analyze your use of our website, and assist in our marketing efforts and customer service. To deliver the best experience and to assist with our efforts, Zscaler social media, advertising, analytics, and hosting service providers may have access to the information that you provide to us. By clicking "Accept All," you consent to our collection, use, and disclosure of such information and to our Terms of Service. For more information about our data processing practices, please see our Privacy Statement.
-Zscaler uses cookies, pixels, and other tools to collect information you provide to us and to capture and record your interaction with our site. We use this information to enhance site navigation, personalize content, analyze your use of our website, and assist in our marketing efforts and customer service. To deliver the best experience and to assist with our efforts, Zscaler social media, advertising, analytics, and hosting service providers may have access to the information that you provide to us. By clicking "Accept All," you consent to our collection, use, and disclosure of such information and to our Terms of Service. For more information about our data processing practices, please see our Privacy Statement.
-Manage Cookie Preferences
-Accept All
-Reject All
+- 2026-11-09T13:45Z | https://help.zscaler.com/zpa/release-upgrade-summary-2026
+- 2026-11-05T14:18Z | https://help.zscaler.com/zpa/app-connector-release-summary-2026
+- 2026-11-05T07:25Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026
+- 2026-11-05T07:25Z | https://help.zscaler.com/zpa/private-cloud-controller-release-summary-2026
+- 2026-11-04T10:05Z | https://help.zscaler.com/zpa/network-connector-release-summary-2026
+- 2026-10-06T19:00Z | https://help.zscaler.com/zpa/release-upgrade-summary-2025
+- 2026-09-29T13:30Z | https://help.zscaler.com/zpa/release-upgrade-summary-2024
+- 2026-08-19T14:50Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2025
+- 2026-07-01T14:20Z | https://help.zscaler.com/zpa/release-upgrade-summary-2022
+- 2026-07-01T13:05Z | https://help.zscaler.com/zpa/release-upgrade-summary-2023
+- 2026-06-23T17:29Z | https://help.zscaler.com/zpa/private-cloud-controller-release-summary-2025
+- 2026-06-23T17:26Z | https://help.zscaler.com/zpa/app-connector-release-summary-2025
+- 2026-06-23T17:25Z | https://help.zscaler.com/zpa/network-connector-release-summary-2025
+- 2024-03-03T06:06Z | https://help.zscaler.com/zpa/app-connector-release-summary-2024
+- 2024-03-03T06:06Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2024
+- 2023-11-03T09:51Z | https://help.zscaler.com/zpa/release-upgrade-summary-2019
+- 2022-12-19T18:57Z | https://help.zscaler.com/zpa/app-connector-release-summary-2023
+- 2022-12-19T18:47Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2023
+- 2022-03-24T16:30Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2021
+- 2022-02-27T06:00Z | https://help.zscaler.com/zpa/app-connector-release-summary-2022
+- 2022-02-27T06:00Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2022
+- 2021-11-29T14:41Z | https://help.zscaler.com/zpa/release-upgrade-summary-2021
+- 2021-06-23T17:06Z | https://help.zscaler.com/zpa/release-upgrade-summary-2020
+- 2021-05-01T07:00Z | https://help.zscaler.com/zpa/app-connector-release-summary-2021
+- 2020-11-16T10:40Z | https://help.zscaler.com/zpa/app-connector-release-summary-2020
+- 2020-10-23T14:03Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2020
+
+## https://help.zscaler.com/zpa/release-upgrade-summary-2026
+最終更新: 2026-11-09T13:45Z
+
+
+## https://help.zscaler.com/zpa/app-connector-release-summary-2026
+最終更新: 2026-11-05T14:18Z
+
+
+## https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026
+最終更新: 2026-11-05T07:25Z
+
+
+## https://help.zscaler.com/zpa/private-cloud-controller-release-summary-2026
+最終更新: 2026-11-05T07:25Z
+
+
+## https://help.zscaler.com/zpa/network-connector-release-summary-2026
+最終更新: 2026-11-04T10:05Z
