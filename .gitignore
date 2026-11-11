@@ -2,3 +2,5 @@ _site/
 __pycache__/
 logs/
 .env
+# SeleniumBase runtime files (contain proxy credentials)
+downloaded_files/
