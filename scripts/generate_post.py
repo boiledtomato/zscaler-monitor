@@ -3,7 +3,7 @@
 Claude API で記事を1本生成する（GitHub Actions 用の「APIモード」）。
 
   ANTHROPIC_API_KEY=... python3 scripts/generate_post.py --site zscaler [--date YYYY-MM-DD]
-  ANTHROPIC_API_KEY=... python3 scripts/generate_post.py --site art
+  ANTHROPIC_API_KEY=... python3 scripts/generate_post.py --site zscaler
 
 ※ Claude Code のスケジュール実行（推奨・追加料金なし）を使う場合、このスクリプトは不要です。
   その場合はセッション内の Claude が blogs/SCHEDULED_TASK_PROMPT.md に従って直接記事を書きます。

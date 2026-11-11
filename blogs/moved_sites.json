@@ -1,0 +1,19 @@
+{
+  "comment": "別リポジトリに移したサイト。旧URLに転送ページを置く（build_site.py が生成）",
+  "art": {
+    "to": "https://boiledtomato.github.io/meiga-note/",
+    "title": "一枚の名画から",
+    "paths": [
+      "",
+      "posts/2026-11-03-met-436535/",
+      "posts/2026-11-05-art-lascaux/",
+      "posts/2026-11-07-met-342992/",
+      "posts/2026-11-08-art-egypt/",
+      "posts/2026-11-10-met-436173/",
+      "tag/今日の一枚/",
+      "tag/美術史/",
+      "learn/",
+      "about/"
+    ]
+  }
+}

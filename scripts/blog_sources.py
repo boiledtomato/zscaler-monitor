@@ -3,11 +3,9 @@
 ブログ記事の「材料」を集めるスクリプト。
 
   python3 scripts/blog_sources.py --site zscaler today     # 今日の記事タイプを決め、材料一式を出力
-  python3 scripts/blog_sources.py --site art today --date 2026-11-10
   python3 scripts/blog_sources.py --site zscaler digest --days 7   # 週次ダイジェストの材料
-  python3 scripts/blog_sources.py --site art artwork       # Met 美術館のパブリックドメイン作品を1点
-  python3 scripts/blog_sources.py --site art topic         # 未執筆のテーマを1つ
-  python3 scripts/blog_sources.py --site art used          # 既に使った topic_id 一覧
+  python3 scripts/blog_sources.py --site zscaler topic         # 未執筆のテーマを1つ
+  python3 scripts/blog_sources.py --site zscaler used          # 既に使った topic_id 一覧
 
 出力は Markdown のブリーフ（人間/Claude がそのまま読める形式）。
 外部ライブラリは PyYAML のみ使用。
@@ -30,7 +28,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-SITES = ("zscaler", "art")
+SITES = ("zscaler",)  # 美術ブログは boiledtomato/meiga-note に移した
 
 
 def site_dir(site: str) -> Path:
@@ -43,16 +41,6 @@ def site_config(site: str) -> dict:
 
 def site_topics(site: str) -> list[dict]:
     return json.loads((site_dir(site) / "data" / "topics.json").read_text(encoding="utf-8"))
-
-MET_API = "https://collectionapi.metmuseum.org/public/collection/v1"
-MET_SEARCH = "https://collectionapi.metmuseum.org/public/collection/v1.1/search"
-ART_QUERIES = [
-    "painting", "portrait", "landscape", "sculpture", "ukiyo-e", "woodblock print",
-    "Egypt", "Greek", "Roman", "Renaissance", "Impressionism", "still life",
-    "illuminated manuscript", "screen", "ceramic", "Hokusai", "Hiroshige",
-    "Rembrandt", "Vermeer", "Monet", "Degas", "icon", "armor", "tapestry",
-]
-
 
 # ------------------------------------------------------------------ helpers
 
@@ -136,47 +124,6 @@ def collect_digest(days: int, today: date) -> str:
     return "\n".join(out)
 
 
-# ------------------------------------------------------------------ art
-
-def pick_artwork(used: set[str], tries: int = 12) -> dict:
-    for _ in range(tries):
-        q = random.choice(ART_QUERIES)
-        base = {"q": q, "isHighlight": "true", "hasImages": "true"}
-        first = http_json(f"{MET_SEARCH}?{urllib.parse.urlencode({**base, 'limit': 1})}")
-        total = int(first.get("total") or 0)
-        if not total:
-            continue
-        offset = random.randrange(0, min(total, 1000))
-        res = http_json(f"{MET_SEARCH}?{urllib.parse.urlencode({**base, 'limit': 20, 'offset': offset})}")
-        for oid in random.sample(res.get("objectIDs") or [], k=len(res.get("objectIDs") or [])):
-            if f"met-{oid}" in used:
-                continue
-            obj = http_json(f"{MET_API}/objects/{oid}")
-            if obj.get("isPublicDomain") and obj.get("primaryImage"):
-                return obj
-    raise RuntimeError("条件に合う作品が見つかりませんでした（再実行してください）")
-
-
-def artwork_brief(obj: dict) -> str:
-    fields = [
-        ("objectID", "ID"), ("title", "作品名"), ("artistDisplayName", "作者"),
-        ("artistDisplayBio", "作者情報"), ("objectDate", "制作年"), ("culture", "文化圏"),
-        ("period", "時代"), ("medium", "技法・素材"), ("dimensions", "寸法"),
-        ("classification", "分類"), ("department", "部門"), ("creditLine", "クレジット"),
-        ("objectURL", "所蔵館ページ"), ("primaryImage", "画像(大)"), ("primaryImageSmall", "画像(小)"),
-    ]
-    lines = ["## 作品データ（The Met Collection API / Public Domain）\n"]
-    for key, label in fields:
-        if obj.get(key):
-            lines.append(f"- {label}: {obj[key]}")
-    tags = [t.get("term") for t in (obj.get("tags") or []) if t.get("term")]
-    if tags:
-        lines.append(f"- タグ: {', '.join(tags)}")
-    lines.append(f"\n推奨フロントマター: topic_id: met-{obj['objectID']} / image: {obj.get('primaryImageSmall') or obj.get('primaryImage')}"
-                 " / image_credit: \"The Metropolitan Museum of Art, Public Domain (CC0)\"")
-    return "\n".join(lines)
-
-
 # ------------------------------------------------------------------ topics
 
 def next_topic(site: str, used: set[str]) -> dict | None:
@@ -245,10 +192,8 @@ def build_today(site: str, d: date) -> str:
         if topic_id in used:
             return "\n".join(head + ["本日分は既に作成済みです。何もしないで終了してください。"])
         body = f"推奨フロントマター: topic_id: {topic_id}\n\n" + collect_digest(7, d)
-    elif kind in ("zscaler-topic", "art-topic"):
+    elif kind == "zscaler-topic":
         body = topic_brief(site, used)
-    elif kind == "art-artwork":
-        body = artwork_brief(pick_artwork(used))
     else:
         raise SystemExit(f"unknown kind: {kind}")
     return "\n".join(head) + "\n" + body
@@ -260,7 +205,6 @@ def main() -> None:
     sub = ap.add_subparsers(dest="cmd", required=True)
     t = sub.add_parser("today"); t.add_argument("--date")
     g = sub.add_parser("digest"); g.add_argument("--days", type=int, default=7)
-    sub.add_parser("artwork")
     sub.add_parser("topic")
     sub.add_parser("used")
     a = ap.parse_args()
@@ -270,8 +214,6 @@ def main() -> None:
         print(build_today(a.site, date.fromisoformat(a.date) if a.date else today))
     elif a.cmd == "digest":
         print(collect_digest(a.days, today))
-    elif a.cmd == "artwork":
-        print(artwork_brief(pick_artwork(used_topic_ids(a.site))))
     elif a.cmd == "topic":
         print(topic_brief(a.site, used_topic_ids(a.site)))
     elif a.cmd == "used":

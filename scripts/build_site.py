@@ -25,7 +25,7 @@ import markdown
 import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
-SITES = ("zscaler", "art")
+SITES = ("zscaler",)  # 美術ブログは boiledtomato/meiga-note に移した
 OUT_ROOT = ROOT / "_site"
 
 # configure() でブログごとに設定される
@@ -400,6 +400,15 @@ def build(check: bool) -> int:
     return 0
 
 
+def redirect_page(to: str, title: str) -> str:
+    t = html.escape(to, quote=True)
+    return (f'<!doctype html><html lang="ja"><head><meta charset="utf-8"><title>{html.escape(title)}</title>'
+            f'<link rel="canonical" href="{t}"><meta name="robots" content="noindex">'
+            f'<meta http-equiv="refresh" content="0; url={t}"></head>'
+            f'<body><p><a href="{t}">{html.escape(title)} は移転しました。こちらへ移動します。</a></p>'
+            f'<script>location.replace({json.dumps(to)})</script></body></html>')
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--site", choices=SITES + ("all",), default="all")
@@ -414,19 +423,19 @@ def main() -> int:
         rc |= build(a.check)
     if a.check or rc or a.site != "all":
         return rc
-    # 同じ GitHub Pages に2サイトを置く間だけ使うルート（検索対象外）
     (OUT_ROOT / ".nojekyll").write_text("", encoding="utf-8")
-    (OUT_ROOT / "robots.txt").write_text(
-        "User-agent: *\nAllow: /\n" + "".join(
-            f"Sitemap: {json.loads((ROOT / 'blogs' / s / 'config.json').read_text(encoding='utf-8'))['base_url'].rstrip('/')}/sitemap.xml\n"
-            for s in SITES), encoding="utf-8")
-    links = "".join(
-        f'<li><a href="{s}/">{e(json.loads((ROOT / "blogs" / s / "config.json").read_text(encoding="utf-8"))["site_title"])}</a></li>'
-        for s in SITES)
-    (OUT_ROOT / "index.html").write_text(
-        f'<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="robots" content="noindex">'
-        f'<meta name="viewport" content="width=device-width,initial-scale=1"><title>Blogs</title></head>'
-        f'<body style="font-family:sans-serif;padding:16px"><ul>{links}</ul></body></html>', encoding="utf-8")
+    zs = json.loads((ROOT / "blogs" / "zscaler" / "config.json").read_text(encoding="utf-8"))["base_url"].rstrip("/")
+    (OUT_ROOT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {zs}/sitemap.xml\n", encoding="utf-8")
+    (OUT_ROOT / "index.html").write_text(redirect_page(zs + "/", "ゼロトラスト実践ノート"), encoding="utf-8")
+    # 別リポジトリに移したサイトの旧URL → 新URL
+    moved = json.loads((ROOT / "blogs" / "moved_sites.json").read_text(encoding="utf-8"))
+    for name, m in moved.items():
+        if name == "comment":
+            continue
+        for path in m["paths"]:
+            f = OUT_ROOT / name / path / "index.html"
+            f.parent.mkdir(parents=True, exist_ok=True)
+            f.write_text(redirect_page(m["to"] + path, m["title"]), encoding="utf-8")
     return 0
 
 
