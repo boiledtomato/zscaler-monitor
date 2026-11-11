@@ -5,9 +5,20 @@
   "base_url": "https://boiledtomato.github.io/zscaler-monitor/zscaler",
   "language": "ja",
   "theme": {
-    "accent": "#2f5d8a",
-    "accent_dark": "#8ab4e0",
-    "font": "sans"
+    "accent": "#0068a8",
+    "accent_dark": "#6cc4ee",
+    "font": "sans",
+    "comment": "背景は Zscaler を連想させる水色系（文字とのコントラスト比はWCAG AA以上で調整）",
+    "bg": "#e6f5fc",
+    "muted": "#4a5560",
+    "line": "#c6e4f2",
+    "card": "#ffffff",
+    "code": "#d4edf8",
+    "bg_dark": "#0f1c24",
+    "muted_dark": "#a3b8c4",
+    "line_dark": "#24404f",
+    "card_dark": "#142632",
+    "code_dark": "#1b3240"
   },
   "nav": [
     {

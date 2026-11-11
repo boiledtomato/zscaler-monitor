@@ -1,0 +1,369 @@
+{
+ "friday": "2026-11-06",
+ "since": "2026-10-30",
+ "until": "2026-11-05",
+ "products": {
+  "zcc": {
+   "name": "Zscaler Client Connector（ZCC）",
+   "entries": [
+    {
+     "date": "2026-10-30",
+     "category": "Release Available: Client Connector 4.7.0.394 for Windows",
+     "title": "Zscaler Client Connector 4.7.0.394 Enhancements and Fixes",
+     "text": "Updates Zscaler Client Connector to exclude compromised TLS intermediate certificates associated with digital certificate provider eMudhra when loading root certificates. To learn more, see the trust post.\nFixes an issue where the ZSATrayManager process could crash during Machine Tunnel enrollment when required Windows machine registration data was missing or malformed in the registry instead of failing gracefully as designed.\nUpdates the ZEP (Zscaler Endpoint Protection) module used for anti-tampering protection to the latest version (26.08.1.10).\nFixes an issue where, if a machine tunnel was running, users received a Something went wrong error on their first attempt when trying to reset their Windows PIN and the users had to go back and re-initiate the I forgot my PIN process.\nFixes an issue where flow logs for bypassed traffic could intermittently stop recording when the client's egress IP could not be resolved due to network issues.",
+     "links": [
+      "https://help.zscaler.com/zscaler-client-connector/anti-tampering-zscaler-client-connector",
+      "https://help.zscaler.com/zscaler-client-connector/configuring-zscaler-client-connector-app-profiles#notification"
+     ],
+     "anchor": "id-1547049",
+     "page": "https://help.zscaler.com/zscaler-client-connector/client-connector-app-release-summary-2026",
+     "cloud": "Windows",
+     "platforms": [
+      "Windows"
+     ]
+    },
+    {
+     "date": "2026-10-30",
+     "category": "Release Available: Client Connector 4.8.0.295 for macOS",
+     "title": "Zscaler Client Connector 4.8.0.295 Enhancements and Fixes",
+     "text": "Updates Zscaler Client Connector to exclude compromised TLS intermediate certificates associated with digital certificate provider eMudhra when loading root certificates. To learn more, see the trust post.\nSupports always allowing IPv6 in dual stack networks in Transparent Proxy-based Interception mode to prevent high CPU usage on devices regardless of the Drop IPv6 in Dual Stack Network setting in a user’s forwarding profile.\nFixes an issue where VPN (for Legacy Apps) stayed stuck in a Connecting state and prevented users from accessing Private Access applications until the device was restarted.\nFixes an issue where Zscaler Client Connector in FIPS mode failed to connect to captive portals on public Wi-Fi networks.\nFixes an issue where Kerberos-based authentication was failing for single sign-on for internal domains using Private Access due to DNS issues.\nFixes an issue where internet traffic was allowed while the tunnel was being established on devices in Strict Enforcement mode after a user logged in to Zscaler Client Connector in Transparent Proxy-based Interception mode.\nFixes an issue where a user was automatically logged out of Zscaler Client Connector and received a Service has been administratively disabled error.\nFixes an issue where a user did not receive an advance Private Access reauthentication notification after their device woke up from sleep.\nFixes an issue where Private Access routes remained in the routing table after Private Access was turned off in Route-based Interception mode.\nFixes an issue where Siri AI requests on macOS 27 Golden Gate versions were intermittently failing when Zscaler Client Connector was actively tunneling traffic.",
+     "links": [],
+     "anchor": "id-1546855",
+     "page": "https://help.zscaler.com/zscaler-client-connector/client-connector-app-release-summary-2026",
+     "cloud": "macOS",
+     "platforms": [
+      "macOS"
+     ]
+    },
+    {
+     "date": "2026-10-30",
+     "category": "Release Available: Client Connector 4.7.0.393 for macOS",
+     "title": "Zscaler Client Connector 4.7.0.393 Enhancements and Fixes",
+     "text": "Updates Zscaler Client Connector to exclude compromised TLS intermediate certificates associated with digital certificate provider eMudhra when loading root certificates. To learn more, see the trust post.\nSupports always allowing IPv6 in dual stack networks in Transparent Proxy-based Interception mode to prevent high CPU usage on devices regardless of the Drop IPv6 in Dual Stack Network setting in a user’s forwarding profile.\nFixes an issue where VPN (for Legacy Apps) stayed stuck in a Connecting state and prevented users from accessing Private Access applications until the device was restarted.\nFixes an issue where Zscaler Client Connector in FIPS mode failed to connect to captive portals on public Wi-Fi networks.\nFixes an issue where Kerberos-based authentication was failing for single sign-on for internal domains using Private Access due to DNS issues.\nFixes an issue where internet traffic was allowed while the tunnel was being established on devices in Strict Enforcement mode after a user logged in to Zscaler Client Connector in Transparent Proxy-based Interception mode.\nFixes an issue where a user was automatically logged out of Zscaler Client Connector and received a Service has been administratively disabled error.\nFixes an issue where a user did not receive an advance Private Access reauthentication notification after their device woke up from sleep.\nFixes an issue where Private Access routes remained in the routing table after Private Access was turned off in Route-based Interception mode.\nFixes an issue where Siri AI requests on macOS 27 Golden Gate versions were intermittently failing when Zscaler Client Connector was actively tunneling traffic.",
+     "links": [],
+     "anchor": "id-1546854",
+     "page": "https://help.zscaler.com/zscaler-client-connector/client-connector-app-release-summary-2026",
+     "cloud": "macOS",
+     "platforms": [
+      "macOS"
+     ]
+    },
+    {
+     "date": "2026-10-30",
+     "category": "Release Available: Client Connector 4.5.2.386 for macOS",
+     "title": "Zscaler Client Connector 4.5.2.386 Enhancements and Fixes",
+     "text": "Updates Zscaler Client Connector to exclude compromised TLS intermediate certificates associated with digital certificate provider eMudhra when loading root certificates. To learn more, see the trust post.\nSupports always allowing IPv6 in dual stack networks in Transparent Proxy-based Interception mode to prevent high CPU usage on devices regardless of the Drop IPv6 in Dual Stack Network setting in a user’s forwarding profile.\nFixes an issue where VPN (for Legacy Apps) stayed stuck in a Connecting state and prevented users from accessing Private Access applications until the device was restarted.\nFixes an issue where Kerberos-based authentication was failing for single sign-on for internal domains using Private Access due to DNS issues.\nFixes an issue where internet traffic was allowed while the tunnel was being established on devices in Strict Enforcement mode after a user logged in to Zscaler Client Connector in Transparent Proxy-based Interception mode.\nFixes an issue where a user was automatically logged out of Zscaler Client Connector and received a Service has been administratively disabled error.\nFixes an issue where Private Access routes remained in the routing table after Private Access was turned off in Route-based Interception mode.\nFixes an issue where Siri AI requests on macOS 27 Golden Gate versions were intermittently failing when Zscaler Client Connector was actively tunneling traffic.",
+     "links": [],
+     "anchor": "id-1546853",
+     "page": "https://help.zscaler.com/zscaler-client-connector/client-connector-app-release-summary-2026",
+     "cloud": "macOS",
+     "platforms": [
+      "macOS"
+     ]
+    },
+    {
+     "date": "2026-10-30",
+     "category": "Release Available: Client Connector 4.10.0.54 for macOS",
+     "title": "Zscaler Client Connector 4.10.0.54 Enhancements and Fixes",
+     "text": "Updates Zscaler Client Connector to exclude compromised TLS intermediate certificates associated with digital certificate provider eMudhra when loading root certificates. To learn more, see the trust post.\nSupports always allowing IPv6 in dual stack networks in Transparent Proxy-based Interception mode to prevent high CPU usage on devices regardless of the Drop IPv6 in Dual Stack Network setting in a user’s forwarding profile.\nFixes an issue where VPN (for Legacy Apps) stayed stuck in a Connecting state and prevented users from accessing Private Access applications until the device was restarted.\nFixes an issue where Zscaler Client Connector in FIPS mode failed to connect to captive portals on public Wi-Fi networks.\nFixes an issue where Kerberos-based authentication was failing for single sign-on for internal domains using Private Access due to DNS issues.\nFixes an issue where internet traffic was allowed while the tunnel was being established on devices in Strict Enforcement mode after a user logged in to Zscaler Client Connector in Transparent Proxy-based Interception mode.\nFixes an issue where a user was automatically logged out of Zscaler Client Connector and received a Service has been administratively disabled error.\nFixes an issue where a user did not receive an advance Private Access reauthentication notification after their device woke up from sleep.\nFixes an issue where Private Access routes remained in the routing table after Private Access was turned off in Route-based Interception mode.\nFixes an issue where Siri AI requests on macOS 27 Golden Gate versions were intermittently failing when Zscaler Client Connector was actively tunneling traffic.",
+     "links": [],
+     "anchor": "id-1546856",
+     "page": "https://help.zscaler.com/zscaler-client-connector/client-connector-app-release-summary-2026",
+     "cloud": "macOS",
+     "platforms": [
+      "macOS"
+     ]
+    },
+    {
+     "date": "2026-10-30",
+     "category": "Release in Limited Availability: Client Connector 5.0.0.963 for macOS",
+     "title": "Zscaler Client Connector 5.0.0.963 Enhancements and Fixes",
+     "text": "Updates Zscaler Client Connector to exclude compromised TLS intermediate certificates associated with digital certificate provider eMudhra when loading root certificates. To learn more, see the trust post.\nSupports always allowing IPv6 in dual stack networks in Transparent Proxy-based Interception mode to prevent high CPU usage on devices regardless of the Drop IPv6 in Dual Stack Network setting in a user’s forwarding profile.\nFixes an issue where Zscaler Client Connector failed to detect a captive portal when the portal replied with a non-standard HTTP response, causing users to remain blocked from network access.\nFixes an issue where Zscaler Client Connector took an extra 32 to 35 seconds to connect the Internet & SaaS and Private Access tunnels on networks that block traffic UDP for port 443.\nFixes issues in the modern Zscaler Client Connector UI.\nFixes an issue where VPN (for Legacy Apps) stayed stuck in a Connecting state and prevented users from accessing Private Access applications until the device was restarted.\nFixes an issue where Zscaler Client Connector in FIPS mode failed to connect to captive portals on public Wi-Fi networks.\nFixes an issue where Kerberos-based authentication was failing for single sign-on for internal domains using Private Access due to DNS issues.\nFixes an issue where internet traffic was allowed while the tunnel was being established on devices in Strict Enforcement mode after a user logged in to Zscaler Client Connector in Transparent Proxy-based Interception mode.\nFixes an issue where a user was automatically logged out of Zscaler Client Connector and received a Service has been administratively disabled error.\nFixes an issue where a user did not receive an advance Private Access reauthentication notification after their device woke up from sleep.\nFixes an issue where Private Access routes remained in the routing table after Private Access was turned off in Route-based Interception mode.\nFixes an issue where Siri AI requests on macOS 27 Golden Gate versions were intermittently failing when Zscaler Client Connector was actively tunneling traffic.",
+     "links": [],
+     "anchor": "id-1546857",
+     "page": "https://help.zscaler.com/zscaler-client-connector/client-connector-app-release-summary-2026",
+     "cloud": "macOS",
+     "platforms": [
+      "macOS"
+     ]
+    },
+    {
+     "date": "2026-10-30",
+     "category": "Release Available: Client Connector 4.2.2.154 for Linux",
+     "title": "Zscaler Client Connector 4.2.2.154 Enhancements and Fixes",
+     "text": "Updates Zscaler Client Connector to exclude compromised TLS intermediate certificates associated with digital certificate provider eMudhra when loading root certificates. To learn more, see the trust post.\nFixes an issue where the posture check for disk encryption incorrectly failed for Ubuntu 22.04.5 devices that have ZFS native encryption.\nFixes an issue where Detect Microsoft Defender device posture results were incorrect after the Zscaler Client Connector tray restarted.\nFixes an issue where Zscaler Client Connector didn’t forward DNS traffic to the Zscaler cloud when the device was in Internet & SaaS (ZIA)-only mode for the Zscaler Tunnel (Z-Tunnel) 2.0.\nFixes an issue where the CrowdStrike process check posture failed.\nFixes an issue where ZSTunnel failed to establish on Ubuntu 24.04.5 LTS when IPv6 was enabled in Zscaler Client Connector version 4.2.1.114.",
+     "links": [],
+     "anchor": "id-1547066",
+     "page": "https://help.zscaler.com/zscaler-client-connector/client-connector-app-release-summary-2026",
+     "cloud": "Linux",
+     "platforms": [
+      "Linux"
+     ]
+    },
+    {
+     "date": "2026-11-02",
+     "category": "Release Available: Client Connector 4.9.0.508 for Windows",
+     "title": "Zscaler Client Connector 4.9.0.508 Enhancements and Fixes",
+     "text": "Updates Zscaler Client Connector to exclude compromised TLS intermediate certificates associated with digital certificate provider eMudhra when loading root certificates. To learn more, see the trust post.\nFixes an issue where virtual machines could experience slow network connections when connected through a bridged VMware network on a Windows host with Zscaler Client Connector installed.\nFixes an issue where the Update App and Update Policy options on the More window in the app disappeared after activating and deactivating Business Continuity mode.\nFixes an issue where the ZSATrayManager process could crash during Machine Tunnel enrollment when required Windows machine registration data was missing or malformed in the registry instead of failing gracefully as designed.\nFixes an issue where users received an Internal Error, Please Contact Administrator when trying to log in after Zscaler Client Connector was installed with the Business Continuity installation parameters.\nUpdates the ZEP (Zscaler Endpoint Protection) module used for anti-tampering protection to the latest version (26.08.1.10).\nFixes an issue where the configured notification logo for the custom theme didn't appear in pop-up notifications.\nFixes an issue where Zscaler Client Connector could stop responding when, after waking from sleep, a Zscaler Tunnel (Z-Tunnel) 2.0 HTTP health check failure triggered a tunnel shutdown while an ICMP health check reply was being processed concurrently.\nFixes an issue where Zscaler Client Connector failed to detect a captive portal when the portal replied with a non-standard HTTP response, causing users to remain blocked from network access.\nFixes an issue where, if a machine tunnel was running, users received a Something went wrong error on their first attempt when trying to reset their Windows PIN and the users had to go back and re-initiate the I forgot my PIN process.\nFixes an issue where, if a DNS request was malformed (e.g., sent with an incorrect DNS header), Zscaler Tunnel (Z-Tunnel) 2.0 traffic could be bypassed even though the DNS domain inclusion contained a wildcard (*) and the DNS Server was in the IP inclusion rule.\nFixes an issue where communication with a Private Access app could stall when Zscaler Client Connector failed to reassemble fragmented packets.\nFixes an issue where Zscaler Client Connector took an extra one to two minutes to connect the Internet & SaaS and Private Access tunnels on networks that block DTLS.\nFixes an issue where th",
+     "links": [
+      "https://help.zscaler.com/zscaler-client-connector/supported-parameters-zscaler-client-connector-windows",
+      "https://help.zscaler.com/zscaler-client-connector/anti-tampering-zscaler-client-connector",
+      "https://help.zscaler.com/zscaler-client-connector/customizing-zscaler-client-connector-theme",
+      "https://help.zscaler.com/zscaler-client-connector/configuring-zscaler-client-connector-app-profiles#app-failover-settings",
+      "https://help.zscaler.com/zscaler-client-connector/configuring-zscaler-client-connector-app-profiles#notification"
+     ],
+     "anchor": "id-1547046",
+     "page": "https://help.zscaler.com/zscaler-client-connector/client-connector-app-release-summary-2026",
+     "cloud": "Windows",
+     "platforms": [
+      "Windows"
+     ]
+    },
+    {
+     "date": "2026-11-02",
+     "category": "Release Available: Client Connector 4.8.0.332 for Windows",
+     "title": "Zscaler Client Connector 4.8.0.332 Enhancements and Fixes",
+     "text": "Updates Zscaler Client Connector to exclude compromised TLS intermediate certificates associated with digital certificate provider eMudhra when loading root certificates. To learn more, see the trust post.\nFixes an issue where virtual machines could experience slow network connections when connected through a bridged VMware network on a Windows host with Zscaler Client Connector installed.\nFixes an issue where the ZSATrayManager process could crash during Machine Tunnel enrollment when required Windows machine registration data was missing or malformed in the registry instead of failing gracefully as designed.\nFixes an issue where users received an Internal Error, Please Contact Administrator when trying to log in after Zscaler Client Connector was installed with the Business Continuity installation parameters.\nFixes an issue where the Update App and Update Policy options on the More window in the app disappeared after activating and deactivating Business Continuity mode.\nUpdates the ZEP (Zscaler Endpoint Protection) module used for anti-tampering protection to the latest version (26.08.1.10).\nFixes an issue where Zscaler Client Connector could stop responding when, after waking from sleep, a Zscaler Tunnel (Z-Tunnel) 2.0 HTTP health check failure triggered a tunnel shutdown while an ICMP health check reply was being processed concurrently.\nFixes an issue where Zscaler Client Connector failed to detect a captive portal when the portal replied with a non-standard HTTP response, causing users to remain blocked from network access.\nFixes an issue where, if a machine tunnel was running, users received a Something went wrong error on their first attempt when trying to reset their Windows PIN and the users had to go back and re-initiate the I forgot my PIN process.\nFixes an issue where flow logs for bypassed traffic could intermittently stop recording when the client's egress IP could not be resolved due to network issues.\nFixes a TLS handshake error that caused captive portal authentication to fail.",
+     "links": [
+      "https://help.zscaler.com/zscaler-client-connector/supported-parameters-zscaler-client-connector-windows",
+      "https://help.zscaler.com/zscaler-client-connector/anti-tampering-zscaler-client-connector",
+      "https://help.zscaler.com/zscaler-client-connector/configuring-zscaler-client-connector-app-profiles#notification"
+     ],
+     "anchor": "id-1547047",
+     "page": "https://help.zscaler.com/zscaler-client-connector/client-connector-app-release-summary-2026",
+     "cloud": "Windows",
+     "platforms": [
+      "Windows"
+     ]
+    },
+    {
+     "date": "2026-11-02",
+     "category": "Release in Limited Availability: Client Connector 5.0.0.1135 for Windows",
+     "title": "Zscaler Client Connector 5.0.0.1135 Enhancements and Fixes",
+     "text": "Updates Zscaler Client Connector to exclude compromised TLS intermediate certificates associated with digital certificate provider eMudhra when loading root certificates. To learn more, see the trust post.\nFixes an issue where the ZSATrayManager process could crash during Machine Tunnel enrollment when required Windows machine registration data was missing or malformed in the registry instead of failing gracefully as designed.\nFixes an issue where users received an Internal Error, Please Contact Administrator when trying to log in after Zscaler Client Connector was installed with the Business Continuity installation parameters.\nUpdates the ZEP (Zscaler Endpoint Protection) module used for anti-tampering protection to the latest version (26.08.1.10).\nFixes an issue where Zscaler Client Connector could stop responding when, after waking from sleep, a Zscaler Tunnel (Z-Tunnel) 2.0 HTTP health check failure triggered a tunnel shutdown while an ICMP health check reply was being processed concurrently.\nFixes an issue where Zscaler Client Connector failed to detect a captive portal when the portal replied with a non-standard HTTP response, causing users to remain blocked from network access.\nFixes an issue where, if a machine tunnel was running, users received a Something went wrong error on their first attempt when trying to reset their Windows PIN and the users had to go back and re-initiate the I forgot my PIN process.\nFixes an issue where communication with a Private Access app could stall when Zscaler Client Connector failed to reassemble fragmented packets.\nFixes an issue where Zscaler Client Connector took an extra one to two minutes to connect the Internet & SaaS and Private Access tunnels on networks that block traffic UDP for port 443.\nFixes an issue where the incorrect device ID was sent with the installation parameters used to install the endpoint software used with Endpoint AI Security, resulting in many physical devices associated with the same user name and device ID.\nFixes an issue where the Internet & SaaS status incorrectly displayed as Failover Active on a Trusted Network with a forwarding profile of None if the Fallback to ZIA DR option was selected in app failover settings.\nFixes a TLS handshake error that caused captive portal authentication to fail.",
+     "links": [
+      "https://help.zscaler.com/zscaler-client-connector/supported-parameters-zscaler-client-connector-windows",
+      "https://help.zscaler.com/zscaler-client-connector/anti-tampering-zscaler-client-connector",
+      "https://help.zscaler.com/zscaler-client-connector/configuring-zscaler-client-connector-app-profiles#app-failover-settings"
+     ],
+     "anchor": "id-1547009",
+     "page": "https://help.zscaler.com/zscaler-client-connector/client-connector-app-release-summary-2026",
+     "cloud": "Windows",
+     "platforms": [
+      "Windows"
+     ]
+    },
+    {
+     "date": "2026-11-03",
+     "category": "Release Available: Client Connector 4.10.0.496 for Windows",
+     "title": "Zscaler Client Connector 4.10.0.496 Enhancements and Fixes",
+     "text": "Updates Zscaler Client Connector to exclude compromised TLS intermediate certificates associated with digital certificate provider eMudhra when loading root certificates. To learn more, see the trust post.\nFixes an issue where virtual machines could experience slow network connections when connected through a bridged VMware network on a Windows host with Zscaler Client Connector installed.\nFixes an issue where the Update App and Update Policy options on the More window in the app disappeared after activating and deactivating Business Continuity mode.\nFixes an issue where the ZSATrayManager process could crash during Machine Tunnel enrollment when required Windows machine registration data was missing or malformed in the registry instead of failing gracefully as designed.\nFixes an issue where users received an Internal Error, Please Contact Administrator when trying to log in after Zscaler Client Connector was installed with the Business Continuity installation parameters.\nUpdates the ZEP (Zscaler Endpoint Protection) module used for anti-tampering protection to the latest version (26.08.1.10).\nFixes an issue where the configured notification logo for the custom theme didn't appear in pop-up notifications.\nFixes an issue where Zscaler Client Connector could stop responding when, after waking from sleep, a Zscaler Tunnel (Z-Tunnel) 2.0 HTTP health check failure triggered a tunnel shutdown while an ICMP health check reply was being processed concurrently.\nFixes an issue where Zscaler Client Connector failed to detect a captive portal when the portal replied with a non-standard HTTP response, causing users to remain blocked from network access.\nFixes an issue where, if a machine tunnel was running, users received a Something went wrong error on their first attempt when trying to reset their Windows PIN and the users had to go back and re-initiate the I forgot my PIN process.\nFixes an issue where communication with a Private Access app could stall when Zscaler Client Connector failed to reassemble fragmented packets.\nFixes an issue where Zscaler Client Connector took an extra one to two minutes to connect the Internet & SaaS and Private Access tunnels on networks that block DTLS.\nFixes an issue where the incorrect device ID was sent with the installation parameters used to install the endpoint software used with Endpoint AI Security, resulting in many physical devices associated with the same user name and device ID.\nFixes an issue where the Internet & SaaS sta",
+     "links": [
+      "https://help.zscaler.com/zscaler-client-connector/supported-parameters-zscaler-client-connector-windows",
+      "https://help.zscaler.com/zscaler-client-connector/anti-tampering-zscaler-client-connector",
+      "https://help.zscaler.com/zscaler-client-connector/customizing-zscaler-client-connector-theme",
+      "https://help.zscaler.com/zscaler-client-connector/configuring-zscaler-client-connector-app-profiles#app-failover-settings",
+      "https://help.zscaler.com/zscaler-client-connector/configuring-zscaler-client-connector-app-profiles#notification"
+     ],
+     "anchor": "id-1547004",
+     "page": "https://help.zscaler.com/zscaler-client-connector/client-connector-app-release-summary-2026",
+     "cloud": "Windows",
+     "platforms": [
+      "Windows"
+     ]
+    }
+   ],
+   "errors": [],
+   "pages": [
+    "https://help.zscaler.com/zscaler-client-connector/client-connector-app-release-summary-2026",
+    "https://help.zscaler.com/zscaler-client-connector/release-upgrade-summary-2026"
+   ]
+  },
+  "zia": {
+   "name": "Zscaler Internet Access（ZIA）",
+   "entries": [
+    {
+     "date": "2026-10-30",
+     "category": "Feature Available",
+     "title": "Increased Archive Scan Depth with Advanced Sandbox",
+     "text": "With Advanced Sandbox, you can scan archive files with up to 10 nested archives for threats. To increase the archive scan depth, contact your Zscaler Account team.\nTo learn more, see About Sandbox.",
+     "links": [
+      "https://help.zscaler.com/zia/about-sandbox"
+     ],
+     "anchor": "id-1543001",
+     "page": "https://help.zscaler.com/zia/release-upgrade-summary-2026",
+     "cloud": "zscaler.net",
+     "platforms": []
+    },
+    {
+     "date": "2026-10-30",
+     "category": "Feature in Limited Availability",
+     "title": "Enterprise Browser for Mobile",
+     "text": "Enterprise Browser for Zero Trust Browser is available as a native mobile application for iOS, iPadOS, and Android. On a personal or corporate phone or tablet, the Enterprise Browser mobile app provides a governed workspace that enforces policy, prevents data loss, and protects users from everyday browser-based threats.\nDistribution of the app depends on whether the device is personal, corporate managed, or enrolled in a bring-your-own-device (BYOD) program. Users can install the app from the App Store or Google Play, or admins can push the app to users via your organization's Mobile Device Management (MDM) or Mobile Application Management (MAM) platform.\nTo learn more, see Understanding Enterprise Browser for Mobile.",
+     "links": [
+      "https://help.zscaler.com/zero-trust-browser/understanding-enterprise-browser-mobile"
+     ],
+     "anchor": "id-1545626",
+     "page": "https://help.zscaler.com/zia/release-upgrade-summary-2026",
+     "cloud": "zscaler.net",
+     "platforms": []
+    },
+    {
+     "date": "2026-11-04",
+     "category": "Feature Available",
+     "title": "Advanced SSPM Support for Adobe Acrobat Sign",
+     "text": "Advanced SSPM supports a new platform, Adobe Acrobat Sign. You can onboard an Adobe Acrobat Sign tenant from the 3rd-Party App Governance Admin Portal.\nTo learn more, see Integrating with Adobe Acrobat Sign and Connecting Your Platforms to Advanced SSPM.",
+     "links": [
+      "https://help.zscaler.com/zia/integrating-adobe-acrobat-sign",
+      "https://help.zscaler.com/zia/connecting-your-platforms-advanced-sspm"
+     ],
+     "anchor": "id-1547034",
+     "page": "https://help.zscaler.com/zia/release-upgrade-summary-2026",
+     "cloud": "zscaler.net",
+     "platforms": []
+    },
+    {
+     "date": "2026-11-04",
+     "category": "Feature Available",
+     "title": "Advanced SSPM Support for Kintone",
+     "text": "Advanced SSPM supports a new platform, Kintone. You can onboard a Kintone tenant from the 3rd-Party App Governance Admin Portal.\nTo learn more, see Integrating with Kintone and Connecting Your Platforms to Advanced SSPM.",
+     "links": [
+      "https://help.zscaler.com/zia/integrating-kintone",
+      "https://help.zscaler.com/zia/connecting-your-platforms-advanced-sspm"
+     ],
+     "anchor": "id-1546956",
+     "page": "https://help.zscaler.com/zia/release-upgrade-summary-2026",
+     "cloud": "zscaler.net",
+     "platforms": []
+    }
+   ],
+   "errors": [],
+   "pages": [
+    "https://help.zscaler.com/zia/release-upgrade-summary-2026"
+   ]
+  },
+  "zpa": {
+   "name": "Zscaler Private Access（ZPA）",
+   "entries": [
+    {
+     "date": "2026-10-30",
+     "category": "Feature Available",
+     "title": "Hardware Security Module Support for Enrollment Certificates",
+     "text": "You can store both public and private keys for enrollment certificates and certificate signing requests (CSRs) in hardware security modules (HSMs) when generating an enrollment certificate or creating a CSR.\nTo learn more, see About Enrollment (CA) Certificates, Generating Zscaler-issued Enrollment (CA) Certificates, and Creating Certificate Signing Requests for Enrollment (CA) Certificates.",
+     "links": [
+      "https://help.zscaler.com/zpa/about-enrollment-ca-certificates",
+      "https://help.zscaler.com/zpa/generating-zscaler-issued-enrollment-ca-certificates",
+      "https://help.zscaler.com/zpa/creating-certificate-signing-requests-enrollment-ca-certificates"
+     ],
+     "anchor": "id-1534180",
+     "page": "https://help.zscaler.com/zpa/release-upgrade-summary-2026",
+     "cloud": "private.zscaler.com",
+     "platforms": []
+    },
+    {
+     "date": "2026-10-30",
+     "category": "Feature in Limited Availability",
+     "title": "Enterprise Browser for Mobile",
+     "text": "Enterprise Browser for Zero Trust Browser is available as a native mobile application for iOS, iPadOS, and Android. On a personal or corporate phone or tablet, the Enterprise Browser mobile app provides a governed workspace that enforces policy, prevents data loss, and protects users from everyday browser-based threats.\nDistribution of the app depends on whether the device is personal, corporate managed, or enrolled in a bring-your-own-device (BYOD) program. Users can install the app from the App Store or Google Play, or admins can push the app to users via your organization's Mobile Device Management (MDM) or Mobile Application Management (MAM) platform.\nTo learn more, see Understanding Enterprise Browser for Mobile.",
+     "links": [
+      "https://help.zscaler.com/zero-trust-browser/understanding-enterprise-browser-mobile"
+     ],
+     "anchor": "id-1546975",
+     "page": "https://help.zscaler.com/zpa/release-upgrade-summary-2026",
+     "cloud": "private.zscaler.com",
+     "platforms": []
+    },
+    {
+     "date": "2026-10-30",
+     "category": "Feature in Limited Availability",
+     "title": "Manager and Software Version Information Available for Groups",
+     "text": "The Manager software and component software version appears when you hover over the information icon under Version Profile on the App Connector Groups, Private Service Edge Groups, Private Cloud Controller Groups, and Network Connector Groups pages in the Zscaler Admin Console.\nTo learn more, see About App Connector Groups, About Private Service Edge Groups, About Private Cloud Controller Groups, and About Network Connector Groups.",
+     "links": [
+      "https://help.zscaler.com/zpa/about-connector-groups",
+      "https://help.zscaler.com/zpa/about-zpa-private-service-edge-groups",
+      "https://help.zscaler.com/zpa/about-private-cloud-controller-groupshttps://help.zscaler.com/zpa/about-private-cloud-controller-groups",
+      "https://help.zscaler.com/zpa/about-network-connector-groups"
+     ],
+     "anchor": "id-1535139",
+     "page": "https://help.zscaler.com/zpa/release-upgrade-summary-2026",
+     "cloud": "private.zscaler.com",
+     "platforms": []
+    },
+    {
+     "date": "2026-10-30",
+     "category": "Feature in Limited Availability",
+     "title": "Private Cloud Controller Upgrade Priority",
+     "text": "If Private Cloud Controllers are included in version profile assignments, they must be a higher or equal version to the assigned Private Service Edge or App Connector. An error message appears on the Private Cloud Controllers page in the Zscaler Admin Console to reinforce this.\nThe Version Mismatch filter is available on the Private Cloud Controllers page to display version profiles that are mismatched in relation to Private Cloud Controllers.\nTo learn more, see About Private Cloud Controllers.",
+     "links": [
+      "https://help.zscaler.com/zpa/about-private-cloud-controllers"
+     ],
+     "anchor": "id-1546014",
+     "page": "https://help.zscaler.com/zpa/release-upgrade-summary-2026",
+     "cloud": "private.zscaler.com",
+     "platforms": []
+    },
+    {
+     "date": "2026-11-02",
+     "category": "Feature in Limited Availability",
+     "title": "Autonomous Application Shield",
+     "text": "The Autonomous Application Shield feature allows you to scan private applications for vulnerabilities that you can apply AppProtection controls to. You can schedule scans based on frequency and intensity. You can review the protection analytics and the scan specifics in the Zscaler Admin Console.\nTo learn more, see:\nAbout Autonomous Application Shield\nAbout App Connectors\nEditing a Deployed App Connector\nAbout AppProtection Controls",
+     "links": [
+      "https://help.zscaler.com/zpa/about-autonomous-application-shield",
+      "https://help.zscaler.com/zpa/about-connectors",
+      "https://help.zscaler.com/zpa/editing-deployed-connector",
+      "https://help.zscaler.com/zpa/about-appprotection-controls"
+     ],
+     "anchor": "id-1546761",
+     "page": "https://help.zscaler.com/zpa/release-upgrade-summary-2026",
+     "cloud": "private.zscaler.com",
+     "platforms": []
+    },
+    {
+     "date": "2026-11-02",
+     "category": "Feature in Limited Availability",
+     "title": "Support for Nested Criteria, NOT Operators, and Bulk Actions in Global Rules and Policy Groups",
+     "text": "Private Access (ZPA) added the following updates for global rules and policy groups to simplify the management of application access policies:\nAdded support for building nested criteria sets when configuring rules with SAML or SCIM Attributes or Client Connector Posture Profiles.\nAdded support for applying AND NOT and OR NOT logic operators when configuring rules with SAML or SCIM Attributes or Client Connector Posture Profiles.\nAdded support for bulk move and delete rules within policy groups.\nTo learn more, see:\nAbout Access Policies for Global Rules\nAbout Access Policies for Policy Groups\nConfiguring Access Policies for Global Rules and Policy Groups",
+     "links": [
+      "https://help.zscaler.com/zpa/about-access-policies-global-rules",
+      "https://help.zscaler.com/zpa/about-access-policies-policy-groups",
+      "https://help.zscaler.com/zpa/configuring-access-policies-global-rules-and-policy-groups"
+     ],
+     "anchor": "id-1546976",
+     "page": "https://help.zscaler.com/zpa/release-upgrade-summary-2026",
+     "cloud": "private.zscaler.com",
+     "platforms": []
+    },
+    {
+     "date": "2026-11-05",
+     "category": "Feature in Limited Availability",
+     "title": "Smaller Hardware Appliances for App Connectors",
+     "text": "Smaller form factor ZPA appliances are available for App Connectors with 1G throughput. This hardware appliance can be rack mounted or wall mounted (available upon request).\nTo learn more, see:\nUnderstanding ZPA Appliances\nZPA Appliance Wall and Rack Mount Instruction Manual\nZPA Appliance Physical Port Mapping",
+     "links": [
+      "https://help.zscaler.com/zpa/understanding-zpa-appliances",
+      "https://help.zscaler.com/zpa/zpa-appliance-wall-and-rack-mount-instruction-manual",
+      "https://help.zscaler.com/zpa/zpa-appliance-physical-port-mapping"
+     ],
+     "anchor": "id-1546008",
+     "page": "https://help.zscaler.com/zpa/release-upgrade-summary-2026",
+     "cloud": "private.zscaler.com",
+     "platforms": []
+    }
+   ],
+   "errors": [],
+   "pages": [
+    "https://help.zscaler.com/zpa/release-upgrade-summary-2026",
+    "https://help.zscaler.com/zpa/app-connector-release-summary-2026",
+    "https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026"
+   ]
+  },
+  "zdx": {
+   "name": "Zscaler Digital Experience（ZDX）",
+   "entries": [],
+   "errors": [],
+   "pages": [
+    "https://help.zscaler.com/zdx/release-upgrade-summary-2026",
+    "https://help.zscaler.com/zscaler-client-connector/zdx-module-release-summary-2026"
+   ]
+  }
+ }
+}

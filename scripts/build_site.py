@@ -108,17 +108,23 @@ def css() -> str:
     t = CFG.get("theme", {})
     font = ('"Hiragino Mincho ProN","Noto Serif JP","Yu Mincho",serif' if t.get("font") == "serif"
             else '"Hiragino Sans","Noto Sans JP","Yu Gothic",system-ui,sans-serif')
-    return (CSS.replace("__ACCENT__", t.get("accent", "#2f5d8a"))
-               .replace("__ACCENT_DARK__", t.get("accent_dark", "#8ab4e0"))
-               .replace("__FONT__", font)).strip()
+    # 背景などの色は config.json の theme で上書きできる（未指定なら従来の色）
+    light = {"__BG__": "#fbfaf7", "__MUTED__": "#5d646d", "__LINE__": "#e3e0d8", "__CARD__": "#fff", "__CODE__": "#f2efe8"}
+    dark = {"__BG_D__": "#16181c", "__MUTED_D__": "#a2a8b0", "__LINE_D__": "#2c3036", "__CARD_D__": "#1d2025", "__CODE_D__": "#24282e"}
+    css = CSS.replace("__ACCENT__", t.get("accent", "#2f5d8a")).replace("__ACCENT_DARK__", t.get("accent_dark", "#8ab4e0"))
+    for k, v in light.items():
+        css = css.replace(k, t.get(k.strip("_").lower(), v))
+    for k, v in dark.items():
+        css = css.replace(k, t.get(k.strip("_").lower().replace("_d", "_dark"), v))
+    return css.replace("__FONT__", font).strip()
 
 
 CSS = """
-:root{--bg:#fbfaf7;--fg:#1f2328;--muted:#5d646d;--line:#e3e0d8;--card:#fff;--accent:__ACCENT__;--code:#f2efe8}
-@media (prefers-color-scheme:dark){:root{--bg:#16181c;--fg:#e6e6e6;--muted:#a2a8b0;--line:#2c3036;--card:#1d2025;--accent:__ACCENT_DARK__;--code:#24282e}}
+:root{--warn:#c0392b;--bg:__BG__;--fg:#1f2328;--muted:__MUTED__;--line:__LINE__;--card:__CARD__;--accent:__ACCENT__;--code:__CODE__}
+@media (prefers-color-scheme:dark){:root{--warn:#ff7a6b;--bg:__BG_D__;--fg:#e6e6e6;--muted:__MUTED_D__;--line:__LINE_D__;--card:__CARD_D__;--accent:__ACCENT_DARK__;--code:__CODE_D__}}
 *{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.85 __FONT__}
-a{color:var(--accent)}img{max-width:100%;height:auto}
+a{color:var(--accent);overflow-wrap:anywhere}img{max-width:100%;height:auto}
 .wrap{max-width:780px;margin:0 auto;padding:0 16px}
 header.site{border-bottom:1px solid var(--line);background:var(--card)}
 header.site .wrap{display:flex;flex-wrap:wrap;gap:8px 20px;align-items:baseline;padding-top:14px;padding-bottom:14px}
@@ -139,6 +145,15 @@ blockquote{margin:1em 0;padding:.2em 1em;border-left:3px solid var(--line);color
 .box h2{margin-top:0;border:0;padding:0;font-size:1.05rem}
 details{margin:.5em 0;padding:8px 12px;border:1px solid var(--line);border-radius:6px;background:var(--bg)}summary{cursor:pointer;font-weight:600}
 figure{margin:0 0 20px}figcaption{font-size:.8rem;color:var(--muted)}
+.fig{margin:24px 0;padding:14px;background:var(--card);border:1px solid var(--line);border-radius:8px;overflow-x:auto}
+.fig svg{display:block;width:100%;min-width:560px;height:auto;max-width:720px;margin:0 auto;font-family:inherit}
+.fig figcaption{text-align:center;margin-top:8px}
+.fig .n{fill:var(--card);stroke:var(--line);stroke-width:1.5}.fig .na{fill:var(--card);stroke:var(--accent);stroke-width:2}
+.fig .nf{fill:var(--accent);stroke:none}.fig .nm{fill:var(--code);stroke:var(--line);stroke-width:1}
+.fig .ln{stroke:var(--muted);stroke-width:1.5;fill:none}.fig .la{stroke:var(--accent);stroke-width:2.5;fill:none}
+.fig .lx{stroke:var(--warn);stroke-width:2.5;fill:none;stroke-dasharray:6 4}
+.fig .nx{fill:var(--card);stroke:var(--warn);stroke-width:2.5}
+.fig text{fill:var(--fg);font-size:14px}.fig .tm{fill:var(--muted);font-size:12px}.fig .tw{fill:var(--card);font-weight:700}.fig .tb{font-weight:700}
 .pr{font-size:.78rem;color:var(--muted)}
 footer{border-top:1px solid var(--line);color:var(--muted);font-size:.82rem;padding:20px 0 40px}
 .kpi{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}.kpi div{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:12px}.kpi b{display:block;font-size:1.4rem}
