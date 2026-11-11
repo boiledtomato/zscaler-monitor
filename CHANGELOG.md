@@ -1,6 +1,53 @@
 ## 2026-11-09T23:16:00Z - ZIA リリースノート
 
 - **ソース**: https://help.zscaler.com/zia/release-notes
+## 2026-11-11 23:14 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- # Zscaler Trust - インシデント/アドバイザリ RSS
+- ## Datacenter Expansion Chicago II (CHI2) - private.zscaler.com
+**追加内容（抜粋）:**
+> - 公開: Wed, 11 Nov 2026 02:41:57 GMT
+> - ステータス: Upcoming  カテゴリ: Scheduled maintenance
+> - URL: https://trust.zscaler.com/private.zscaler.com/posts/32646
+> As part of our regular expansion of capacity, we are adding ZPA Public Service Edge nodes to our data center in Chicago II (CHI2). If you restrict outbound firewall access, please ensure you have added the complete set of published IPs in the URL below https://config.zscaler.com/private.zscaler.com/zpa
+> - ステータス: In Progress  カテゴリ: Scheduled maintenance
+> ...他 3 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-11-10 23:19 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~- 影響: Customers may experience intermittent device registration failures.~~
+
+---
+## 2026-11-11 23:14 UTC — ZPA リリースノート
+
+ソース: [https://help.zscaler.com/zpa/release-notes](https://help.zscaler.com/zpa/release-notes)
+**追加内容（抜粋）:**
+> - 2026-11-10T10:35Z | https://help.zscaler.com/zpa/release-upgrade-summary-2026
+> - 2026-11-10T10:35Z | https://help.zscaler.com/zpa/app-connector-release-summary-2026
+> - 2026-11-10T10:35Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026
+> 最終更新: 2026-11-10T10:35Z
+> 最終更新: 2026-11-10T10:35Z
+> ...他 1 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-11-10 23:19 UTC~~
+> ~~> ソース: https://help.zscaler.com/zpa/release-notes~~
+> ~~---~~
+
+---
+## 2026-11-11 23:14 UTC — ZIA リリースノート
+
+ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)
+**追加内容（抜粋）:**
+> - 2026-11-10T09:55Z | https://help.zscaler.com/zia/release-upgrade-summary-2026
+> 最終更新: 2026-11-10T09:55Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-11-10 23:19 UTC~~
+> ~~> ソース: https://help.zscaler.com/zia/release-notes~~
+> ~~---~~
+
+---
 ## 2026-11-10 23:19 UTC — ZIA リリースノート
 
 ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)
