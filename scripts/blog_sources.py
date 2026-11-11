@@ -29,6 +29,7 @@ from pathlib import Path
 import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 SITES = ("zscaler", "art")
 
 
@@ -195,14 +196,50 @@ def topic_brief(site: str, used: set[str]) -> str:
 
 # ------------------------------------------------------------------ main
 
+def _head(site: str, d: date, kind: str, n: int | None = None) -> list[str]:
+    title = f"# 記事ブリーフ（{site} ブログ）{d.isoformat()}" + (f" — 記事{n}" if n else "")
+    return [title, "", f"- 記事タイプ: **{kind}**",
+            f"- 保存先: blogs/{site}/content/posts/{d.isoformat()}-<topic_id>.md",
+            f"- 執筆ルール: blogs/WRITING_RULES_COMMON.md と blogs/{site}/WRITING_GUIDE.md を必ず読むこと", ""]
+
+
+def build_zscaler_today(d: date) -> str:
+    """Zscaler ブログ: 曜日の定期記事（製品別アップデート／基礎）＋ 不定期の Trust 記事。"""
+    import zscaler_sources as zs
+    cfg = site_config("zscaler")
+    kind = cfg["schedule"].get(str(d.weekday()))
+    briefs: list[str] = []
+
+    if kind == "zscaler-update":
+        nxt = zs.next_update(d)
+        if nxt:
+            key, snap, friday = nxt
+            briefs.append(("zscaler-update", zs.update_brief(key, snap, friday)))
+    elif kind == "zscaler-topic":
+        briefs.append(("zscaler-topic", topic_brief("zscaler", used_topic_ids("zscaler"))))
+
+    tcfg = cfg.get("trust") or {}
+    for tkind, item in zs.pending_trust(tcfg.get("since", d.isoformat()), int(tcfg.get("daily_limit", 2))):
+        briefs.append((f"zscaler-trust-{tkind}", zs.trust_brief(tkind, item)))
+
+    if not briefs:
+        why = "今週の製品別アップデートはすべて投稿済みか、更新がありませんでした。" if kind == "zscaler-update" else ""
+        return (f"# zscaler ブログ {d.isoformat()}\n\n{why}今日は書く記事がありません"
+                "（休みの日です）。何もしないで終了してください。")
+    out = [f"# zscaler ブログ {d.isoformat()}: 今日は {len(briefs)} 本書いてください（下のブリーフ1つにつき記事1本）。\n"]
+    for i, (k, body) in enumerate(briefs, 1):
+        out.append("\n".join(_head("zscaler", d, k, i if len(briefs) > 1 else None)) + "\n" + body + "\n")
+    return "\n---\n\n".join(out)
+
+
 def build_today(site: str, d: date) -> str:
+    if site == "zscaler":
+        return build_zscaler_today(d)
     kind = site_config(site)["schedule"].get(str(d.weekday()))
     if not kind:
         return f"# {site} ブログ {d.isoformat()}\n\n今日は休みの日です。何もしないで終了してください。"
     used = used_topic_ids(site)
-    head = [f"# 記事ブリーフ（{site} ブログ）{d.isoformat()}", "", f"- 記事タイプ: **{kind}**",
-            f"- 保存先: blogs/{site}/content/posts/{d.isoformat()}-<topic_id>.md",
-            f"- 執筆ルール: blogs/WRITING_RULES_COMMON.md と blogs/{site}/WRITING_GUIDE.md を必ず読むこと", ""]
+    head = _head(site, d, kind)
     if kind == "zscaler-digest":
         topic_id = f"digest-{d.isoformat()}"
         if topic_id in used:

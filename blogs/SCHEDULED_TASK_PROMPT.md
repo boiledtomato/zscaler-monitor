@@ -1,6 +1,6 @@
 # スケジュール実行用プロンプト（Claude Code 定期タスク）
 
-以下を Claude Code の定期タスク（毎日1回・新規セッション）のプロンプトとして登録します。
+以下を Claude Code の定期タスク（毎日1回）のプロンプトとして使います。
 サブスクリプション内で動くため API 料金はかかりません。1回の実行で2つのブログを順に処理します。
 
 ---
@@ -12,13 +12,21 @@
 2. zscaler → art の順に、各ブログ <site> について：
    a. `python3 scripts/blog_sources.py --site <site> today` で今日のブリーフを取得。
       「何もしないで終了」と出たら、そのブログは今日は休み（次のブログへ）。
-   b. `blogs/WRITING_RULES_COMMON.md` と `blogs/<site>/WRITING_GUIDE.md` を読み、ルールに厳密に従って記事を1本書く。
-      - zscaler-digest：ブリーフに挙がった公式URLのうち重要なもの（最大5件）を WebFetch で確認し、実際の変更点を記事にする。
+      **zscaler は1日に複数本になることがある**（定期記事＋不定期の Trust 記事）。ブリーフ1つにつき記事1本を書く。
+      金曜は製品別アップデートの材料集め（ヘッドレスブラウザで公式リリースノートを読む）に数分かかる。
+      これで `blogs/zscaler/data/weekly/<金曜の日付>.json` ができるので、記事と一緒に commit する。
+   b. `blogs/WRITING_RULES_COMMON.md` と `blogs/<site>/WRITING_GUIDE.md` を読み、記事タイプごとのルールに厳密に従って書く。
+      - zscaler-update：ブリーフの公式リリースノート抜粋を根拠に、機能の説明・対象となる設定・運用者がやることまで書く。
+        細部が足りなければブリーフの「関連ドキュメント」URL を Playwright で読んで補う（WebFetch は help.zscaler.com を読めない）。
+      - zscaler-trust-incident / zscaler-trust-vuln：ブリーフの Trust 原文を根拠に、原因と影響範囲を正確に書く。
+      - zscaler-topic / art-topic：ブリーフのテーマで書く。細部は公式情報で確認できたものだけを書く。
       - art-artwork：ブリーフの作品データと所蔵館ページを根拠に書く。画像はブリーフの「画像(小)」URL を使う。
-      - topic 系：ブリーフのテーマで書く。細部は公式情報で確認できたものだけを書く。
       - 保存先は `blogs/<site>/content/posts/<今日の日付>-<topic_id>.md`。
-   c. `python3 scripts/build_site.py --site <site> --check` が OK になるまで修正する。
+   c. 本文の文字数を数え、ガイドの分量に収まっているか確かめる。
+   d. `python3 scripts/build_site.py --site <site> --check` が OK になるまで修正する。
 3. `python3 scripts/build_site.py` を実行（各ブログの REPORT.md が更新される）。
 4. 記事を書いた場合のみ `git add blogs/ && git commit -m "blog: <日付> <記事タイトル>"` して `git push origin main`。
-   push に失敗したらネットワークエラー時のみ最大4回リトライ。
-5. 報告は各ブログ1行：記事タイトルと公開URL（config.json の base_url + /posts/<ファイル名から .md を除いたもの>/）。休みの日は「休み」。
+   リモートが進んでいたら `git pull --rebase origin main` してから push。push に失敗したらネットワークエラー時のみ最大4回リトライ。
+5. push 後、公開URL が HTTP 200 を返すまで最大5分待って確認する（GitHub Actions のデプロイ待ち）。
+6. 報告は記事ごとに1行：記事タイトルと公開URL（config.json の base_url + /posts/<ファイル名から .md を除いたもの>/）。
+   休みのブログは「休み」。公開確認できなかった場合はその旨を書く。

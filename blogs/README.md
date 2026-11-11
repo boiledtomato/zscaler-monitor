@@ -2,7 +2,7 @@
 
 | ブログ | フォルダ | 公開URL（初期） | 更新日 |
 |---|---|---|---|
-| ゼロトラスト実践ノート（Zscaler） | `blogs/zscaler/` | https://boiledtomato.github.io/zscaler-monitor/zscaler/ | 月（週次まとめ）・水・金（基礎/設計） |
+| ゼロトラスト実践ノート（Zscaler） | `blogs/zscaler/` | https://boiledtomato.github.io/zscaler-monitor/zscaler/ | 金・土・月・火（製品別アップデート：ZCC→ZIA→ZPA→ZDX）・水・木（基礎/設計）・不定期（障害・脆弱性） |
 | 一枚の名画から（美術） | `blogs/art/` | https://boiledtomato.github.io/zscaler-monitor/art/ | 火・土（今日の一枚）・木・日（美術史） |
 
 2つは**完全に別のサイト**です。タイトル、デザイン（美術は明朝体＋茶系、Zscaler はゴシック＋青系）、
@@ -16,6 +16,9 @@
 [毎日 ブログ用定期タスク] Claude Code セッション（blogs/SCHEDULED_TASK_PROMPT.md）
     zscaler → art の順に：
     1. scripts/blog_sources.py --site <blog> today  … その日の記事タイプと材料（休みの日は何もしない）
+       zscaler は scripts/zscaler_sources.py が
+         ・金曜：公式リリースノートを製品別に取得 → blogs/zscaler/data/weekly/<金曜>.json（scripts/release_notes_extract.js）
+         ・毎日：trust.zscaler.com の RSS から、解決済みで原因公表済みの障害と CVE アドバイザリを拾う
     2. 執筆ガイドに従って記事を書く → blogs/<blog>/content/posts/*.md
     3. scripts/build_site.py --site <blog> --check   … 品質チェック
     4. main に push
