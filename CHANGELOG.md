@@ -1,6 +1,43 @@
 ## 2026-11-09T23:16:00Z - ZIA リリースノート
 
 - **ソース**: https://help.zscaler.com/zia/release-notes
+## 2026-11-12 23:18 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- ## Ownership variable posture evaluation fails on iOS after ZCC 4.5.1 to 5.0.0 upgrade during ZPA re-auth or login with Modern UI - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zdxcloud.net, zpatwo.net
+- ## ZTB-IN-M1 Cloud Maintenance - ztb-in-m1
+- ## Administration UI Issue - zscaler.net
+- ## Datacenter Expansion Washington DC IV (WAS4) - private.zscaler.com
+**追加内容（抜粋）:**
+> - 公開: Thu, 12 Nov 2026 00:00:00 GMT
+> - ステータス:   カテゴリ: Advisory
+> - URL: https://trust.zscaler.com/zscaler.net/posts/32666
+> - 影響:
+> Ownership variable posture evaluation fails in Zscaler Client Connector on iOS after upgrade from v4.5.1 to v5.0.0 during ZPA re-authentication or after user login with Modern Experience UI enabled. What is the issue?: Zscaler Client Connector on iOS has a known issue where the Ownership posture evaluation fails after user re-authentication or a new login when the app is upgraded from v4.5.1 to v5.0.0 and the Modern Experience UI is in use. iOS users impacted by this issue won’t be able to acces
+> ...他 25 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-11-11 23:14 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
+## 2026-11-12 23:17 UTC — ZPA リリースノート
+
+ソース: [https://help.zscaler.com/zpa/release-notes](https://help.zscaler.com/zpa/release-notes)
+**更新セクション:**
+- ## https://help.zscaler.com/zpa/release-upgrade-summary-2025
+**追加内容（抜粋）:**
+> - 2026-11-11T07:52Z | https://help.zscaler.com/zpa/release-upgrade-summary-2026
+> - 2026-11-11T07:33Z | https://help.zscaler.com/zpa/release-upgrade-summary-2025
+> 最終更新: 2026-11-11T07:52Z
+> 最終更新: 2026-11-11T07:33Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-11-11 23:14 UTC~~
+> ~~> ソース: https://help.zscaler.com/zpa/release-notes~~
+> ~~---~~
+
+---
 ## 2026-11-11 23:14 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
