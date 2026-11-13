@@ -1,6 +1,74 @@
 ## 2026-11-09T23:16:00Z - ZIA リリースノート
 
 - **ソース**: https://help.zscaler.com/zia/release-notes
+## 2026-11-13 23:22 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- ## Frankfurt IV Datacenter Scheduled Maintenance - IPv6 Enablement - zscaler.net
+- ## Washington I Datacenter Scheduled Maintenance - IPv6 Enablement - zscaler.net
+- ## Singapore IV Datacenter Scheduled Maintenance - IPv6 Enablement - zscaler.net
+- ## Chennai II Datacenter Scheduled Maintenance - IPv6 Enablement - zscaler.net
+- ## ZTB API Service Issues in AMER (ZTB-US-M4) Cloud - ztb-us-m4
+- ## Scheduled Maintenance Extended - zscalerone.net
+- ## Microsoft 365 Service Disruption - Impact on Zscaler Email DLP - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- ## Scheduled Maintenance Extended - zscaler.net
+- ## Pulsar, Quasar, Prod3, Prod4, Prod5 and Prod6 Cloud Upgrade and Maintenance - pulsar, quasar, prod3, prod4, prod5, prod6
+**追加内容（抜粋）:**
+> - 公開: Fri, 13 Nov 2026 23:19:41 GMT
+> - ステータス: Upcoming  カテゴリ: Scheduled maintenance
+> - URL: https://trust.zscaler.com/zscaler.net/posts/32711
+> - 影響:
+> Zscaler will enable IPv6 for VPN and UVPN services at the Frankfurt IV (FRA4) Data Center. Services will be restarted in phases during the scheduled maintenance window to minimize disruption. Other Zscaler sites and Zscaler Services will continue to operate normally. Maintenance Window: Start time is November 18, 5:00 pm PST (November 19, 1:00 UTC) End time is November 18, 7:00 pm PST (November 19, 3:00 UTC)
+> ...他 25 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-11-12 23:18 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
+## 2026-11-13 23:22 UTC — ZDX リリースノート
+
+ソース: [https://help.zscaler.com/zdx/release-notes](https://help.zscaler.com/zdx/release-notes)
+**追加内容（抜粋）:**
+> - 2026-11-12T03:30Z | https://help.zscaler.com/zdx/release-upgrade-summary-2026
+> 最終更新: 2026-11-12T03:30Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-11-10 23:19 UTC~~
+> ~~> ソース: https://help.zscaler.com/zdx/release-notes~~
+> ~~---~~
+
+---
+## 2026-11-13 23:22 UTC — ZPA リリースノート
+
+ソース: [https://help.zscaler.com/zpa/release-notes](https://help.zscaler.com/zpa/release-notes)
+**追加内容（抜粋）:**
+> - 2026-11-12T13:55Z | https://help.zscaler.com/zpa/release-upgrade-summary-2026
+> - 2026-11-12T03:15Z | https://help.zscaler.com/zpa/release-upgrade-summary-2025
+> 最終更新: 2026-11-12T13:55Z
+> 最終更新: 2026-11-12T03:15Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-11-12 23:17 UTC~~
+> ~~> ソース: https://help.zscaler.com/zpa/release-notes~~
+> ~~---~~
+
+---
+## 2026-11-13 23:22 UTC — ZIA リリースノート
+
+ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)
+**更新セクション:**
+- ## https://help.zscaler.com/zia/release-upgrade-summary-2022
+**追加内容（抜粋）:**
+> - 2026-11-12T04:40Z | https://help.zscaler.com/zia/release-upgrade-summary-2026
+> - 2026-11-12T04:38Z | https://help.zscaler.com/zia/release-upgrade-summary-2022
+> 最終更新: 2026-11-12T04:40Z
+> 最終更新: 2026-11-12T04:38Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-11-11 23:14 UTC~~
+> ~~> ソース: https://help.zscaler.com/zia/release-notes~~
+> ~~---~~
+
+---
 ## 2026-11-12 23:18 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
