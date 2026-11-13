@@ -1,0 +1,214 @@
+{
+ "friday": "2026-11-13",
+ "since": "2026-11-06",
+ "until": "2026-11-12",
+ "products": {
+  "zcc": {
+   "name": "Zscaler Client Connector（ZCC）",
+   "entries": [
+    {
+     "date": "2026-11-06",
+     "category": "Release Available: Client Connector 5.0.0.344 for Android",
+     "title": "Zscaler Client Connector 5.0.0.344 Enhancements and Fixes",
+     "text": "Adds support for remotely configuring Zscaler Client Connector features, including administrator-set overrides, through mobile device management (MDM).\nImproves battery and CPU performance on Android devices by eliminating unnecessary background activity and pausing Digital Experience (ZDX) after 10 minutes of inactivity.\nAdds support for the Japanese language based on localization settings on the device.\nUpdates Zscaler Client Connector to exclude compromised TLS intermediate certificates associated with digital certificate provider eMudhra when loading root certificates. To learn more, see the trust post.",
+     "links": [],
+     "anchor": "id-1547209",
+     "page": "https://help.zscaler.com/zscaler-client-connector/client-connector-app-release-summary-2026",
+     "cloud": "Android",
+     "platforms": [
+      "Android",
+      "ChromeOS"
+     ]
+    },
+    {
+     "date": "2026-11-06",
+     "category": "Release Available: Client Connector 4.2.1.126 for Linux",
+     "title": "Zscaler Client Connector 4.2.1.126 Enhancements and Fixes",
+     "text": "Updates Zscaler Client Connector to exclude compromised TLS intermediate certificates associated with digital certificate provider eMudhra when loading root certificates. To learn more, see the trust post.",
+     "links": [],
+     "anchor": "id-1547213",
+     "page": "https://help.zscaler.com/zscaler-client-connector/client-connector-app-release-summary-2026",
+     "cloud": "Linux",
+     "platforms": [
+      "Linux"
+     ]
+    },
+    {
+     "date": "2026-11-06",
+     "category": "Release Available: Client Connector 4.2.0.66 for Linux",
+     "title": "Zscaler Client Connector 4.2.0.66 Enhancements and Fixes",
+     "text": "Updates Zscaler Client Connector to exclude compromised TLS intermediate certificates associated with digital certificate provider eMudhra when loading root certificates. To learn more, see the trust post.",
+     "links": [],
+     "anchor": "id-1547172",
+     "page": "https://help.zscaler.com/zscaler-client-connector/client-connector-app-release-summary-2026",
+     "cloud": "Linux",
+     "platforms": [
+      "Linux"
+     ]
+    },
+    {
+     "date": "2026-11-06",
+     "category": "Release Available: Client Connector 3.7.2.80 for Linux",
+     "title": "Zscaler Client Connector 3.7.2.80 Enhancements and Fixes",
+     "text": "Updates Zscaler Client Connector to exclude compromised TLS intermediate certificates associated with digital certificate provider eMudhra when loading root certificates. To learn more, see the trust post.",
+     "links": [],
+     "anchor": "id-1547171",
+     "page": "https://help.zscaler.com/zscaler-client-connector/client-connector-app-release-summary-2026",
+     "cloud": "Linux",
+     "platforms": [
+      "Linux"
+     ]
+    },
+    {
+     "date": "2026-11-10",
+     "category": "Release Available: Client Connector 5.0 for iOS",
+     "title": "Zscaler Client Connector 5.0 Enhancements and Fixes",
+     "text": "Supports Wi-Fi Name (SSID) as a condition for trusted network criteria.\nModernizes Zscaler Client Connector to provide users with clear status and actionable, natural-language guidance, while keeping technical details within easy reach if they need to engage Zscaler Support.\nAdds support to block LAN access via Zscaler Tunnel (Z-Tunnel) on Zscaler Client Connector using an mobile device management (MDM)-delivered custom VPN profile.\nAdds support for French and German languages based on localization settings on the device.\nSupports Disaster Recovery for Private Access and Internet & SaaS for Authentication Service.\nImproves performance for customers with a large number of hosted-based Private Access applications.\nOptimizes the Zscaler Client Connector iOS battery and resource usage.\nOptimizes iOS packet tunnel network settings to reduce unnecessary reconfiguration and improve network stability, lowering the likelihood of user-visible interruptions during network changes.\nSupports automatic Private Access certificate renewal before the certificate expires.\nContact Zscaler Support to enable this feature.\nSupports detection of unauthorized device modifications on iOS devices.\nSupports configuring Zscaler Client Connector to use the system DNS to resolve DNS queries by enabling the Prioritize System DNS option in App Profiles.\nSupports delaying per-app VPN connection until Private Access configuration and connection are established, preventing app connection timeout messages.\nAdds native end-to-end IPv6 from IPv6-only iOS devices to Internet & SaaS and Private Access when Enable IPv6 resolution for Zscaler Domains is selected in Platform Settings.\nSupports displaying a customizable notification to end users who are blocked from a Private Access app due to a failed device posture.\nAdds support for the collection of Health Metrics on devices to allow for diagnostics and to proactively identify issues.\nEnables the ability to base alternative cloud name detection on the Public Service Edge for Internet & SaaS location instead of the Zscaler Client Connector location and to have an alternative cloud name per Public Service Edge for Internet & SaaS.\nObfuscates MDM payloads and device posture information in logs when a device posture check fails.\nZscaler Client Connector ignores the setting in App Profiles to block Apple Private Relay by default.\nDisables the automatic search domain appending for Private Access (ZPA), with the MatchDomainsNoSearch parameter enabled by",
+     "links": [],
+     "anchor": "id-1546965",
+     "page": "https://help.zscaler.com/zscaler-client-connector/client-connector-app-release-summary-2026",
+     "cloud": "iOS",
+     "platforms": [
+      "iOS"
+     ]
+    }
+   ],
+   "errors": [],
+   "pages": [
+    "https://help.zscaler.com/zscaler-client-connector/client-connector-app-release-summary-2026",
+    "https://help.zscaler.com/zscaler-client-connector/release-upgrade-summary-2026"
+   ]
+  },
+  "zia": {
+   "name": "Zscaler Internet Access（ZIA）",
+   "entries": [
+    {
+     "date": "2026-11-06",
+     "category": "Feature in Limited Availability",
+     "title": "Enhancements for End User Isolation Experience",
+     "text": "Enhancements have been made to several features of the end user isolation experience. Depending on your isolation profile settings, you can explore the following features and functionalities in the Zero Trust Mode menu during an isolated session:\nClipboard: Use clipboard functions (e.g., copy and paste) and view notifications about clipboard restrictions. To learn more, see Using Clipboard in Isolation.\nTranslate: Translate the entire web page or selected text from the web page into your preferred language. To learn more, see Understanding Language Translate for Isolation.\nFind: Search text within the web page.\nTroubleshoot: View network latency and export isolation session logs. To learn more, see Accessing Network Latency in Isolation.\nTo learn more, see Using the Zero Trust Mode Menu in Native Browser Experience.",
+     "links": [
+      "https://help.zscaler.com/zero-trust-browser/using-clipboard-isolation",
+      "https://help.zscaler.com/zero-trust-browser/understanding-language-translate-isolation",
+      "https://help.zscaler.com/zero-trust-browser/accessing-network-latency-isolation",
+      "https://help.zscaler.com/zero-trust-browser/using-zero-trust-mode-menu-native-browser-experience"
+     ],
+     "anchor": "id-1545421",
+     "page": "https://help.zscaler.com/zia/release-upgrade-summary-2026",
+     "cloud": "zscaler.net",
+     "platforms": []
+    }
+   ],
+   "errors": [],
+   "pages": [
+    "https://help.zscaler.com/zia/release-upgrade-summary-2026"
+   ]
+  },
+  "zpa": {
+   "name": "Zscaler Private Access（ZPA）",
+   "entries": [
+    {
+     "date": "2026-11-06",
+     "category": "Feature in Limited Availability",
+     "title": "Enhancements for End User Isolation Experience",
+     "text": "Enhancements have been made to several features of the end user isolation experience. Depending on your isolation profile settings, you can explore the following features and functionalities in the Zero Trust Mode menu during an isolated session:\nClipboard: Use clipboard functions (e.g., copy and paste) and view notifications about clipboard restrictions. To learn more, see Using Clipboard in Isolation.\nTranslate: Translate the entire web page or selected text from the web page into your preferred language. To learn more, see Understanding Language Translate for Isolation.\nFind: Search text within the web page.\nTroubleshoot: View network latency and export isolation session logs. To learn more, see Accessing Network Latency in Isolation.\nTo learn more, see Using the Zero Trust Mode Menu in Native Browser Experience.",
+     "links": [
+      "https://help.zscaler.com/zero-trust-browser/using-clipboard-isolation",
+      "https://help.zscaler.com/zero-trust-browser/understanding-language-translate-isolation",
+      "https://help.zscaler.com/zero-trust-browser/accessing-network-latency-isolation",
+      "https://help.zscaler.com/zero-trust-browser/using-zero-trust-mode-menu-native-browser-experience"
+     ],
+     "anchor": "id-1546676",
+     "page": "https://help.zscaler.com/zpa/release-upgrade-summary-2026",
+     "cloud": "private.zscaler.com",
+     "platforms": []
+    },
+    {
+     "date": "2026-11-09",
+     "category": "Feature Available",
+     "title": "Manager Software Updates",
+     "text": "A recommended update was released that includes updated App Connector and Private Service Edge for Private Access (ZPA) RPM packages for Red Hat Enterprise Linux 8.x and 9.x, and Private Cloud Controller and Network Connector RPM packages for Red Hat Enterprise Linux 9.x.\nYou can download the Manager software for App Connectors, Private Service Edges, Private Cloud Controllers, or Network Connectors from our repository. The Manager software version is 26.59.1.\nTo learn more, see Understanding the Manager Software.",
+     "links": [
+      "https://help.zscaler.com/zpa/app-connector-deployment-guide-linux",
+      "https://help.zscaler.com/zpa/private-service-edge-deployment-guide-linux",
+      "https://help.zscaler.com/zpa/private-cloud-controller-deployment-guide-linux",
+      "https://help.zscaler.com/zpa/network-connector-deployment-guide-linux",
+      "https://help.zscaler.com/zpa/about-manager-software#managerUpgrades"
+     ],
+     "anchor": "id-1547129",
+     "page": "https://help.zscaler.com/zpa/release-upgrade-summary-2026",
+     "cloud": "private.zscaler.com",
+     "platforms": []
+    },
+    {
+     "date": "2026-11-09",
+     "category": "Feature in Limited Availability",
+     "title": "Wildcard Support for Network Segments",
+     "text": "You can define Network segments in VPN (for Legacy Apps) using wildcard entries (e.g., *.domain.com). This streamlines configuration for environments with FQDNs.\nThis feature is only supported on Zscaler Client Connector version 5.0 and later for Windows.\nTo learn more, see Configuring Network Segments.",
+     "links": [
+      "https://help.zscaler.com/zpa/configuring-network-segments"
+     ],
+     "anchor": "id-1541533",
+     "page": "https://help.zscaler.com/zpa/release-upgrade-summary-2026",
+     "cloud": "private.zscaler.com",
+     "platforms": []
+    },
+    {
+     "date": "2026-11-12",
+     "category": "Feature Available",
+     "title": "Entitlement Orchestration for Private Applications",
+     "text": "Private Access (ZPA) supports Entitlement Orchestration, enabling Just-in-Time (JIT) access to private applications. This workflow allows an external, customer-managed orchestration client or workflow to dynamically grant and revoke user access by calling Private Access APIs.\nBy programmatically updating user memberships in Authentication Service local user groups referenced by Private Access access policies, you can provision temporary access without modifying your core Private Access access policies or application segments. This is ideal for time-bound or event-driven scenarios, such as contractor onboarding, break-glass administration, and temporary project assignments.\nThe Entitlement Orchestration workflow includes the following features:\nDrives the request, approval, and API-based provisioning of access.\nHouses the temporary group memberships updated via API.\nDefines the private applications secure access is granted to.\nControls access permissions based on Authentication Service local user group criteria.\nTo learn more, see Entitlement Orchestration for Private Access.",
+     "links": [
+      "https://help.zscaler.com/zpa/entitlement-orchestration-private-access"
+     ],
+     "anchor": "id-1546048",
+     "page": "https://help.zscaler.com/zpa/release-upgrade-summary-2026",
+     "cloud": "private.zscaler.com",
+     "platforms": []
+    }
+   ],
+   "errors": [],
+   "pages": [
+    "https://help.zscaler.com/zpa/release-upgrade-summary-2026",
+    "https://help.zscaler.com/zpa/app-connector-release-summary-2026",
+    "https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026"
+   ]
+  },
+  "zdx": {
+   "name": "Zscaler Digital Experience（ZDX）",
+   "entries": [
+    {
+     "date": "2026-11-09",
+     "category": "Release Available: ZDX Module 4.9 for Windows",
+     "title": "ZDX Module 4.9.0.51 Enhancements and Fixes",
+     "text": "Adds Extranet Application Support to Zscaler Client Connector and Digital Experience (ZDX) Cloud Path.\nAdds support for admin to configure ZDX client routing preferences for direct connections to an external forward proxy.\nAdds support for a control in the Remediation Settings to check for the Windows PowerShell Execution Policy prior to running diagnostic and remediation scripts on managed endpoints.\nAdds Traceroute support with Zscaler Client Connector's Multi-Connect SME feature, enabling Cloud Path visualization and hop-by-hop latency metrics.\nDiscontinues support for 32-bit (x86) Windows clients in alignment with the Zscaler Client Connector version 5.0 release.\nEnhances security for Zscaler Client Connector and ZDX Module.\nIncreases TTL to 64 for resilient and strict probes to prevent premature Cloud Path probe drop-offs when customers have 30+ network hops.",
+     "links": [],
+     "anchor": "id-1545475",
+     "page": "https://help.zscaler.com/zscaler-client-connector/zdx-module-release-summary-2026",
+     "cloud": "Windows",
+     "platforms": [
+      "Windows"
+     ]
+    },
+    {
+     "date": "2026-11-10",
+     "category": "Release Available: ZDX Module 5.0.0 for iOS",
+     "title": "ZDX Module 5.0.0 Enhancements and Fixes",
+     "text": "Adds support for ZDX Devices Events.\nImprovements were made to the Zscaler Client Connector application to simplify the UX.\nAdds fixes to improve battery optimization by stopping ZDX when a device is locked or a network is down, and also stopping probes when a device's battery is less than 15%.",
+     "links": [],
+     "anchor": "id-1546845",
+     "page": "https://help.zscaler.com/zscaler-client-connector/zdx-module-release-summary-2026",
+     "cloud": "iOS",
+     "platforms": [
+      "iOS"
+     ]
+    }
+   ],
+   "errors": [],
+   "pages": [
+    "https://help.zscaler.com/zdx/release-upgrade-summary-2026",
+    "https://help.zscaler.com/zscaler-client-connector/zdx-module-release-summary-2026"
+   ]
+  }
+ }
+}
