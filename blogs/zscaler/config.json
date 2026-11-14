@@ -69,5 +69,6 @@
     "comment": "trust.zscaler.com の障害（解決済み・原因公表済み）と脆弱性（CVE）を、曜日に関係なく毎日チェックして記事にする",
     "since": "2026-11-09",
     "daily_limit": 2
-  }
+  },
+  "search_hint": "記事を検索（例：ZPA、iOS、障害）"
 }

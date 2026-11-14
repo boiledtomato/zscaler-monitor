@@ -18,7 +18,7 @@ import shutil
 import sys
 import urllib.parse
 from collections import defaultdict
-from datetime import date, datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 import markdown
@@ -192,7 +192,7 @@ def layout(title: str, body: str, *, description: str = "", canonical: str = "",
 </head><body>
 <header class="site"><div class="wrap"><a class="brand" href="{url('')}">{e(CFG['site_title'])}</a>
 <nav>{cats}<a href="{url('learn/')}">学習ノート</a><a href="{url('about/')}">このブログについて</a></nav></div></header>
-<main><div class="wrap">{body}</div></main>
+<main><div class="wrap{' wide' if 'class="cards"' in body else ''}">{body}</div></main>
 <footer><div class="wrap">{e(CFG['monetization']['pr_disclosure'])}<br>
 {e(CFG['disclaimer'])}<br>
 © {date.today().year} {e(CFG['author'])} · <a href="{url('about/')}">プライバシーポリシー</a> · <a href="{url('feed.xml')}">RSS</a></div></footer>
@@ -209,6 +209,88 @@ def chips(p: dict) -> str:
         else:
             out += f'<span class="chip">{e(t)}</span>'
     return out
+
+
+KINDS = [("週次まとめ", "製品別アップデート", "#0068a8"), ("障害・脆弱性", "障害・脆弱性", "#c0392b"), ("基礎", "基礎・設計", "#2b8a6e"),
+         ("今日の一枚", "今日の一枚", "#9a4e2b"), ("美術史", "美術史", "#6b5b95")]
+
+
+def kind_of(p: dict) -> tuple[str, str, str]:
+    tags = [str(t) for t in p["tags"]]
+    for tag, label, color in KINDS:
+        if tag in tags:
+            return tag, label, color
+    return "", "", ""
+
+
+def read_minutes(p: dict) -> int:
+    text = re.sub(r"<svg.*?</svg>|<[^>]+>|[#|*`>-]", "", p["body_md"], flags=re.S)
+    return max(1, round(len(re.sub(r"\s+", "", text)) / 600))
+
+
+def card_list(posts: list[dict]) -> str:
+    counts = {}
+    items = []
+    for p in posts:
+        tag, label, color = kind_of(p)
+        counts[tag] = counts.get(tag, 0) + 1
+        thumb = f'<img class="thumb" src="{e(p["image"])}" alt="" loading="lazy">' if p.get("image") else ""
+        text = " ".join([p["title"], p["summary"], " ".join(map(str, p["tags"]))]).lower()
+        items.append(f'<li class="card" data-cat="{e(tag)}" data-text="{e(text)}" style="--c:{color}"><a href="{url("posts/" + p["slug"] + "/")}">{thumb}'
+                     f'<span class="in"><span class="k">{e(label)}</span><h3>{e(p["title"])}</h3><p>{e(p["summary"])}</p>'
+                     f'<span class="m">{p["date"].isoformat()} ・ 約{read_minutes(p)}分</span></span></a></li>')
+    chips = [f'<button type="button" class="fchip on" data-f="all">すべて<span>{len(posts)}</span></button>']
+    for tag, label, _ in KINDS:
+        if counts.get(tag):
+            chips.append(f'<button type="button" class="fchip" data-f="{e(tag)}">{e(label)}<span>{counts[tag]}</span></button>')
+    return (f'<div class="filters" role="toolbar" aria-label="記事の絞り込み">{"".join(chips)}'
+            f'<input type="search" class="fsearch" placeholder="{e(CFG.get('search_hint', '記事を検索'))}" aria-label="記事を検索"></div>'
+            f'<ul class="cards">{"".join(items)}</ul><p class="noresult" hidden>該当する記事はありません。</p>')
+
+
+PRODUCTS_ORDER = [("zcc", "ZCC"), ("zia", "ZIA"), ("zpa", "ZPA"), ("zdx", "ZDX")]
+
+
+def weekly_board(posts: list[dict]) -> str:
+    wdir = BLOG / "data" / "weekly"
+    snaps = sorted(wdir.glob("*.json")) if wdir.exists() else []
+    if not snaps:
+        return ""
+    snap = json.loads(snaps[-1].read_text(encoding="utf-8"))
+    fri = date.fromisoformat(snap["friday"])
+    by_topic = {str(p.get("topic_id")): p for p in posts}
+    slots = [fri, fri + timedelta(days=1), fri + timedelta(days=3), fri + timedelta(days=4)]
+    wd = "月火水木金土日"
+    tiles, env_items, si = [], [], 0
+    for key, name in PRODUCTS_ORDER:
+        n = len((snap["products"].get(key) or {}).get("entries", []))
+        post = by_topic.get(f"update-{key}-{snap['friday']}")
+        if post:
+            for m in re.finditer(r'data-env="([^"]+)"', post["body_md"]):
+                env_items.append(m.group(1).split())
+            tiles.append(f'<a class="tile done" href="{url("posts/" + post["slug"] + "/")}"><span class="p">{name}</span>'
+                         f'<b data-count="{n}">{n}</b><span class="u">件の変更</span><br><span class="st">記事を読む →</span></a>')
+            si += 1
+        elif n:
+            d = slots[min(si, 3)]
+            tiles.append(f'<div class="tile"><span class="p">{name}</span><b data-count="{n}">{n}</b><span class="u">件の変更</span><br>'
+                         f'<span class="st">{d.month}/{d.day}（{wd[d.weekday()]}）公開予定</span></div>')
+            si += 1
+        else:
+            tiles.append(f'<div class="tile none"><span class="p">{name}</span><b>0</b><span class="u">件の変更</span><br><span class="st">今週は更新なし</span></div>')
+    incs = [p for p in posts if "障害・脆弱性" in map(str, p["tags"])][:3]
+    inc_html = "".join(
+        f'<li data-clouds="{e(" ".join(map(str, p.get("clouds") or [])))}"><span class="meta">{p["date"].month}/{p["date"].day}</span>'
+        f'<a href="{url("posts/" + p["slug"] + "/")}">{e(p["title"])}</a>'
+        + "".join(f'<span class="cl">{e(str(c))}</span>' for c in (p.get("clouds") or [])) + "</li>" for p in incs)
+    s0, u0 = date.fromisoformat(snap["since"]), date.fromisoformat(snap["until"])
+    return (f'<section class="board" aria-label="今週の Zscaler"><h2>今週の Zscaler</h2>'
+            f'<p class="sub">{s0.month}/{s0.day}〜{u0.month}/{u0.day} にデプロイされた変更（{fri.month}/{fri.day} 金曜時点の集計）。'
+            f'製品ごとに金・土・月・火の順で記事にしています。</p><div class="tiles">{"".join(tiles)}</div>'
+            f'<div class="mine"><span class="mtext">マイ環境を登録すると、今週の変更のうち自社に関係する件数がここに出ます。</span>'
+            f'<button type="button" class="btn">マイ環境を設定</button></div>'
+            + (f'<div class="incs"><h3>直近の障害・脆弱性</h3><ul>{inc_html}</ul></div>' if inc_html else "")
+            + f'<script type="application/json" id="env-index">{json.dumps({"items": env_items})}</script></section>')
 
 
 def post_list(posts: list[dict]) -> str:
@@ -265,6 +347,8 @@ def post_page(p: dict, prev_p: dict | None, next_p: dict | None) -> str:
     srcs = "".join(f'<li><a href="{e(s)}" rel="noopener" target="_blank">{e(s)}</a></li>' for s in p["sources"])
     terms = [dict(t, link=url("posts/" + t["link"] + "/")) if t.get("link") else t for t in load_json("glossary.json", [])]
     body_html, toc = site_enhance.enhance(render_md(p["body_md"]), terms=terms, slug=url("posts/" + p["slug"] + "/"))
+    _, klabel, kcolor = kind_of(p)
+    kind_html = f'<span class="kind" style="background:{kcolor}">{e(klabel)}</span>' if klabel else ""
     envbar = ""
     if p.get("clouds"):
         cl = " ".join(str(c) for c in p["clouds"])
@@ -276,8 +360,8 @@ def post_page(p: dict, prev_p: dict | None, next_p: dict | None) -> str:
     if prev_p:
         nav.append(f'<a href="{url("posts/" + prev_p["slug"] + "/")}">{e(prev_p["title"])}</a> →')
     body = f"""<article>
-<div class="meta">{p['date'].isoformat()} {chips(p)}</div>
-<h1>{e(p['title'])}</h1>
+<header class="post-hero" id="top">{kind_html}<span class="meta">{p['date'].isoformat()}</span>
+<h1>{e(p['title'])}</h1><div class="rt">約{read_minutes(p)}分で読めます　{chips(p)}</div></header>
 {fig}
 <div class="box"><h2>この記事で学べること</h2><ul>{learn}</ul></div>
 {envbar}{toc}{body_html}
@@ -419,10 +503,10 @@ def build(check: bool) -> int:
     write("style.css", css())
     write("assets/site.js", site_enhance.js(load_json("env_vocab.json", {})))
     intro = f"<p>{e(CFG['site_description'])}</p>"
-    write("index.html", layout(CFG["site_title"], intro + post_list(posts), canonical=f"{BASE}/"))
+    write("index.html", layout(CFG["site_title"], intro + weekly_board(posts) + card_list(posts), canonical=f"{BASE}/"))
     for n in CFG.get("nav", []):
         ps = [p for p in posts if n["tag"] in map(str, p["tags"])]
-        write(f"tag/{n['tag']}/index.html", layout(n["label"], f"<h1>{e(n['label'])}</h1>" + post_list(ps),
+        write(f"tag/{n['tag']}/index.html", layout(n["label"], f"<h1>{e(n['label'])}</h1>" + card_list(ps),
                                                    canonical=f"{BASE}/tag/{urllib.parse.quote(n['tag'])}/"))
     for i, p in enumerate(posts):
         prev_p = posts[i + 1] if i + 1 < len(posts) else None
