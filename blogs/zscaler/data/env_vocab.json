@@ -1,0 +1,165 @@
+{
+ "comment": "マイ環境の選択肢。記事の data-env にはここの id を空白区切りで書く（all＝全員に関係）",
+ "groups": [
+  {
+   "id": "cloud",
+   "label": "クラウド",
+   "options": [
+    {
+     "id": "zscaler.net",
+     "label": "zscaler.net"
+    },
+    {
+     "id": "zscalerone.net",
+     "label": "zscalerone.net"
+    },
+    {
+     "id": "zscalertwo.net",
+     "label": "zscalertwo.net"
+    },
+    {
+     "id": "zscalerthree.net",
+     "label": "zscalerthree.net"
+    },
+    {
+     "id": "zscloud.net",
+     "label": "zscloud.net"
+    },
+    {
+     "id": "zscalerbeta.net",
+     "label": "zscalerbeta.net"
+    },
+    {
+     "id": "private.zscaler.com",
+     "label": "private.zscaler.com"
+    },
+    {
+     "id": "zpatwo.net",
+     "label": "zpatwo.net"
+    }
+   ]
+  },
+  {
+   "id": "os",
+   "label": "端末の OS",
+   "options": [
+    {
+     "id": "windows",
+     "label": "Windows"
+    },
+    {
+     "id": "macos",
+     "label": "macOS"
+    },
+    {
+     "id": "ios",
+     "label": "iOS"
+    },
+    {
+     "id": "android",
+     "label": "Android"
+    },
+    {
+     "id": "chromeos",
+     "label": "ChromeOS"
+    },
+    {
+     "id": "linux",
+     "label": "Linux"
+    }
+   ]
+  },
+  {
+   "id": "product",
+   "label": "使っている製品",
+   "options": [
+    {
+     "id": "zia",
+     "label": "ZIA"
+    },
+    {
+     "id": "zpa",
+     "label": "ZPA"
+    },
+    {
+     "id": "zdx",
+     "label": "ZDX"
+    },
+    {
+     "id": "dlp",
+     "label": "Endpoint DLP"
+    },
+    {
+     "id": "isolation",
+     "label": "ブラウザ分離"
+    },
+    {
+     "id": "authsvc",
+     "label": "Authentication Service"
+    }
+   ]
+  },
+  {
+   "id": "feature",
+   "label": "使っている設定・機能",
+   "options": [
+    {
+     "id": "ztunnel2",
+     "label": "Z-Tunnel 2.0"
+    },
+    {
+     "id": "tpi",
+     "label": "Transparent Proxy-based Interception（macOS）"
+    },
+    {
+     "id": "routebased",
+     "label": "Route-based Interception"
+    },
+    {
+     "id": "strict",
+     "label": "Strict Enforcement"
+    },
+    {
+     "id": "machinetunnel",
+     "label": "Machine Tunnel"
+    },
+    {
+     "id": "bc",
+     "label": "Business Continuity"
+    },
+    {
+     "id": "posture",
+     "label": "デバイスポスチャ"
+    },
+    {
+     "id": "antitamper",
+     "label": "改ざん防止（Anti-Tampering）"
+    },
+    {
+     "id": "fips",
+     "label": "FIPS モード"
+    },
+    {
+     "id": "perapp",
+     "label": "per-app VPN（iOS）"
+    },
+    {
+     "id": "legacyvpn",
+     "label": "VPN for Legacy Apps"
+    },
+    {
+     "id": "mdm",
+     "label": "MDM で配布"
+    },
+    {
+     "id": "ipv6",
+     "label": "IPv6 環境"
+    },
+    {
+     "id": "vse",
+     "label": "Virtual Service Edge"
+    }
+   ]
+  }
+ ]
+}

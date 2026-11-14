@@ -24,6 +24,8 @@ from pathlib import Path
 import markdown
 import yaml
 
+import site_enhance
+
 ROOT = Path(__file__).resolve().parent.parent
 SITES = ("zscaler",)  # 美術ブログは boiledtomato/meiga-note に移した
 OUT_ROOT = ROOT / "_site"
@@ -116,7 +118,7 @@ def css() -> str:
         css = css.replace(k, t.get(k.strip("_").lower(), v))
     for k, v in dark.items():
         css = css.replace(k, t.get(k.strip("_").lower().replace("_d", "_dark"), v))
-    return css.replace("__FONT__", font).strip()
+    return (css.replace("__FONT__", font) + site_enhance.CSS).strip()
 
 
 CSS = """
@@ -185,6 +187,7 @@ def layout(title: str, body: str, *, description: str = "", canonical: str = "",
 <meta property="og:title" content="{e(full_title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:type" content="website">
 <link rel="alternate" type="application/rss+xml" title="{e(CFG['site_title'])}" href="{url('feed.xml')}">
 <link rel="stylesheet" href="{url('style.css')}">
+<script src="{url('assets/site.js')}" defer></script>
 {chr(10).join(head_extra)}
 </head><body>
 <header class="site"><div class="wrap"><a class="brand" href="{url('')}">{e(CFG['site_title'])}</a>
@@ -229,8 +232,25 @@ def affiliate_box() -> str:
     return f'<div class="box"><h2>さらに学ぶための本</h2><ul>{lis}</ul><p class="pr">PR：上記はアフィリエイトリンクです。</p></div>'
 
 
+LIST_RE = re.compile(r"^(\s*)([-*+] |\d+\. )")
+
+
+def fix_lists(text: str) -> str:
+    """段落の直後に空行なしで始まるリストを、リストとして扱われるよう空行を補う。"""
+    out, fence = [], False
+    for line in text.split("\n"):
+        if line.startswith("```"):
+            fence = not fence
+        prev = out[-1] if out else ""
+        if (not fence and LIST_RE.match(line) and prev.strip() and not LIST_RE.match(prev)
+                and not prev.lstrip().startswith(("|", "<", "#")) and not prev.startswith(" ")):
+            out.append("")
+        out.append(line)
+    return "\n".join(out)
+
+
 def render_md(text: str) -> str:
-    return markdown.markdown(text, extensions=["tables", "fenced_code", "toc", "sane_lists"])
+    return markdown.markdown(fix_lists(text), extensions=["tables", "fenced_code", "toc", "sane_lists"])
 
 
 def post_page(p: dict, prev_p: dict | None, next_p: dict | None) -> str:
@@ -243,6 +263,13 @@ def post_page(p: dict, prev_p: dict | None, next_p: dict | None) -> str:
     quiz = "".join(f"<details><summary>Q{i}. {e(q['q'])}</summary><p>{e(q['a'])}</p></details>"
                    for i, q in enumerate(p["quiz"], 1))
     srcs = "".join(f'<li><a href="{e(s)}" rel="noopener" target="_blank">{e(s)}</a></li>' for s in p["sources"])
+    terms = [dict(t, link=url("posts/" + t["link"] + "/")) if t.get("link") else t for t in load_json("glossary.json", [])]
+    body_html, toc = site_enhance.enhance(render_md(p["body_md"]), terms=terms, slug=url("posts/" + p["slug"] + "/"))
+    envbar = ""
+    if p.get("clouds"):
+        cl = " ".join(str(c) for c in p["clouds"])
+        envbar = (f'<div class="envbar" data-env="{e(cl)}"><span class="who">対象クラウド：{e("、".join(map(str, p["clouds"])))}</span>'
+                  f'<button type="button" class="btn" data-x="set">マイ環境を変更</button></div>')
     nav = []
     if next_p:
         nav.append(f'← <a href="{url("posts/" + next_p["slug"] + "/")}">{e(next_p["title"])}</a>')
@@ -253,7 +280,7 @@ def post_page(p: dict, prev_p: dict | None, next_p: dict | None) -> str:
 <h1>{e(p['title'])}</h1>
 {fig}
 <div class="box"><h2>この記事で学べること</h2><ul>{learn}</ul></div>
-{render_md(p['body_md'])}
+{envbar}{toc}{body_html}
 <div class="box"><h2>確認クイズ</h2>{quiz}</div>
 {affiliate_box()}
 <div class="box"><h2>参考・出典</h2><ul>{srcs}</ul></div>
@@ -390,6 +417,7 @@ def build(check: bool) -> int:
         shutil.rmtree(OUT)
     OUT.mkdir(parents=True)
     write("style.css", css())
+    write("assets/site.js", site_enhance.js(load_json("env_vocab.json", {})))
     intro = f"<p>{e(CFG['site_description'])}</p>"
     write("index.html", layout(CFG["site_title"], intro + post_list(posts), canonical=f"{BASE}/"))
     for n in CFG.get("nav", []):

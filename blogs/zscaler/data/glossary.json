@@ -1,0 +1,134 @@
+[
+ {
+  "term": "Client Connector",
+  "aliases": [
+   "Zscaler Client Connector",
+   "ZCC"
+  ],
+  "def": "利用者の端末に入れる Zscaler のエージェント。通信を ZIA・ZPA に転送し、ZDX の測定も担う。",
+  "link": "2026-11-12-zt-zcc"
+ },
+ {
+  "term": "ZIA",
+  "def": "Zscaler Internet Access。インターネットと SaaS への通信をクラウド上で中継して検査する、プロキシ型の SWG を中心としたサービス。",
+  "link": "2026-11-04-zt-zia-overview"
+ },
+ {
+  "term": "ZPA",
+  "def": "Zscaler Private Access。利用者を社内ネットワークに入れずに、許可した社内アプリにだけつなぐサービス。VPN の置き換えに使われる。",
+  "link": "2026-11-06-zt-zpa-overview"
+ },
+ {
+  "term": "ZDX",
+  "def": "Zscaler Digital Experience。端末からアプリまでの体感品質を、プローブで測って 0〜100 のスコアにするサービス。",
+  "link": "2026-11-11-zt-zdx-overview"
+ },
+ {
+  "term": "App Connector",
+  "def": "社内アプリの近くに置く軽量な仮想マシン。ZPA のクラウドへ外向きにだけ接続するため、受信ポートを開ける必要がない。",
+  "link": "2026-11-06-zt-zpa-overview"
+ },
+ {
+  "term": "Public Service Edge",
+  "def": "Zscaler が運用する、通信を受けて検査・ポリシー適用を行う拠点（ゲートウェイ）。",
+  "link": "2026-11-04-zt-zia-overview"
+ },
+ {
+  "term": "Z-Tunnel 2.0",
+  "def": "Client Connector のトンネル方式。DTLS または TLS でパケットを送るため、全ポート・全プロトコルを Zscaler に送れる。",
+  "link": "2026-11-12-zt-zcc"
+ },
+ {
+  "term": "Z-Tunnel 1.0",
+  "def": "Client Connector のトンネル方式。CONNECT 要求で送るプロキシ型で、主に Web 通信を扱う。",
+  "link": "2026-11-12-zt-zcc"
+ },
+ {
+  "term": "転送プロファイル",
+  "aliases": [
+   "Forwarding Profile"
+  ],
+  "def": "社内・VPN・社外などネットワーク環境ごとに、ZIA・ZPA の通信をどう扱うかを決める Client Connector の設定。",
+  "link": "2026-11-12-zt-zcc"
+ },
+ {
+  "term": "アプリプロファイル",
+  "aliases": [
+   "App Profile"
+  ],
+  "def": "利用者や端末のグループごとに、Client Connector の動作（迂回設定や転送プロファイルなど）を割り当てる設定。"
+ },
+ {
+  "term": "Strict Enforcement",
+  "def": "利用者が Client Connector にログインするまでインターネット通信を止め、Zscaler を通らない通信をなくすための設定。"
+ },
+ {
+  "term": "Machine Tunnel",
+  "def": "Windows へのログオン前から ZPA に接続できるようにするトンネル。ログオン前のドメイン認証などに使う。"
+ },
+ {
+  "term": "ポスチャ",
+  "aliases": [
+   "Posture"
+  ],
+  "def": "端末の状態（ディスク暗号化、ウイルス対策ソフトの稼働など）を確認し、その結果でアクセスを許可・制限する仕組み。"
+ },
+ {
+  "term": "コントロールプレーン",
+  "def": "端末の登録・認証や、設定・ポリシーの配布など、仕組みを管理する部分。利用者の通信そのものを扱うデータプレーンと対になる。"
+ },
+ {
+  "term": "データプレーン",
+  "def": "利用者の通信そのものを転送・検査する部分。"
+ },
+ {
+  "term": "中間者攻撃",
+  "def": "通信の間に割り込み、相手になりすまして盗聴や改ざんをする攻撃（Man-in-the-Middle、MITM）。"
+ },
+ {
+  "term": "中間証明書",
+  "def": "ルート証明書とサーバー証明書の間にある証明書。漏えいすると、本物そっくりの偽の証明書を作られるおそれがある。"
+ },
+ {
+  "term": "SSL/TLS インスペクション",
+  "aliases": [
+   "SSL/TLSインスペクション"
+  ],
+  "def": "暗号化された通信をいったん復号して中身を検査し、再び暗号化して送る仕組み。",
+  "link": "2026-11-04-zt-zia-overview"
+ },
+ {
+  "term": "ブラウザ分離",
+  "def": "Web ページをクラウド上の分離されたブラウザで開き、利用者の端末には表示だけを届ける仕組み。",
+  "link": "2026-11-14-update-zia-2026-11-13"
+ },
+ {
+  "term": "限定提供",
+  "aliases": [
+   "Limited Availability"
+  ],
+  "def": "一部の組織だけに先行して提供される段階。すべての組織にすぐ有効になるとは限らない。"
+ },
+ {
+  "term": "フェイルオーバー",
+  "def": "障害が起きたときに、副系（予備）の設備や拠点へ通信を切り替えること。"
+ },
+ {
+  "term": "キャプティブポータル",
+  "def": "ホテルや公衆 Wi-Fi で、利用規約への同意やログインを求めるために最初に表示されるページ。"
+ },
+ {
+  "term": "MDM",
+  "def": "モバイル端末管理（Mobile Device Management）。スマートフォンや PC に、設定やアプリを一括で配布・管理する仕組み。"
+ },
+ {
+  "term": "SWG",
+  "def": "Secure Web Gateway。Web へのアクセスを中継し、URL フィルタリングやマルウェア対策を行う仕組み。",
+  "link": "2026-11-04-zt-zia-overview"
+ },
+ {
+  "term": "ゼロトラスト",
+  "def": "ネットワーク上の位置で信頼せず、アクセスのたびに ID・端末・状況を検証して最小権限で許可する考え方。",
+  "link": "2026-11-03-zt-what-is-zero-trust"
+ }
+]
