@@ -1,3 +1,47 @@
+## 2026-11-14T23:15:27Z - ZIA リリースノート
+
+ソース: https://help.zscaler.com/zia/release-notes
+検出日時: 2026-11-14 23:15 UTC
+**変更の要約:**
+Zscaler is rolling out an improved navigation system for Experience Center. Articles and videos on Help Portal will be updated to reflect these changes. During this transition, if a menu path doesn't match the UI, we recommend using search within Experience Center to locate the page. Release Notes  Internet & SaaS (ZIA) Release Notes Internet & SaaS Service Release Notes Zscaler Endpoint DLP Release Notes Private Access (ZPA) Release Notes Digital Experience Monitoring (ZDX) Release Notes Workfl...
+
+---
+
+## 2026-11-14T23:15:27Z - ZPA リリースノート
+
+ソース: https://help.zscaler.com/zpa/release-notes
+検出日時: 2026-11-14 23:15 UTC
+**変更の要約:**
+Zscaler is rolling out an improved navigation system for Experience Center. Articles and videos on Help Portal will be updated to reflect these changes. During this transition, if a menu path doesn't match the UI, we recommend using search within Experience Center to locate the page. Release Notes  Internet & SaaS (ZIA) Release Notes Private Access (ZPA) Release Notes ZPA Service Release Notes ZPA App Connector Release Notes ZPA Private Service Edge Release Notes ZPA Private Cloud Controller Rel...
+
+---
+
+## 2026-11-14T23:15:27Z - ZDX リリースノート
+
+ソース: https://help.zscaler.com/zdx/release-notes
+検出日時: 2026-11-14 23:15 UTC
+**変更の要約:**
+Zscaler is rolling out an improved navigation system for Experience Center. Articles and videos on Help Portal will be updated to reflect these changes. During this transition, if a menu path doesn't match the UI, we recommend using search within Experience Center to locate the page. Release Notes  Internet & SaaS (ZIA) Release Notes Private Access (ZPA) Release Notes Digital Experience Monitoring (ZDX) Release Notes Release Upgrade Summary (2026) Release Upgrade Summary (2025) Release Upgrade S...
+
+---
+
+## 2026-11-14T23:15:27Z - セキュリティアドバイザリ
+
+ソース: https://trust.zscaler.com/
+検出日時: 2026-11-14 23:15 UTC
+**変更の要約:**
+All Zscaler Services are functional  All zscaler services are currently online.  Transactions Processed 0 444 K 889 K 1.3 M 1.8 M 2.2 M 2.7 M 3.1 M 3.6 M 4 M 2,751,949 per second  17.9 M  Daily Peak  	  618.7 B  Last Day  	  14.7 T  Last Month  	  84.4 T  Last Year  Policies Enforced 0 90 K 180 K 270 K 360 K 450 K 208,985 per second  983.9 K  Daily Peak  	  32.8 B  Last Day  	  847.1 B  Last Month  	  4.4 T  Last Year  Threats Blocked 0 833 1.7 K 2.5 K 3.3 K 4.2 K 5 K 3,640 per second  16 K  Dai...
+
+---
+
+## 2026-11-14T23:15:27Z - 製品アップデート
+
+ソース: https://www.zscaler.com/products
+検出日時: 2026-11-14 23:15 UTC
+**変更の要約:**
+Find a product, solution, or technology  SEARCH BY NAME OR KEYWORD  SELECT ALL THAT INTEREST YOU  AI Security  AI/ML  Accelerate M&A and Divestitures  Application Transformation  Build & Run Secure Cloud Apps  Data Security  Exposure Management  Network & Security Transformation  Show 18 more Jump to Industry Solutions AI SPM: AI Security Posture Management | Zscaler  Continuously assess and secure your AI posture. Detect configuration drift, identity risks, and pipeline weaknesses across models...
+
+---
 ## 2026-11-09T23:16:00Z - ZIA リリースノート
 
 - **ソース**: https://help.zscaler.com/zia/release-notes
