@@ -1,3 +1,11 @@
+## 2026-11-15 23:14:31 UTC - セキュリティアドバイザリ
+ソース: https://trust.zscaler.com/
+変更内容: Zscalerトランザクション処理統計の数値が更新されました。サービスステータスは引き続き「All Zscaler Services are functional」です。処理数: 2,834,423/秒（前回: 2,751,949/秒）、日次ピーク: 4M（前回: 17.9M）。
+
+## 2026-11-15 23:14:31 UTC - 製品アップデート
+ソース: https://www.zscaler.com/products
+変更内容: 製品名「Zero Trust Cloud Workload Protection」が「Zero Trust Gateway」に変更されました。製品説明も更新: 「Secure all workload traffic with Zscaler's Zero Trust Gateway-simplify multi-cloud security, cut costs, and deploy in under 10 minutes.」
+
 ## 2026-11-14T23:15:27Z - ZIA リリースノート
 
 ソース: https://help.zscaler.com/zia/release-notes

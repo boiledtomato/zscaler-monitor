@@ -1,6 +1,6 @@
 # 製品アップデート
 
-最終更新日時: 2026-11-14 23:15:19 UTC
+最終更新日時: 2026-11-15 23:14:25 UTC
 ソースURL: https://www.zscaler.com/products
 
 ---
@@ -61,9 +61,9 @@ MDR for Identity | Zscaler
 
 Learn how MDR can protect your users’ email, identities, and SaaS apps.
 
-Zero Trust Cloud Workload Protection
+Zero Trust Gateway
 
-Secure workload-to-internet and workload-to-workload connectivity across hybrid cloud environments with a cloud native zero trust platform.
+Secure all workload traffic with Zscaler’s Zero Trust Gateway-simplify multi-cloud security, cut costs, and deploy in under 10 minutes.
 
 1
 2
@@ -140,4 +140,7 @@ Understand your threat exposure and how the Zscaler Zero Trust Exchange platform
 By submitting the form, you are agreeing to our privacy policy.
 *
 Yes, please keep me updated on Zscaler news, events, webcast and special offers.
+*
+*
+*
 Get started
