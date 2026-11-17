@@ -1,6 +1,58 @@
 ## 2026-11-15 23:14:31 UTC - セキュリティアドバイザリ
 ソース: https://trust.zscaler.com/
 変更内容: Zscalerトランザクション処理統計の数値が更新されました。サービスステータスは引き続き「All Zscaler Services are functional」です。処理数: 2,834,423/秒（前回: 2,751,949/秒）、日次ピーク: 4M（前回: 17.9M）。
+## 2026-11-17 23:16 UTC — ZIA リリースノート
+
+ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)
+**追加内容（抜粋）:**
+> - 2026-11-16T09:20Z | https://help.zscaler.com/zia/release-upgrade-summary-2026
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-11-16 23:16 UTC~~
+> ~~> ソース: https://help.zscaler.com/zia/release-notes~~
+> ~~---~~
+
+---
+## 2026-11-17 23:16 UTC — ZPA リリースノート
+
+ソース: [https://help.zscaler.com/zpa/release-notes](https://help.zscaler.com/zpa/release-notes)
+**追加内容（抜粋）:**
+> - 2026-11-16T08:44Z | https://help.zscaler.com/zpa/release-upgrade-summary-2026
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-11-16 23:16 UTC~~
+> ~~> ソース: https://help.zscaler.com/zpa/release-notes~~
+> ~~---~~
+
+---
+## 2026-11-17 23:16 UTC — ZDX リリースノート
+
+ソース: [https://help.zscaler.com/zdx/release-notes](https://help.zscaler.com/zdx/release-notes)
+**追加内容（抜粋）:**
+> - 2026-11-16T06:00Z | https://help.zscaler.com/zdx/release-upgrade-summary-2026
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-11-16 23:16 UTC~~
+> ~~> ソース: https://help.zscaler.com/zdx/release-notes~~
+> ~~---~~
+
+---
+## 2026-11-17 23:16 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- ## Zscaler Update on CVE-2026-114938 - Java4Shell Flaw in OpenJDK - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zdxcloud.net, zpatwo.net, app.zsdpc.net, app.eu.zsdpc.net, zpabeta.net, zsdkone.net, zscalerrisk.net, admin.zscaleranalytics.net, zslogin.net, app.avalor.io, app.eu.avalor.io, app.aps.avalor.io, ztb-us-m2, ztb-us-m3 (beta), ztb-us-m4, ztb-us-m7, ztb-euc-m1, ztb-in-m1, pulsar, quasar, prod3, prod4, prod5, prod6, zseclipse.net, zsaiguard.net, app.in.zsdpc.net, ai-console.zscaler.com
+- ## San Francisco IV (SJC4) Datacenter Network Maintenance - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
+**追加内容（抜粋）:**
+> - 公開: Tue, 17 Nov 2026 00:00:00 GMT
+> - ステータス:   カテゴリ: Advisory
+> - URL: https://trust.zscaler.com/zscaler.net/posts/32751
+> - 影響:
+> Zscaler is aware of&nbsp;CVE-2026-114938,&nbsp;Java4Shell Flaw in OpenJDK.&nbsp; Our Security and Engineering teams are investigating potential impact of CVE-2026-114938 and associated downstream dependencies. We will update this post as new information emerges. Zscaler recommends that customers patch affected OpenJDK installations to the&nbsp; latest vendor provided version to address this vulnerability in their environment.
+> ...他 9 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-11-16 23:17 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
 ## 2026-11-16 23:17 UTC — 製品アップデート
 
 ソース: [https://www.zscaler.com/products](https://www.zscaler.com/products)

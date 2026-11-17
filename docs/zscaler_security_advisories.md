@@ -1,11 +1,31 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-11-16 23:17 UTC  
+> 最終更新: 2026-11-17 23:16 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
 
 # Zscaler Trust - インシデント/アドバイザリ RSS
+
+## Zscaler Update on CVE-2026-114938 - Java4Shell Flaw in OpenJDK - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zdxcloud.net, zpatwo.net, app.zsdpc.net, app.eu.zsdpc.net, zpabeta.net, zsdkone.net, zscalerrisk.net, admin.zscaleranalytics.net, zslogin.net, app.avalor.io, app.eu.avalor.io, app.aps.avalor.io, ztb-us-m2, ztb-us-m3 (beta), ztb-us-m4, ztb-us-m7, ztb-euc-m1, ztb-in-m1, pulsar, quasar, prod3, prod4, prod5, prod6, zseclipse.net, zsaiguard.net, app.in.zsdpc.net, ai-console.zscaler.com
+- 公開: Tue, 17 Nov 2026 00:00:00 GMT
+- ステータス:   カテゴリ: Advisory
+- URL: https://trust.zscaler.com/zscaler.net/posts/32751
+- 影響: 
+
+Zscaler is aware of&nbsp;CVE-2026-114938,&nbsp;Java4Shell Flaw in OpenJDK.&nbsp; Our Security and Engineering teams are investigating potential impact of CVE-2026-114938 and associated downstream dependencies. We will update this post as new information emerges. Zscaler recommends that customers patch affected OpenJDK installations to the&nbsp; latest vendor provided version to address this vulnerability in their environment.
+
+---
+
+## San Francisco IV (SJC4) Datacenter Network Maintenance - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- 公開: Tue, 17 Nov 2026 07:00:26 GMT
+- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zscaler.net/posts/32746
+- 影響: During the maintenance, traffic will failover to redundant devices in the same datacenter, however intermittent connections and connection reestablishment may be observed.
+
+Zscaler will be performing hardware maintenance in San Francisco IV (SJC4) Datacenter. Maintenance window: &nbsp; &nbsp;Start: &nbsp;2026-11-19 02:00 UTC &nbsp; &nbsp;End: &nbsp; 2026-11-19 06:00 UTC &nbsp; &nbsp;(Local Time 2026-11-18 18:00 - 2026-11-18 22:00)
+
+---
 
 ## Reminder Notification for Upcoming New Data Center and Changes - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zpatwo.net
 - 公開: Mon, 16 Nov 2026 23:06:44 GMT
@@ -19,7 +39,7 @@ Dear Customer,&nbsp; In accordance with the&nbsp; Zscaler Service Continuity Pol
 
 ## ZTB-IN-M1 Cloud Maintenance - ztb-in-m1
 - 公開: Mon, 16 Nov 2026 11:04:11 GMT
-- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- ステータス: Completed  カテゴリ: Scheduled maintenance
 - URL: https://trust.zscaler.com/ztb-in-m1/posts/32736
 - 影響: 
 
@@ -29,7 +49,7 @@ Zscaler will be performing cloud maintenance activity for ZTB-IN-M1 to deliver c
 
 ## ZTB-US-M4 Cloud Maintenance - ztb-us-m4
 - 公開: Mon, 16 Nov 2026 06:01:50 GMT
-- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- ステータス: Completed  カテゴリ: Scheduled maintenance
 - URL: https://trust.zscaler.com/ztb-us-m4/posts/32731
 - 影響: 
 
@@ -184,25 +204,5 @@ Zscaler will be performing cloud maintenance activity for ZTB-IN-M1 to deliver c
 - 影響: Customers will be unable to make Admin UI-related changes while the Admin UI is temporarily set to Read-Only Mode as part of the mitigation.
 
 We are investigating an issue with the administration UI on our zscaler.net Cloud. As a precautionary measure, the Admin UI will be temporarily set to Read Only Mode while we implement mitigation steps.We will provide further updates as soon as they are available. For more information, please check our FAQ . If you need further assistance, contact Zscaler Support with reference to this incident. Status changes will be updated here when available. Root Cause: Preliminary root cause is related to 
-
----
-
-## Datacenter Expansion Washington DC IV (WAS4) - private.zscaler.com
-- 公開: Thu, 12 Nov 2026 06:24:12 GMT
-- ステータス: In Progress  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/private.zscaler.com/posts/32651
-- 影響: 
-
-As part of our regular expansion of capacity, we are adding ZPA Public Service Edge nodes to our new data center in Amer, Washington DC IV (WAS4) . If you restrict outbound firewall access, please ensure you have added the complete set of published IPs in the URL below https://config.zscaler.com/private.zscaler.com/zpa
-
----
-
-## Datacenter Expansion Chicago II (CHI2) - private.zscaler.com
-- 公開: Wed, 11 Nov 2026 02:41:57 GMT
-- ステータス: Upcoming  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/private.zscaler.com/posts/32646
-- 影響: 
-
-As part of our regular expansion of capacity, we are adding ZPA Public Service Edge nodes to our data center in Chicago II (CHI2). If you restrict outbound firewall access, please ensure you have added the complete set of published IPs in the URL below https://config.zscaler.com/private.zscaler.com/zpa
 
 ---
