@@ -1,11 +1,61 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-11-18 23:17 UTC  
+> 最終更新: 2026-11-19 23:17 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
 
 # Zscaler Trust - インシデント/アドバイザリ RSS
+
+## Addition to Global ZIA Service Edge IP Addresses - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- 公開: Thu, 19 Nov 2026 18:27:31 GMT
+- ステータス: Completed  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zscaler.net/posts/32811
+- 影響: 
+
+Dear Zscaler Customer, As communicated in our email notification sent on &nbsp; November 18, 2026 , Zscaler is allocating additional subnet ranges to support Global ZIA Service Edge infrastructure, enabling reliable and scalable connectivity across our cloud platform to meet growing customer demand. This allocation is particularly beneficial for customers using&nbsp; no-default route network architectures . Existing customers who have allowed the Global ZIA Service Edge IP addresses as published
+
+---
+
+## Mumbai VI, Mumbai VII, New Delhi I Datacenter Issue - zscloud.net
+- 公開: Thu, 19 Nov 2026 09:38:20 GMT
+- ステータス: Monitoring  カテゴリ: Recent incident
+- URL: https://trust.zscaler.com/zscloud.net/posts/32806
+- 影響: Periods of slowness, connection timeouts and/or increased latency
+
+Zscaler is currently investigating reports of an issue with its Mumbai VI, Mumbai VII, New Delhi I datacenter. We are investigating periods of slowness, connection timeouts and/or increased latency. If you’re currently experiencing any traffic impacting issues please failover to your secondary DC or any other alternate DC. For more information, please refer to the following support article. &nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, ple
+
+---
+
+## Zscaler Cloud Connector Administration UI Issue - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- 公開: Thu, 19 Nov 2026 02:14:21 GMT
+- ステータス: Resolved  カテゴリ: Recent incident
+- URL: https://trust.zscaler.com/zscaler.net/posts/32801
+- 影響: Customers might face login issues with the Zscaler Cloud Connector Admin UI
+
+We are investigating an issue with the cloud connector administration UI on our zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net Cloud.&nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Root Cause: Root cause of the issue is attributed to a CDN certificate expiry. U
+
+---
+
+## Urgent Maintenance - zscalerone.net
+- 公開: Thu, 19 Nov 2026 00:26:46 GMT
+- ステータス: Completed  カテゴリ: Scheduled maintenance
+- URL: https://trust.zscaler.com/zscalerone.net/posts/32796
+- 影響: 
+
+The Zscaler Site Reliability Engineering team will be performing an urgent maintenance on zscalerone.net cloud. This maintenance is scheduled for Wednesday at 4:30 PM Pacific Time on November 18, 2026 (Thursday, November 19, 2026 12:30 AM UTC), and can take up to 3 hours to complete. During maintenance, the Zscaler Client Connector Portal will be intermittently available. As a result, access to policy management and reporting may get affected. Existing devices that are already enrolled will not 
+
+---
+
+## Reporting and Logging Issue - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
+- 公開: Wed, 18 Nov 2026 23:36:28 GMT
+- ステータス: Resolved  カテゴリ: Recent incident
+- URL: https://trust.zscaler.com/zscaler.net/posts/32791
+- 影響: A subset of customers may experience delays or issues with logging and reporting.
+
+Zscaler has detected an issue with Reporting and Logging on its zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net Cloud. A subset of customers may experience delays or issues with logging and reporting. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Root Cause: Root cau
+
+---
 
 ## Posture and Third-Party Apps Data Not Visible in AppTotal for SSPM Applications - zscaler.net, zscloud.net
 - 公開: Wed, 18 Nov 2026 21:31:14 GMT
@@ -26,7 +76,7 @@
 All other applications onboarded via ZIA are affected.
 
 
-Zscaler is investigating an issue where SaaS applications onboarded for SSPM in ZIA, other than those listed above, are not showing posture control results and third-party app visibility in the AppTotal portal. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Latest Update - Wed, 
+Zscaler is investigating an issue where SaaS applications onboarded for SSPM in ZIA, other than those listed above, are not showing posture control results and third-party app visibility in the AppTotal portal. We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Latest Update - Thu, 
 
 ---
 
@@ -46,7 +96,7 @@ Zscaler will perform an urgent maintenance for the ZIdentity (ZID) Authenticatio
 - URL: https://trust.zscaler.com/zscaler.net/posts/32776
 - 影響: 
 
-ZIA Backup &amp; Restore — Upcoming Change to Restore Window What: Zscaler is introducing a 31-day rolling restore window for ZIA Backup &amp; Restore. Restore points older than 31 days will no longer be available for restore. Action Required: Review your restore points and refresh or recreate any you rely on — including your Golden Restore Point — if they are older than 31 days. Effective Date: Jan 4th, 2027 Important: This change does not affect your day-to-day ZIA policy configuration, traffi
+ZIA Backup &amp; Restore — Upcoming Change to Restore Window Category: Informational / Upcoming Change &nbsp; &nbsp; &nbsp; &nbsp; |&nbsp; &nbsp; Service: Internet &amp; SaaS: Backup &amp; Restore &nbsp; &nbsp; &nbsp; &nbsp; |&nbsp; &nbsp; Clouds Affected: All ZIA clouds What: Zscaler is introducing a 31-day rolling restore window for ZIA Backup &amp; Restore. Restore points older than 31 days will no longer be available for restore. Action Required: Review your restore points and create a new r
 
 ---
 
@@ -102,11 +152,11 @@ Zscaler is aware of&nbsp;CVE-2026-114938,&nbsp;Java4Shell Flaw in OpenJDK.&nbsp;
 
 ## San Francisco IV (SJC4) Datacenter Network Maintenance - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
 - 公開: Tue, 17 Nov 2026 07:00:26 GMT
-- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- ステータス: Completed  カテゴリ: Scheduled maintenance
 - URL: https://trust.zscaler.com/zscaler.net/posts/32746
 - 影響: During the maintenance, traffic will failover to redundant devices in the same datacenter, however intermittent connections and connection reestablishment may be observed.
 
-Zscaler will be performing hardware maintenance in San Francisco IV (SJC4) Datacenter. Maintenance window: &nbsp; &nbsp;Start: &nbsp;2026-11-19 02:00 UTC &nbsp; &nbsp;End: &nbsp; 2026-11-19 06:00 UTC &nbsp; &nbsp;(Local Time 2026-11-18 18:00 - 2026-11-18 22:00)
+Zscaler will be performing hardware maintenance in San Francisco IV (SJC4) Datacenter. Maintenance window: &nbsp; &nbsp;Start: &nbsp;2026-11-19 02:00 UTC &nbsp; &nbsp;End: &nbsp; 2026-11-19 06:00 UTC &nbsp; &nbsp;(Local Time 2026-11-18 18:00 - 2026-11-18 22:00) Update - Thu, 19 Nov 2026 04:18:14 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions.
 
 ---
 
@@ -162,60 +212,10 @@ Zscaler will enable IPv6 for VPN and UVPN services at the Munich I (MUC1) Data C
 
 ## Dusseldorf I Datacenter Scheduled Maintenance - IPv6 Enablement - zscaler.net
 - 公開: Fri, 13 Nov 2026 23:24:41 GMT
-- ステータス: Upcoming  カテゴリ: Scheduled maintenance
+- ステータス: Postponed  カテゴリ: Scheduled maintenance
 - URL: https://trust.zscaler.com/zscaler.net/posts/32716
 - 影響: 
 
-Zscaler will enable IPv6 for VPN and UVPN services at the Dusseldorf I (DUS1) Data Center. Services will be restarted in phases during the scheduled maintenance window to minimize disruption. Other Zscaler sites and Zscaler Services will continue to operate normally. Maintenance Window: Start time is November 19, 5:00 pm PST (November 20, 1:00 UTC) End time is November 19, 7:00 pm PST (November 20, 3:00 UTC)
-
----
-
-## Frankfurt IV Datacenter Scheduled Maintenance - IPv6 Enablement - zscaler.net
-- 公開: Fri, 13 Nov 2026 23:19:41 GMT
-- ステータス: Upcoming  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/zscaler.net/posts/32711
-- 影響: 
-
-Zscaler will enable IPv6 for VPN and UVPN services at the Frankfurt IV (FRA4) Data Center. Services will be restarted in phases during the scheduled maintenance window to minimize disruption. Other Zscaler sites and Zscaler Services will continue to operate normally. Maintenance Window: Start time is November 18, 5:00 pm PST (November 19, 1:00 UTC) End time is November 18, 7:00 pm PST (November 19, 3:00 UTC)
-
----
-
-## Washington I Datacenter Scheduled Maintenance - IPv6 Enablement - zscaler.net
-- 公開: Fri, 13 Nov 2026 23:06:45 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/zscaler.net/posts/32706
-- 影響: 
-
-Zscaler will enable IPv6 for VPN and UVPN services at the Washington I (WAS1) Data Center. Services will be restarted in phases during the scheduled maintenance window to minimize disruption. Other Zscaler sites and Zscaler Services will continue to operate normally. Maintenance Window: Start time is November 17, 7:00 pm PST (November 18, 3:00 UTC) End time is November 17, 9:00 pm PST (November 18, 5:00 UTC) Update - Wed, 18 Nov 2026 08:58:42 UTC This activity has been completed. Please contact 
-
----
-
-## Singapore IV Datacenter Scheduled Maintenance - IPv6 Enablement - zscaler.net
-- 公開: Fri, 13 Nov 2026 22:50:36 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/zscaler.net/posts/32701
-- 影響: 
-
-Zscaler will enable IPv6 for VPN and UVPN services at the Singapore IV (SIN4) Data Center. Services will be restarted in phases during the scheduled maintenance window to minimize disruption. Other Zscaler sites and Zscaler Services will continue to operate normally. Maintenance Window: Start time is November 17, 12:00 pm PST (November 17, 20:00 UTC) End time is November 17, 2:00 pm PST (November 17, 22:00 UTC) Update - Tue, 17 Nov 2026 23:36:13 UTC This activity has been completed. Please conta
-
----
-
-## Chennai II Datacenter Scheduled Maintenance - IPv6 Enablement - zscaler.net
-- 公開: Fri, 13 Nov 2026 22:43:48 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/zscaler.net/posts/32696
-- 影響: 
-
-Zscaler will enable IPv6 for VPN and UVPN services at the Chennai II (MAA2) Data Center. Services will be restarted in phases during the scheduled maintenance window to minimize disruption. Other Zscaler sites and Zscaler Services will continue to operate normally. Maintenance Window: Start time is November 16, 12:00 pm PST (November 16, 20:00 UTC) End time is November 16, 2:00 pm PST (November 16, 22:00 UTC) Update - Mon, 16 Nov 2026 22:16:37 UTC This activity has been completed. Please contact
-
----
-
-## ZTB API Service Issues in AMER (ZTB-US-M4) Cloud - ztb-us-m4
-- 公開: Fri, 13 Nov 2026 17:11:10 GMT
-- ステータス: Monitoring  カテゴリ: Recent incident
-- URL: https://trust.zscaler.com/ztb-us-m4/posts/32691
-- 影響: 
-
-Zscaler has detected an issue with its ztb-us-m4 Cloud.&nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available.
+Zscaler will enable IPv6 for VPN and UVPN services at the Dusseldorf I (DUS1) Data Center. Services will be restarted in phases during the scheduled maintenance window to minimize disruption. Other Zscaler sites and Zscaler Services will continue to operate normally. Maintenance Window: Start time is November 19, 5:00 pm PST (November 20, 1:00 UTC) End time is November 19, 7:00 pm PST (November 20, 3:00 UTC) Update 11/19: Maintenance Postponed
 
 ---
