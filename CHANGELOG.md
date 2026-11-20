@@ -1,6 +1,76 @@
 ## 2026-11-15 23:14:31 UTC - セキュリティアドバイザリ
 ソース: https://trust.zscaler.com/
 変更内容: Zscalerトランザクション処理統計の数値が更新されました。サービスステータスは引き続き「All Zscaler Services are functional」です。処理数: 2,834,423/秒（前回: 2,751,949/秒）、日次ピーク: 4M（前回: 17.9M）。
+## 2026-11-20 23:15 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- ## Scheduled Maintenance Extended - SYD - zscalertwo.net
+- ## Administration UI Issue - zscaler.net
+- ## Intermittent ZPA disconnections across China region - private.zscaler.com
+- ## Urgent China Premium Access Shanghai IV (SHA4) Datacenter Network Maintenance - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com
+- ## Scheduled Maintenance Extended - EMEA Region - zscloud.net
+**追加内容（抜粋）:**
+> - 公開: Fri, 20 Nov 2026 13:19:26 GMT
+> - ステータス: Completed  カテゴリ: Scheduled maintenance
+> - URL: https://trust.zscaler.com/zscalertwo.net/posts/32836
+> - 影響:
+> The Zscaler Site Reliability Engineering team will be extending the scheduled maintenance for SYD DCs by Four hours. As part of our standard maintenance process, all logs will be collected and available after maintenance has been completed. Please contact Zscaler Support if you have additional questions. Update - Fri, 20 Nov 2026 16:46:39 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions.
+> ...他 25 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-11-19 23:17 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
+## 2026-11-20 23:15 UTC — ZDX リリースノート
+
+ソース: [https://help.zscaler.com/zdx/release-notes](https://help.zscaler.com/zdx/release-notes)
+**更新セクション:**
+- ## https://help.zscaler.com/zdx/release-upgrade-summary-2025
+**追加内容（抜粋）:**
+> - 2026-11-18T17:59Z | https://help.zscaler.com/zdx/release-upgrade-summary-2025
+> 最終更新: 2026-11-18T17:59Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-11-19 23:17 UTC~~
+> ~~> ソース: https://help.zscaler.com/zdx/release-notes~~
+> ~~---~~
+
+---
+## 2026-11-20 23:14 UTC — ZPA リリースノート
+
+ソース: [https://help.zscaler.com/zpa/release-notes](https://help.zscaler.com/zpa/release-notes)
+**更新セクション:**
+- ## https://help.zscaler.com/zpa/network-connector-release-summary-2026
+- ## https://help.zscaler.com/zpa/private-cloud-controller-release-summary-2026
+- ## https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026
+- ## https://help.zscaler.com/zpa/app-connector-release-summary-2026
+- ## https://help.zscaler.com/zpa/release-upgrade-summary-2026
+**追加内容（抜粋）:**
+> - 2026-11-19T11:15Z | https://help.zscaler.com/zpa/network-connector-release-summary-2026
+> - 2026-11-19T11:07Z | https://help.zscaler.com/zpa/private-cloud-controller-release-summary-2026
+> - 2026-11-19T11:03Z | https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026
+> - 2026-11-19T10:56Z | https://help.zscaler.com/zpa/app-connector-release-summary-2026
+> - 2026-11-19T08:37Z | https://help.zscaler.com/zpa/release-upgrade-summary-2026
+> ...他 6 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-11-19 23:16 UTC~~
+> ~~> ソース: https://help.zscaler.com/zpa/release-notes~~
+> ~~---~~
+
+---
+## 2026-11-20 23:14 UTC — ZIA リリースノート
+
+ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)
+**追加内容（抜粋）:**
+> - 2026-11-19T12:22Z | https://help.zscaler.com/zia/release-upgrade-summary-2026
+> 最終更新: 2026-11-19T12:22Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-11-18 23:17 UTC~~
+> ~~> ソース: https://help.zscaler.com/zia/release-notes~~
+> ~~---~~
+
+---
 ## 2026-11-19 23:17 UTC — 製品アップデート
 
 ソース: [https://www.zscaler.com/products](https://www.zscaler.com/products)
