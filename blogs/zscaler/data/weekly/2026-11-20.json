@@ -1,0 +1,153 @@
+{
+ "friday": "2026-11-20",
+ "since": "2026-11-13",
+ "until": "2026-11-19",
+ "products": {
+  "zcc": {
+   "name": "Zscaler Client Connector（ZCC）",
+   "entries": [
+    {
+     "date": "2026-11-13",
+     "category": "Release Available: Client Connector 5.0.2 for iOS",
+     "title": "Zscaler Client Connector 5.0.2 Enhancements and Fixes",
+     "text": "Fixes an issue where Private Access search domains weren’t getting applied to Private Access DNS settings.\nFixes an issue that caused TCP connections to time out after 20 seconds without data activity.",
+     "links": [],
+     "anchor": "id-1547362",
+     "page": "https://help.zscaler.com/zscaler-client-connector/client-connector-app-release-summary-2026",
+     "cloud": "iOS",
+     "platforms": [
+      "iOS"
+     ]
+    },
+    {
+     "date": "2026-11-13",
+     "category": "Release Available: Client Connector 5.0.1 for iOS",
+     "title": "Zscaler Client Connector 5.0.1 Enhancements and Fixes",
+     "text": "Fixes an issue where the Ownership posture type failed during login and reauthentication after upgrading to iOS version 5.0 with the modernized Zscaler Client Connector UI. To learn more, see the trust post.",
+     "links": [],
+     "anchor": "id-1547360",
+     "page": "https://help.zscaler.com/zscaler-client-connector/client-connector-app-release-summary-2026",
+     "cloud": "iOS",
+     "platforms": [
+      "iOS"
+     ]
+    }
+   ],
+   "errors": [],
+   "pages": [
+    "https://help.zscaler.com/zscaler-client-connector/client-connector-app-release-summary-2026",
+    "https://help.zscaler.com/zscaler-client-connector/release-upgrade-summary-2026"
+   ]
+  },
+  "zia": {
+   "name": "Zscaler Internet Access（ZIA）",
+   "entries": [
+    {
+     "date": "2026-11-19",
+     "category": "Feature Available",
+     "title": "Canada Isolation Region Updated to Montreal",
+     "text": "The Canada region, available when configuring Internet & SaaS (ZIA) isolation profiles, was updated to Montreal.\nTo learn more, see Creating Isolation Profiles for Internet & SaaS.",
+     "links": [
+      "https://help.zscaler.com/zero-trust-browser/creating-isolation-profiles-for-internet-and-saas"
+     ],
+     "anchor": "id-1546911",
+     "page": "https://help.zscaler.com/zia/release-upgrade-summary-2026",
+     "cloud": "zscaler.net",
+     "platforms": []
+    }
+   ],
+   "errors": [],
+   "pages": [
+    "https://help.zscaler.com/zia/release-upgrade-summary-2026"
+   ]
+  },
+  "zpa": {
+   "name": "Zscaler Private Access（ZPA）",
+   "entries": [
+    {
+     "date": "2026-11-17",
+     "category": "Feature in Limited Availability",
+     "title": "Support for VPN (For Legacy Apps) Border Gateway Protocol Configuration",
+     "text": "You can configure enhanced Border Gateway Protocol (BGP) routing options including support for summary routes and the ability to advertise local network segments while BGP is enabled. These enhancements are designed to streamline network deployments and provide greater routing flexibility, especially for organizations with large address spaces.\nTo learn more, see About Summary Routes.",
+     "links": [
+      "https://help.zscaler.com/zpa/about-summary-routes"
+     ],
+     "anchor": "id-1541401",
+     "page": "https://help.zscaler.com/zpa/release-upgrade-summary-2026",
+     "cloud": "private.zscaler.com",
+     "platforms": []
+    },
+    {
+     "date": "2026-11-19",
+     "category": "Feature Available",
+     "title": "Canada Isolation Region Updated to Montreal",
+     "text": "The Canada region, available when configuring Private Access (ZPA) isolation profiles, was updated to Montreal.\nTo learn more, see Creating Isolation Profiles for Private Access.",
+     "links": [
+      "https://help.zscaler.com/zero-trust-browser/creating-isolation-profiles-for-private-access"
+     ],
+     "anchor": "id-1546912",
+     "page": "https://help.zscaler.com/zpa/release-upgrade-summary-2026",
+     "cloud": "private.zscaler.com",
+     "platforms": []
+    },
+    {
+     "date": "2026-11-19",
+     "category": "Release in Deployment: App Connector 26.59.2",
+     "title": "App Connector Version 26.59.2",
+     "text": "This App Connector version includes bug fixes, optimizations, and version enhancements.\nYour App Connectors will be updated based on your software update schedule as configured per App Connector group. To learn more, see Understanding Software Updates in Private Access.\nTo learn more, see Manager Software Updates.",
+     "links": [
+      "https://help.zscaler.com/zpa/understanding-software-updates-private-access",
+      "https://help.zscaler.com/zpa/release-upgrade-summary-2026?applicable_category=private.zscaler.com&deployment_date=2026-11-09&id=1547129"
+     ],
+     "anchor": "id-1547130",
+     "page": "https://help.zscaler.com/zpa/app-connector-release-summary-2026",
+     "cloud": "private.zscaler.com",
+     "platforms": []
+    },
+    {
+     "date": "2026-11-19",
+     "category": "Release in Deployment: Private Service Edge 26.59.1",
+     "title": "Private Service Edge Version 26.59.1",
+     "text": "This Private Service Edge for Private Access (ZPA) version includes bug fixes, optimizations, and version enhancements.\nYour Private Service Edges will be updated based on your software update schedule as configured per Private Service Edge group. To learn more, see Understanding Software Updates in Private Access.\nTo learn more, see Manager Software Updates.",
+     "links": [
+      "https://help.zscaler.com/zpa/understanding-software-updates-private-access",
+      "https://help.zscaler.com/zpa/release-upgrade-summary-2026?applicable_category=private.zscaler.com&deployment_date=2026-11-09&id=1547129"
+     ],
+     "anchor": "id-1547135",
+     "page": "https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026",
+     "cloud": "private.zscaler.com",
+     "platforms": []
+    }
+   ],
+   "errors": [],
+   "pages": [
+    "https://help.zscaler.com/zpa/release-upgrade-summary-2026",
+    "https://help.zscaler.com/zpa/app-connector-release-summary-2026",
+    "https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026"
+   ]
+  },
+  "zdx": {
+   "name": "Zscaler Digital Experience（ZDX）",
+   "entries": [
+    {
+     "date": "2026-11-18",
+     "category": "Feature Available",
+     "title": "Additional Predefined Applications",
+     "text": "The following applications are being added as Predefined Applications:\nChatGPT\nClaude\nGoogle Docs\nGoogle Drive\nGemini\nGmail\nGoogle Account\nGoogle Meet\nGoogle Meet Lens\nMicrosoft Copilot\nNetwork App\nSlack\nTo learn more, see Predefined Applications for ZDX.",
+     "links": [
+      "https://help.zscaler.com/zdx/predefined-applications-zdx"
+     ],
+     "anchor": "id-1547141",
+     "page": "https://help.zscaler.com/zdx/release-upgrade-summary-2026",
+     "cloud": "zdxcloud.net",
+     "platforms": []
+    }
+   ],
+   "errors": [],
+   "pages": [
+    "https://help.zscaler.com/zdx/release-upgrade-summary-2026",
+    "https://help.zscaler.com/zscaler-client-connector/zdx-module-release-summary-2026"
+   ]
+  }
+ }
+}
