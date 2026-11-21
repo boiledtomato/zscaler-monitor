@@ -1,11 +1,31 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-11-20 23:15 UTC  
+> 最終更新: 2026-11-21 23:18 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
 
 # Zscaler Trust - インシデント/アドバイザリ RSS
+
+## Administration UI and User Authentication Issues - zscalertwo.net
+- 公開: Sat, 21 Nov 2026 17:33:05 GMT
+- ステータス: Remediated  カテゴリ: Recent incident
+- URL: https://trust.zscaler.com/zscalertwo.net/posts/32846
+- 影響: Customers may encounter issues with Administation UI login, Authentication, User Policies, Zscaler Client Connector portal, Device Registration,
+
+Zscaler has detected an issue with the administration UI and user authentication on its zscalertwo.net Cloud.&nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Latest Update - Sat, 21 Nov 2026 18:30:05 UTC The ZS2 Cloud service issue has been resolved, and services have been 
+
+---
+
+## Zscaler update on NGNIX CVEs - NGINX2Root Flaws - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zdxcloud.net, zpatwo.net, app.zsdpc.net, app.eu.zsdpc.net, zpabeta.net, zsdkone.net, zscalerrisk.net, admin.zscaleranalytics.net, zslogin.net, app.avalor.io, app.eu.avalor.io, app.aps.avalor.io, ztb-us-m2, ztb-us-m3 (beta), ztb-us-m4, ztb-us-m7, ztb-euc-m1, ztb-in-m1, pulsar, quasar, prod3, prod4, prod5, prod6, zseclipse.net, zsaiguard.net, app.in.zsdpc.net, ai-console.zscaler.com
+- 公開: Sat, 21 Nov 2026 00:00:00 GMT
+- ステータス:   カテゴリ: Advisory
+- URL: https://trust.zscaler.com/zscaler.net/posts/32841
+- 影響: 
+
+Zscaler is aware of&nbsp; CVE-2026-123007 ,&nbsp; CVE-2026-123633 ,&nbsp; CVE-2026-121810 ,&nbsp; CVE-2026-123634 , and&nbsp; CVE-2026-113425 ,&nbsp;NGINX2Root Flaws in NGINX.&nbsp; Our Security and Engineering teams are investigating potential impact of NGINX2Root and associated downstream dependencies. We will update this post as new information emerges. Separately, Zscaler recommends that customers who run NGINX in their own environments patch those installations to the&nbsp; latest vendor pr
+
+---
 
 ## Scheduled Maintenance Extended - SYD - zscalertwo.net
 - 公開: Fri, 20 Nov 2026 13:19:26 GMT
@@ -197,25 +217,5 @@ Zscaler is currently investigating reports of an issue with its Sydney III datac
 - 影響: 
 
 Zscaler is aware of&nbsp;CVE-2026-114938,&nbsp;Java4Shell Flaw in OpenJDK.&nbsp; Our Security and Engineering teams are investigating potential impact of CVE-2026-114938 and associated downstream dependencies. We will update this post as new information emerges. Zscaler recommends that customers patch affected OpenJDK installations to the&nbsp; latest vendor provided version to address this vulnerability in their environment. Update Wed, 18 Nov 2026 20:15:15 UTC &nbsp; Zscaler has already patche
-
----
-
-## San Francisco IV (SJC4) Datacenter Network Maintenance - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net
-- 公開: Tue, 17 Nov 2026 07:00:26 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/zscaler.net/posts/32746
-- 影響: During the maintenance, traffic will failover to redundant devices in the same datacenter, however intermittent connections and connection reestablishment may be observed.
-
-Zscaler will be performing hardware maintenance in San Francisco IV (SJC4) Datacenter. Maintenance window: &nbsp; &nbsp;Start: &nbsp;2026-11-19 02:00 UTC &nbsp; &nbsp;End: &nbsp; 2026-11-19 06:00 UTC &nbsp; &nbsp;(Local Time 2026-11-18 18:00 - 2026-11-18 22:00) Update - Thu, 19 Nov 2026 04:18:14 UTC This activity has been completed. Please contact Zscaler Support if you have additional questions.
-
----
-
-## Reminder Notification for Upcoming New Data Center and Changes - zscaler.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zpatwo.net
-- 公開: Mon, 16 Nov 2026 23:06:44 GMT
-- ステータス: Completed  カテゴリ: Scheduled maintenance
-- URL: https://trust.zscaler.com/zscaler.net/posts/32741
-- 影響: 
-
-Dear Customer,&nbsp; In accordance with the&nbsp; Zscaler Service Continuity Policy and as previously announced via&nbsp; email notification and&nbsp; Trust&nbsp; on October 1,&nbsp;2026, we would like to remind you of the upcoming new data center and IP allocation changes at the locations listed below. These would be available anytime on or after November 30, 2026. Please update your firewall policy rules and any upstream access control lists to allow the new and remove the legacy IP address ra
 
 ---

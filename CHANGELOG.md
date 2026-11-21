@@ -1,6 +1,51 @@
 ## 2026-11-15 23:14:31 UTC - セキュリティアドバイザリ
 ソース: https://trust.zscaler.com/
 変更内容: Zscalerトランザクション処理統計の数値が更新されました。サービスステータスは引き続き「All Zscaler Services are functional」です。処理数: 2,834,423/秒（前回: 2,751,949/秒）、日次ピーク: 4M（前回: 17.9M）。
+## 2026-11-21 23:18 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- ## Administration UI and User Authentication Issues - zscalertwo.net
+- ## Zscaler update on NGNIX CVEs - NGINX2Root Flaws - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com, zdxcloud.net, zpatwo.net, app.zsdpc.net, app.eu.zsdpc.net, zpabeta.net, zsdkone.net, zscalerrisk.net, admin.zscaleranalytics.net, zslogin.net, app.avalor.io, app.eu.avalor.io, app.aps.avalor.io, ztb-us-m2, ztb-us-m3 (beta), ztb-us-m4, ztb-us-m7, ztb-euc-m1, ztb-in-m1, pulsar, quasar, prod3, prod4, prod5, prod6, zseclipse.net, zsaiguard.net, app.in.zsdpc.net, ai-console.zscaler.com
+**追加内容（抜粋）:**
+> - 公開: Sat, 21 Nov 2026 17:33:05 GMT
+> - ステータス: Remediated  カテゴリ: Recent incident
+> - URL: https://trust.zscaler.com/zscalertwo.net/posts/32846
+> - 影響: Customers may encounter issues with Administation UI login, Authentication, User Policies, Zscaler Client Connector portal, Device Registration,
+> Zscaler has detected an issue with the administration UI and user authentication on its zscalertwo.net Cloud.&nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Latest Update - Sat, 21 Nov 2026 18:30:05 UTC The ZS2 Cloud service issue has been resolved, and services have been
+> ...他 7 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-11-20 23:15 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
+## 2026-11-21 23:17 UTC — ZDX リリースノート
+
+ソース: [https://help.zscaler.com/zdx/release-notes](https://help.zscaler.com/zdx/release-notes)
+**更新セクション:**
+- ## https://help.zscaler.com/zdx/release-upgrade-summary-2026
+**追加内容（抜粋）:**
+> - 2026-11-20T10:34Z | https://help.zscaler.com/zdx/release-upgrade-summary-2026
+> 最終更新: 2026-11-20T10:34Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-11-20 23:15 UTC~~
+> ~~> ソース: https://help.zscaler.com/zdx/release-notes~~
+> ~~---~~
+
+---
+## 2026-11-21 23:17 UTC — ZIA リリースノート
+
+ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)
+**追加内容（抜粋）:**
+> - 2026-11-20T12:57Z | https://help.zscaler.com/zia/release-upgrade-summary-2026
+> 最終更新: 2026-11-20T12:57Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-11-20 23:14 UTC~~
+> ~~> ソース: https://help.zscaler.com/zia/release-notes~~
+> ~~---~~
+
+---
 ## 2026-11-20 23:15 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
