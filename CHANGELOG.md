@@ -1,6 +1,46 @@
 ## 2026-11-15 23:14:31 UTC - セキュリティアドバイザリ
 ソース: https://trust.zscaler.com/
 変更内容: Zscalerトランザクション処理統計の数値が更新されました。サービスステータスは引き続き「All Zscaler Services are functional」です。処理数: 2,834,423/秒（前回: 2,751,949/秒）、日次ピーク: 4M（前回: 17.9M）。
+## 2026-11-22 23:15 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**追加内容（抜粋）:**
+> - ステータス: Resolved  カテゴリ: Recent incident
+> Zscaler has detected an issue with the administration UI and user authentication on its zscalertwo.net Cloud.&nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Root Cause: Preliminary root cause is under investigation. Latest Update - Sun, 22 Nov 2026 04:32:44 UTC Following t
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-11-21 23:18 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
+## 2026-11-22 23:14 UTC — ZPA リリースノート
+
+ソース: [https://help.zscaler.com/zpa/release-notes](https://help.zscaler.com/zpa/release-notes)
+**更新セクション:**
+- ## https://help.zscaler.com/zpa/release-upgrade-summary-2026
+**追加内容（抜粋）:**
+> - 2026-11-21T15:00Z | https://help.zscaler.com/zpa/release-upgrade-summary-2026
+> - 2026-11-21T15:00Z | https://help.zscaler.com/zpa/network-connector-release-summary-2026
+> 最終更新: 2026-11-21T15:00Z
+> 最終更新: 2026-11-21T15:00Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-11-20 23:14 UTC~~
+> ~~> ソース: https://help.zscaler.com/zpa/release-notes~~
+> ~~---~~
+
+---
+## 2026-11-22 23:14 UTC — ZIA リリースノート
+
+ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)
+**追加内容（抜粋）:**
+> - 2026-11-20T18:45Z | https://help.zscaler.com/zia/release-upgrade-summary-2026
+> 最終更新: 2026-11-20T18:45Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-11-21 23:17 UTC~~
+> ~~> ソース: https://help.zscaler.com/zia/release-notes~~
+> ~~---~~
+
+---
 ## 2026-11-21 23:18 UTC — セキュリティアドバイザリ
 
 ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)

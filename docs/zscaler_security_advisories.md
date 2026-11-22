@@ -1,6 +1,6 @@
 # セキュリティアドバイザリ
 
-> 最終更新: 2026-11-21 23:18 UTC  
+> 最終更新: 2026-11-22 23:15 UTC  
 > ソース: https://trust.zscaler.com/
 
 ---
@@ -9,11 +9,11 @@
 
 ## Administration UI and User Authentication Issues - zscalertwo.net
 - 公開: Sat, 21 Nov 2026 17:33:05 GMT
-- ステータス: Remediated  カテゴリ: Recent incident
+- ステータス: Resolved  カテゴリ: Recent incident
 - URL: https://trust.zscaler.com/zscalertwo.net/posts/32846
 - 影響: Customers may encounter issues with Administation UI login, Authentication, User Policies, Zscaler Client Connector portal, Device Registration,
 
-Zscaler has detected an issue with the administration UI and user authentication on its zscalertwo.net Cloud.&nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Latest Update - Sat, 21 Nov 2026 18:30:05 UTC The ZS2 Cloud service issue has been resolved, and services have been 
+Zscaler has detected an issue with the administration UI and user authentication on its zscalertwo.net Cloud.&nbsp; We will continue to provide updates here as the investigation progresses. For detailed updates, please check the Service Status section in your Zscaler customer support portal (CSP). Status changes and additional details will be posted there as they become available. Root Cause: Preliminary root cause is under investigation. Latest Update - Sun, 22 Nov 2026 04:32:44 UTC Following t
 
 ---
 
