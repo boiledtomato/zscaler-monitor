@@ -1,0 +1,56 @@
+name: Zscaler更新メール通知
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "CHANGELOG.md"
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: 変更内容を抽出
+        id: diff
+        run: |
+          # CHANGELOG.mdの差分（追加行のみ）
+          ADDED=$(git diff HEAD~1 HEAD -- CHANGELOG.md | grep '^+' | grep -v '^+++' | sed 's/^+//' | head -80)
+          echo "added<<EOF" >> "$GITHUB_OUTPUT"
+          echo "$ADDED" >> "$GITHUB_OUTPUT"
+          echo "EOF" >> "$GITHUB_OUTPUT"
+
+          # 新しく追加されたエントリのタイトル行を抽出
+          TITLE=$(echo "$ADDED" | grep '^## ' | head -3 | sed 's/^## //')
+          echo "title=$TITLE" >> "$GITHUB_OUTPUT"
+
+      - name: メール送信
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 587
+          secure: false
+          username: ${{ secrets.GMAIL_USER }}
+          password: ${{ secrets.GMAIL_APP_PASSWORD }}
+          subject: "[Zscaler更新通知] ${{ steps.diff.outputs.title }}"
+          to: ${{ secrets.NOTIFY_TO }}
+          from: Zscaler Monitor <${{ secrets.GMAIL_USER }}>
+          html_body: |
+            <!DOCTYPE html>
+            <html>
+            <body style="font-family:sans-serif;font-size:14px;max-width:700px;margin:0 auto">
+              <h2 style="color:#1a73e8">🔔 Zscalerサイト更新通知</h2>
+              <p>監視中のZscalerページに更新が検出されました。</p>
+              <h3>更新内容</h3>
+              <pre style="background:#f4f4f4;padding:12px;border-radius:4px;font-size:12px;overflow-x:auto;white-space:pre-wrap">${{ steps.diff.outputs.added }}</pre>
+              <hr>
+              <p>
+                <a href="https://github.com/${{ github.repository }}/blob/main/CHANGELOG.md">CHANGELOG.md を見る</a>
+                &nbsp;|&nbsp;
+                <a href="https://github.com/${{ github.repository }}/blob/main/docs/">docs/ を見る</a>
+              </p>
+            </body>
+            </html>
