@@ -1,5 +1,75 @@
 ## 2026-11-23 00:30 UTC — [テスト2] GitHub Actionsメール通知テスト（SMTP認証修正済み）
 
+## 2026-11-23T23:16:09Z - 製品アップデート
+
+ソース: https://www.zscaler.com/products
+
+変更内容の要約: ページコンテンツが更新されました。
+
+抜粋:
+```
+Find a product, solution, or technology  SEARCH BY NAME OR KEYWORD  SELECT ALL THAT INTEREST YOU  AI Security  AI/ML  Accelerate M&A and Divestitures  Application Transformation  Build & Run Secure Cloud Apps  Data Security  Exposure Management  Network & Security Transformation  Show 18 more Jump to Industry Solutions Secure Workloads Anywhere with Zero Trust Cloud | Zscaler  Reimagine security with Zscaler Zero Trust Cloud. Simplify operations, lower costs, reduce latency, and secure workloads
+```
+
+---
+
+
+## 2026-11-23T23:16:09Z - セキュリティアドバイザリ
+
+ソース: https://trust.zscaler.com/
+
+変更内容の要約: ページコンテンツが更新されました。
+
+抜粋:
+```
+TRUST TRUST CloudZIA - zscaler.net ZIA (5)ZPA (3)ZDX (1)Zero Trust Branch (ZTB) (12)ZSDK (1)ZPC (2)Z-DSPM (3)Risk360 (1)Business Insights (1)Authentication Service (1)Security Operations Platform (3)AI Protect (3) SupportRSSSign InSubscribe SupportRSSSign InSubscribe Cloud OverviewCloud StatusMaintenanceIncidentsAdvisories  Notifications  URL Categories Privacy Cloud Apps Unified Vulnerability Management  Data Center MapFAQ All Zscaler Services are functional  All zscaler services are currently
+```
+
+---
+
+
+## 2026-11-23T23:16:09Z - ZDX リリースノート
+
+ソース: https://help.zscaler.com/zdx/release-notes
+
+変更内容の要約: ページコンテンツが更新されました。
+
+抜粋:
+```
+Release Notes  Internet & SaaS (ZIA) Release Notes Microsegmentation Release Notes Private Access (ZPA) Release Notes Digital Experience Monitoring (ZDX) Release Notes Release Upgrade Summary (2026) Release Upgrade Summary (2025) Release Upgrade Summary (2024) Release Upgrade Summary (2023) Release Upgrade Summary (2022) Release Upgrade Summary (2021) Release Upgrade Summary (2020) Workflow Automation Release Notes Data Security Posture Management (DSPM) Release Notes Zscaler Client Connector Re
+```
+
+---
+
+
+## 2026-11-23T23:16:09Z - ZPA リリースノート
+
+ソース: https://help.zscaler.com/zpa/release-notes
+
+変更内容の要約: ページコンテンツが更新されました。
+
+抜粋:
+```
+Release Notes  Internet & SaaS (ZIA) Release Notes Microsegmentation Release Notes Private Access (ZPA) Release Notes ZPA Service Release Notes ZPA App Connector Release Notes ZPA Private Service Edge Release Notes ZPA Private Cloud Controller Release Notes ZPA Network Connector Release Notes Digital Experience Monitoring (ZDX) Release Notes Workflow Automation Release Notes Data Security Posture Management (DSPM) Release Notes Zscaler Client Connector Release Notes Zero Trust Cloud Release Note
+```
+
+---
+
+
+## 2026-11-23T23:16:09Z - ZIA リリースノート
+
+ソース: https://help.zscaler.com/zia/release-notes
+
+変更内容の要約: ページコンテンツが更新されました。
+
+抜粋:
+```
+Release Notes  Internet & SaaS (ZIA) Release Notes Internet & SaaS Service Release Notes Zscaler Endpoint DLP Release Notes Microsegmentation Release Notes Private Access (ZPA) Release Notes Digital Experience Monitoring (ZDX) Release Notes Workflow Automation Release Notes Data Security Posture Management (DSPM) Release Notes Zscaler Client Connector Release Notes Zero Trust Cloud Release Notes Zscaler Cellular Release Notes Zero Trust Branch Release Notes Unified Vulnerability Management (UVM)
+```
+
+---
+
+
 ソース: https://github.com/boiledtomato/zscaler-monitor
 SMTP認証フォールバックを追加した修正版のテストエントリです。
 
