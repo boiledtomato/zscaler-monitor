@@ -1,3 +1,9 @@
+## 2026-11-23 00:00 UTC — [テスト] GitHub Actionsメール通知テスト
+
+ソース: https://github.com/boiledtomato/zscaler-monitor
+このエントリはGitHub Actionsのメール通知ワークフローが正常に動作するかを確認するためのテストエントリです。
+
+---
 ## 2026-11-15 23:14:31 UTC - セキュリティアドバイザリ
 ソース: https://trust.zscaler.com/
 変更内容: Zscalerトランザクション処理統計の数値が更新されました。サービスステータスは引き続き「All Zscaler Services are functional」です。処理数: 2,834,423/秒（前回: 2,751,949/秒）、日次ピーク: 4M（前回: 17.9M）。
