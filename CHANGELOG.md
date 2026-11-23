@@ -1,7 +1,7 @@
-## 2026-11-23 00:00 UTC — [テスト] GitHub Actionsメール通知テスト
+## 2026-11-23 00:30 UTC — [テスト2] GitHub Actionsメール通知テスト（SMTP認証修正済み）
 
 ソース: https://github.com/boiledtomato/zscaler-monitor
-このエントリはGitHub Actionsのメール通知ワークフローが正常に動作するかを確認するためのテストエントリです。
+SMTP認証フォールバックを追加した修正版のテストエントリです。
 
 ---
 ## 2026-11-15 23:14:31 UTC - セキュリティアドバイザリ

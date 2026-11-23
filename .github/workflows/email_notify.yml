@@ -33,7 +33,7 @@ jobs:
           server_address: smtp.gmail.com
           server_port: 587
           secure: false
-          username: ${{ secrets.GMAIL_USER }}
+          username: ${{ secrets.GMAIL_USER || 'ciderred1239@gmail.com' }}
           password: ${{ secrets.GMAIL_APP_PASSWORD }}
           subject: "[Zscaler更新通知] ${{ steps.diff.outputs.title }}"
           to: ${{ secrets.NOTIFY_TO || 'ciderred1239@gmail.com' }}
