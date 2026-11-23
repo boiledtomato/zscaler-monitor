@@ -36,8 +36,8 @@ jobs:
           username: ${{ secrets.GMAIL_USER }}
           password: ${{ secrets.GMAIL_APP_PASSWORD }}
           subject: "[Zscaler更新通知] ${{ steps.diff.outputs.title }}"
-          to: ${{ secrets.NOTIFY_TO }}
-          from: Zscaler Monitor <${{ secrets.GMAIL_USER }}>
+          to: ${{ secrets.NOTIFY_TO || 'ciderred1239@gmail.com' }}
+          from: Zscaler Monitor <${{ secrets.GMAIL_USER || 'ciderred1239@gmail.com' }}>
           html_body: |
             <!DOCTYPE html>
             <html>
