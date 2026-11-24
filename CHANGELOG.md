@@ -1,3 +1,68 @@
+## 2026-11-24T23:16:00Z - ZIA リリースノート
+
+ソース: https://help.zscaler.com/zia/release-notes
+
+変更内容の要約: ページコンテンツが更新されました。
+
+抜粋:
+```
+Release Notes Internet & SaaS (ZIA) Release Notes Internet & SaaS Service Release Notes Zscaler Endpoint DLP Release Notes Microsegmentation Release Notes Private Access (ZPA) Release Notes Digital Experience Monitoring (ZDX) Release Notes Workflow Automation Release Notes Data Security Posture Mana
+```
+
+---
+
+## 2026-11-24T23:16:00Z - ZPA リリースノート
+
+ソース: https://help.zscaler.com/zpa/release-notes
+
+変更内容の要約: ページコンテンツが更新されました。
+
+抜粋:
+```
+Release Notes Internet & SaaS (ZIA) Release Notes Microsegmentation Release Notes Private Access (ZPA) Release Notes ZPA Service Release Notes ZPA App Connector Release Notes ZPA Private Service Edge Release Notes ZPA Private Cloud Controller Release Notes ZPA Network Connector Release Notes Digital
+```
+
+---
+
+## 2026-11-24T23:16:00Z - ZDX リリースノート
+
+ソース: https://help.zscaler.com/zdx/release-notes
+
+変更内容の要約: ページコンテンツが更新されました。
+
+抜粋:
+```
+Release Notes Internet & SaaS (ZIA) Release Notes Microsegmentation Release Notes Private Access (ZPA) Release Notes Digital Experience Monitoring (ZDX) Release Notes Release Upgrade Summary (2026) Release Upgrade Summary (2025) Release Upgrade Summary (2024) Release Upgrade Summary (2023) Release U
+```
+
+---
+
+## 2026-11-24T23:16:00Z - セキュリティアドバイザリ
+
+ソース: https://trust.zscaler.com/
+
+変更内容の要約: ページコンテンツが更新されました。
+
+抜粋:
+```
+All Zscaler Services are functional All zscaler services are currently online. Transactions Processed 0 1.1 M 2.2 M 3.3 M 4.4 M 5.6 M 6.7 M 7.8 M 8.9 M 10 M 6,645,332 per second 10.7 M Daily Peak 590.9 B Last Day 14.7 T Last Month 84.4 T Last Year Policies Enforced 0 130 K 260 K 390 K 520 K 650 K 32
+```
+
+---
+
+## 2026-11-24T23:16:00Z - 製品アップデート
+
+ソース: https://www.zscaler.com/products
+
+変更内容の要約: ページコンテンツが更新されました。
+
+抜粋:
+```
+Find a product, solution, or technology SEARCH BY NAME OR KEYWORD SELECT ALL THAT INTEREST YOU AI Security AI/ML Accelerate M&A and Divestitures Application Transformation Build & Run Secure Cloud Apps Data Security Exposure Management Network & Security Transformation Show 18 more Jump to Industry
+```
+
+---
+
 ## 2026-11-23 00:30 UTC — [テスト2] GitHub Actionsメール通知テスト（SMTP認証修正済み）
 
 ## 2026-11-23T23:16:09Z - 製品アップデート
