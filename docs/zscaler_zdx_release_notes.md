@@ -1,13 +1,12 @@
 # ZDX リリースノート
 
-> 最終更新: 2026-11-25 23:13 UTC  
+> 最終更新: 2026-11-26 23:17 UTC  
 > ソース: https://help.zscaler.com/zdx/release-notes
 
 ---
 
 # ZDX リリースノート ページ一覧 (sitemap)
-
-- 2026-11-20T10:34Z | https://help.zscaler.com/zdx/release-upgrade-summary-2026
+- 2026-11-25T04:55Z | https://help.zscaler.com/zdx/release-upgrade-summary-2026
 - 2026-11-18T17:59Z | https://help.zscaler.com/zdx/release-upgrade-summary-2025
 - 2026-09-30T13:02Z | https://help.zscaler.com/zdx/release-upgrade-summary-2024
 - 2023-04-04T07:06Z | https://help.zscaler.com/zdx/release-upgrade-summary-2023
@@ -16,7 +15,7 @@
 - 2020-10-20T22:29Z | https://help.zscaler.com/zdx/release-upgrade-summary-2020
 
 ## https://help.zscaler.com/zdx/release-upgrade-summary-2026
-最終更新: 2026-11-20T10:34Z
+最終更新: 2026-11-25T04:55Z
 
 
 ## https://help.zscaler.com/zdx/release-upgrade-summary-2025

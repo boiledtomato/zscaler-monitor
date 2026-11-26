@@ -1,6 +1,30 @@
 ## 2026-11-24T23:16:00Z - ZIA リリースノート
 
 ソース: https://help.zscaler.com/zia/release-notes
+## 2026-11-26 23:18 UTC — ZIA リリースノート
+
+ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)
+サイトマップのrelease upgrade summary-2026が2026-11-24T11:56Zに更新
+
+---
+## 2026-11-26 23:18 UTC — ZPA リリースノート
+
+ソース: [https://help.zscaler.com/zpa/release-notes](https://help.zscaler.com/zpa/release-notes)
+release-upgrade-summary-2026が2026-11-25T10:07Zに更新、app-connector/pse/pcc/nc-2026が2026-11-24に更新
+
+---
+## 2026-11-26 23:18 UTC — ZDX リリースノート
+
+ソース: [https://help.zscaler.com/zdx/release-notes](https://help.zscaler.com/zdx/release-notes)
+release-upgrade-summary-2026が2026-11-25T04:55Z更新
+
+---
+## 2026-11-26 23:18 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+新規アドバイザリ: Jira/Confluence SSPM・API CASB停止(Advisory)、Experience Center Issue-zscalerthree.net(Resolved)、Singapore V/Chennai III/Shanghai VI/Beijing V メンテナンス予定
+
+---
 ## 2026-11-25 23:14 UTC — 製品アップデート
 
 ソース: [https://www.zscaler.com/products](https://www.zscaler.com/products)
