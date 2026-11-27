@@ -1,0 +1,171 @@
+{
+ "friday": "2026-11-27",
+ "since": "2026-11-20",
+ "until": "2026-11-26",
+ "products": {
+  "zcc": {
+   "name": "Zscaler Client Connector（ZCC）",
+   "entries": [
+    {
+     "date": "2026-11-20",
+     "category": "Release Available: Client Connector 5.0.3 for iOS",
+     "title": "Zscaler Client Connector 5.0.3 Enhancements and Fixes",
+     "text": "Fixes an issue that caused Private Access reauthentication to fail in the redesigned Zscaler Client Connector UI when the identity provider returned a NameID without a domain.\nFixes an issue that prevented users on Zscaler Client Connector version 5.0 and later from accessing Wi-Fi, even when Internet & SaaS and Private Access showed as connected.",
+     "links": [],
+     "anchor": "id-1547400",
+     "page": "https://help.zscaler.com/zscaler-client-connector/client-connector-app-release-summary-2026",
+     "cloud": "iOS",
+     "platforms": [
+      "iOS"
+     ]
+    }
+   ],
+   "errors": [],
+   "pages": [
+    "https://help.zscaler.com/zscaler-client-connector/client-connector-app-release-summary-2026",
+    "https://help.zscaler.com/zscaler-client-connector/release-upgrade-summary-2026"
+   ]
+  },
+  "zia": {
+   "name": "Zscaler Internet Access（ZIA）",
+   "entries": [
+    {
+     "date": "2026-11-20",
+     "category": "Feature Available",
+     "title": "Advanced SaaS Security Posture Management Support for Zoho",
+     "text": "You can configure Advanced SaaS Security Posture Management (SSPM) for Zoho tenants. Select the SSPM Scan checkbox when onboarding a tenant to enable the Advanced SSPM scan capability for the specific tenant.\nThe SSPM Scan checkbox is available only when you have Advanced SSPM enabled for your tenant.\nTo learn more, see What Is Advanced Posture Management? and Adding SaaS Application Tenants.",
+     "links": [
+      "https://help.zscaler.com/zia/what-advanced-posture-management",
+      "https://help.zscaler.com/zia/adding-saas-application-tenants"
+     ],
+     "anchor": "id-1547830",
+     "page": "https://help.zscaler.com/zia/release-upgrade-summary-2026",
+     "cloud": "zscaler.net",
+     "platforms": []
+    },
+    {
+     "date": "2026-11-20",
+     "category": "Feature Available",
+     "title": "DLP and Malware Support for Claude",
+     "text": "You can create DLP and Malware Scanning policies for Claude under the Gen AI category.\nTo onboard your Claude application, go to Data Security > DSPM > SaaS Application Tenants, then click Add and choose Claude as a tenant.\nTo create DLP policies, go to Data Security > DSPM > SaaS DLP > Gen AI and define the policy criteria for your Claude application.\nTo create Malware Scanning policies, go to Data Security > DSPM > Malware Scanning > Gen AI and define the policy criteria for your Claude application.\nTo learn more, see:\nUnderstanding SaaS Security Supported Capabilities\nAdding SaaS Application Tenants\nConfiguring the Data at Rest Scanning DLP Policy with Content Inspection\nConfiguring the Data at Rest Scanning Malware Detection Policy",
+     "links": [
+      "https://help.zscaler.com/zia/understanding-saas-security-supported-capabilities",
+      "https://help.zscaler.com/zia/adding-saas-application-tenants",
+      "https://help.zscaler.com/zia/configuring-data-rest-scanning-dlp-policy-content-inspection",
+      "https://help.zscaler.com/zia/configuring-data-rest-scanning-malware-detection-policy"
+     ],
+     "anchor": "id-1546721",
+     "page": "https://help.zscaler.com/zia/release-upgrade-summary-2026",
+     "cloud": "zscaler.net",
+     "platforms": []
+    },
+    {
+     "date": "2026-11-20",
+     "category": "Feature Available",
+     "title": "DLP Support for QR Code Dictionary",
+     "text": "DLP supports the QR Code predefined dictionary, which detects images of QR codes in supported file types such as JPEG and PNG.\nTo learn more, see Understanding Predefined DLP Dictionaries.",
+     "links": [
+      "https://help.zscaler.com/zia/understanding-predefined-dlp-dictionaries"
+     ],
+     "anchor": "id-1547812",
+     "page": "https://help.zscaler.com/zia/release-upgrade-summary-2026",
+     "cloud": "zscaler.net",
+     "platforms": []
+    },
+    {
+     "date": "2026-11-20",
+     "category": "Feature Available",
+     "title": "Expanded File Type Support for File Type Control & Data Loss Prevention (DLP)",
+     "text": "The following predefined file types have been added to File Type Control and Data Loss Prevention (DLP) policies for Inline, Endpoint, Outbound Email, and Data at Rest Scanning:\nABAP Behavior Definition Language (.abdl)\nABAP Core Data Services (CDS) (.acds)\nABAP Source Code (.abap)\nASP.NET Web Source (.asp, .aspx, .ascx, .asax)\nClass Module File (.cls)\nC++ Source (.cxx)\nElectronic Business Card (.vcf)\nJava Server Faces Script (.jsf)\nJava Server Page (.jsp)\nJava Server Pages Fragment (.jspf)\nJVM Apache Groovy (.gsh, .groovy, .gvy)\nKotlin Script (.kts)\nKotlin Source (.kt)\nPHP Source (.php)\nR Statistical Script (.r)\nTypeScript (.ts)\nTypeScript+JSX (.tsx)\nIn addition to the common file types, the following file types are also supported in File Type Control and specific DLP policies:\nFile Type Control\nDLP Rules without Content Inspection\nDLP Rules with Content Inspection\nTo learn more, see Configuring the File Type Control Policy, Configuring DLP Policy Rules with Content Inspection, Configuring DLP Policy Rules without Content Inspection, Configuring Outbound Email Policy Rules, Configuring Endpoint DLP Policy Rules, and Configuring the Data at Rest Scanning DLP Policy with Content Inspection.",
+     "links": [
+      "https://help.zscaler.com/zia/configuring-file-type-control-policy",
+      "https://help.zscaler.com/zia/configuring-dlp-policy-rules-content-inspection",
+      "https://help.zscaler.com/zia/configuring-dlp-policy-rules-without-content-inspection",
+      "https://help.zscaler.com/zia/configuring-outbound-email-policy-rules",
+      "https://help.zscaler.com/zia/configuring-endpoint-dlp-policy-rules"
+     ],
+     "anchor": "id-1547799",
+     "page": "https://help.zscaler.com/zia/release-upgrade-summary-2026",
+     "cloud": "zscaler.net",
+     "platforms": []
+    },
+    {
+     "date": "2026-11-20",
+     "category": "Feature Available",
+     "title": "Filter SaaS Security Insights Logs for Deleted Activity",
+     "text": "The Is Deleted filter is added to SaaS Security Insights Logs to help filter transactions associated with the Delete activity.\nTo learn more, see Understanding the Assets Report: Assets with Incidents, About the Activities Report, and About SaaS Security Insights Logs.",
+     "links": [
+      "https://help.zscaler.com/zia/understanding-assets-report-assets-with-incidents",
+      "https://help.zscaler.com/zia/about-activities-report",
+      "https://help.zscaler.com/zia/about-saas-security-insights-logs"
+     ],
+     "anchor": "id-1547831",
+     "page": "https://help.zscaler.com/zia/release-upgrade-summary-2026",
+     "cloud": "zscaler.net",
+     "platforms": []
+    },
+    {
+     "date": "2026-11-20",
+     "category": "Feature Available",
+     "title": "Metered API Labeling Support for Microsoft OneDrive and SharePoint",
+     "text": "You can override an existing lower priority MIP label to a higher priority MIP label or vice versa with the Metered APIs Labeling support.\nTo enable this, onboard your OneDrive and SharePoint tenants with the Metered APIs Labeling option.\nFurther, create policies with the action, Apply MIP Label (Metered API) to apply a new label or override an existing one to your Microsoft Excel, Microsoft Word, and PDF file types.\nTenants onboarded with Zscaler Defined connector can change their connector type to Custom and revalidate their tenant account to use this functionality.",
+     "links": [],
+     "anchor": "id-1547835",
+     "page": "https://help.zscaler.com/zia/release-upgrade-summary-2026",
+     "cloud": "zscaler.net",
+     "platforms": []
+    },
+    {
+     "date": "2026-11-20",
+     "category": "Feature Available",
+     "title": "Support for New Predefined DLP Dictionaries",
+     "text": "The following predefined Data Loss Prevention (DLP) dictionaries are supported for use in DLP policy rules:\nArgentina National Identity Document (DNI)\nCzech Republic Personal Identification Number\nKenya Passport Number\nKRA Tax Registration PIN (Kenya)\nLatvia Personal Identification Number\nNational Identification Number (Kenya)\nPortugal Social Security Number (SSN)\nRomanian Personal Identification Number\nTax Identification Number (Cyprus)\nTelephone Number (Asia)\nVenezuela Personal Identification Number\nTo learn more, see Understanding Predefined DLP Dictionaries.",
+     "links": [
+      "https://help.zscaler.com/zia/understanding-predefined-dlp-dictionaries"
+     ],
+     "anchor": "id-1547050",
+     "page": "https://help.zscaler.com/zia/release-upgrade-summary-2026",
+     "cloud": "zscaler.net",
+     "platforms": []
+    }
+   ],
+   "errors": [],
+   "pages": [
+    "https://help.zscaler.com/zia/release-upgrade-summary-2026"
+   ]
+  },
+  "zpa": {
+   "name": "Zscaler Private Access（ZPA）",
+   "entries": [
+    {
+     "date": "2026-11-24",
+     "category": "Feature in Limited Availability",
+     "title": "VMware Image Available for App Scanner",
+     "text": "A new App Scanner image for Autonomous Application Shield is available for VMware.\nTo learn more, see App Scanner Software by Platform.",
+     "links": [
+      "https://help.zscaler.com/zpa/app-scanner-software-platform"
+     ],
+     "anchor": "id-1547397",
+     "page": "https://help.zscaler.com/zpa/release-upgrade-summary-2026",
+     "cloud": "private.zscaler.com",
+     "platforms": []
+    }
+   ],
+   "errors": [],
+   "pages": [
+    "https://help.zscaler.com/zpa/release-upgrade-summary-2026",
+    "https://help.zscaler.com/zpa/app-connector-release-summary-2026",
+    "https://help.zscaler.com/zpa/zpa-private-service-edge-release-summary-2026"
+   ]
+  },
+  "zdx": {
+   "name": "Zscaler Digital Experience（ZDX）",
+   "entries": [],
+   "errors": [],
+   "pages": [
+    "https://help.zscaler.com/zdx/release-upgrade-summary-2026",
+    "https://help.zscaler.com/zscaler-client-connector/zdx-module-release-summary-2026"
+   ]
+  }
+ }
+}
