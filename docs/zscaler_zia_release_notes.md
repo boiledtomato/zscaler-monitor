@@ -1,11 +1,12 @@
 # ZIA リリースノート
 
-> 最終更新: 2026-11-26 23:17 UTC  
+> 最終更新: 2026-11-27 23:14 UTC  
 > ソース: https://help.zscaler.com/zia/release-notes
 
 ---
 
 # ZIA リリースノート ページ一覧 (sitemap)
+
 - 2026-11-24T11:56Z | https://help.zscaler.com/zia/release-upgrade-summary-2026
 - 2026-11-16T22:15Z | https://help.zscaler.com/zia/release-upgrade-summary-2022
 - 2026-11-04T02:03Z | https://help.zscaler.com/zia/release-upgrade-summary-2023

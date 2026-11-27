@@ -1,6 +1,64 @@
 ## 2026-11-24T23:16:00Z - ZIA リリースノート
 
 ソース: https://help.zscaler.com/zia/release-notes
+## 2026-11-27 23:15 UTC — セキュリティアドバイザリ
+
+ソース: [https://trust.zscaler.com/](https://trust.zscaler.com/)
+**更新セクション:**
+- ## Scheduled maintenance of Cloud Browser Isolation - zscaler.net, zscalerone.net, zscalertwo.net, zscloud.net, zscalerthree.net, private.zscaler.com
+**追加内容（抜粋）:**
+> - 公開: Fri, 27 Nov 2026 11:45:40 GMT
+> - ステータス: Upcoming  カテゴリ: Scheduled maintenance
+> - URL: https://trust.zscaler.com/zscaler.net/posts/32936
+> - 影響:
+> During the scheduled maintenance window, users will be unable to create or update Cloud Browser Isolation profiles. The ability to initiate new sessions may also be impacted. Active sessions will remain unaffected and will continue to function normally. For more information, please check our FAQ . If you need further assistance, contact Zscaler Support with reference to this activity. Status changes will be updated here when available.
+> ...他 1 件
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-11-26 23:17 UTC~~
+> ~~> ソース: https://trust.zscaler.com/~~
+> ~~---~~
+
+---
+## 2026-11-27 23:15 UTC — ZDX リリースノート
+
+ソース: [https://help.zscaler.com/zdx/release-notes](https://help.zscaler.com/zdx/release-notes)
+**更新セクション:**
+- # ZDX リリースノート ページ一覧 (sitemap)
+- ## https://help.zscaler.com/zdx/release-upgrade-summary-2025
+**追加内容（抜粋）:**
+> - 2026-11-25T19:45Z | https://help.zscaler.com/zdx/release-upgrade-summary-2025
+> 最終更新: 2026-11-25T19:45Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-11-26 23:17 UTC~~
+> ~~> ソース: https://help.zscaler.com/zdx/release-notes~~
+> ~~---~~
+
+---
+## 2026-11-27 23:15 UTC — ZPA リリースノート
+
+ソース: [https://help.zscaler.com/zpa/release-notes](https://help.zscaler.com/zpa/release-notes)
+**更新セクション:**
+- # ZPA リリースノート ページ一覧 (sitemap)
+**追加内容（抜粋）:**
+> - 2026-11-25T20:45Z | https://help.zscaler.com/zpa/release-upgrade-summary-2026
+> 最終更新: 2026-11-25T20:45Z
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-11-26 23:17 UTC~~
+> ~~> ソース: https://help.zscaler.com/zpa/release-notes~~
+> ~~---~~
+
+---
+## 2026-11-27 23:14 UTC — ZIA リリースノート
+
+ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)
+**更新セクション:**
+- # ZIA リリースノート ページ一覧 (sitemap)
+**削除内容（抜粋）:**
+> ~~> 最終更新: 2026-11-26 23:17 UTC~~
+> ~~> ソース: https://help.zscaler.com/zia/release-notes~~
+> ~~---~~
+
+---
 ## 2026-11-26 23:18 UTC — ZIA リリースノート
 
 ソース: [https://help.zscaler.com/zia/release-notes](https://help.zscaler.com/zia/release-notes)
